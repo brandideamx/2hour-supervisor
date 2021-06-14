@@ -1,0 +1,319 @@
+<convo>
+	<contentRoot>../../content/employee-concerns/person3/</contentRoot>
+	<name><![CDATA[Edward]]></name>
+	<intro>FPO.mp4</intro>
+	<initScore>0</initScore>
+	<phase id="A1">
+		<customer_says>
+			<video>P3_A1.mp4</video>
+			<transcript><![CDATA[Hey, just so you know: The new delivery guy is really obnoxious.]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[He seems fine to me. What do you mean?]]></you_say>
+			<coach><![CDATA[It was good that you asked for more information, but you lead with "he seems fine to me." That was off-putting and made it more difficult for your employee to continue.]]></coach>
+			<response>
+				<video>P3_A8.mp4</video>
+				<transcript><![CDATA[Well, he hasn't said anything to me, but I've watched him make inappropriate comments to several people in the office.]]></transcript>
+			</response>
+			<link>A8</link>
+			<score>2</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I'm sorry to hear that. Maybe someone else can sign for packages from now on?]]></you_say>
+			<coach><![CDATA[You should have gotten more information before jumping to a solution. If the delivery guy acts obnoxiously in front of this employee, he will likely act that way in front of other employees.]]></coach>
+			<response>
+				<video>P3_A8.mp4</video>
+				<transcript><![CDATA[Well, he hasn't said anything to me, but I've watched him make inappropriate comments to several people in the office.]]></transcript>
+			</response>
+			<link>A8</link>
+			<score>-1</score>
+		</option>
+		<option>
+			<you_say><![CDATA[Tell me more about that. What do you mean?]]></you_say>
+			<coach><![CDATA[You made an excellent choice. You should not conduct a full investigation, of course. But you got a little more information, which will help you determine if any protected characteristics are involved.]]></coach>
+			<response>
+				<video>P3_A8.mp4</video>
+				<transcript><![CDATA[Well, he hasn't said anything to me, but I've watched him make inappropriate comments to several people in the office.]]></transcript>
+			</response>
+			<link>A8</link>
+			<score>5</score>
+		</option>
+		<option>
+			<you_say><![CDATA[Ah. Well, unfortunately, there's not much I can do about vendors who are obnoxious.]]></you_say>
+			<coach><![CDATA[Your statement was false. If you are not careful, you will shut down this conversation.]]></coach>
+			<response>
+				<video>P3_A34.mp4</video>
+				<transcript><![CDATA[I see. Well, I thought you might want to know about this since it involves comments that could be seen as sexual harassment.]]></transcript>
+			</response>
+			<link>A34</link>
+			<score>-2</score>
+		</option>
+	</phase>
+
+	<phase id="A8">
+		<customer_says>
+			<video>P3_A8.mp4</video>
+			<transcript><![CDATA[Well, he hasn't said anything to me, but I've watched him make inappropriate comments to several people in the office.]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[Well, if he hasn't made the comments to you specifically, there's nothing I can do. Someone who has received the comments needs to complain before I can take action.]]></you_say>
+			<coach><![CDATA[Your statement was false. If you are not careful, you will shut down this conversation.]]></coach>
+			<response>
+				<video>P3_A39.mp4</video>
+				<transcript><![CDATA[Oh. Okay. I guess I'll let you go, then.]]></transcript>
+			</response>
+			<link>A39</link>
+			<score>-3</score>
+		</option>
+		<option>
+			<you_say><![CDATA[Is there a certain person or people that he makes these comments to? What is he commenting about?]]></you_say>
+			<coach><![CDATA[You asked good, general questions that will help you determine if this should be reported to the appropriate channels or if it's something you can handle internally.]]></coach>
+			<response>
+				<video>P3_A13.mp4</video>
+				<transcript><![CDATA[I don't remember any specifics, but he makes a lot of raunchy jokes with the men, and I've seen him make a few women really uncomfortable with his "compliments."]]></transcript>
+			</response>
+			<link>A13</link>
+			<score>5</score>
+		</option>
+		<option>
+			<you_say><![CDATA[What else have you heard him say? Try to be as specific as possible. Can we take some time so that I can ask you a bunch of additional questions while I take some careful notes?]]></you_say>
+			<coach><![CDATA[You asked a follow up question, which was an appropriate thing to do. However, you do not want to be the one conducting a full-blown investigation.]]></coach>
+			<response>
+				<video>P3_A13.mp4</video>
+				<transcript><![CDATA[I don't remember any specifics, but he makes a lot of raunchy jokes with the men, and I've seen him make a few women really uncomfortable with his "compliments."]]></transcript>
+			</response>
+			<link>A13</link>
+			<score>-1</score>
+		</option>
+	</phase>
+
+	<phase id="A13">
+		<customer_says>
+			<video>P3_A13.mp4</video>
+			<transcript><![CDATA[I don't remember any specifics, but he makes a lot of raunchy jokes with the men, and I've seen him make a few women really uncomfortable with his "compliments."]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[I see. Those complaints are pretty subjective. Until one of the people affected comes in to talk to me, I don't think there's anything I can do. ]]></you_say>
+			<coach><![CDATA[Your statement was false. You need to take complaints like this seriously, even when they come from bystanders and are about non-employees (e.g., vendors or clients).]]></coach>
+			<response>
+				<video>P3_A44.mp4</video>
+				<transcript><![CDATA[Oh. That's too bad. The other people might not feel comfortable reporting.]]></transcript>
+			</response>
+			<link>A44</link>
+			<score>-1</score>
+		</option>
+		<option>
+			<you_say><![CDATA[Okay. I'll let the appropriate personnel know. They will figure out the best way to address it.]]></you_say>
+			<coach><![CDATA[While letting the appropriate personnel know was the right course of action, your tone was a bit dismissive. Your response would have been better had you thanked the employee for reporting this situation.]]></coach>
+			<response>
+				<video>P3_A19.mp4</video>
+				<transcript><![CDATA[Oh, I know how to address it. Hopefully, we can just get a new delivery guy.]]></transcript>
+			</response>
+			<link>A19</link>
+			<score>3</score>
+		</option>
+
+		<option>
+			<you_say><![CDATA[I see. Can you put this in a written statement?]]></you_say>
+			<coach><![CDATA[You should not ask the employee to put the complaint in writing. You already have enough information to involve appropriate channels. ]]></coach>
+			<response>
+				<video>P3_A49.mp4</video>
+				<transcript><![CDATA[That seems a little formal. Like I said, I don't remember any specifics...]]></transcript>
+			</response>
+			<link>A49</link>
+			<score>-1</score>
+		</option>
+		<option>
+			<you_say><![CDATA[Oh, thanks for letting me know! I will report this to the appropriate personnel, and we'll figure out the best way to address it. ]]></you_say>
+			<coach><![CDATA[You made a great choice. Your tone conveyed that this is important to you, and you clearly outlined the action you are going to take.]]></coach>
+			<response>
+				<video>P3_A19.mp4</video>
+				<transcript><![CDATA[Oh, I know how to address it. Hopefully, we can just get a new delivery guy.]]></transcript>
+			</response>
+			<link>A19</link>
+			<score>5</score>
+		</option>
+	</phase>
+
+	<phase id="A19">
+		<customer_says>
+			<video>P3_A19.mp4</video>
+			<transcript><![CDATA[Oh, I know how to address it. Hopefully, we can just get a new delivery guy.]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[That's probably not possible. We don't want to be unfair to any of our vendors.]]></you_say>
+			<coach><![CDATA[Your response was totally false! Your primary responsibility here is to your employees and to make sure the work environment is harassment free--even from vendors.]]></coach>
+			<link>END</link>
+			<score>-3</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I'll speak with the appropriate personnel as soon as possible. I'm not sure what action will be taken, but we will definitely address the situation.]]></you_say>
+			<coach><![CDATA[Your response was excellent. You let the employee know that action will be taken without committing to the specific action in this moment.]]></coach>
+			<link>END</link>
+			<score>5</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I agree, but we'll have to go with whatever the appropriate personnel says.]]></you_say>
+			<coach><![CDATA[Your response here could have been stronger. It is better to reserve judgment on the action to be taken until appropriate channels has had a chance to intervene and confirm what conduct is occurring.]]></coach>
+			<link>END</link>
+			<score>1</score>
+		</option>
+	</phase>
+
+	<phase id="A34">
+		<customer_says>
+			<video>P3_A34.mp4</video>
+			<transcript><![CDATA[I see. Well, I thought you might want to know about this since it involves comments that could be seen as sexual harassment.]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[If someone on our team was making comments, I would be able to take some action. But since it's a vendor, there's nothing I can do.]]></you_say>
+			<coach><![CDATA[Your response was false. Your employees should not be subjected to harassing conduct from team members, other employees, clients or vendors.]]></coach>
+			<link>END</link>
+			<score>-2</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I'm sorry to hear that. Maybe someone else can sign for packages from now on, so you don't have to deal with those types of comments?]]></you_say>
+			<coach><![CDATA[Your response was not great. You should probably get more information before you start jumping to a solution.]]></coach>
+			<response>
+				<video>P3_A8.mp4</video>
+				<transcript><![CDATA[Well, he hasn't said anything to me, but I've watched him make inappropriate comments to several people in the office.]]></transcript>
+			</response>
+			<link>A8</link>
+			<score>1</score>
+		</option>
+		<option>
+			<you_say><![CDATA[Oh! Tell me more about that. What do you mean?]]></you_say>
+			<coach><![CDATA[You asked good, general questions that will help you determine if this should be reported to the appropriate channels, or if it's something you can handle on your own. Great work.]]></coach>
+			<response>
+				<video>P3_A8.mp4</video>
+				<transcript><![CDATA[Well, he hasn't said anything to me, but I've watched him make inappropriate comments to several people in the office.]]></transcript>
+			</response>
+			<link>A8</link>
+			<score>4</score>
+		</option>
+	</phase>
+
+	<phase id="A39">
+		<customer_says>
+			<video>P3_A39.mp4</video>
+			<transcript><![CDATA[Oh. Okay. I guess I'll let you go, then.]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[Before you go, could you tell me what exactly is he saying? The more specific you can be, the better. That way, I can decide if this needs to escalate when someone does complain.]]></you_say>
+			<coach><![CDATA[You made a good choice to ask a follow-up question. Just remember that it is not necessary for you to conduct a full investigation.]]></coach>
+			<response>
+				<video>P3_A13.mp4</video>
+				<transcript><![CDATA[I don't remember any specifics, but he makes a lot of raunchy jokes with the men, and I've seen him make a few women really uncomfortable with his "compliments."]]></transcript>
+			</response>
+			<link>A13</link>
+			<score>-1</score>
+		</option>
+		<option>
+			<you_say><![CDATA[Before you go, is there a certain person or people that he makes these comments to? What is he commenting about?]]></you_say>
+			<coach><![CDATA[You asked good, general questions that will help you determine if this should be reported to the appropriate channels or if it's something you can handle internally.]]></coach>
+			<response>
+				<video>P3_A13.mp4</video>
+				<transcript><![CDATA[I don't remember any specifics, but he makes a lot of raunchy jokes with the men, and I've seen him make a few women really uncomfortable with his "compliments."]]></transcript>
+			</response>
+			<link>A13</link>
+			<score>2</score>
+		</option>
+
+		<option>
+			<you_say><![CDATA[Great. Thanks for the heads up! I'll keep my eye out for this behavior as well.]]></you_say>
+			<coach><![CDATA[This was not the best response. Remember, you do not need to witness the behavior. It's up to you to take complaints seriously and escalate them to the appropriate channels when protected characteristics are involved.]]></coach>
+			<link>END</link>
+			<score>-2</score>
+		</option>
+	</phase>
+
+	<phase id="A44">
+		<customer_says>
+			<video>P3_A44.mp4</video>
+			<transcript><![CDATA[Oh. That's too bad. The other people might not feel comfortable reporting.]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[I'll see what the appropriate channels has to say.]]></you_say>
+			<coach><![CDATA[It was good that you finally decided to escalate to the appropriate channels, but your tone was rather dismissive. The employee doesn't seem pleased.]]></coach>
+			<link>END</link>
+			<score>1</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I see your point. I'll report this to the appropriate channels, and they can advise me on next steps.]]></you_say>
+			<coach><![CDATA[You made the right choice to escalate to appropriate channels.]]></coach>
+			<link>END</link>
+			<score>2</score>
+		</option>
+		<option>
+			<you_say><![CDATA[Hopefully that's not the case. Also, I'll keep my eye out for this behavior. If I witness it, I can complain.]]></you_say>
+			<coach><![CDATA[This was not the best response. Remember, you do not need to witness the behavior. It's up to you to take complaints seriously and escalate them to the appropriate channels when protected characteristics are involved.]]></coach>
+			<link>END</link>
+			<score>-2</score>
+		</option>
+	</phase>
+
+	<phase id="A49">
+		<customer_says>
+			<video>P3_A49.mp4</video>
+			<transcript><![CDATA[That seems a little formal. Like I said, I don't remember any specifics...]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[Okay. I'll let the appropriate personnel know.]]></you_say>
+			<coach><![CDATA[You chose the right course of action, but your tone was a bit dismissive. At a minimum, you should say something back to the employee thanking the employee for bringing this to your attention.]]></coach>
+			<response>
+				<video>P3_A19.mp4</video>
+				<transcript><![CDATA[Oh, I know how to address it. Hopefully, we can just get a new delivery guy.]]></transcript>
+			</response>
+			<link>A19</link>
+			<score>2</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I understand. Well, thanks for letting me know! I will report this to the appropriate personnel, and we'll figure out the best way to address it.]]></you_say>
+			<coach><![CDATA[Your tone conveyed that this is important to you, and you clearly outlined the action you're going to take. Great work.]]></coach>
+			<response>
+				<video>P3_A19.mp4</video>
+				<transcript><![CDATA[Oh, I know how to address it. Hopefully, we can just get a new delivery guy.]]></transcript>
+			</response>
+			<link>A19</link>
+			<score>4</score>
+		</option>
+
+		<option>
+			<you_say><![CDATA[I see. Well, those complaints are pretty subjective. Until one of the people affected comes in to talk to me, I don't think there's anything I can do.]]></you_say>
+			<coach><![CDATA[Your response was not true. You need to take complaints like this seriously, even when they come from bystanders and are about non-employees (e.g., vendors or clients).]]></coach>
+			<response>
+				<video>P3_A44.mp4</video>
+				<transcript><![CDATA[Oh. That's too bad. The other people might not feel comfortable reporting.]]></transcript>
+			</response>
+			<link>A44</link>
+			<score>-1</score>
+		</option>
+	</phase>
+
+	<ending>
+		<best>
+			<video>P3_best.mp4</video>
+			<transcript><![CDATA[Thanks! I know it might not seem like a big deal to some people, but it was really bothering me.]]></transcript>
+			<title><![CDATA[Great Job!]]></title>
+			<feedback><![CDATA[Because you did an excellent job with your responses, you can move on to the next interaction.]]></feedback>
+		</best>
+		<average>
+			<video>P3_average.mp4</video>
+			<transcript><![CDATA[Okay. Thanks.]]></transcript>
+			<title><![CDATA[Good!]]></title>
+			<feedback><![CDATA[While your responses could have been even better, you adequately handled this situation and can move on to the next interaction.]]></feedback>
+		</average>
+		<below>
+			<video>P3_below.mp4</video>
+			<transcript><![CDATA[Okay.]]></transcript>
+			<title><![CDATA[Okay...]]></title>
+			<feedback><![CDATA[Since the way you handled this conversation could have been better, please give this conversation another try.]]></feedback>
+		</below>
+		<fail>
+			<video>P3_fail.mp4</video>
+			<transcript><![CDATA[It seems like nothing is going to be done about this.]]></transcript>
+			<title><![CDATA[Uh Oh!]]></title>
+			<feedback><![CDATA[Since the way you handled this conversation could have been better, please give this conversation another try.]]></feedback>
+		</fail>
+	</ending>
+</convo>

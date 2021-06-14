@@ -1,0 +1,49 @@
+<div id="contents">
+    <div class="header">What are Microaggressions?</div>
+    <div class="bodycopy">
+        Microaggressions are everyday verbal, nonverbal, and environmental slights, snubs, or insults, whether intentional or unintentional, that communicate hostile, derogatory, or negative messages to targeted individuals based solely upon their membership in a particular group (e.g., based on categories like race, gender, sexual orientation, and religion). While Microaggressions may occur intentionally, they often occur unknowingly by well-intentioned people.<br><br>
+        There are three main types of Microaggressions. Click each green arrow to learn more.<br><br>
+        <div class="accordion">
+            <div class="accordion-head">Microassault</div>
+            <div class="accordion-body">
+                <p>Conscious and intentional verbal or nonverbal discriminatory actions, such as racial slurs (using the "N-word" or referring to someone as "Oriental"), name-calling (calling someone a "towel head"), avoidant behavior, or even racially charged symbols (swastikas/KKK hoods)</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-head">Microinsult</div>
+            <div class="accordion-body">
+                <p>Subtle communications that transmit insensitivity or rudeness demeaning a person's heritage, background or identity ("He must be gay. Have you seen the way he dresses?")</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-head">Microinvalidation</div>
+            <div class="accordion-body">
+                <p>Communications that subtly discredit the thoughts, feelings or experience of a person based on their heritage, background or identity. ("I prefer to see past race, gender, etc.; we're all just people.")</p>
+            </div>
+        </div>
+        <br><br><br>
+    </div>
+</div>
+<div class="green" style="bottom:auto; top:580px !important;">Click green arrows to proceed.</div>
+<style type="text/css">
+    .accordion-body {
+        margin-left: 40px;
+    }
+</style>
+<script type="text/javascript">
+    $('.accordion').find('.accordion-head').click(function() {
+        if ($(this).hasClass('open')) {
+            $(this).removeClass('open');
+        } else {
+            $('.accordion-head').removeClass('open');
+            $(this).addClass('open');
+        }
+
+        //Expand or collapse this panel
+        $(this).siblings('.accordion-body').slideToggle('fast');
+        //Hide the other panels
+        $(".accordion-body").not($(this).siblings('.accordion-body')).slideUp('fast');
+    });
+</script>

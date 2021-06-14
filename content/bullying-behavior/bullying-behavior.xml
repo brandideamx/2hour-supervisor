@@ -1,0 +1,31 @@
+<convo>
+	<contentRoot>../../content/bullying-behavior/</contentRoot>
+	<buttons>
+		<next><![CDATA[NEXT]]></next>
+	</buttons>
+
+	<mainLabel><![CDATA[Conversation Menu]]></mainLabel>
+	<title><![CDATA[Recognizing Bullying Behavior]]></title>
+	<copy><![CDATA[The workplace is an interactive atmosphere. Throughout the day, you likely converse with others in a variety of settings. Whether you're passing someone in the hall, or you are addressing an employee about work, conducting yourself in an appropriate manner is not just critical to a safe and respectful environment, in some cases, it's also the law.
+	<br><br>
+	Bullying is not always easy to recognize in the workplace. In the following activity, you will be speaking with two employees; your goal is to avoid bullying behavior. Remember to use work-appropriate language, and make sure any employee criticism is directly related to business concerns. Click an employee to get started.]]></copy>
+
+	<person>
+		<label>Pat</label>
+		<thumb>person1/thumb_convo1.jpg</thumb>
+		<sectionID>A1</sectionID>
+	</person>
+	<person>
+		<label>Alex</label>
+		<thumb>person2/thumb_convo2.jpg</thumb>
+		<sectionID>A2</sectionID>
+	</person>
+
+	<outro>
+		<main><![CDATA[]]></main>
+		<header><![CDATA[Congratulations!]]></header>
+		<body><![CDATA[You have successfully completed both conversations.
+		<br><br>
+		Remember, bullying can occur in many forms.  Conducting yourself appropriately and being a role model for behavior is a great start, but you should also be prepared to intervene according to your organization's policy if you notice others being bullied.]]></body>
+	</outro>
+</convo>

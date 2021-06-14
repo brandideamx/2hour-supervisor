@@ -1,0 +1,256 @@
+<convo>
+	<contentRoot>../../content/bullying-behavior/person2/</contentRoot>
+	<name><![CDATA[Alex]]></name>
+	<poster>person2/thumb_convo2.jpg</poster>
+	<intro>intro.mp3</intro>
+	<initScore>0</initScore>
+
+	<phase id="A2">
+		<customer_says>
+			<audio src="P2_A2.mp3" />
+			<transcript><![CDATA[Hey boss, my chair is broken again.]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[Really? This is the third time this summer. Do I need to get you a high chair instead?]]></you_say>
+			<coach><![CDATA[This response uses humor that is demeaning, which can contribute to bullying. Jokes in the workplace should never be at the expense of another person.]]></coach>
+			<response>
+				<audio src="P2_A8.mp3" />
+				<transcript><![CDATA[It's not my fault. I just pulled on the reclining lever and something snapped.]]></transcript>
+			</response>
+			<link>A8</link>
+			<score>-3</score>
+		</option>
+		<option>
+			<you_say><![CDATA[Do you know how much those cost? That money is coming out of your paycheck this time.]]></you_say>
+			<coach><![CDATA[Expenses like this are bad for business, but you don't yet know if this incident is the employee's fault, and your tone is threatening.  You also do not have the authority to dock pay.]]></coach>
+			<response>
+				<audio src="P2_A8.mp3" />
+				<transcript><![CDATA[It's not my fault. I just pulled on the reclining lever and something snapped.]]></transcript>
+			</response>
+			<link>A8</link>
+			<score>-2</score>
+		</option>
+		<option>
+			<you_say><![CDATA[Oh, no. What happened this time, so we can make sure it doesn't happen again?]]></you_say>
+			<coach><![CDATA[Yes! It's okay to express frustration, as long as it is not directed toward the employee in a bullying manner. You were also right to connect your line of questioning to the future of the business.]]></coach>
+			<response>
+				<audio src="P2_A8.mp3" />
+				<transcript><![CDATA[It's not my fault. I just pulled on the reclining lever and something snapped.]]></transcript>
+			</response>
+			<link>A8</link>
+			<score>4</score>
+		</option>
+		<option>
+			<you_say><![CDATA[Really? Didn't we have that fixed twice already? What happened?]]></you_say>
+			<coach><![CDATA[It's okay to express frustration, as long as it is not directed toward the employee in a bullying manner. However, it would have been better to  connect your line of questioning to the future of the business to guarantee the conversation stays professional.]]></coach>
+			<response>
+				<audio src="P2_A8.mp3" />
+				<transcript><![CDATA[It's not my fault, I just pulled on the reclining lever and something snapped.]]></transcript>
+			</response>
+			<link>A8</link>
+			<score>3</score>
+		</option>
+	</phase>
+
+	<phase id="A8">
+		<customer_says>
+			<audio src="P2_A8.mp3" />
+			<transcript><![CDATA[It's not my fault. I just pulled on the reclining lever and something snapped.]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[Ugh. Okay, well does it look like something our maintenance guy can fix?]]></you_say>
+			<coach><![CDATA[Good choice. You kept the conversation business-oriented and solution-driven.]]></coach>
+			<response>
+				<audio src="P2_A14.mp3" />
+				<transcript><![CDATA[Look, it's not as bad as you think. My guess is the spring just broke. That can't be more than a few bucks.]]></transcript>
+			</response>
+			<link>A14</link>
+			<score>5</score>
+		</option>
+		<option>
+			<you_say><![CDATA[You're very rough! You have to be more careful with office equipment! I'm surprised you haven't crushed your phone too.]]></you_say>
+			<coach><![CDATA[Though you may have intended this as a light-hearted compliment about the employee's strength and size, pointing out physical attributes can make people uncomfortable and contribute to bullying. This may also be construed as passing blame.]]></coach>
+			<response>
+				<audio src="P2_A34.mp3" />
+				<transcript><![CDATA[You're really going to blame me for this? I wasn't the one who supposedly fixed the chair twice already. You should be yelling at maintenance.]]></transcript>
+			</response>
+			<link>A34</link>
+			<score>0</score>
+		</option>
+		<option>
+			<you_say><![CDATA[No one else has broken a chair. Are you sure you grabbed the right lever? Did it have the word "Pull" written on it?]]></you_say>
+			<coach><![CDATA[This response uses humor that is demeaning and questions the employee's intelligence. Stay focused on the facts and solutions.]]></coach>
+			<response>
+				<audio src="P2_A34.mp3" />
+				<transcript><![CDATA[You're really going to blame me for this? I wasn't the one who supposedly fixed the chair twice already. You should be yelling at maintenance.]]></transcript>
+			</response>
+			<link>A34</link>
+			<score>-3</score>
+		</option>
+		<option>
+			<you_say><![CDATA[Something else is about to snap if you don't start treating the equipment better…]]></you_say>
+			<coach><![CDATA[Though you may have intended this as a playful prodding, it can be interpreted as a legitimate threat and contribute to bullying.]]></coach>
+			<response>
+				<audio src="P2_A14.mp3" />
+				<transcript><![CDATA[Look, it's not as bad as you think. My guess is the spring just broke. That can't be more than a few bucks.]]></transcript>
+			</response>
+			<link>A14</link>
+			<score>-4</score>
+		</option>
+	</phase>
+
+	<phase id="A14">
+		<customer_says>
+			<audio src="P2_A14.mp3" />
+			<transcript><![CDATA[Look, it's not as bad as you think. My guess is the spring just broke. That can't be more than a few bucks.]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[Alright, but if it happens again you're going to have to work standing up. I'm not ordering you another chair.]]></you_say>
+			<coach><![CDATA[While it can be helpful to explain consequences, this consequence is not professional and could be embarrassing. Such inappropriate behavior would not be business related and could easily be considered bullying.]]></coach>
+			<response>
+				<audio src="P2_A19.mp3" />
+				<transcript><![CDATA[Okay, but what should I do in the meantime? I mean, for a chair?]]></transcript>
+			</response>
+			<link>A19</link>
+			<score>-3</score>
+		</option>
+		<option>
+			<you_say><![CDATA[Take a look around and see what you can find. I'm really busy today and don't have time to help with that right now.]]></you_say>
+			<coach><![CDATA[Correct. Being strict is often necessary. As long as you keep an appropriate tone, this would not be considered bullying.]]></coach>
+			<response>
+				<audio src="P2_A19.mp3" />
+				<transcript><![CDATA[Okay, but what should I do in the meantime? I mean, for a chair?]]></transcript>
+			</response>
+			<link>A19</link>
+			<score>4</score>
+		</option>
+		<option>
+			<you_say><![CDATA[Alright, we'll get someone on it. But I have a hard time believing it was an accident. You were probably racing around the office or doing something stupid.]]></you_say>
+			<coach><![CDATA[Your presumptions about the incident are insulting and disrespectful. Make sure your criticisms are business-oriented and based on facts.]]></coach>
+			<response>
+				<audio src="P2_A39.mp3" />
+				<transcript><![CDATA[I don't know what kind of an employee you think I am, but I've never done that. I don't race chairs around.]]></transcript>
+			</response>
+			<link>A39</link>
+			<score>-3</score>
+		</option>
+	</phase>
+
+	<phase id="A19">
+		<customer_says>
+			<audio src="P2_A19.mp3" />
+			<transcript><![CDATA[Okay, but what should I do in the meantime? I mean, for a chair?]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[Do I have to do everything for you? I have my own work to attend to.]]></you_say>
+			<coach><![CDATA[Your frustration is understandable, but there is a better way to express it without belittling the employee.]]></coach>
+			<link>END</link>
+			<score>-1</score>
+		</option>
+		<option>
+			<you_say><![CDATA[Take a look around and see what you can find. I don't have time to help with that right now.]]></you_say>
+			<coach><![CDATA[Great! As a manager, problem solving and delegation are expected of you. Even if the employee interpreted differently, this would not be considered bullying.]]></coach>
+			<link>END</link>
+			<score>5</score>
+		</option>
+		<option>
+			<you_say><![CDATA[If you can't figure that out, maybe you shouldn't be working here.]]></you_say>
+			<coach><![CDATA[This response is insulting and unnecessary. These are the kind of comments that can contribute to bullying.]]></coach>
+			<link>END</link>
+			<score>-2</score>
+		</option>
+	</phase>
+
+	<phase id="A34">
+		<customer_says>
+			<audio src="P2_A34.mp3" />
+			<transcript><![CDATA[You're really going to blame me for this? I wasn't the one who supposedly fixed the chair twice already. You should be yelling at maintenance.]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[I'm not trying to yell at anyone. I'm just giving you a hard time.]]></you_say>
+			<coach><![CDATA[It's good that you acknowledge the employee's concern, but giving someone a "hard time" can be interpreted as bullying. Take responsibility for how you affect people.]]></coach>
+			<response>
+				<audio src="P2_A14.mp3" />
+				<transcript><![CDATA[Look, it's not as bad as you think. My guess is the spring just broke. That can't be more than a few bucks.]]></transcript>
+			</response>
+			<link>A14</link>
+			<score>0</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I didn't mean to offend you. How bad is it?]]></you_say>
+			<coach><![CDATA[Right! It was a good choice to acknowledge the employee's concern, and bring the conversation back to the work-related issue.]]></coach>
+			<response>
+				<audio src="P2_A14.mp3" />
+				<transcript><![CDATA[Look, it's not as bad as you think. My guess is the spring just broke. That can't be more than a few bucks.]]></transcript>
+			</response>
+			<link>A14</link>
+			<score>3</score>
+		</option>
+		<option>
+			<you_say><![CDATA[Please don't raise your voice at me.]]></you_say>
+			<coach><![CDATA[This employee is upset by something you said. By criticizing his response, you have dismissed his feelings and taken no responsibility for the harm done. If he wasn't feeling bullied before, he might now.]]></coach>
+			<link>END</link>
+			<score>-2</score>
+		</option>
+	</phase>
+
+	<phase id="A39">
+		<customer_says>
+			<audio src="P2_A39.mp3" />
+			<transcript><![CDATA[I don't know what kind of an employee you think I am, but I've never done that. I don't race chairs around.]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[Well somebody has. There are still scuff marks in the carpet.]]></you_say>
+			<coach><![CDATA[Oh no. This response is inflammatory. It communicates that you don't believe the employee, and it doesn't bring the conversation back to the issue at hand.]]></coach>
+			<link>END</link>
+			<score>-2</score>
+		</option>
+		<option>
+			<you_say><![CDATA[Good. Then we shouldn't have a problem. Well, let's see if we can at least get your chair fixed. This place is falling apart.]]></you_say>
+			<coach><![CDATA[While you steered the conversation back on track, you did not acknowledge that your presumptions of the employee were incorrect and insulting. He is still feeling unfairly judged.]]></coach>
+			<response>
+				<audio src="P2_A19.mp3" />
+				<transcript><![CDATA[Okay, but what should I do in the meantime? I mean, for a chair?]]></transcript>
+			</response>
+			<link>A19</link>
+			<score>0</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I shouldn't have accused you. Why don't you talk to maintenance and see what they can do about the chair.]]></you_say>
+			<coach><![CDATA[Nice save! You acknowledged your misbehavior and put the conversation back on the right track.]]></coach>
+			<response>
+				<audio src="P2_A19.mp3" />
+				<transcript><![CDATA[Okay, but what should I do in the meantime? I mean, for a chair?]]></transcript>
+			</response>
+			<link>A19</link>
+			<score>3</score>
+		</option>
+	</phase>
+
+	<ending>
+		<best>
+			<audio>P2_best.mp3</audio>
+			<transcript><![CDATA[I understand. I'll do my best.]]></transcript>
+			<title><![CDATA[]]></title>
+			<feedback><![CDATA[This was a difficult situation, and you performed with excellence. You kept your language appropriate and grounded your criticism in the context of the business. Well done.]]></feedback>
+		</best>
+		<average>
+			<audio>P2_average.mp3</audio>
+			<transcript><![CDATA[Okay. I'll see what I can do.]]></transcript>
+			<title><![CDATA[]]></title>
+			<feedback><![CDATA[Overall, you adequately handled this situation. You were able to curb most behaviors that could be interpreted as bullying.]]></feedback>
+		</average>
+		<below>
+			<audio>P2_below.mp3</audio>
+			<transcript><![CDATA[Yeah, I'm not really comfortable continuing this conversation.]]></transcript>
+			<title><![CDATA[]]></title>
+			<feedback><![CDATA[The employee is alarmed by some of your responses. You may want to try this scenario again, and refrain from unwarranted language and criticism that could be interpreted as bullying.]]></feedback>
+		</below>
+		<fail>
+			<audio>P2_fail.mp3</audio>
+			<transcript><![CDATA[You know, I don't think I deserve this kind of hostility.]]></transcript>
+			<title><![CDATA[]]></title>
+			<feedback><![CDATA[The way you handled this conversation has demonstrated hostility and could be interpreted as bullying. This may have negative implications for you and the organization. You should give this scenario another try.]]></feedback>
+		</fail>
+	</ending>
+</convo>

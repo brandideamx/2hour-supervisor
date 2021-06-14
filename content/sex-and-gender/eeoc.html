@@ -1,0 +1,118 @@
+<div id="contents" style="height:520px">
+	<div class="header">Gender Identity and the Law</div>
+	<div class="bodycopy">
+		<div id="columnLeft">
+			The Equal Employment Opportunity Commission (EEOC) interprets Title VII to prohibit discrimination on the
+			basis of sexual orientation and transgender status as a form of sex discrimination.
+		</div>
+		<div id="columnRight">
+			<table style="width:100%">
+				<tr>
+					<td width="100%">
+						<div class="accordion">
+							<div class="accordion-head">Click here to see a list of states that also have laws that
+														prohibit discrimination and harassment in employment based on
+														gender identity/gender expression.</div>
+							<div class="accordion-body">
+								<ul class="small">
+									<li><span>California</span></li>
+									<li><span>Colorado</span></li>
+									<li><span>Connecticut</span></li>
+									<li><span>Delaware</span></li>
+									<li><span>Hawaii</span></li>
+									<li><span>Illinois</span></li>
+									<li><span>Iowa</span></li>
+									<li><span>Maine</span></li>
+									<li><span>Massachusetts</span></li>
+									<li><span>Minnesota</span></li>
+									<li><span>New Jersey</span></li>
+									<li><span>New Mexico</span></li>
+									<li><span>New York</span></li>
+									<li><span>Nevada</span></li>
+									<li><span>Oregon</span></li>
+									<li><span>Rhode Island</span></li>
+									<li><span>Vermont</span></li>
+									<li><span>Virginia</span></li>
+									<li><span>Washington</span></li>
+									<li><span>Washington, D.C.</span></li>
+								</ul>
+								<br>
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+<div class="green" style="text-align: left !important; margin-left: -26px !important;">Click green arrow to proceed.</div>
+<style>
+	#contents {
+		color: white;
+	}
+
+	#header {
+		color: #94d442;
+		font-size: 30px;
+		margin-bottom: 12px;
+	}
+
+	.headline {
+		font-family: 'Gotham', sans-serif;
+		font-weight: bold;
+		margin: 20px 0 5px;
+	}
+
+	#columnLeft,
+	#columnRight {
+		float: left;
+		margin: 0 7px;
+	}
+
+	#columnLeft {
+		width: 40%;
+	}
+
+	#columnRight {
+		width: 55%;
+		margin-left: 9px;
+		position: relative;
+		top: 6px;
+		left: 30px;
+	}
+
+	#bodycopy li {
+		list-style-type: square;
+		margin: 0 0 5px 20px;
+	}
+
+	.green {
+		text-align: left !important;
+		margin-left: -27px !important;
+	}
+
+	.btn.next {
+		bottom: 25px;
+		left: 72px !important;
+	}
+
+	.clear {
+		clear: both;
+	}
+</style>
+<script type="text/javascript">
+
+	$('.accordion').find('.accordion-head').unbind().click(function () {
+
+		$('.accordion-head').removeClass('open');
+		$(this).addClass('open');
+		//Expand or collapse this panel
+		$(this).siblings('.accordion-body').slideToggle('fast');
+
+		//Hide the other panels
+		$(".accordion-body").not($(this).siblings('.accordion-body')).slideUp('fast');
+
+	});
+
+</script>

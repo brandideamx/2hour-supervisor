@@ -1,0 +1,802 @@
+<data>
+  <assetpath><![CDATA[../../content/sex-and-gender/img/]]></assetpath>
+  <contentRoot>../../content/sex-and-gender/</contentRoot>
+  <question><![CDATA[Should you report to appropriate channels?]]></question>
+  <buttons>
+    <yes><![CDATA[Yes]]></yes>
+    <no><![CDATA[No]]></no>
+    <close><![CDATA[Close]]></close>
+    <policy><![CDATA[<div style="font-size:13px; margin-top:-5px; line-height: 13px; color: white;">Protected Characteristics</div>]]></policy>
+  </buttons>
+
+  <definitionPopup>content/sex-and-gender/definition_popup.html</definitionPopup>
+
+  <introvideo>
+        <vidnext><![CDATA[NEXT]]></vidnext>
+        <video>../../content/sex-and-gender/video/M3-introvideo-GOLD.mp4</video>
+    </introvideo>
+
+  <intro>
+    <page background="23.jpg" x="659" y="108" width="350">
+      <background scale="1" x="0" y="0" animate="false"/>
+      <header><![CDATA[]]></header>
+      <body><![CDATA[Now we are going to explore the issue sex discrimination and the role gender plays in the workplace. How well do you understand the difference between Sex and Gender? ]]></body>
+    </page>
+    <page background="23.jpg" x="492" y="70" width="530" html="../understand.html">
+      <background scale="1" x="0" y="0" animate="false"/>
+    </page>
+    <page background="13b.jpg" x="517" y="83" width="499">
+      <background scale="1" x="0" y="0" animate="false"/>
+      <header><![CDATA[What is Sex Discrimination?]]></header>
+      <body><![CDATA[Sex discrimination involves treating an applicant or employee unfavorably because of that person's sex. Unlike sexual harassment situations, sex discrimination involves a negative (or adverse) employment action taken against an individual based on the individual's sex or gender.]]></body>
+    </page>
+  </intro>
+
+
+
+  <examples>
+    <next><![CDATA[NEXT]]></next>
+    <header><![CDATA[Examples of Sex Discrimination]]></header>
+    <instructions><![CDATA[<div style="text-align: center;">Click each image below to see some examples of sex discrimination.</div>]]></instructions>
+
+    <example>
+      <img src="3_1.jpg" />
+      <label><![CDATA[]]></label>
+      <feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;">
+				Not promoting due to pregnancy
+			</div>]]></feedback>
+    </example>
+    <example>
+      <img src="3_2.jpg" />
+      <label><![CDATA[]]></label>
+      <feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;">
+				Treating women differently for fear of being the target of a sexual harassment claim
+			</div>]]></feedback>
+    </example>
+    <example>
+      <img src="3_3.jpg" />
+      <label><![CDATA[]]></label>
+      <feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;">
+				Denying an applicant a position because of their transgender status<br><br> Refusing to allow a transgender person to use the bathroom of their choice
+			</div>]]></feedback>
+    </example>
+    <example>
+      <img src="3_4.jpg" />
+      <label><![CDATA[]]></label>
+      <feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;">
+				Moving an employee to a different department because their co-workers are uncomfortable with their sexual orientation
+			</div>]]></feedback>
+    </example>
+    <example>
+      <img src="3_5.jpg" />
+      <label><![CDATA[]]></label>
+      <feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;">
+				Telling a male applicant that the position he is applying for is better suited for a woman
+			</div>]]></feedback>
+    </example>
+    <example>
+      <img src="3_6.jpg" />
+      <label><![CDATA[]]></label>
+      <feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;">
+				Praising a man for his aggressiveness and critiquing a woman for having the same quality
+			</div>]]></feedback>
+    </example>
+    <example>
+      <img src="3_7.jpg" />
+      <label><![CDATA[]]></label>
+      <feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;">
+				Allowing a client to dictate which employees they'll work with based on their gender
+			</div>]]></feedback>
+    </example>
+  </examples>
+
+
+
+  <intro2>
+
+    <page background="15.jpg" x="0" y="100" width="538">
+      <background scale="1" x="0" y="0" animate="false"/>
+      <header><![CDATA[Pregnancy in the Workplace]]></header>
+      <body><![CDATA[Pregnancy discrimination involves treating an applicant or employee unfavorably because of pregnancy, childbirth, or a medical condition related to pregnancy or childbirth during any aspect of employment.
+         <br><br>
+         It is also unlawful to harass anyone because of their pregnancy or pregnancy related conditions.]]></body>
+    </page>
+
+    <page background="18.jpg" x="492" y="70" width="510" html="../stereotyping.html">
+      <background scale="1" x="0" y="0" animate="false"/>
+    </page>
+
+    <!-- <page background="SAME" x="0" y="100" width="538">
+      <background scale="0.85" x="-180" y="-110" animate="true"/>
+      <header><![CDATA[Sex Stereotyping]]></header>
+      <body><![CDATA[Sex stereotyping is another type of sex discrimination. It occurs when one person makes assumptions about another person's appearance or behavior, gender roles, gender expression or gender identity. It may also occur when assumptions are made about an individual's ability or inability to perform certain kinds of work based on a myth, social expectation or generalization about the individual's sex.]]></body>
+    </page> -->
+<!-- 
+    <page background="SAME" x="0" y="0" width="840" height="620" html="../eeoc.html" nextX="150">
+      <background scale="0.9" x="-180" y="-110" animate="true"/>
+    </page> -->
+
+    <page background="SAME" x="0" y="100" width="1000" heightOffset="460">
+      <background scale="0.95" x="-180" y="-110" animate="true"/>
+      <header><![CDATA[Important Terms to Know FOR ALLEN DEVELOPMENT]]></header>
+      <body><![CDATA[
+            <span style="font-weight:bold;display: inline-block;">Gender Expression</span>: a person's gender-related appearance and behavior whether or not stereotypically associated with the person's assigned sex at birth.
+            <br><br>
+            <span style="font-weight:bold;display: inline-block;">Gender Identity</span>: each person's internal understanding of their gender, or the perception of a person's gender identity, which may include male, female, a combination of male and female, neither male nor female, a gender different from the person's sex assigned at birth, or transgender.
+            <br><br>
+            <span style="font-weight:bold;display: inline-block;">Gender Nonconforming</span>: describes a person whose behaviors or gender expression falls outside what is generally considered typical for their assigned sex at birth.
+            <br><br>
+            <span style="font-weight:bold;display: inline-block;">Intersex</span>: an umbrella term used to describe natural bodily variations, which can include external genitalia, internal sex organs, chromosomes, or hormonal differences that transcend typical ideas of male and female.
+            <br><br>
+            <span style="font-weight:bold;display: inline-block;">Nonbinary</span>: an umbrella term for people with gender identities that fall somewhere outside of the traditional conceptions of strictly either female or male.
+            <br><br>
+            <span style="font-weight:bold;display: inline-block;">Transgender</span>: an umbrella term used to describe people whose gender identity or gender expression do not match the gender they were assigned at birth.
+
+            ]]>
+      </body>
+    </page>
+
+    <page background="24.jpg" x="535" y="133" width="523">
+      <background scale="1" x="0" y="0" animate="true"/>
+      <header><![CDATA[Understanding Sexual Orientation]]></header>
+      <body><![CDATA[In addition to it being unlawful to harass or discriminate against an employee based on their sex, it is also unlawful to harass or discriminate based on their sexual orientation or perceived sexual orientation.
+			<br><br>
+			Sexual orientation is defined by the The Equal Employment Opportunity Commission (EEOC) as homosexuality, bisexuality or heterosexuality, whether such orientation is actual or perceived, and includes association with another individual of a particular sexual orientation. ]]></body>
+    </page>
+
+    <page background="SAME" x="0" y="100" width="1000" heightOffset="460">
+      <background scale="1.05" x="-180" y="-110" animate="true"/>
+      <header><![CDATA[Transgender Employees FOR ALLEN DEVELOPMENT]]></header>
+      <body>
+        <![CDATA[A transgender employee may join your organization having previously transitioned from their sex at birth to their new identity. You may also have employees who begin the process of transitioning during their employment. It's important to understand what transitioning means.<br><br>
+	        <span style="font-weight:bold;display: inline-block;">Transitioning</span> is a process some transgender people go through to begin living as the gender with which they identify, rather than the sex assigned to them at birth. This process may include social and/or physical transitioning described below.<br><br>
+	        <span style="font-weight:bold;display: inline-block;">Physical Transitioning</span> refers to medical treatments an individual may undergo to physically align their body with internal sense of self (e.g. hormone therapies or surgical procedures).<br><br>
+	        <span style="font-weight:bold;display: inline-block;">Social Transitioning</span> involves a process of socially aligning one's gender with the internal sense of self (e.g. changes in name and pronoun, bathroom facility usage, participation in activities like sports teams).<br><br>]]>
+      </body>
+    </page>
+
+   <!--  <page background="23.jpg" x="474" y="87" width="579" height="400">
+      <background scale="1" x="0" y="0" animate="false"/>
+      <header><![CDATA[Consider This]]></header>
+      <body><![CDATA[<div style="font-size:18px;">You have an employee that identifies as non-binary. They decided to update their email signature to include their pronouns.  Some employees on your staff have been teasing them for this and making up silly, nonsensical pronouns for their emails in response.
+        <br><br>
+      What should you do?
+        <br><br>
+      This kind of behavior towards an LGBTQ employee could be considered harassment. This situation needs to be brought to the attention of the people in the organization responsible for handling cases of harassment and discrimination.</div>]]></body>
+    </page> -->
+
+    <page background="23.jpg" x="474" y="87" width="510" html="../consider.html">
+      <background scale="1" x="0" y="0" animate="false"/>
+    </page>
+
+
+  </intro2>
+
+
+  <videos>
+    <buttons>
+      <next><![CDATA[NEXT]]></next>
+      <done><![CDATA[NEXT]]></done>
+    </buttons>
+    <gender_contentRoot>../../content/sex-and-gender/</gender_contentRoot>
+    <intro>
+    </intro>
+    <menu>
+      <mainLabel><![CDATA[Scenario Menu]]></mainLabel>
+      <title><![CDATA[Explore each of the scenarios.]]></title>
+      <copy><![CDATA[Let's apply what you've learned about sex discrimination in the workplace. In this activity, you'll act as an adviser to three employees who are caught in difficult discussions. See if you can guide them towards a resolution.]]></copy>
+      <person>
+        <label>Sheree</label>
+        <thumb>/img/person1.jpg</thumb>
+        <sectionID>scenario1</sectionID>
+      </person>
+      <person>
+        <label>Brad</label>
+        <thumb>/img/person2.jpg</thumb>
+        <sectionID>scenario2</sectionID>
+      </person>
+      <person>
+        <label>Javier</label>
+        <thumb>/img/person3.jpg</thumb>
+        <sectionID>scenario3</sectionID>
+      </person>
+    </menu>
+    <scenarios>
+      <!-- The letter/number tag names are backwards. They were initially 1A etc but XML doesn't allow tags to begin with numbers.
+              (the ID script refers to the scenes as 2B, 2C and so on) -->
+      <scenario1>
+        <index><![CDATA[0]]></index>
+        <instructions><![CDATA[<h3>Read the character's statement. Then, select an action.</h3>]]></instructions>
+        <initialPopup><![CDATA[<p>Sheree's client, John, hinted that he was not very happy with his account representative, so Sheree set up a meeting with John to find out more.</p>
+                                    <p><i>Click the Next button to continue.</i></p>
+            ]]></initialPopup>
+        <transcript>
+          <scene1A><![CDATA[
+                    <p><b>Sheree:</b><br>
+                    Hi John. I just wanted to check in about the last project we completed with you and any lessons learned that we can apply to the next project.</p>
+                    <p><b>John: </b><br>
+                    Great. There are several take-aways I was prepared to speak about.</p>
+                    <p><b>Sheree: </b><br>
+                    Excellent. Maybe we can start with your working relationship with the representative on your account, Mary. How did everything go?</p>
+                    <p><b>John: </b><br>
+                    Actually, that's something I wanted to discuss with you. We were not entirely satisfied with our working relationship with Mary. We think it's time for a change.</p>
+                    <p><b>Sheree: </b><br>
+                    Oh really?  I am sorry to hear that. Can you give me more feedback on what were the issues with Mary?</p>
+                    <p><b>John:  </b><br>
+                    Well, I don't know how to say this, but let's put it this way.  The team really preferred someone like Tim, who we worked with in the past.  To be honest, I think our team liked Tim's male perspective on things. He had an approach that Mary just does not have.</p>
+                    <p><b>Sheree: </b><br>
+                    Hmmm.  Okay, I can see there may be differences in their styles.</p>
+                    <p><b>John: </b><br>
+                    Yeah, given the feedback I have been receiving, I really think if we don't move to a male representative, the team will not be happy, and will want to look elsewhere.</p>
+                ]]></scene1A>
+          <scene1B><![CDATA[
+                    <p><b>Sheree:</b><br>
+                    That's not a problem, John. I hear that you would prefer not to work with Mary again. I'll be happy to grant your request to assign you a male account representative.</p>
+                    <p><b>John:</b><br>
+                    Thanks! I feel like working with a man will just make myself and others on the team feel more confident that things will go smoothly.</p>
+                ]]></scene1B>
+          <scene1C><![CDATA[
+                    <p><b>Sheree:</b><br>
+                    John, do you believe that any female representative wouldn't perform as well as a male representative? Is that the reason for this request?</p>
+                    <p><b>John:</b><br>
+                    You know, I don't feel like getting into the details. But let me put it to you this way - working with a woman is something I was told our team does not want to do on the next project. We would really prefer a more direct style. I'd think that's all you need to be concerned about. So, can we work with Tim, the prior rep, or another man, or what?</p>
+                ]]></scene1C>
+          <scene2A><![CDATA[
+                    <p><b>Sheree:</b><br>
+                    Okay, John. I hear what you are saying, but I am hoping you can tell me more about why you would like to work with a male account representative so that I can best understand your team's needs and address them.</p>
+                    <p><b>John:</b><br>
+                    Our team just prefers to work with men - it's just a better match for us, that's all.  As I mentioned, the account representative we worked with before - Tim - he was great. I'm not saying Mary did a bad job. We just want a more direct approach and I feel like working with a man is just going to make that more of a sure thing.</p>
+                    <p><b>Sheree:</b><br>
+                    Hmm, I see. Thank you for telling me a bit more.</p>
+                ]]></scene2A>
+          <scene2B><![CDATA[
+                    <p><b>Sheree:</b><br>
+                    John, there is an account representative on our team who has a very direct style and has been very successful with her clients. Her name is Amy. I'm thinking she might be able to fit your needs.</p>
+                    <p><b>John:</b><br>
+                    You know Sheree, I feel like you're dodging the issue here. Amy might be great, but I don't want to take that chance. Especially after my team has explicitly asked that we approach you about switching to a male representative. Can you do that, or can't you?</p>
+                ]]></scene2B>
+          <scene2C><![CDATA[
+                    <p><b>Sheree:</b><br>
+                    I think what we will do is assign your account back with Tim. If you liked working with him in the past, I think that will make everyone happy.</p>
+                    <p><b>John:</b><br>
+                    That will work for us. It would be great to work with Tim again.</p>
+                ]]></scene2C>
+          <scene3A><![CDATA[
+                    <p><b>Sheree:</b><br>
+                    John, I'd like to do everything I can to help match you with a new account representative. To do that, it would help me to know more about what made Tim successful and what kind of approach the team is expecting. Can you tell me more about what you would look for in an account representative's performance?</p>
+                    <p><b>John:</b><br>
+                    One of the take-aways I have from our team is that we prefer more of an agenda to our meetings. Also, we need to get to the point faster.  We can't have someone going in circles.  This person needs to get what we do right off the bat, understand our industry, and come up with creative solutions.</p>
+                    <p><b>Sheree:</b><br>
+                    Thank you for sharing this information. This is very helpful.</p>
+                ]]></scene3A>
+          <scene3B><![CDATA[
+                    <p><b>Sheree:</b><br>
+                    Okay John, I've noted what you said. I feel like these things you've mentioned regarding working style really outweigh the gender of an account representative. I can think of a few female representatives who have a work style that I believe would fit your needs - you should give them a chance.</p>
+                    <p><b>John:</b><br>
+                    I'm afraid that's not going to work. It's not that I don't believe what you're saying, but as you can tell from the style that's important to us. We really need to work with a man moving forward.</p>
+                ]]></scene3B>
+          <scene3C><![CDATA[
+                    <p><b>Sheree:</b><br>
+                    Okay John, I've noted everything you've said. I've generated a list of a few account representatives that I believe you would work well with, and they are men. However, I must let you know that I am uncomfortable with this and only doing this for you.</p>
+                    <p><b>John:</b><br>
+                    I knew you would come around and listen to me Sheree.  Listen, the fact is, we know what's best and we want to get who we want.</p>
+                ]]></scene3C>
+          <scene4A><![CDATA[
+                    <p><b>Sheree:</b><br>
+                    Okay John. Based on what you've shared with me, I'm pulling up some information on a few different account representatives. who have had a lot of success with businesses just like yours. They are very knowledgeable and have straightforward and organized approaches to getting things done.  I understand your preferences for a man, but I'm including as many representatives as I feel would be a fit, including women, and I would encourage you to review them all closely with me.</p>
+                    <p><b>John:</b><br>
+                    Hmm, okay.<br>
+                    What about Jeff? He looks good. It looks like he's used to managing accounts as large as ours.</p>
+                    <p><b>Sheree:</b><br>
+                    Sure, we can chat more about Jeff. He has worked with many large accounts before. I know he also is used to using specific formulas for data, which I think your team would find helpful. Actually, he was trained by Rosa, who just got the best review from a similar client. They told me that she really turned around their business and would be lost without her.</p>
+                    <p><b>John:</b><br> Both of them sound great.  Can I meet with them before deciding?</p>
+                    <p><b>Sheree:</b><br>  Yes, of course.</p>
+                ]]></scene4A>
+        </transcript>
+        <coach-img><![CDATA[Sheree_3.png]]></coach-img>
+        <coachIntro><![CDATA[My client, John, hinted that he was not very happy with his account representative. Thank you for sitting in on the meeting that I've set up with him to find out more. If I feel a bit lost on where to take the discussion with John, I will turn to you for advice.]]></coachIntro>
+        <finalPopupText><![CDATA[<p>Good work! Your advice led Sheree to adopt a strategy around how to handle John's request that drew from more of John's preferences in an account representative than just their gender. Even if a client requests to work with a team member of a specific gender, making an assignment decision based on this information alone could be unlawful.</p>
+            <p>By identifying needs in addition to the gender request, and by giving John a range of account representatives to choose from (including women), Sheree was able to work with John while not engaging in gender discrimination.</p>
+            <p><i>Click the Next button to continue.</i></p>
+            ]]></finalPopupText>
+        <!--videos>
+            <video id="1A" scene="scene1"><![CDATA[/vid/scenario1/1A.mp4]]></video>
+            <video id="1B" scene="scene1"><![CDATA[/vid/scenario1/1B.mp4]]></video>
+            <video id="1C" scene="scene1"><![CDATA[/vid/scenario1/1C.mp4]]></video>
+            <video id="2A" scene="scene2"><![CDATA[/vid/scenario2/2A.mp4]]></video>
+            <video id="2B" scene="scene2"><![CDATA[/vid/scenario2/2B.mp4]]></video>
+            <video id="2C" scene="scene2"><![CDATA[/vid/scenario2/2C.mp4]]></video>
+            <video id="3A" scene="scene3"><![CDATA[/vid/scenario3/3A.mp4]]></video>
+            <video id="3B" scene="scene3"><![CDATA[/vid/scenario3/3B.mp4]]></video>
+            <video id="3C" scene="scene3"><![CDATA[/vid/scenario3/3C.mp4]]></video>
+            <video id="4A" scene="scene4"><![CDATA[/vid/scenario4/4A.mp4]]></video>
+        </videos-->
+        <multichoice>
+          <scene1>
+            <speechBubble><![CDATA[This seems like an awkward situation. What do you think I should do?]]></speechBubble>
+            <option id="0" goTo="1B">
+              <text><![CDATA[Say: Sure thing. I'll set you up with our best male representative.]]></text>
+              <feedback><![CDATA[<p>Although advising Sheree to respond by acting on John's request appears to have made him happy, by doing so, Sheree may have engaged in gender discrimination. Making assignments based on gender is discriminatory behavior. Even if a client requests to work with a team member of a specific gender, making an assignment decision based on this information alone can have legal consequences for the employer.<p>
+												<p>Let's rewind this story back to before you gave Sheree this advice and give you the chance to explore another way forward.</p>
+												<p><i>Click the Next button to continue.</i></p>
+                        ]]></feedback>
+            </option>
+            <option id="1" correct="true" goTo="2A">
+              <text><![CDATA[Ask: Can you tell me more about the reason for the request?]]></text>
+              <feedback><![CDATA[]]></feedback>
+            </option>
+            <option id="2" goTo="1C">
+              <text><![CDATA[Ask: Do you think a female representative won't do the job effectively?]]></text>
+              <feedback><![CDATA[<p>It looks like this conversation took a wrong turn. While advising Sheree to ask about John's motivations or beliefs about gender may be a way of gathering more information, she put John on the defensive which clearly made him irritated.</p>
+                                            <p>There is a better way for Sheree to learn more about John's request. Let's rewind this story back to before you gave Sheree this advice and give you the chance to explore another way forward.</p>
+                                            <p><i>Click the Next button to continue.</i></p>
+                        ]]></feedback>
+            </option>
+            <coach><![CDATA[Sheree_3.png]]></coach>
+          </scene1>
+          <scene2>
+            <speechBubble><![CDATA[It seems like John is committed to the idea that his team wants to work with a male account representative. How do you think I should handle this?]]></speechBubble>
+            <option id="0" goTo="2B">
+              <text><![CDATA[Ask: We have another representative, Amy, who has a more direct style. What would you think of working with her?]]></text>
+              <feedback><![CDATA[<p>Advising Sheree to ask about matching John's account with a female account representative who may be a better fit may have seemed like a wise move, but it made  John's request for a male representative feel ignored.<p>
+                                            <p>There is a better method for guiding Sheree through the rest of this conversation. Let's rewind this story back to before you gave Sheree this advice and give you the chance to explore another way forward.</p>
+                                            <p><i>Click the Next button to continue.</i></p>
+                        ]]></feedback>
+            </option>
+            <option id="1" goTo="2C">
+              <text><![CDATA[Say: Let's just assign you with Tim. It seemed like this worked well in the past.]]></text>
+              <feedback><![CDATA[<p>Although John is satisfied, Sheree would now be pulling Mary off the account without much justification. Sheree would be acting on John's request to work with a man.</p>
+                                            <p>Making assignments based on gender is discriminatory behavior. Even if a client requests to work with a team member of a specific gender, making an assignment decision based on this information alone could be unlawful.</p>
+                                            <p>Let's rewind this story back to before you gave Sheree this advice and give you the chance to explore another way forward.</p>
+                                            <p><i>Click the Next button to continue.</i></p>
+                        ]]></feedback>
+            </option>
+            <option id="2" correct="true" goTo="3A">
+              <text><![CDATA[Ask: In order to fully meet your team's needs, can you please explain further what characteristics an account representative should have to make this a good match?]]></text>
+              <feedback><![CDATA[]]></feedback>
+            </option>
+            <coach><![CDATA[Sheree_3.png]]></coach>
+          </scene2>
+          <scene3>
+            <speechBubble><![CDATA[I know a bit more about what John's team is looking for now. I think I've learned as much as I'm going to. Now I just have to figure out what to do about his request. What do you think?]]></speechBubble>
+            <option id="0" goTo="3B">
+              <text><![CDATA[Say: I think that these factors are probably the most important things to consider in your choice, rather than gender.]]></text>
+              <feedback><![CDATA[<p>Advising Sheree to highlight how work style is substantial may sound like a wise move, but she seems to be pushing a female account representative now, which is off-putting to John.</p>
+                                            <p>There is a better method for guiding Sheree through the rest of this conversation. Let's rewind this story back to before you gave Sheree this advice and give you the chance to explore another way forward.</p>
+                                            <p><i>Click the Next button to continue.</i></p>
+                        ]]></feedback>
+            </option>
+            <option id="1" correct="true" goTo="4A">
+              <text><![CDATA[Say: Let me give you information on a few different representatives that I think match your needs. Some are male and some are female, but I think all of them would be terrific options for you.]]></text>
+              <feedback><![CDATA[<p>Although John is satisfied, Sheree would now be pulling Mary off the account without much justification. Sheree would be acting on John's request to work with a man.</p>
+                                            <p>Making assignments based on gender is discriminatory behavior. Even if a client requests to work with a team member of a specific gender, making an assignment decision based on this information alone could be unlawful.</p>
+                                            <p>Let's rewind this story back to before you gave Sheree this advice and give you the chance to explore another way forward.</p>
+                                            <p><i>Click the Next button to continue.</i></p>
+                        ]]></feedback>
+            </option>
+            <option id="2" goTo="3C">
+              <text><![CDATA[Say: We can move forward with options for a male account representative, but I have to inform you that this makes me uncomfortable.]]></text>
+              <feedback><![CDATA[<p>This wasn't the best way to advise Sheree. This is a situation where Sheree could be complying with the client's request for a male representative, which is a form of gender discrimination.   Even if she tells him that she is not comfortable, her employer can be on the hook for engaging in gender discrimination.</p>
+                                            <p>Let's look at a different way to guide Sheree. Let's rewind this story back to before you gave Sheree this advice and give you the chance to explore another way forward.</p>
+                                            <p><i>Click the Next button to continue.</i></p>
+                        ]]></feedback>
+            </option>
+            <coach><![CDATA[Sheree_3.png]]></coach>
+          </scene3>
+          <scene4>
+
+          </scene4>
+        </multichoice>
+      </scenario1>
+      <scenario2>
+        <index><![CDATA[1]]></index>
+        <instructions><![CDATA[<h3>Read the character's statement. Then, select an action.</h3>]]></instructions>
+        <initialPopup><![CDATA[<p>Brad runs into his colleague, Shelly, who he knows has been voicing her discomfort with their fellow colleague, Isaac.</p>
+                                    <p><i>Click the Next button to continue.</i></p>
+            ]]></initialPopup>
+        <transcript>
+          <scene1A><![CDATA[
+                    <p><b>Brad:</b><br>
+                    Hey Shelly. I noticed earlier that you may have seemed kind of frustrated. Is anything wrong?</p>
+
+                    <p><b>Shelly:</b><br>
+                    You could say so. I'm honestly having a hard time working with Isaac on this project. I can't get comfortable around the guy.  The frilly way he dresses or that eye shadow he has on is such a distraction. Earlier today he gave me a look because I called him, "him".</p>
+
+                    <p><b>Brad:</b><br>
+                    I think Isaac asked the team to use they/them pronouns instead of saying he/him.</p>
+
+                    <p><b>Shelly:</b><br>
+                    Oh, not just that, I think he's been going to management about wanting everyone to do that. I'm going to ask if he can be moved to another project.</p>
+                ]]></scene1A>
+          <scene1B><![CDATA[
+                    <p><b>Brad:</b><br>
+                    This pronoun stuff seems like it's kind of trivial. If I were you, I would just try to focus on the work and just avoid Isaac whenever you can.</p>
+
+                    <p><b>Shelly:</b><br>
+                    You're right, maybe if I just try to ignore him and keep my distance and much as I can we won't make each other so uncomfortable.</p>
+                ]]></scene1B>
+          <scene1C><![CDATA[
+                    <p><b>Brad:</b><br>
+                    What's your problem, Shelly? You sound as bad as the men who used to not want to work with women on the team.</p>
+
+                    <p><b>Shelly:</b><br>
+                    What do you mean by that?</p>
+
+                    <p><b>Brad:</b><br>
+                    You know people used to get away with saying they didn't want to work with women or minorities because they felt uncomfortable. I think we've moved beyond that kind of prejudice in the workplace and forcing people out just because they are different.</p>
+
+                    <p><b>Shelly:</b><br>
+                    I can't believe you are calling me prejudiced!</p>
+                ]]></scene1C>
+          <scene2A><![CDATA[
+                    <p><b>Brad:</b><br>
+                    Shelly, it seems like these things about Isaac really bother you. I understand that Isaac may not dress in a way you expect them to, and I know they do prefer that others use they/them pronouns when speaking to them. Do you think you are being fair though, when you talk about having Isaac moved off the project?</p>
+
+                    <p><b>Shelly:</b><br>
+                    I just think he should act more like a man. This they/them business is confusing, and it may not mean much for other people on the team to pick up using those pronouns, but for me, I just see a man, not "them." I feel like it's theatrical and distracts us from our actual work. And if that's the case, maybe we shouldn't have to work with him.</p>
+                ]]></scene2A>
+          <scene2B><![CDATA[
+                    <p><b>Brad:</b><br>
+                    There is a lot to what you just described - how do you honestly think Isaac would feel if you told him these things?</p>
+
+                    <p><b>Shelly:</b><br>
+                    I'm sure he would go right to management about it. The looks he gives me whenever I seem to step out of line with what he expects really get on my nerves. I can't stand it.</p>
+                ]]></scene2B>
+          <scene2C><![CDATA[
+                    <p><b>Brad:</b><br>
+                    It sounds like there is a lot you are struggling with when it comes to working with Isaac. Have you considered talking to management about this?</p>
+
+                    <p><b>Shelly:</b><br>
+                    I don't think I'm going to be heard. Part of me feels like Isaac may have spoken with management already, especially about this pronoun thing. No, I don't want to talk to anyone right now.</p>
+                ]]></scene2C>
+          <scene3A><![CDATA[
+                    <p><b>Brad:</b><br>
+                    Shelly, what I'm about to say might be hard to hear, but as your colleague, I think it's important to bring it to your attention. I feel like some of what you're saying resembles what people used to say about working with people of other races or religions.  You know that would be wrong and this is very similar.</p>
+
+                    <p><b>Shelly:</b><br>
+                    No, you are wrong.  That is very different.  I'm not racist.</p>
+
+                    <p><b>Brad:</b><br>
+                    How is that any different?  Think about what we know about the past regarding how some men talked about working with women when women entered the workforce. Or think about what some people said and still might say about working with racial minorities. I know I've been in uncomfortable situations where I felt like someone might not want to work with me because I'm black.</p>
+
+                    <p><b>Shelly:</b><br>
+                    I guess I hadn't thought of it that way. I've certainly never had any thoughts like that about you.</p>
+
+                    <p><b>Brad:</b><br>
+                    I know. I know you don't hold attitudes like that about me.  But you can see how this is similar to your thoughts about Isaac, who is in another minority group?</p>
+
+                    <p><b>Shelly:</b><br>
+                    [Pauses to think]<br>
+                    You're right. I need to get over this and treat Isaac with respect. I feel like damage has already been done though. I don't know where to start turning our working relationship around.</p>
+                ]]></scene3A>
+          <scene3B><![CDATA[
+                    <p><b>Brad:</b><br>
+                    Here is an idea, Shelly. You mentioned earlier that the way Isaac dresses has bothered you. What if you took a moment to compliment the way they dress?</p>
+
+                    <p><b>Shelly:</b><br>
+                    I guess I could. I feel like that could be a little weird. I'm not sure I'd feel comfortable doing that. I don't really compliment what anyone wears and I don't want to single Isaac out.</p>
+                ]]></scene3B>
+          <scene3C><![CDATA[
+                    <p><b>Brad:</b><br>
+                    I have an idea. Why don't you ask if you can work with Isaac more closely? If the two of you interact more and complete tasks together where it makes sense to do so, maybe that will help repair things.</p>
+
+                    <p><b>Shelly:</b><br>
+                    I guess that's true. I can give that a try.</p>
+                ]]></scene3C>
+          <scene4A><![CDATA[
+                    <p><b>Brad:</b><br>
+                    Shelly, one thing I think could help would be if you could begin practicing using Isaac's chosen pronouns when you speak to them. I also think it would be important to use "they/them" when referring to Isaac in conversations with other team members. It would certainly give you practice with using the pronouns, and I think Isaac would see it as a sign of change and respect on your part.</p>
+
+                    <p><b>Shelly:</b><br>
+                    Yes, I think you're right about that. It's something I've obviously been hesitant to do, and they would probably appreciate it.</p>
+                ]]></scene4A>
+        </transcript>
+        <coach-img><![CDATA[Brad_1.png]]></coach-img>
+        <coachIntro><![CDATA[Shelly seems uncomfortable. I'm hoping you can guide me through this.]]></coachIntro>
+        <finalPopupText><![CDATA[<p>Great work! You helped Brad get through this challenging conversation.</p>
+                                    <p>People may identify their gender in any number of ways and may also prefer that others use pronouns that are different from what someone might expect. It is important to be respectful of the identities of others in the workplace, including the use of chosen pronouns. Invalidating coworkers by not using chosen pronouns, by denouncing their gender expression, or by speaking negatively about their gender identity, can all be considered forms of gender discrimination.</p>
+                                    <p><i>Click the Next button to continue.</i></p>
+            ]]></finalPopupText>
+        <multichoice>
+          <scene1>
+            <speechBubble><![CDATA[I don't feel like I'm any expert on what seems to be going on between Shelly and Isaac. What do you think I should do?]]></speechBubble>
+            <option id="0" goTo="1B">
+              <text><![CDATA[Say: I don't think the pronoun request is such a big deal. I'm sure Isaac will get over it.]]></text>
+              <feedback><![CDATA[<p>It looks like the conversation went well in the moment after Brad took your advice. However, Shelly came away from the conversation thinking there was nothing about her attitudes toward Isaac's gender expression that she needed to examine or change.  This may be resolved for now but could certainly bubble up again in the future if her conduct is not addressed now.<p>
+                                            <p>People may identify their gender in any number of ways and may also prefer that others use pronouns that are different from what someone might expect. It is important to be respectful of the identities of others in the workplace, including the use of chosen pronouns.  Otherwise, this may be gender discriminatory behavior.</p>
+                                            <p>Let's rewind this story back to before you gave Brad this advice and give you the chance to explore another way forward.</p>
+                                            <p><i>Click the Next button to continue.</i></p>
+                        ]]></feedback>
+            </option>
+            <option id="1" goTo="1C">
+              <text><![CDATA[Ask: What's your problem, Shelly? You sound as bad as the men who used to not want to work with women on the team.]]></text>
+              <feedback><![CDATA[<p>It doesn't look like the conversation went so well. It does appear that Shelly has strong feelings regarding Isaac's gender expression. However, after Brad took your advice and directly called out her prejudiced attitude, Shelly appears to be responding to Brad in a defensive manner.</p>
+                                            <p>While it's great that you encouraged Brad to be an Upstander and address discrimination where he sees it, there is a more effective way for Brad to move forward in this situation. Sometimes being too direct can lead the person you are speaking to get defensive and not open to hearing you out. Let's rewind this story back to before you gave Brad this advice and give you the chance to explore another way forward.</p>
+                                            <p><i>Click the Next button to continue.</i></p>
+                        ]]></feedback>
+            </option>
+            <option id="2" correct="true" goTo="2A">
+              <text><![CDATA[Ask: I know you are uncomfortable, but do you think you are really being fair to Isaac?]]></text>
+              <feedback><![CDATA[]]></feedback>
+            </option>
+            <coach><![CDATA[Brad_1.png]]></coach>
+          </scene1>
+          <scene2>
+            <speechBubble><![CDATA[I think there are multiple problems with what Shelly is describing. I feel a bit lost as to how to address them. What do you think?]]></speechBubble>
+            <option id="0" correct="true" goTo="3A">
+              <text><![CDATA[Say: Shelly, I know this may be hard to hear, but I feel like what you're saying resembles what people used to say about working with anyone who was different.]]></text>
+              <feedback><![CDATA[]]></feedback>
+            </option>
+            <option id="1" goTo="2B">
+              <text><![CDATA[Ask: How do you think Isaac would feel if you told them these things?]]></text>
+              <feedback><![CDATA[<p>It doesn't appear like this conversation is heading in a great direction. It may have been good advice to have Brad ask Shelly to think about how Isaac would feel, but unfortunately, it doesn't appear like she currently has much insight about how to address the situation in a constructive way.</p>
+                                            <p>Let's take an opportunity to back up. The conversation will rewind to before you chose this advice for Brad to take. Look for another way to advise him to keep this conversation moving forward.</p>
+                                            <p><i>Click the Next button to continue.</i></p>
+                        ]]></feedback>
+            </option>
+            <option id="2" goTo="2C">
+              <text><![CDATA[Ask: It sounds like there is a lot about this that is difficult to deal with. Have you considered talking to management about this issue?]]></text>
+              <feedback><![CDATA[<p>It doesn't appear like this conversation is heading in a great direction. Shelly does not seem open to discussing this with management. It doesn't look like there is much more for Brad to work with.</p>
+                                            <p>Let's take the opportunity to back up. The conversation will rewind to before you chose this advice for Brad to take. Look for another way to advise him to keep this conversation moving forward.</p>
+                                            <p><i>Click the Next button to continue.</i></p>
+                        ]]></feedback>
+            </option>
+            <coach><![CDATA[Brad_1.png]]></coach>
+          </scene2>
+          <scene3>
+            <speechBubble><![CDATA[I feel like I need to provide an example to Shelly of how she might show greater respect toward Isaac. What might be best?]]></speechBubble>
+            <option id="0" goTo="3B">
+              <text><![CDATA[Say: You could compliment Isaac on the way they dress.]]></text>
+              <feedback><![CDATA[<p>It looks like the conversation just took a wrong turn.  While Brad's intention was a good one, advising Shelly to compliment the way Isaac dresses doesn't necessarily help Shelly be more respectful toward Isaac. We don't know how such compliments will be received, especially if Shelly does not compliment others in the workplace, and unwanted compliments could be considered sexual harassment and may only further complicate their working relationship.</p>
+                                            <p>Let's reconsider how to advise Brad. The conversation will rewind to before you chose this advice for Brad to take. Look for another way to advise him to keep this conversation moving forward.</p>
+                                            <p><i>Click the Next button to continue.</i></p>
+                        ]]></feedback>
+            </option>
+            <option id="1" correct="true" goTo="4A">
+              <text><![CDATA[Say: You could practice using Isaac's chosen pronouns when speaking to them and about them with others.]]></text>
+              <feedback><![CDATA[]]></feedback>
+            </option>
+            <option id="2" goTo="3C">
+              <text><![CDATA[Say: You could ask to work with Isaac more directly on tasks than you have previously.]]></text>
+              <feedback><![CDATA[<p>Let's consider this one. Advising Shelly to work more closely with Isaac may establish more contact between them, which may help in improving their working relationship. However, taking this action alone may not address the issue of how Shelly has treated Isaac in the past regarding their gender expression.  Additionally, Shelly was concerned the damage had already been done.</p>
+                                            <p>Let's look for a suggestion that gets closer to the issue. The conversation will rewind to before you chose this advice for Brad to take. Look for another way to advise him to keep this conversation moving forward.</p>
+                                            <p><i>Click the Next button to continue.</i></p>
+                        ]]></feedback>
+            </option>
+            <coach><![CDATA[Brad_1.png]]></coach>
+          </scene3>
+        </multichoice>
+      </scenario2>
+      <scenario3>
+        <index><![CDATA[2]]></index>
+        <instructions><![CDATA[<h3>Read the character's statement. Then, select an action.</h3>]]></instructions>
+        <initialPopup><![CDATA[<p>Vincent and Javier meet to discuss staffing for a new long-term project. Javier has heard that Vincent has some concerns about having their pregnant colleague, Jane, take on a leadership role because of her condition.</p>
+                                    <p><i>Click the Next button to continue.</i></p>
+            ]]></initialPopup>
+        <transcript>
+          <scene1A><![CDATA[
+                    <p><b>Vincent:</b><br>
+                    I'm happy we found some time to talk about the staffing for this project, Javier. It's vital that we end up with the right team.</p>
+
+                    <p><b>Javier:</b><br>
+                    No problem.</p>
+
+                    <p><b>Vincent:</b><br>
+                    I was wondering who do you have in mind for the project management role?</p>
+
+                    <p><b>Javier:</b><br>
+                    What about Jane? I think she has the most relevant experience.</p>
+
+                    <p><b>Vincent:</b><br>
+                    I thought about her, but I don't think we should do that. Jane is pregnant and should be having the baby right in the middle of the project. I've heard she's already raised concerns about what kind of support at home she would get once that happens. And if she takes an extended leave of absence, then we would be in a tough position.</p>
+                ]]></scene1A>
+          <scene1B><![CDATA[
+                    <p><b>Javier:</b><br>
+                    I hear you, Vincent. I do think there are risks in staffing Jane as the project manager when she is likely to leave in the middle of the project or be extra tired due to her newborn's sleep schedule. I think we should explore some alternatives.</p>
+
+                    <p><b>Vincent:</b><br>
+                    Yes. It's unfortunate, because I agree with what you said earlier - Jane is the most qualified. But I think there are too many red flags with her being pregnant. I know Alice is excited about the position. Let's plan on her being our pick.</p>
+                ]]></scene1B>
+          <scene1C><![CDATA[
+                    <p><b>Javier:</b><br>
+                    Here is an idea. Could we staff Jane on the project, but not as a project manager? Perhaps in a more supportive role. That way we would utilize her experience on the project, without having to worry about the same consequences of her stepping away or not being one hundred percent alert if she were managing the project.</p>
+
+                    <p><b>Vincent:</b><br>
+                    I like that idea. I think I can find a way to explain that decision to her. Let's plan on doing that while we decide who would fill the project manager position.</p>
+                ]]></scene1C>
+          <scene2A><![CDATA[
+                    <p><b>Javier:</b><br>
+                    Has Jane said anything to you or another manager about taking a leave of absence?</p>
+
+                    <p><b>Vincent:</b><br>
+                    Hmm, no. I don't think so. I can only assume that she might.</p>
+
+                    <p><b>Javier:</b><br>
+                    I think we have to be careful not to make assumptions here.  How do we know whether Jane will really take an extended leave?  Or, if she does, it may be something we can plan around to accommodate the demands of the project.</p>
+
+                    <p><b>Vincent:</b><br>
+                    I would prefer to avoid that entirely, but I guess you're right. What about if she asks to leave early some days due to childcare issues?  We need our project managers to be able to work as many hours as necessary in order for this project to go smoothly. We can't afford for it to fail.</p>
+                ]]></scene2A>
+          <scene2B><![CDATA[
+                    <p><b>Javier:</b><br>
+                    I had a thought. Why don't we staff Jane as the project manager, and then plan to cross-train some other team members on her role? Those team members could then offer support for her throughout the project.</p>
+
+                    <p><b>Vincent:</b><br>
+                    That seems like it would be asking a lot of those other team members. It would take up time and may pull them away from their other responsibilities. I don't know.</p>
+                ]]></scene2B>
+          <scene2C><![CDATA[
+                    <p><b>Javier:</b><br>
+                    Vincent, I think what you've been saying might be a bit cold. How do you think Jane would feel if she learned that she was not picked for this position - which I think she would be excited about - just because she is pregnant?</p>
+
+                    <p><b>Vincent:</b><br>
+                    I imagine she would be upset, but what else should she expect? She knows the demands of the position. I think she would agree that it's not something someone can possibly step away from in the middle of the project or expect a lot of outside help with.</p>
+                ]]></scene2C>
+          <scene3A><![CDATA[
+                    <p><b>Javier:</b><br>
+                    Vincent, I know that it may take some brainstorming, but since we both seem to agree that Jane is the most qualified for the position, I think the project will be most successful with her in charge.<br>
+                    The fact is, we can't decide not to staff her just because she is pregnant, or because of rumors tied to her potential absence. It isn't fair, and ultimately, I don't think it's necessary as we will give her all of the information she needs about the project and can come to us if there are any issues.</p>
+
+                    <p><b>Vincent:</b><br>
+                    It's possible I started getting so invested in addressing any red flags with this project that I lost sight of what is fair.</p>
+
+                    <p><b>Javier:</b><br>
+                    I know how important the success of this project is to you. It's for exactly that reason that I think we move ahead and staff Jane. Let's meet with her and disclose this decision, she can then offer her own viewpoint on how the project might proceed.</p>
+
+                    <p><b>Vincent:</b><br>
+                    I think you're right. Let's have that be the working plan. I'm excited to get her perspective.</p>
+                ]]></scene3A>
+        </transcript>
+        <coach-img><![CDATA[Javier_1.png]]></coach-img>
+        <coachIntro><![CDATA[I feel like these staffing decisions need to be considered very carefully. I'm glad you're here to help me brainstorm.]]></coachIntro>
+        <finalPopupText><![CDATA[<p>Great work! You helped Javier make it clear to Vincent that he was on the verge of engaging in gender discrimination.</p>
+                                    <p>Unless a pregnant employee requests accommodations, it is discriminatory to assume or judge that this will be the case. You cannot make a performance judgment about an employee or deprive them of opportunities based on pregnancy. Engaging in this behavior is considered gender discrimination and could be unlawful.</p>
+                                    <p><i>Click the Next button to continue.</i></p>
+            ]]></finalPopupText>
+        <multichoice>
+          <scene1>
+            <speechBubble><![CDATA[It sounds like Vincent has thought through the subject of Jane joining the team already. How do you think I should respond to what he described?]]></speechBubble>
+            <option id="0" goTo="1B">
+              <text><![CDATA[Say: I agree that there are risks. We should consider some alternatives to Jane for the project manager role.]]></text>
+              <feedback><![CDATA[<p>Javier and Vincent may have reached an agreement, but it doesn't look like they considered the risks of not selecting Jane.  Rather, they followed your advice and Javier simply went along with Vincent's reasoning that Jane should not be picked for the project management role.<p>
+                                            <p>It is unlawful to treat pregnant employees differently than other similarly situated employees.  Making judgements or listening to rumors about a pregnant employee may lead to discriminatory decisions.</p>
+                                            <p>There is a better way for Javier to navigate this challenge. Let's rewind this story back to before you gave Javier this advice and give you the chance to explore another way forward.</p>
+                                            <p><i>Click the Next button to continue.</i></p>
+                        ]]></feedback>
+            </option>
+            <option id="1" goTo="1C">
+              <text><![CDATA[Ask: Could we staff Jane, but in a different role, to avoid those kinds of consequences?]]></text>
+              <feedback><![CDATA[<p>Things may appear to be resolved, but this isn't the best outcome. That's because by following your advice, Javier suggested that Jane not receive an opportunity that she is most qualified for, specifically because of her pregnancy.</p>
+                                            <p>It is unlawful to treat pregnant employees differently than other similarly situated employees.  Making judgements or listening to rumors about a pregnant employee may lead to discriminatory actions.</p>
+                                            <p>There is a better way for Javier to navigate this challenge. Let's rewind this story back to before you gave Javier this advice and give you the chance to explore another way forward.</p>
+                                            <p><i>Click the Next button to continue.</i></p>
+                        ]]></feedback>
+            </option>
+            <option id="2" correct="true" goTo="2A">
+              <text><![CDATA[Ask: Has Jane said anything to you about taking an extended leave of absence?]]></text>
+              <feedback><![CDATA[]]></feedback>
+            </option>
+            <coach><![CDATA[Javier_1.png]]></coach>
+          </scene1>
+          <scene2>
+            <speechBubble><![CDATA[It seems like the success of the project is what is really driving Vincent's reasoning, but I'm not sure he fully understands what could be wrong here. What could I say to help him understand?]]></speechBubble>
+            <option id="0" correct="true" goTo="3A">
+              <text><![CDATA[Say: We can't make this decision based on Jane's pregnancy.  Let's talk to her and tell her that we think she would be great in this position.  We can discuss what it entails and let her know that if she has any concerns, she can bring them to us.]]></text>
+              <feedback><![CDATA[<p>Advising Sheree to ask about matching John's account with a female account representative who may be a better fit may have seemed like a wise move, but it made  John's request for a male representative feel ignored.<p>
+                                            <p>There is a better method for guiding Sheree through the rest of this conversation. Let's rewind this story back to before you gave Sheree this advice and give you the chance to explore another way forward.</p>
+                                            <p><i>Click the Next button to continue.</i></p>
+                        ]]></feedback>
+            </option>
+            <option id="1" goTo="2B">
+              <text><![CDATA[Say: We can train other team members who can step in and help with Jane's responsibilities.]]></text>
+              <feedback><![CDATA[<p>You advised Javier to offer a solution that could address concerns about the project's success, and staff Jane as a project manager. However, Vincent does not seem to be very open to this approach.</p>
+                                            <p>While this may be a possible solution, this is jumping the gun and assuming that Jane will need support.  Many women return from childbirth and do not need any additional support or adjustments.  Making assumptions in this regard can be troubling.  Let's rewind this story back to before you gave Javier this advice and give you the chance to explore another way forward.</p>
+                                            <p><i>Click the Next button to continue.</i></p>
+                        ]]></feedback>
+            </option>
+            <option id="2" goTo="2C">
+              <text><![CDATA[Ask: How do you think Jane would feel if she did not get picked because of being pregnant?]]></text>
+              <feedback><![CDATA[
+                                <p>While you advised Javier to take an approach that may have inspired some empathy from Vincent, and Vincent does seem to understand that this could be upsetting for Jane. He appears to be defensive of his reasoning.</p>
+                                <p>A more direct approach may be needed for Vincent to understand that he cannot take away an opportunity for Jane based on rumors. Let's rewind this story back to before you gave Javier this advice and give you the chance to explore another way forward.</p>
+                                <p><i>Click the Next button to continue.</i></p>
+                        ]]></feedback>
+            </option>
+            <coach><![CDATA[Javier_1.png]]></coach>
+          </scene2>
+        </multichoice>
+      </scenario3>
+    </scenarios>
+  </videos>
+
+  <examples2>
+    <next><![CDATA[NEXT]]></next>
+    <header><![CDATA[Best Practices]]></header>
+    <instructions><![CDATA[Supervisors are often on the front lines when employees raise concerns about LGBTQ issues and may be the first to be informed if someone is feeling harassed or uncomforable or if an employee is planning to go through a gender transition.  It's important that all supervisors follow a set of best practices for managing and working with LGBTQ employees:]]></instructions>
+
+    <example>
+      <img src="4_1.jpg" />
+      <label><![CDATA[]]></label>
+      <feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;margin-top: -15px;">
+				<ul style="list-style: square !important; padding-left: 39px;">
+          <li >Immediately contact your designated personnel representative when any LGBTQ issues arise</li>
+        </ul>
+        
+			</div>]]></feedback>
+    </example>
+    <example>
+      <img src="4_2.jpg" />
+      <label><![CDATA[]]></label>
+      <feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;margin-top: -15px;">
+				Ensure transgender individuals are provided access to the restroom with which they feel most comfortable
+				<br><br>
+				<ul style="list-style: square !important; padding-left: 39px;">
+					<li >Refusing to allow transgender employees to use the bathroom that is congruent with their gender identity is a form of discrimination</li>
+				</ul>
+
+			</div>]]></feedback>
+    </example>
+    <example>
+      <img src="4_3.jpg" />
+      <label><![CDATA[]]></label>
+      <feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;margin-top: -15px;">
+				Maintain Confidentiality
+
+				<br><br>
+				<ul style="list-style: square !important; padding-left: 39px;">
+					<li>Supervisors or colleagues should never "out" employees to co-workers against their will</li>
+					<li>Make it clear to employees that disclosing or gossiping about an employee's gender identity or sexual orientation violates your organization's anti-harassment and discrimination policy</li>
+				</ul>
+			</div>]]></feedback>
+    </example>
+    <example>
+      <img src="4_4.jpg" />
+      <label><![CDATA[]]></label>
+      <feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;margin-top: -15px;">
+				Use proper names and pronouns
+				<br><br>
+				<ul style="list-style: square !important; padding-left: 39px;">
+					<li>Regardless of name and gender, you should use an employee's chosen name and pronouns when communicating with or about them</li>
+				</ul>
+			</div>]]></feedback>
+    </example>
+    <example>
+      <img src="4_5.jpg" />
+      <label><![CDATA[]]></label>
+      <feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;margin-top: -15px;">
+				With the guidance of the appropriate personnel, proactively allow for gender-neutral dress codes
+				<br><br>
+				<ul style="list-style: square !important; padding-left: 39px;">
+					<li>It's best to ensure that employees are following local dress code guidelines, where applicable, without gender-specific requirements. (That is: don't specify slacks for men, dresses and skirts for women)</li>
+				</ul>
+			</div>]]></feedback>
+    </example>
+    <example>
+      <img src="4_6.jpg" />
+      <label><![CDATA[]]></label>
+      <feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;margin-top: -15px;">
+				Proactively address challenges with employees and co-workers
+				<br><br>
+				<ul style="list-style: square !important; padding-left: 39px;">
+					<li>Counsel the person expressing discomfort with LGBTQ issues, not the LGBTQ employee</li>
+					<li>Help the problematic employee better understand the organization's policies regarding LGBTQ issues</li>
+					<li>Do not tolerate harassment or derogatory comments and enforce clear rules and guidelines</li>
+				</ul>
+			</div>]]></feedback>
+    </example>
+  </examples2>
+
+  <outro>
+    <page background="whatDisc_outro.jpg" x="0" y="0" width="1000" height="400" nextX="810" html="../remedies.html">
+      <background scale="1" x="0" y="0" animate="false"/>
+    </page>
+
+    <page background="23.jpg" x="469" y="87" width="586" height="400">
+      <background scale="1" x="0" y="0" animate="false"/>
+      <header><![CDATA[Remember...]]></header>
+      <body><![CDATA[<div style="font-size:18px;">As a supervisor, you must promptly respond to unlawful conduct. All reports of harassment/discrimination should go through your organization's internal reporting process. <br><br>
+			All employees should feel comfortable raising these concerns to a supervisor, manager or the person designated to address these issues.</div>]]></body>
+    </page>
+
+    
+  </outro>
+</data>

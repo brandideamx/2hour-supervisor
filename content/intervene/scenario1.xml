@@ -1,0 +1,1574 @@
+<scenario>
+		<intro>
+
+			<news>
+				<image>../../content/intervene/img/newspaper.png</image>
+				<text><![CDATA[In this activity, you'll see a timeline of events that leads to this unfortunate headline. Use what you have learned to make adjustments to the timeline in order to reach the best possible outcome.]]></text>
+			</news>
+		</intro>
+
+		<popup><![CDATA[You haven't made a change yet! Remember, you'll need to make a change (or two) on this timeline in order to create a better outcome.]]></popup>
+		<timeline>
+
+		<title><![CDATA[Would you make any different decisions during Jon's employment?]]></title>
+
+		<inst><![CDATA[Click an event on the timeline to make changes. Once you think you've changed the timeline enough to get the best possible outcome and avoid the payout, click "I'm Done" to see the new headline.]]></inst>
+
+		<noclickinst><![CDATA[There are no further changes possible to this timeline. If you think you've changed the timeline enough to get the best possible outcome, click "I'm Done" to see the new headline. If you think you've made a mistake, click the Undo button (circular arrow) to back up one step.]]></noclickinst>
+
+		<noaction><![CDATA[No Change Possible]]></noaction>
+
+		<state scriptID="STATE 1" id="A1" outcome="default">
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You hire Jon Alberts to join your team.]]></label>
+
+				<question><![CDATA[You hired Jon Alberts after an extensive interview process, which showed he was the best candidate for the job. What would you do now?]]></question>
+
+				<option target="A31"><![CDATA[Don't hire Jon.]]></option>
+
+				<option target="A1"><![CDATA[No Change.]]></option>
+
+			</event>
+
+			<event>
+
+				<icon>icon_award.png</icon>
+
+				<label><![CDATA[Jon earns an achievement award.]]></label>
+
+				<!--
+
+				<question><![CDATA[Jon is one of your team's highest performers right off the bat. You recommend him for a yearly honor, and he wins. Would you like to make a different decision here?]]></question>
+
+				<option target="A38"><![CDATA[Do not recommend Jon for award.]]></option>
+
+				<option target="A1"><![CDATA[Do nothing ]]></option>
+
+			-->
+
+			</event>
+
+			<event>
+
+				<icon>icon_slur.png</icon>
+
+				<label><![CDATA[Jon uses derogatory language to describe a LGBTQ coworker.]]></label>
+
+				<question><![CDATA[You learn that Jon used a derogatory slur to describe a member of his team who is gay. This behavior was witnessed by several other members of the team who brought it to your attention.]]></question>
+
+				<option target="A67"><![CDATA[Fire Jon.]]></option>
+
+				<option target="A82"><![CDATA[Give Jon documented feedback.]]></option>
+
+				<option target="A1"><![CDATA[No Change. ]]></option>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Jon overhears a group of female coworkers making a sexual joke about men. He assumes the joke is about him. ]]></label>
+
+				<question><![CDATA[Jon brings the joke to your attention, and you let him know you'll handle it. What would you do now?]]></question>
+
+				<option target="A111"><![CDATA[Confront the team on your own.]]></option>
+
+				<option target="A131"><![CDATA[Follow up with appropriate personnel.]]></option>
+
+				<option target="A1"><![CDATA[No Change.]]></option>
+
+			</event>
+
+			<event>
+
+				<icon>icon_gavel.png</icon>
+
+				<label><![CDATA[Jon makes a complaint about the joke. It's investigated but there is no evidence to support the claim.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_dept.png</icon>
+
+				<label><![CDATA[You transfer Jon to another department where you think he'll be happier.]]></label>
+
+				<question><![CDATA[Jon feels like other employees on his team are giving him the cold shoulder ever since he filed the harassment claim. You know of an opening in a different department that would be a great fit, so you transfer him. What would you do now?]]></question>
+
+				<option target="A160"><![CDATA[Through proper channels, offer Jon the transfer opportunity.]]></option>
+
+				<option target="A187"><![CDATA[Confront the team on your own.]]></option>
+
+				<option target="A1"><![CDATA[No Change.]]></option>
+
+			</event>
+
+			<event>
+
+				<icon>icon_money.png</icon>
+
+				<label><![CDATA[Jon sues, claiming retaliation.]]></label>
+
+			</event>
+
+		</state>
+
+		<state scriptID="STATE 2" id="A31" outcome="">
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You do not hire Jon Alberts, even though he was clearly the best candidate. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_gavel.png</icon>
+
+				<label><![CDATA[Jon sues the organization for discriminatory hiring practices.]]></label>
+
+			</event>
+
+		</state>
+
+		<state scriptID="STATE 3" id="A38" outcome="">
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You hire Jon Alberts to join your team.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_slur.png</icon>
+
+				<label><![CDATA[Jon uses derogatory language to describe a LGBTQ coworker.]]></label>
+
+				<question><![CDATA[You learn that Jon used a derogatory slur to describe a memebr of his team who is gay. This behavior was witnesed by several other members of the team who brought it to your attention.]]></question>
+
+				<!--<option target="A213"><![CDATA[Fire Jon.]]></option>
+
+				<option target="A222"><![CDATA[Give Jon documented feedback.]]></option>
+
+				<option target="A38"><![CDATA[Do nothing ]]></option>-->
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Jon overhears a group of female coworkers making a sexual joke about men. He assumes the joke is about him. ]]></label>
+
+				<question><![CDATA[Jon brings the joke to your attention, and you let him know you'll handle it. What would you do now?]]></question>
+
+				<option target="A243"><![CDATA[Confront the team on your own.]]></option>
+
+				<option target="A254"><![CDATA[Follow up with appropriate personnel.]]></option>
+
+				<option target="A38"><![CDATA[No change.]]></option>
+
+			</event>
+
+			<event>
+
+				<icon>icon_gavel.png</icon>
+
+				<label><![CDATA[Jon brings a harassment claim, including the fact that his contributions aren't recognized by management. ]]></label>
+
+				<question><![CDATA[Jon uses his  performance  numbers from his first year on the job as evidence of unfair treatment, in addition to mentioning the racist joke in the conference room. There is not enough evidence to support his claim, however. What would you do now?]]></question>
+
+				<option target="A274"><![CDATA[Fire Jon.]]></option>
+
+				<option target="A38"><![CDATA[No Change. ]]></option>
+
+			</event>
+
+			<event>
+
+				<icon>icon_dept.png</icon>
+
+				<label><![CDATA[You transfer Jon to another department where you'll think he'll be happier.]]></label>
+
+				<question><![CDATA[Jon feels like other employees on his team are giving him the cold shoulder ever since he filed the harassment claim. You know of an opening in a different department that would be a great fit, so you transfer him. What would you do now?]]></question>
+
+				<option target="A283"><![CDATA[Alert appropriate channels to the situation.]]></option>
+
+				<option target="A306"><![CDATA[Confront the team on your own.]]></option>
+
+				<option target="A38"><![CDATA[No Change. ]]></option>
+
+			</event>
+
+		</state>
+
+		<state scriptID="STATE 4" id="A67" outcome="">
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You hire Jon Alberts to join your team.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_award.png</icon>
+
+				<label><![CDATA[Jon earns an achievement award.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You fire Jon when he uses derogatory language to describe a LGBTQ team member.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_money.png</icon>
+
+				<label><![CDATA[Jon sues claiming wrongful termination. ]]></label>
+
+			</event>
+
+		</state>
+
+		<state scriptID="STATE 5" id="A82" outcome="">
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You hire Jon Alberts to join your team.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_award.png</icon>
+
+				<label><![CDATA[Jon earns an achievement award.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[You start Jon on a PIP regarding his use of derogatory language.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_award.png</icon>
+
+				<label><![CDATA[Jon stops using derogatory language towards the LGBTQ member of the team. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Jon overhears a group of female coworkers making a sexual joke about men. He assumes the joke is about him. ]]></label>
+
+				<question><![CDATA[Jon brings the joke to your attention, and you let him know you'll handle it. What would you do now?]]></question>
+
+				<option target="A328"><![CDATA[Confront the team on your own.]]></option>
+
+				<option target="A348"><![CDATA[Follow up with appropriate personnel.]]></option>
+
+				<option target="A82"><![CDATA[No change.]]></option>
+
+			</event>
+
+			<event>
+
+				<icon>icon_gavel.png</icon>
+
+				<label><![CDATA[Jon makes a complaint about the joke. It's investigated but there is no evidence to support the claim.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_dept.png</icon>
+
+				<label><![CDATA[You transfer Jon to another department where you'll think he'll be happier.]]></label>
+
+				<question><![CDATA[Jon feels like other employees on his team are giving him the cold shoulder ever since he filed the harassment claim. You know of an opening in a different department that would be a great fit, so you transfer him. What would you do now?]]></question>
+
+				<option target="A369"><![CDATA[Alert appropriate channels to the situation.]]></option>
+
+				<option target="A395"><![CDATA[Confront the team on your own.]]></option>
+
+				<option target="A82"><![CDATA[No Change. ]]></option>
+
+			</event>
+
+		</state>
+
+		<state scriptID="STATE 6" id="A111" outcome="">
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You hire Jon Alberts to join your team.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_award.png</icon>
+
+				<label><![CDATA[Jon earns an achievement award.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_slur.png</icon>
+
+				<label><![CDATA[Jon uses derogatory language to describe a LGBTQ coworker.]]></label>
+
+			</event>
+
+			<!-- <event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Jon tells you about a racist joke he hears in the conference room, and you handle it on your own. ]]></label>
+
+			</event> -->
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[The confrontation is not effective and the harassment continues.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_money.png</icon>
+
+				<label><![CDATA[Jon sues, claiming harassment.]]></label>
+
+			</event>
+
+		</state>
+
+		<state scriptID="STATE 7" id="A131" outcome="">
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You hire Jon Alberts to join your team.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_award.png</icon>
+
+				<label><![CDATA[Jon earns an achievement award.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_slur.png</icon>
+
+				<label><![CDATA[Jon uses derogatory language to describe a LGBTQ coworker.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Jon overhears a group of female coworkers making a sexual joke about men. He assumes the joke is about him. You report it to proper channels.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_gavel.png</icon>
+
+				<label><![CDATA[Appropriate channels conduct an investigation, but witnesses state no racist joke was ever made.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_dept.png</icon>
+
+				<label><![CDATA[Proper channels provide a referesher on the organization's anti-harassment policy.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_dept.png</icon>
+
+				<label><![CDATA[Jon reports that there have been no further incidents. He feels more comfortable with the team.]]></label>
+
+			</event>
+
+		</state>
+
+		<state scriptID="STATE 8" id="A160" outcome="">
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You hire Jon Alberts to join your team.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_award.png</icon>
+
+				<label><![CDATA[Jon earns an achievement award.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_slur.png</icon>
+
+				<label><![CDATA[Jon uses derogatory language to describe a LGBTQ coworker.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Jon overhears a group of female coworkers making a sexual joke about men. He assumes the joke is about him. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_gavel.png</icon>
+
+				<label><![CDATA[Jon brings a harassment claim, but an investigation doesn't find enough evidence to support it. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[You alert Jon to an opportunity in a different department that you think he'd be great for.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_dept.png</icon>
+
+				<label><![CDATA[Jon works through the proper channels to request a transfer.]]></label>
+
+			</event>
+
+		</state>
+
+		<state scriptID="STATE 9" id="A187" outcome="">
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You hire Jon Alberts to join your team.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_award.png</icon>
+
+				<label><![CDATA[Jon earns an achievement award.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_slur.png</icon>
+
+				<label><![CDATA[Jon uses derogatory language to describe a LGBTQ coworker.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Jon overhears a group of female coworkers making a sexual joke about men. He assumes the joke is about him. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_gavel.png</icon>
+
+				<label><![CDATA[Jon brings a harassment claim, but an investigation doesn't find enough evidence to support it. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Jon complains that the team is giving him the cold shoulder ever since he brought up the harassment claim.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[You confront the team about its behavior, which makes tensions run even higher.]]></label>
+
+			</event>
+
+		</state>
+
+		<state scriptID="STATE 10" id="A213" outcome="">
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You hire Jon Alberts to join your team.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You fire Jon for his behavior.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_money.png</icon>
+
+				<label><![CDATA[Jon sues for wrongful termination.]]></label>
+
+			</event>
+
+		</state>
+
+		<state scriptID="STATE 11" id="A222" outcome="">
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You hire Jon Alberts to join your team.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_slur.png</icon>
+
+				<label><![CDATA[You start Jon on a PIP regarding his use of derogatory language.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_award.png</icon>
+
+				<label><![CDATA[Jon stops using derogatory language towards the LGBTQ member of the team. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Jon overhears a group of female coworkers making a sexual joke about men. He assumes the joke is about him. ]]></label>
+
+				<question><![CDATA[Jon brings the joke to your attention, and you let him know you'll handle it. What would you do now?]]></question>
+
+				<option target="A419"><![CDATA[Confront the team on your own.]]></option>
+
+				<option target="A432"><![CDATA[Bring the issue to the appropriate channels.]]></option>
+
+				<option target="A222"><![CDATA[No change.]]></option>
+
+			</event>
+
+			<event>
+
+				<icon>icon_gavel.png</icon>
+
+				<label><![CDATA[Jon brings a harassment claim, but an investigation doesn't find enough evidence to support it. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_dept.png</icon>
+
+				<label><![CDATA[You transfer Jon to another department where you'll think he'll be happier.]]></label>
+
+				<question><![CDATA[Jon feels like other employees on his team are giving him the cold shoulder ever since he filed the harassment claim. You know of an opening in a different department that would be a great fit, so you transfer him. What would you do now?]]></question>
+
+				<option target="A454"><![CDATA[Alert appropriate channels to the situation.]]></option>
+
+				<option target="A476"><![CDATA[Confront the team on your own.]]></option>
+
+				<option target="A222"><![CDATA[Leave as is.]]></option>
+
+			</event>
+
+		</state>
+
+		<state scriptID="STATE 12" id="A243" outcome="">
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You hire Jon Alberts to join your team.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_slur.png</icon>
+
+				<label><![CDATA[Jon uses derogatory language to describe a LGBTQ coworker.]]></label>
+
+			</event>
+
+			<!-- <event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Jon tells you about a racist joke he hears in the conference room, and you handle it on your own. ]]></label>
+
+			</event> -->
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[The confrontation is not effective and the harassment continues.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_money.png</icon>
+
+				<label><![CDATA[Jon sues, claiming harassment.]]></label>
+
+			</event>
+
+		</state>
+
+		<state scriptID="STATE 13" id="A254" outcome="">
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You hire Jon Alberts to join your team.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_slur.png</icon>
+
+				<label><![CDATA[Jon uses derogatory language to describe a LGBTQ coworker.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Jon overhears a group of female coworkers making a sexual joke about men. He assumes the joke is about him. You report it to proper channels.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_gavel.png</icon>
+
+				<label><![CDATA[You follow up through proper channels. The investigation does not reveal enough evidence to support the claim.  ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Appropriate channels provide a departmental refresher on the Company's anti-harassment and discrimination policy.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_dept.png</icon>
+
+				<label><![CDATA[Jon reports that there have been no further incidents. He feels more comfortable with the team. ]]></label>
+
+			</event>
+
+		</state>
+
+		<state scriptID="STATE 14" id="A274" outcome="">
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You hire Jon Alberts to join your team.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You fire Jon due to his behavior issues.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_money.png</icon>
+
+				<label><![CDATA[Jon sues for wrongful termination.]]></label>
+
+			</event>
+
+		</state>
+
+		<state scriptID="STATE 15" id="A283" outcome="">
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You hire Jon Alberts to join your team.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_slur.png</icon>
+
+				<label><![CDATA[Jon uses derogatory language to describe a LGBTQ coworker.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Jon overhears a group of female coworkers making a sexual joke about men. He assumes the joke is about him. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_gavel.png</icon>
+
+				<label><![CDATA[Jon brings a harassment claim, but an investigation doesn't find enough evidence to support it. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[You report through proper channels when Jon tells you he feels like the team is giving him the cold shoulder.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_dept.png</icon>
+
+				<label><![CDATA[Jon works through the proper channels to request a transfer.]]></label>
+
+			</event>
+
+		</state>
+
+		<state scriptID="STATE 16" id="A306" outcome="">
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You hire Jon Alberts to join your team.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_slur.png</icon>
+
+				<label><![CDATA[Jon uses derogatory language to describe a LGBTQ coworker.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Jon overhears a group of female coworkers making a sexual joke about men. He assumes the joke is about him. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_gavel.png</icon>
+
+				<label><![CDATA[Jon brings a harassment claim, but an investigation doesn't find enough evidence to support it. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Jon complains that the team is giving him the cold shoulder ever since he brought up the harassment claim.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[You confront the team about its behavior, which makes tensions run even higher.]]></label>
+
+			</event>
+
+		</state>
+
+		<state scriptID="STATE 17" id="A328" outcome="">
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You hire Jon Alberts to join your team.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_award.png</icon>
+
+				<label><![CDATA[Jon earns an achievement award.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[You start Jon on a PIP regarding his use of derogatory language.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_award.png</icon>
+
+				<label><![CDATA[Jon stops using derogatory language towards the LGBTQ member of the team. ]]></label>
+
+			</event>
+
+			<!-- <event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Jon tells you about a racist joke he hears in the conference room, and you handle it on your own. ]]></label>
+
+			</event> -->
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[The confrontation is not effective and the harassment continues.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_money.png</icon>
+
+				<label><![CDATA[Jon sues, claiming harassment.]]></label>
+
+			</event>
+
+		</state>
+
+		<state scriptID="STATE 18" id="A348" outcome="">
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You hire Jon Alberts to join your team.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_award.png</icon>
+
+				<label><![CDATA[Jon earns an achievement award.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_slur.png</icon>
+
+				<label><![CDATA[You start Jon on a PIP regarding his use of derogatory language.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_award.png</icon>
+
+				<label><![CDATA[Jon stops using derogatory language towards the LGBTQ member of the team. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Jon overhears a group of female coworkers making a sexual joke about men. He assumes the joke is about him. You report it to proper channels.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[You follow up through proper channels. The investigation does not reveal enough evidence to support the claim.  ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Management provides a departmental refresher on the organizaion's anti-harassment policy.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_dept.png</icon>
+
+				<label><![CDATA[Jon reports that there have been no further incidents. He feels more comfortable with the team. ]]></label>
+
+			</event>
+
+		</state>
+
+		<state scriptID="STATE 19" id="A369" outcome="">
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You hire Jon Alberts to join your team.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_award.png</icon>
+
+				<label><![CDATA[Jon earns an achievement award.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_slur.png</icon>
+
+				<label><![CDATA[You start Jon on a PIP regarding his use of derogatory language.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_award.png</icon>
+
+				<label><![CDATA[Jon stops using derogatory language towards the LGBTQ member of the team. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Jon overhears a group of female coworkers making a sexual joke about men. He assumes the joke is about him. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_gavel.png</icon>
+
+				<label><![CDATA[Jon brings a harassment claim, but an investigation doesn't find enough evidence to support it. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[You report through proper channels when Jon tells you he feels like the team is giving him the cold shoulder.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_dept.png</icon>
+
+				<label><![CDATA[Jon works through the proper channels to request a transfer.]]></label>
+
+			</event>
+
+		</state>
+
+		<state scriptID="STATE 20" id="A395" outcome="">
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You hire Jon Alberts to join your team.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_award.png</icon>
+
+				<label><![CDATA[Jon earns an achievement award.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_slur.png</icon>
+
+				<label><![CDATA[You start Jon on a PIP regarding his use of derogatory language.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_award.png</icon>
+
+				<label><![CDATA[Jon stops using derogatory language towards the LGBTQ member of the team. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Jon overhears a group of female coworkers making a sexual joke about men. He assumes the joke is about him. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_gavel.png</icon>
+
+				<label><![CDATA[Jon brings a harassment claim, but an investigation doesn't find enough evidence to support it. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Jon complains that the team is giving him the cold shoulder ever since he brought up the harassment claim.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[You confront the team about its behavior, which makes tensions run even higher.]]></label>
+
+			</event>
+
+		</state>
+
+		<state scriptID="STATE 21" id="A419" outcome="">
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You hire Jon Alberts to join your team.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_slur.png</icon>
+
+				<label><![CDATA[You start Jon on a PIP regarding his use of derogatory language.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_award.png</icon>
+
+				<label><![CDATA[Jon stops using derogatory language towards the LGBTQ member of the team. ]]></label>
+
+			</event>
+
+			<!-- <event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Jon tells you about a racist joke he hears in the conference room, and you handle it on your own. ]]></label>
+
+			</event> -->
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[The confrontation is not effective and the harassment continues.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_money.png</icon>
+
+				<label><![CDATA[Jon sues, claiming harassment.]]></label>
+
+			</event>
+
+		</state>
+
+		<state scriptID="STATE 22" id="A432" outcome="">
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You hire Jon Alberts to join your team.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_slur.png</icon>
+
+				<label><![CDATA[You start Jon on a PIP regarding his use of derogatory language.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_award.png</icon>
+
+				<label><![CDATA[Jon stops using derogatory language towards the LGBTQ member of the team. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Jon overhears a group of female coworkers making a sexual joke about men. He assumes the joke is about him. You report it to proper channels.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[You follow up through proper channels. The investigation does not reveal enough evidence to support the claim.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Proper channels provide a referesher on the Company's Anti-Harassment Policy.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_dept.png</icon>
+
+				<label><![CDATA[Jon reports that there have been no further incidents. He feels more comfortable with the team. ]]></label>
+
+			</event>
+
+		</state>
+
+		<state scriptID="STATE 23" id="A454" outcome="">
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You hire Jon Alberts to join your team.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_slur.png</icon>
+
+				<label><![CDATA[You start Jon on a PIP regarding his use of derogatory language.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_award.png</icon>
+
+				<label><![CDATA[Jon stops using derogatory language towards the LGBTQ member of the team. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Jon overhears a group of female coworkers making a sexual joke about men. He assumes the joke is about him. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_gavel.png</icon>
+
+				<label><![CDATA[Jon brings a harassment claim, but an investigation doesn't find enough evidence to support it. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[You report through proper channels when Jon tells you he feels like the team is giving him the cold shoulder.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_dept.png</icon>
+
+				<label><![CDATA[Jon works through the proper channels to request a transfer.]]></label>
+
+			</event>
+
+		</state>
+
+		<state scriptID="STATE 24" id="A476" outcome="">
+
+			<event>
+
+				<icon>icon_hire.png</icon>
+
+				<label><![CDATA[You hire Jon Alberts to join your team.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_slur.png</icon>
+
+				<label><![CDATA[You start Jon on a PIP regarding his use of derogatory language.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_award.png</icon>
+
+				<label><![CDATA[Jon stops using derogatory language towards the LGBTQ member of the team. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Jon overhears a group of female coworkers making a sexual joke about men. He assumes the joke is about him. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_gavel.png</icon>
+
+				<label><![CDATA[Jon brings a harassment claim, but an investigation doesn't find enough evidence to support it. ]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_speech.png</icon>
+
+				<label><![CDATA[Jon complains that the team is giving him the cold shoulder ever since he brought up the harassment claim.]]></label>
+
+			</event>
+
+			<event>
+
+				<icon>icon_dept.png</icon>
+
+				<label><![CDATA[You confront the team about its behavior, which makes tensions run even higher.]]></label>
+
+			</event>
+
+		</state>
+
+	</timeline>
+
+
+
+	<outcomes>
+
+		<title><![CDATA[Your Outcome]]></title>
+
+		<A31 advance="false">
+
+			<headline><![CDATA[Company Faces Fine for Discriminatory Hiring Practices]]></headline>
+
+			<copy><![CDATA[Oh no! The Equal Employment Opportunity Commission finds that your organization's hiring practices are discriminatory. Your organization faces fines, huge legal fees, and your judgment is questioned.<br><br>You must Try Again and give it another shot.]]></copy>
+
+		</A31>
+
+		<A38 advance="false">
+
+			<headline><![CDATA[Company to pay $500,000 in retaliation lawsuit!]]></headline>
+
+			<copy><![CDATA[Oh no! You failed to change the outcome in any significant way. Your organization is still facing huge financial penalties in Jon's successful retaliation lawsuit.<Br><br>Click Next if you're satisfied with this outcome. We recommend you click Try Again and give it another shot.]]></copy>
+
+		</A38>
+
+		<A67 advance="false">
+
+			<headline><![CDATA[Employee wins wrongful termination lawsuit!]]></headline>
+
+			<copy><![CDATA[Oh no! Since you failed to document Jon's behavior issues, your oganization was unable to prove the business justification for Jon's termination, and so Jon won his case.<br><br>You must click Try Again and give it another shot. ]]></copy>
+
+		</A67>
+
+		<A82 advance="false">
+
+			<headline><![CDATA[Company to pay $500,000 in retaliation lawsuit!]]></headline>
+
+			<copy><![CDATA[Oh no! While you successfully dealt with Jon's performance issue and outlined expectations for improvement, your actions failed to address the circumstances that lead to the retaliation lawsuit. Your organization is still going to defend itself in a costly litigation.]]></copy>
+
+		</A82>
+
+		<A111 advance="false">
+
+			<headline><![CDATA[Company sued in harassment lawsuit!]]></headline>
+
+			<copy><![CDATA[Oh no! Because you tried to handle the initial harassment complaint on your own, proper channels were not able to investigate or take disciplinary action against the harasser. As a result, the harassment continued and Jon decided to resign and bring a lawsuit. Your actions cost your organization significant defense costs and also cost you a great deal of money. Your supervisory abilities are now being questioned by senior management.]]></copy>
+
+		</A111>
+
+
+
+		<A131 advance="true">
+
+			<headline><![CDATA[Stocks on the rise!]]></headline>
+
+			<copy><![CDATA[Nice work! You intervened at the perfect time in the situation, and so things never escalated to the point of a retaliation claim. However, you missed an opportunity to deal with Jon's performance issues in a constructive way.<br><br>Go ahead and click Next if you're satisfied with the current outcome. Click Try Again if you'd like to explore additional opportunities for improvement.]]></copy>
+
+		</A131>
+
+		<A160 advance="true">
+
+			<headline><![CDATA[Stocks on the rise!]]></headline>
+
+			<copy><![CDATA[Nice work! Because you alerted the proper channels to the situation, the situation never escalated to the point of a retaliation lawsuit. You missed an opportunity to address Jon's performance issue in a constructive way, however. Who knows what positive outcome that might have had? Plus, you could have intervened even earlier for a more efficient solution.]]></copy>
+
+		</A160>
+
+		<A187 advance="false">
+
+			<headline><![CDATA[Company to pay $750,000 in retaliation lawsuit!]]></headline>
+
+			<copy><![CDATA[Oh no! Your decision to confront the team on your own about the potentially retaliatory behavior made the situation worse (since you are not trained to handle these situations yourself). While your intentions to help were good ones, it is best to continue to follow up through proper channels to help resolve issues that concern potential harassment, discrimination or retaliation. Otherwise, your organization may end up in a costly lawsuit.]]></copy>
+
+		</A187>
+
+		<A213 advance="false">
+
+			<headline><![CDATA[Employee wins wrongful termination lawsuit!]]></headline>
+
+			<copy><![CDATA[Oh no! Since you failed to document Jon's behavior issues, Jon's wrongful termination lawsuit was very compelling. He won his case, and you're now facing disciplinary action.<br><br>You must  click Try Again and give it another shot.]]></copy>
+
+		</A213>
+
+		<A222 advance="false">
+
+			<headline><![CDATA[Company to pay $500,000 in retaliation lawsuit!]]></headline>
+
+			<copy><![CDATA[Oh no! While you successfully dealt with Jon's performance issue and helped get him back on the right track, your actions failed to address the circumstances that lead to the retaliation lawsuit. Your  Company is still going to have to pay a huge penalty. <br><br>You must  click Try Again and give it another shot. ]]></copy>
+
+		</A222>
+
+		<A243 advance="false">
+
+			<headline><![CDATA[Company loses thousands in discrimination lawsuit!]]></headline>
+
+			<copy><![CDATA[Oh no! Because you tried to handle the initial harassment complaint on your own, the proper channels were not able to investigate or take disciplinary action against the harasser. As a result, the harassment continued and Jon decided to resign and bring a lawsuit. Your actions cost your organization significant defense costs and also cost you a great deal of money. Your supervisory abilities are now being questioned by senior management.]]></copy>
+
+		</A243>
+
+		<A254 advance="true">
+
+			<headline><![CDATA[Stocks on the rise!]]></headline>
+
+			<copy><![CDATA[Nice work! You intervened at the perfect time in the situation, and so things never escalated to the point of a retaliation claim. However, you missed an opportunity to deal with Jon's performance issues in a constructive way. <br><br>Go ahead and click Next if you're satisfied with the current outcome. Click Try Again if you'd like to explore additional opportunities for improvement.]]></copy>
+
+		</A254>
+
+		<A274 advance="false">
+
+			<headline><![CDATA[Employee wins wrongful termination lawsuit!]]></headline>
+
+			<copy><![CDATA[Oh no! Since you failed to document Jon's behavior issues, Jon's wrongful termination lawsuit was very compelling. He won his case, and you're now facing disciplinary action.<br><br>You must click Try Again and give it another shot.]]></copy>
+
+		</A274>
+
+		<A283 advance="true">
+
+			<headline><![CDATA[Stocks on the rise!]]></headline>
+
+			<copy><![CDATA[Nice work! Because you alerted the proper channels, the situation never escalated to the point of a retaliation lawsuit. You missed an opportunity to address Jon's performance issue in a constructive way, however. Who knows what positive outcome that might have had? Plus, you could have intervened even earlier for a more efficient solution.]]></copy>
+
+		</A283>
+
+		<A306 advance="false">
+
+			<headline><![CDATA[Company to pay $750,000 in retaliation lawsuit!]]></headline>
+
+			<copy><![CDATA[Oh no! Your decision to confront the team on your own about the potentially retaliatory behavior made the situation worse (since you are not trained to handle these situations yourself). While your intentions to help were good ones, it is best to continue to follow up through proper channels to help resolve issues that concern potential harassment, discrimination or retaliation. Otherwise, your organization may end up in a costly lawsuit.]]></copy>
+
+		</A306>
+
+		<A328 advance="false">
+
+			<headline><![CDATA[Company loses thousands in discrimination lawsuit!]]></headline>
+
+			<copy><![CDATA[Oh no! Because you tried to handle the initial harassment complaint on your own, Jon was able to win that lawsuit. Your actions cost you and your organization significant legal fees. Your supervisory abilities are now being questioned by senior management.<br><br>You must click Try Again and give it another shot.]]></copy>
+
+		</A328>
+
+		<A348 advance="true">
+
+			<headline><![CDATA[Manager is promoted!]]></headline>
+
+			<copy><![CDATA[Excellent work! You intervened early enough to prevent the retaliation claim from occurring. Even better, you were able to help a struggling employee when he needed it by using proper documentation. Choices like this create a safe environment where everyone can thrive.<br><br>You have passed this activity with flying colors! Click Next to move on.]]></copy>
+
+		</A348>
+
+		<A369 advance="true">
+
+			<headline><![CDATA[Stocks on the rise!]]></headline>
+
+			<copy><![CDATA[Nice work! Because you alerted proper channels to the situation, the situation never escalated to the point of a retaliation lawsuit. You were also able to help a struggling employee with a performance issue. However, you could have intervened even earlier in the retaliation situation for a more efficient solution.]]></copy>
+
+		</A369>
+
+		<A395 advance="false">
+
+			<headline><![CDATA[Company to pay $750,000 in retaliation lawsuit!]]></headline>
+
+			<copy><![CDATA[Oh no! Your decision to confront the team on your own about retaliatory behavior actually made the situation worse, giving Jon even more evidence to support his retaliation claim. In the long run, your decision here cost your organization  more money. <br><br>You must click Try Again and give it another shot.]]></copy>
+
+		</A395>
+
+		<A419 advance="false">
+
+			<headline><![CDATA[Company loses thousands in discrimination lawsuit!]]></headline>
+
+			<copy><![CDATA[Oh no! Because you tried to handle the initial harassment complaint on your own, Jon was able to win that lawsuit. Your actions cost your oranization a lot of money. <br><br>Click Next if you're satisfied with this outcome. We recommend you click Try Again and give it another shot.]]></copy>
+
+		</A419>
+
+		<A432 advance="true">
+
+			<headline><![CDATA[Stocks on the rise!]]></headline>
+
+			<copy><![CDATA[Nice work! You intervened at the perfect time in the situation, and so things never escalated to the point of a retaliation claim. You dealt with Jon's performance issues in a productive way, but you missed an opportunity to recognize him for his initial high performance. This isn't the end of the world, but it's important to be fair and accurate in your documentation (both the good and the bad). <br><br>Go ahead and click Next if you're satisfied with the current outcome. Click Try Again if you'd like to explore additional opportunities for improvement.]]></copy>
+
+		</A432>
+
+		<A454 advance="true">
+
+			<headline><![CDATA[Stocks on the rise!]]></headline>
+
+			<copy><![CDATA[Nice work! Because you  reported the situation through proper channels, the situation never escalated to the point of a retaliation lawsuit. However, you could have intervened even earlier for a more efficient solution.]]></copy>
+
+		</A454>
+
+		<A476 advance="false">
+
+			<headline><![CDATA[Company to pay $750,000 in retaliation lawsuit!]]></headline>
+
+			<copy><![CDATA[Oh no! Your decision to confront the team on your own about retaliatory behavior actually made the situation worse, giving Jon even more evidence to support his retaliation claim. In the long run, your decision here cost your organization more money. <br><br>You must click Try Again and give it another shot.]]></copy>
+
+		</A476>
+
+	</outcomes>
+	</scenario>

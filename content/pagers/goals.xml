@@ -1,0 +1,23 @@
+<pager>
+	<contentRoot>../../content/pagers/</contentRoot>
+	<buttons>
+		<next><![CDATA[NEXT]]></next>
+	</buttons>
+	<page background="img/1.jpg" x="0" y="415" width="1000">
+		<header><![CDATA[Let's Get Started]]></header>
+		<body><![CDATA[The goal of this training program is to help you gain a better understanding of what constitutes harassment and discrimination. 
+			<br><br>
+			As a supervisor, you have the added responsibility for understanding how to prevent harassment and discrimination and knowing what to do if and when you are made aware of it.]]></body>
+	</page>
+	<!-- <page background="img/welcome_1.jpg" x="400" y="60" width="600">
+		<header><![CDATA[How Will This Course Help Me?]]></header>
+		<body><![CDATA[As a supervisor, you are held to an even higher standard of behavior. As a person in a position of authority, you must exercise that authority with care.
+		<br><br>
+		You are also responsible for using your best efforts to prevent workplace harassment and discrimination. If you observe harassment you must report it.  If any harassment is reported to you, you must report that, too.  It's important that you are familiar with the circumstances and processes in which you are to report.  You could be held liable for failure to do so properly.
+]]></body>
+	</page>
+	<page background="img/welcome_5.jpg" x="0" y="114" width="492">
+		<header><![CDATA[The Good News!]]></header>
+		<body><![CDATA[The good news is that this training was designed to equip you with the knowledge and tools you need to fulfill these important responsibilities. You will finish this course with the confidence you need to make tough decisions.]]></body>
+	</page> -->
+</pager>

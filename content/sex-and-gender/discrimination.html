@@ -1,0 +1,92 @@
+<div id="contents" style="height:480px; width:720px">
+	<div class="header">Sex Discrimination</div>
+	<div class="bodycopy">
+		<div id="columnLeft">
+			Sex discrimination involves treating an applicant or employee unfavorably because of that person's sex. Unlike sexual harassment situations, sex discrimination involves a negative (or adverse) employment action taken against an individual based on the individual's gender.
+		</div>
+		<div id="columnRight">
+		<table style="width:100%">
+			<tr>
+				<td width="100%">
+					<div class="accordion">
+						<div class="accordion-head">Examples of Sex Discrimination</div>
+						<div class="accordion-body">
+							<ul class="small">
+                <li><span>Not promoting due to pregnancy</span></li>
+                <li><span>Treating women differently for fear of being the target of a sexual harassment claim</span></li>
+                <li><span>Denying an applicant a position because of their transgender status.</span></li>
+                <li><span>Refusing to allow a transgender person to use the bathroom of their choice</span></li>
+                <li><span>Moving an employee to a different department because their co-workers are uncomfortable with their sexual orientation</span></li>
+                <li><span>Telling a male applicant that the position he is applying for is better suited for a woman</span></li>
+                <li><span>Praising a man for his aggressiveness and critiquing a woman for having the same quality</span></li>
+                <li><span>Allowing a client to dictate which employees they'll work with based on their gender</span></li>
+							</ul>
+              <br>
+						</div>
+					</div>
+				</td>
+			</tr>
+
+		</table>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+<div class="green" style="text-align: left !important; margin-left: -26px !important;">Click green arrow to proceed.</div>
+<style>
+#contents{
+	color: white;
+	/*top: -10px;*/
+	/*position: relative;*/
+}
+#header{
+	color: #94d442;
+	font-size: 30px;
+	margin-bottom: 12px;
+}
+#bodycopy{
+	font-family:'OpenSansCond';
+}
+.headline{
+	font-family:'Gotham';
+	font-weight: bold;
+	margin: 20px 0 5px;
+}
+#columnLeft,
+#columnRight{
+	float: left;
+	margin: 0 7px;
+}
+#columnLeft { width: 40%; }
+#columnRight { width: 55%; margin-left: 9px; position: relative; top: 6px; left: 30px; }
+#bodycopy li{
+	list-style-type: square;
+	margin: 0 0 5px 20px;
+}
+.green{
+	text-align: left !important;
+	margin-left: -27px !important;
+}
+.btn.next { bottom: 25px; left: 72px !important; }
+.clear { clear: both; }
+
+
+
+
+
+</style>
+<script type="text/javascript">
+
+	$('.accordion').find('.accordion-head').unbind().click(function(){
+
+			$('.accordion-head').removeClass('open');
+			$(this).addClass('open');
+			//Expand or collapse this panel
+			$(this).siblings('.accordion-body').slideToggle('fast');
+
+			//Hide the other panels
+			$(".accordion-body").not($(this).siblings('.accordion-body')).slideUp('fast');
+
+		});
+
+</script>

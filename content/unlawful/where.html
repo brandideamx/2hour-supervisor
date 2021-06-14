@@ -1,0 +1,56 @@
+<div id="contents" style="position:relative;height:450px">
+	<div class="header">Where Can Unlawful Harassment Occur? FOR ALLEN REDESIGN</div>
+	<div class="bodycopy">
+		<div style="padding:0 0 10px 0">This course focuses on "workplace" harassment.</div>
+		<div style="padding:0 0 10px 0">But did you know that the workplace can be broadly defined and include more than just the building in which you work?</div>
+		<div style="padding:0 0 10px 0">The workplace also includes any place employees are fulfilling their work responsibilities including any place an employee is in the course of business or during business-related or business sponsored functions.</div>
+		<div class="accordion">
+			<div class="accordion-head">Workplace Examples</div>
+			<div class="accordion-body">
+				<ul>
+					<li><span>Organization-sponsored parties or events</span></li>
+					<li><span>Off-site meetings, seminars, trainings, conferences </span></li>
+					<li><span>In the field</span></li>
+					<li><span>Organization-sponsored travel (car, airplane, train)</span></li>
+					<li><span>Restaurant, hotel, bar </span></li>
+					<li><span>Client's place of business</span></li>
+					<li><span>Vendor's place of business</span></li>
+					<li><span>Employees can be the target of harassment through calls, texts, email and social media</span></li>
+					<li><span>Employee interactions during non-work hours can also have an impact on the<br>workplace and can be considered extensions of the work environment</span></li>
+				</ul>
+			</div>
+		</div>
+		<br><br><br>
+	</div>
+</div>
+<style>
+	.bodycopy {
+		width: 870px;
+		font-size: 17px;
+	}
+
+	.next {
+		width: 86px;
+		bottom: 37px !important;
+		left: 821px !important;
+	}
+
+	.green {
+		text-align: right;
+		margin-left: 67px;
+	}
+</style>
+<div class="green">Click green arrow to proceed.</div>
+<script type="text/javascript">
+	//$('.green').css('text-align', 'right');
+	$('.accordion').find('.accordion-head').unbind().click(function () {
+		$('.accordion-head').removeClass('open');
+		$(this).addClass('open');
+		//Expand or collapse this panel
+		$(this).siblings('.accordion-body').slideToggle('fast');
+
+		//Hide the other panels
+		$(".accordion-body").not($(this).siblings('.accordion-body')).slideUp('fast');
+
+	});
+</script>

@@ -1,0 +1,199 @@
+.container {
+    width: 1000px;
+    height: 662px;
+    background: url('img/page_bg.jpg');
+    padding-top: 38px;
+    font: 'Gotham Light', sans-serif;
+}
+
+.column {
+    text-align: center;
+    width: 900px;
+    margin: auto;
+}
+
+.headline {
+    margin-top: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.subhead {
+    font-size: 33px;
+    color: #abf24e;
+    margin: 5px 0 5px;
+}
+
+.menuList {
+    padding-left: 75px;
+}
+
+.menuList .item {
+    position: relative;
+    width: 148px;
+    height: 158px;
+    border: 1px solid #fff;
+    background-color: #34b5cb;
+    background-repeat: no-repeat;
+    background-position: 15px 10px;
+    float: left;
+    margin: 0 0 15px 15px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.menuList .item.locked {
+    background-image: url('img/locked.png');
+}
+
+.menuList .item.unlocked {
+    cursor: pointer;
+    background-color: #369FB2;
+    background-image: url('img/unlocked.png');
+}
+
+.menuList .item .circle {
+    width: 36px;
+    height: 32px;
+    background: url('img/menu_circle.png');
+    position: absolute;
+    top: 28px;
+    left: 54px;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.menuList .item.complete .circle {
+    background: url('img/menu_complete.png');
+}
+
+.menuList .item .num {
+    font-size: 22px;
+    font-family: 'Gotham', sans-serif;
+    font-weight: 500;
+    line-height: 28px;
+    color: #fff;
+    opacity: 0.38;
+    letter-spacing: -0.05em;
+}
+
+.menuList .item.complete .num {
+    display: none;
+}
+
+.menuList .item .text {
+    position: absolute;
+    bottom: 10px;
+    padding: 0 8px;
+    font-size: 14px;
+    line-height: 1.1;
+    font-weight: 300;
+}
+
+.menuList .item.unlocked .text {
+    font-weight: 700;
+}
+
+.menuList .menu_spacer {
+    width: 107px;
+    height: 158px;
+    position: relative;
+    float: left;
+}
+
+.inst {
+    color: #222;
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 0 0 15px;
+}
+
+.conclusion {
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: white;
+    opacity: 0;
+    visibility: hidden;
+}
+
+    .conclusion .logo {
+        width: 591px;
+        height: 188px;
+        display: block;
+        position: relative;
+        margin: 60px auto 0;
+        background: url(../../core/img/logo-large.png) no-repeat center;
+    }
+
+.conclusion .title{
+    font-size:30px;
+    text-align: center;
+    color:#7a7a7a;
+}
+.conclusion .copy {
+    color: #7a7a7a;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.conclusion .title {
+    margin: 50px 0 10px;
+}
+
+.conclusion .copy {
+    font-weight: 300;
+    padding: 0 123px;
+}
+
+.conclusion .return {
+    position: absolute;
+    right: 45px;
+    bottom: 45px;
+}
+
+.initial-popup {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    width: 595px;
+    height: auto;
+    background-color: white;
+    color: #333;
+    transform: translateY(-50%) translateX(-50%);
+    box-shadow: 0 10px 22px rgba(0,0,0,0.4);
+}
+
+.initial-popup .padding {
+    padding: 45px 45px 125px;
+}
+
+.initial-popup .btn.nextpop {
+    right: 45px;
+    bottom: 45px;
+}
+
+.initial-popup p {
+    line-height: 20px;
+}
+
+.dark-overlay {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+}

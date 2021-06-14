@@ -1,0 +1,34 @@
+<div class="contents slider-page">
+  <h2 class="header">Training Acknowledgement</h2>
+  <div class="large-text">
+    <p>Well done! You have completed your course work. As a final step, please complete the training acknowledgement.</p>
+    <p>By selecting "I accept", I acknowledge that I have completed the SHIFT training course Preventing Workplace Harassment and Discrimination in compliance with all of the locations in which I work and in which I supervise employees. I also agree that choosing "I accept" will serve as the equivalent of my electronic signature.</p>
+  </div>
+
+  <div class="center form">
+    <label><input type="checkbox" class="acceptance"> I accept</label>
+  </div>
+</div>
+<style>
+  .large-text {
+    font-size: 16px;
+  }
+  .center {
+    text-align: center;
+  }
+
+  .form {
+    box-sizing: border-box;
+    padding: 35px;
+  }
+</style>
+<script>
+  $('.next').prop('disabled', true);
+  $('.next').addClass('disabled');
+  $('.acceptance').on('change', function(e) {
+    if ($(e.target).prop('checked')) {
+      $('.next').removeClass('disabled');
+      $('.next').prop('disabled', false);
+    }
+  });
+</script>

@@ -1,0 +1,86 @@
+<div id="contents" style="height:480px">
+	<div class="header"><span style="font-size: 27px;">Sex Stereotyping</span></div>
+	<div class="bodycopy">
+			Sex stereotyping is another type of sex discrimination. It occurs when someone makes assumptions about a person or their abilities based on their sex. 
+		<div class="col">
+			
+			<div class="block">
+				<div class="accordion">
+					<div class="accordion-head"><b>Stereotypes may be based on:</b></div>
+					<div class="accordion-body">
+						<ul class="small">
+							<li><span>Appearance</span></li>
+							<li><span>Behavior</span></li>
+							<li><span>Gender roles</span></li>
+							<li><span>Gender expression</span></li>
+							<li><span>Gender identity</span></li>
+						</ul>
+					</div>    
+				</div>
+				<div class="accordion">
+					<div class="accordion-head"><b>Stereotypes about abilities may be based on:</b></div>
+					<div class="accordion-body">
+						<ul class="small">
+							<li><span>Myth</span></li>
+							<li><span>Social expectation or generalization </span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- <div class="col">
+			<div class="block">
+				<p><span class="bold">2)</span> An employee tells you that she had been Facebook friends with a co-worker, but blocked him from her account because some of his comments were "creepy". He then started texting, calling and emailing her personal accounts, asking to be invited back as a Facebook friend.</p>
+			</div>
+			<div class="block">
+				<div class="accordion">
+					<div class="accordion-head"><b>What should you do?</b></div>
+					<div class="accordion-body">
+						<ul class="small no-bullet">
+							<li><span>It is unclear what "creepy" means, but the employee clearly felt uncomfortable being connected on Facebook with the co-worker. The persistent nature of his requests to re-connect with her on Facebook (even on her personal cell or email) require you to report this through appropriate channels.</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<br>
+		<br>
+		<br>
+		<br>
+	</div>
+</div>
+<div class="green">Click green arrows to proceed.</div>
+<style>
+.bodycopy{
+	font-family: 'Gotham', sans-serif;
+	margin-bottom: 20px;
+}
+.col {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+}
+.col .block {
+	padding: 15px;
+	margin: 8px;
+}
+b, .bold {
+	font-weight: bold;
+}
+ul.no-bullet, ul.no-bullet li {
+	list-style: none;
+}
+</style>
+<script type="text/javascript">
+	$('.accordion-head').click(function() {
+		$('.accordion-head').removeClass('open');
+		$(this).addClass('open');
+		//Expand or collapse this panel
+		$(this).siblings('.accordion-body').slideToggle('fast');
+
+		//Hide the other panels
+		$(".accordion-body").not($(this).siblings('.accordion-body')).slideUp('fast');
+
+	});
+</script>

@@ -1,0 +1,54 @@
+<div id="contents">
+	<div class="header"><span style="font-size:31px">Transgender Employees and the Transitioning Process</span></div>
+	<div class="bodycopy">
+        A transgender employee may join your organization having previously transitioned from their sex at birth to their new identity. You may also have employees who begin their process of transitioning at any point during their employment. It's important to understand what transitioning means.<br><br>
+        <b>"Transitioning"</b> is a process some transgender people go through to begin living as the gender with which they identify, rather than the sex assigned to them at birth. This process may include social and/or physical transitioning described below.<br><br>
+		<table>
+			<tr>
+				<td width="400">
+					<div class="accordion">
+						<div class="accordion-head"><b>"Social Transitioning"</b></div>
+						<div class="accordion-body">
+							<ul class="small no-bullet">
+								<li><span>involves a process of socially aligning one's gender with the internal sense of self (e.g. changes in name and pronoun, bathroom facility usage, participation in activities like sports teams).</span></li>
+
+							</ul>
+						</div>
+					</div>
+				</td>
+				<td width="400">
+					<div class="accordion">
+						<div class="accordion-head"><b>"Physical Transitioning"</b></div>
+						<div class="accordion-body">
+							<ul class="small no-bullet">
+								<li><span>refers to medical treatments an individual may undergo to physically align their body with internal sense of self (e.g. hormone therapies or surgical procedures).</span></li>
+							</ul>
+						</div>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<br><br><br><br><br><br><br><br>
+	</div>
+</div>
+<div class="green">Click green arrows to proceed.</div>
+<style>
+b {
+	font-weight: bold;
+}
+ul.no-bullet, ul.no-bullet li {
+	list-style: none;
+}
+</style>
+<script type="text/javascript">
+	$('.accordion-head').click(function() {
+		$('.accordion-head').removeClass('open');
+		$(this).addClass('open');
+		//Expand or collapse this panel
+		$(this).siblings('.accordion-body').slideToggle('fast');
+
+		//Hide the other panels
+		$(".accordion-body").not($(this).siblings('.accordion-body')).slideUp('fast');
+
+	});
+</script>

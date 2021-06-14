@@ -1,0 +1,269 @@
+<convo>
+	<contentRoot>../../content/bullying-behavior/person1/</contentRoot>
+	<poster>person1/still_convo1.jpg</poster>
+	<name><![CDATA[Pat]]></name>
+	<intro>intro.mp3</intro>
+	<initScore>0</initScore>
+
+	<phase id="A2">
+		<customer_says>
+			<audio src="P1_A2.mp3" />
+			<transcript><![CDATA[Hey, you wanted to see me?]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[What do YOU think? Do you have any idea how you made our organization look in the client strategy meeting this morning?]]></you_say>
+			<coach><![CDATA[This response uses sarcasm and questions the employee's overall intelligence. It is more productive and less humiliating to focus on the issue instead of the employee.]]></coach>
+			<response>
+				<audio src="P1_A32.mp3" />
+				<transcript><![CDATA[Ummm. I guess not?]]></transcript>
+			</response>
+			<link>A32</link>
+			<score>-3</score>
+		</option>
+		<option>
+			<you_say><![CDATA[Yeah. You're in a bit of trouble. Why don't you tell me what you think you were doing in the client strategy meeting this morning…]]></you_say>
+			<coach><![CDATA[This language is shaming and non-specific, which sets a negative tone and attacks the employee's overall intelligence. Stay focused and open the conversation in an appropriate manner.]]></coach>
+			<response>
+				<audio src="P1_A7.mp3" />
+				<transcript><![CDATA[What do you mean? I wasn't even presenting anything.]]></transcript>
+			</response>
+			<link>A7</link>
+			<score>-1</score>
+		</option>
+		<option>
+			<you_say><![CDATA[Yes. I want to talk with you about your behavior at the client strategy meeting this morning.]]></you_say>
+			<coach><![CDATA[Good choice. You kept calm and opened the conversation in an appropriate manner.]]></coach>
+			<response>
+				<audio src="P1_A7.mp3" />
+				<transcript><![CDATA[What do you mean? I wasn't even presenting anything.]]></transcript>
+			</response>
+			<link>A7</link>
+			<score>4</score>
+		</option>
+	</phase>
+
+	<phase id="A7">
+		<customer_says>
+			<audio src="P1_A7.mp3" />
+			<transcript><![CDATA[What do you mean? I wasn't even presenting anything.]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[When we're in a client meeting, you represent the organization. It makes us look unprofessional when you wear shorts, and it's upsetting to the client when you interrupt them.]]></you_say>
+			<coach><![CDATA[Nice work. You directly explained what the issues are and how they relate to the business.]]></coach>
+			<response>
+				<audio src="P1_A12.mp3" />
+				<transcript><![CDATA[But it's casual Friday, and Mr. Loring was saying the same thing over and over. Someone had to stop him.]]></transcript>
+			</response>
+			<link>A12</link>
+			<score>5</score>
+		</option>
+		<option>
+			<you_say><![CDATA[In a client meeting, you are always presenting. Your dress and behavior are associated with our organization. How do you not understand that?]]></you_say>
+			<coach><![CDATA[You explained the issues well. However, you also questioned the employee's general intelligence, which is inappropriate.  Next time leave the last question out.]]></coach>
+			<response>
+				<audio src="P1_A12.mp3" />
+				<transcript><![CDATA[But it's casual Friday, and Mr. Loring was saying the same thing over and over. Someone had to stop him.]]></transcript>
+			</response>
+			<link>A12</link>
+			<score>2</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I don't care if you're presenting or not. You were acting like a child, and that's an embarrassment to you and the organization.]]></you_say>
+			<coach><![CDATA[This may be how you feel, but it's not appropriate to embarrass employees or call them names. This could be interpreted as bullying behavior.]]></coach>
+			<response>
+				<audio src="P1_A37.mp3" />
+				<transcript><![CDATA[Look, I'm not going to sit here and be insulted. What are you so upset about?]]></transcript>
+			</response>
+			<link>A37</link>
+			<score>-4</score>
+		</option>
+	</phase>
+
+	<phase id="A12">
+		<customer_says>
+			<audio src="P1_A12.mp3" />
+			<transcript><![CDATA[But it's casual Friday, and Mr. Loring was saying the same thing over and over. Someone had to stop him.]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[If anyone is going to interrupt a client, it'll be someone above your pay grade. Got it?]]></you_say>
+			<coach><![CDATA[Using an employee's salary and position as a means of disrespect could be interpreted as bullying behavior.]]></coach>
+			<response>
+				<audio src="P1_A17.mp3" />
+				<transcript><![CDATA[Fine. I won't speak unless spoken to.]]></transcript>
+			</response>
+			<link>A17</link>
+			<score>-2</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I'm not interested in your reasons. I need you to know that this behavior is unacceptable in front of the client and won't be tolerated.]]></you_say>
+			<coach><![CDATA[Good. By skipping over the excuses, you avoided an unnecessary argument. You also set appropriate expectations for the workplace.]]></coach>
+			<response>
+				<audio src="P1_A17.mp3" />
+				<transcript><![CDATA[Fine. I won't speak unless spoken to.]]></transcript>
+			</response>
+			<link>A17</link>
+			<score>4</score>
+		</option>
+		<option>
+			<you_say><![CDATA[He was clearly concerned about something. I wanted to give him time to vent so we could focus on the real issues, but you screwed that up.]]></you_say>
+			<coach><![CDATA[Explaining the effects of the employee's behavior can be a useful conversation, but you ended the response with words of blame and anger.]]></coach>
+			<response>
+				<audio src="P1_A42.mp3" />
+				<transcript><![CDATA[How about I come back when you cool off?]]></transcript>
+			</response>
+			<link>A42</link>
+			<score>2</score>
+		</option>
+	</phase>
+
+	<phase id="A17">
+		<customer_says>
+			<audio src="P1_A17.mp3" />
+			<transcript><![CDATA[Fine. I won't speak unless spoken to.]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[You're being dramatic. You'd better change your attitude, or you're not going to be around for the next meeting.]]></you_say>
+			<coach><![CDATA[Labeling and threats of termination come across as bullying. There are better ways to get your point across.]]></coach>
+			<link>END</link>
+			<score>-3</score>
+		</option>
+		<option>
+			<you_say><![CDATA[That's not what I'm saying. You have good insights. I just need you to present yourself professionally so the client has reason to respect your input.]]></you_say>
+			<coach><![CDATA[Perfect! You were courteous and used constructive criticism regarding the business to get your point across.]]></coach>
+			<link>END</link>
+			<score>5</score>
+		</option>
+		<option>
+			<you_say><![CDATA[Wouldn't that be nice? I'm kidding. Just please take this matter seriously, okay?]]></you_say>
+			<coach><![CDATA[Be careful. Humor like this may not be well received and may be interpreted as bullying.]]></coach>
+			<link>END</link>
+			<score>2</score>
+		</option>
+	</phase>
+
+	<phase id="A32">
+		<customer_says>
+			<audio src="P1_A32.mp3" />
+			<transcript><![CDATA[Ummm. I guess not?]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[Well I'll tell you. You made us look rude and unprofessional.]]></you_say>
+			<coach><![CDATA[This explanation is not specific. Try to tie specific actions to specific results.]]></coach>
+			<response>
+				<audio src="P1_A7.mp3" />
+				<transcript><![CDATA[What do you mean? I wasn't even presenting anything.]]></transcript>
+			</response>
+			<link>A7</link>
+			<score>1</score>
+		</option>
+		<option>
+			<you_say><![CDATA[So you don't remember showing up in shorts, or upsetting Mr. Loring?]]></you_say>
+			<coach><![CDATA[This is a leading question that attempts to trap the employee in a lie he didn't actually say. Subtle manipulation like this may be viewed as contributing to bullying.]]></coach>
+			<response>
+				<audio src="P1_A12.mp3" />
+				<transcript><![CDATA[But it's casual Friday, and Mr. Loring was saying the same thing over and over. Someone had to stop him.]]></transcript>
+			</response>
+			<link>A12</link>
+			<score>-1</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I'm serious. It hurts our business when you don't dress professionally or act respectfully to our clients.]]></you_say>
+			<coach><![CDATA[You provided a business-related reason for your frustration. This will help you get back on track.]]></coach>
+			<response>
+				<audio src="P1_A12.mp3" />
+				<transcript><![CDATA[But it's casual Friday, and Mr. Loring was saying the same thing over and over. Someone had to stop him.]]></transcript>
+			</response>
+			<link>A12</link>
+			<score>3</score>
+		</option>
+	</phase>
+
+	<phase id="A37">
+		<customer_says>
+			<audio src="P1_A37.mp3" />
+			<transcript><![CDATA[Look, I'm not going to sit here and be insulted. What are you so upset about?]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[So you can insult our client by rudely interrupting him, but you don't think you should be insulted?]]></you_say>
+			<coach><![CDATA[This approach is argumentative and attempts to justify bullying behavior. There is no excuse for bullying in the workplace.]]></coach>
+			<response>
+				<audio src="P1_A42.mp3" />
+				<transcript><![CDATA[How about I come back when you cool off?]]></transcript>
+			</response>
+			<link>A42</link>
+			<score>-4</score>
+		</option>
+		<option>
+			<you_say><![CDATA[For the sake of the business, you have to treat the client with respect. This means that you should always dress appropriately and not interrupt people.]]></you_say>
+			<coach><![CDATA[Nice recovery. You brought the conversation back to the specific issues that put the business at risk.]]></coach>
+			<response>
+				<audio src="P1_A12.mp3" />
+				<transcript><![CDATA[But it's casual Friday, and Mr. Loring was saying the same thing over and over. Someone had to stop him.]]></transcript>
+			</response>
+			<link>A12</link>
+			<score>3</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I'm upset because you don't seem to realize how important it is to make a good impression on the client. You can't just blurt your opinions out when they're talking.]]></you_say>
+			<coach><![CDATA[Honesty and context are helpful here, but your wording should focus more on the problem and less on the employee.]]></coach>
+			<response>
+				<audio src="P1_A17.mp3" />
+				<transcript><![CDATA[Fine. I won't speak unless spoken to.]]></transcript>
+			</response>
+			<link>A17</link>
+			<score>2</score>
+		</option>
+	</phase>
+
+	<phase id="A42">
+		<customer_says>
+			<audio src="P1_A42.mp3" />
+			<transcript><![CDATA[How about I come back when you cool off?]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[Hey, I'm not trying to be mean. I just want you to understand how serious this is. I want you to succeed here and keep moving up in the organization.]]></you_say>
+			<coach><![CDATA[It is good that you recognized your behavior errors. You also started to set some expectations regarding consequences, and remembered to do so in a positive manner.]]></coach>
+			<link>END</link>
+			<score>3</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I didn't mean to offend you. Will you just promise you'll try to control yourself from now on?]]></you_say>
+			<coach><![CDATA[It is good that you recognized your behavior errors and asked for cooperation. However, your question appears to accuse the employee of more than necessary.]]></coach>
+			<link>END</link>
+			<score>-2</score>
+		</option>
+		<option>
+			<you_say><![CDATA[This isn't over. I'll be watching you like a hawk from now on, so you'd better get it together.]]></you_say>
+			<coach><![CDATA[You may be upset and untrusting of this employee, but your language is threatening and creates an atmosphere of paranoia. This is bullying behavior.]]></coach>
+			<link>END</link>
+			<score>-5</score>
+		</option>
+	</phase>
+
+	<ending>
+		<best>
+			<audio>P1_best.mp3</audio>
+			<transcript><![CDATA[I understand. I'll do my best.]]></transcript>
+			<title><![CDATA[Great Job!]]></title>
+			<feedback><![CDATA[This was a difficult situation, and you performed with excellence. You kept your language appropriate and grounded your criticism in the context of the business. Well done.]]></feedback>
+		</best>
+		<average>
+			<audio>P1_average.mp3</audio>
+			<transcript><![CDATA[Okay. I'll see what I can do.]]></transcript>
+			<title><![CDATA[Good!]]></title>
+			<feedback><![CDATA[Overall, you adequately handled this situation. You were able to curb most behaviors that could be interpreted as bullying.]]></feedback>
+		</average>
+		<below>
+			<audio>P1_below.mp3</audio>
+			<transcript><![CDATA[Fine. I clearly don't want to get on your bad side.]]></transcript>
+			<title><![CDATA[Okay...]]></title>
+			<feedback><![CDATA[The employee is alarmed by some of your responses. You may want to try this scenario again, and refrain from unwarranted language and criticism that could be interpreted as bullying.]]></feedback>
+		</below>
+		<fail>
+			<audio>P1_fail.mp3</audio>
+			<transcript><![CDATA[I'm not going to fight you on this, but I don't deserve this kind of hostility either.]]></transcript>
+			<title><![CDATA[Uh Oh!]]></title>
+			<feedback><![CDATA[The way you handled this conversation has demonstrated hostility and could easily be interpreted as bullying. This may have negative implications for you and the organization. You should give this scenario another try.]]></feedback>
+		</fail>
+	</ending>
+</convo>

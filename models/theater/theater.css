@@ -1,0 +1,15 @@
+.container {
+    width: 800px;
+    height: 550px;
+    padding: 150px 100px 0;
+    background: url('img/page_bg.jpg');
+}
+
+.next {
+    right: 30px;
+    bottom: 30px
+}
+.transcript{
+	left:30px;
+	bottom:30px
+}

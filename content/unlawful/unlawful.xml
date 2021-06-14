@@ -1,0 +1,473 @@
+<data>
+	<assetpath><![CDATA[../../content/unlawful/img/]]></assetpath>
+	<question><![CDATA[Should this be reported?]]></question>
+	<buttons>
+		<yes><![CDATA[Yes]]></yes>
+		<no><![CDATA[No]]></no>
+		<close><![CDATA[Close]]></close>
+		<next><![CDATA[Next]]></next>
+		<policy><![CDATA[<div style="font-size:13px; margin-top:-5px; line-height: 13px; color: white;">Protected Characteristics</div>]]></policy>
+	</buttons>
+
+	<definitionPopup>content/unlawful/definition_popup.html</definitionPopup>
+
+	<introvideo>
+        <vidnext><![CDATA[NEXT]]></vidnext>
+        <video>../../content/unlawful/video/M1-introvideo-GOLD.mp4</video>
+    </introvideo>
+
+	<intro>
+		<!--<page type="slider" background="whatDisc_intro1.jpg" x="0" y="0" width="1000" height="600"
+			   html="../slider.html">
+			<background scale="1" x="0" y="0" animate="false"/>
+			<header><![CDATA[What are Legally Protected Characteristics?]]></header>
+		</page>-->
+
+		<page background="4.jpg" x="0" y="310" width="450">
+			<background scale="1" x="0" y="0" animate="true"/>
+			<header><![CDATA[LET'S GET STARTED]]></header>
+			<body><![CDATA[The next few screens will help provide you with a better understanding and recognition of harassment and discrimination in the workplace and the role you play in preventing it when you can and responding appropriately when you can't. ]]></body>
+		</page>
+
+		<page background="whatDisc_intro1.jpg" x="0" y="300" width="1000">
+			<background scale="1" x="0" y="0" animate="false"/>
+			<header><![CDATA[Discrimination in the Workplace]]></header>
+			<body><![CDATA[<div style="line-height: 0.9;">Discrimination is unlawful and will not be tolerated at your organization. 
+				<br><br>
+					<div style="line-height: 1.1;">
+				It occurs when members of a legally protected class (which we'll define shortly) are treated differently than their peers.
+					</div>
+				<br> 
+				Differential treatment can come in the form of: 
+
+									<ul>
+										<li>Hiring</li>
+										<li>Promotion</li>
+										<li>Compensation</li>
+										<li>Termination</li>
+										<li>Other terms and conditions of employment</li>
+									</ul>
+				</div>
+     ]]></body>
+		</page>
+
+		<page background="SAME" x="0" y="0" width="1000" height="400" nextX="810" html="../workplace.html">
+			<background scale="1" x="0" y="0" animate="true"/>
+		</page>
+
+		<page background="SAME" x="0" y="0" width="1000" height="400" html="../unlawful.html" nextX="810">
+			<background scale="1" x="0" y="0" animate="true"/>
+		</page>
+	</intro>
+
+	<examples>
+		<next><![CDATA[NEXT]]></next>
+		<header><![CDATA[What Does Harassment/Discrimination Look Like in the Workplace?]]></header>
+		<instructions><![CDATA[Click each image below to see some examples of harassment and discrimination.]]></instructions>
+
+		<example>
+			<img src="3_1.jpg" />
+			<label><![CDATA[]]></label>
+			<feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;">
+				Firing due to national origin
+			</div>]]></feedback>
+		</example>
+		<example>
+			<img src="3_2.jpg" />
+			<label><![CDATA[]]></label>
+			<feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;">
+				Failure to promote due to sex
+			</div>]]></feedback>
+		</example>
+		<example>
+			<img src="3_3.jpg" />
+			<label><![CDATA[]]></label>
+			<feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;">
+				Reassigning to a position with significantly reduced duties because of pregnancy
+			</div>]]></feedback>
+		</example>
+		<example>
+			<img src="3_4.jpg" />
+			<label><![CDATA[]]></label>
+			<feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;">
+				Failure to provide a disability or religious accommodation
+			</div>]]></feedback>
+		</example>
+		<example>
+			<img src="3_5.jpg" />
+			<label><![CDATA[]]></label>
+			<feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;">
+				Unrelenting comments directed at an employee's gender
+			</div>]]></feedback>
+		</example>
+		<example>
+			<img src="3_6.jpg" />
+			<label><![CDATA[]]></label>
+			<feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;">
+				Text messages from a female employee to a male employee pressuring him for dates
+			</div>]]></feedback>
+		</example>
+		<example>
+			<img src="3_7.jpg" />
+			<label><![CDATA[]]></label>
+			<feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;">
+				Refusing to use a transgender employee's chosen name and pronouns
+			</div>]]></feedback>
+		</example>
+	</examples>
+
+
+	<intro11>
+		<page background="newpic2.jpg" x="0" y="225" width="558">
+			<background scale="1" x="0" y="0" animate="true"/>
+			<header><![CDATA[Who Can Be a Target or a Perpetrator?]]></header>
+			<body><![CDATA[
+			<ul>
+				<li><span>Supervisors/Managers</span></li>
+				<li><span>Employees/Co-Workers</span></li>
+				<li><span>Contingent Workers</span></li>
+				<li><span>Clients/Customers</span></li>
+				<li><span>Visitors/Guests</span></li>
+				<li><span>Vendors</span></li>
+				<li><span>Interns</span></li>
+				<li><span>Other Third Parties (e.g., building security)</span></li>
+				<li><span>Bystanders</span></li>
+			</ul>
+			]]></body>
+		</page>
+
+		<page background="whatDisc_intro2.jpg" x="0" y="105" width="1000" nextX="470" html="../where.html">
+			<background scale="1" x="-104" y="-40" animate="true"/>
+		</page>
+
+		<page background="4.jpg" x="0" y="0" width="500" html="../consider.html">
+			<background scale="1" x="0" y="0" animate="false"/>
+		</page>
+
+
+	</intro11>
+
+
+
+	<examples2>
+		<next><![CDATA[NEXT]]></next>
+		<header><![CDATA[Your Organization's Responsibilities ]]></header>
+		<instructions><![CDATA[Your organization has a written anti-harassment and discrimination policy which clearly states a zero tolerance policy toward harassment and is responsible for taking steps to prevent harassment and discrimination. They are also responsible for addressing harassment and discrimination when it occurs.  Click the boxes below to learn more about your organization's responsibilities in addressing harassment and discrimination.]]></instructions>
+
+		<example>
+			<img src="a1.jpg" />
+			<label><![CDATA[]]></label>
+			<feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;">
+				Respond appropriately to stop harassment and discrimination
+			</div>]]></feedback>
+		</example>
+		<example>
+			<img src="a2.jpg" />
+			<label><![CDATA[]]></label>
+			<feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;">
+				    Investigate thoroughly all allegations of harassment and discrimination 
+			</div>]]></feedback>
+		</example>
+		<example>
+			<img src="a3.jpg" />
+			<label><![CDATA[]]></label>
+			<feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;">
+				    Maintain the anonymity of the complainant as much as appropriate 
+			</div>]]></feedback>
+		</example>
+		<example>
+			<img src="a4.jpg" />
+			<label><![CDATA[]]></label>
+			<feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;">
+				    Prohibit retaliation against employees who complain or assist in the investigation 
+			</div>]]></feedback>
+		</example>
+		<example>
+			<img src="a5.jpg" />
+			<label><![CDATA[]]></label>
+			<feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;">
+				    Refer individuals to internal or external training 
+			</div>]]></feedback>
+		</example>
+		<example>
+			<img src="a6.jpg" />
+			<label><![CDATA[]]></label>
+			<feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;">
+				    Take disciplinary action, such as warnings or terminations, to correct behavior 
+			</div>]]></feedback>
+		</example>
+		<example>
+			<img src="a7.jpg" />
+			<label><![CDATA[]]></label>
+			<feedback><![CDATA[<div style="line-height: 27px;font-size: 23px;">
+				    Have follow up discussion with the parties 
+			</div>]]></feedback>
+		</example>
+	</examples2>
+
+
+	<intro2>
+
+		<!-- <page background="SAME" x="0" y="92" width="1000" height="463" html="../workplace.html">
+          <background scale="0.85" x="-204" y="-129" animate="true"/>
+        </page> -->
+
+		<!-- <page background="whatDisc_intro1.jpg" x="0" y="137" width="558">
+			<background scale="1" x="-300" y="-30" animate="false"/>
+			<header><![CDATA[Your Organization's Responsibilities]]></header>
+			<body>
+				<![CDATA[
+					<ul>
+						<li>Take steps to prevent harassment and discrimination</li>
+						<li>Respond appropriately to stop harassment and discrimination</li>
+						<li>Investigate thoroughly all allegations of harassment and discrimination</li>
+						<li>Maintain the anonymity of the complainant as much as appropriate</li>
+						<li>Prohibit retaliation against employees who complain or assist in the investigation</li>
+					</ul>
+				]]>
+			</body>
+		</page> -->
+
+		<!-- <page background="whatDisc_intro1.jpg" x="442" y="137" width="558">
+			<background scale="1" x="-300" y="-60" animate="false"/>
+			<header><![CDATA[The Organization's Response to Harassment]]></header>
+			<body><![CDATA[In order to prevent or stop harassment that may be occurring, one or more of these strategies may be necessary:<br>
+			<ul>
+				<li><span>Refer individuals to internal or external training</span></li>
+				<li><span>Take disciplinary action, such as warnings or terminations, to correct behavior</span></li>
+				<li><span>Have follow up discussion with the parties</span></li>
+			</ul>]]></body>
+		</page> -->
+
+		<page background="updatedpic2.jpg" x="527" y="42" width="475" html="../outro.html">
+			<background scale="1" x="0" y="0" animate="false"/>
+		</page>
+
+		
+
+		
+
+		<page background="2ndpic.jpg" x="0" y="242" width="576">
+			<background scale="1" x="0" y="0" animate="true"/>
+			<header><![CDATA[Reporting Workplace Issues]]></header>
+			<body><![CDATA[You are about to see a series of communications and situations. Which ones could potentially constitute unlawful discrimination or harassment?
+				<br><br>
+				In this activity, read the scenario and decide if you should report the situation internally so appropriate action can be taken by clicking YES or NO. But be careful! Your decisions will have consequences for you and your organization.]]></body>
+		</page>
+	</intro2>
+
+
+	<page2>
+		<header><![CDATA[Identifying Potential Issues]]></header>
+		<textarea><![CDATA[An important part of preventing workplace harassment and discrimination is identifying when an issue has occurred or is occurring so that you can involve appropriate channels as early as possible (protecting both you and your organization from legal action).<br><br>
+		You are about to see a series of communications and situations. Which ones could potentially constitute unlawful discrimination or harassment? It is up to you to decide if appropriate channels needs to be involved.]]></textarea>
+	</page2>
+
+	<instructions id="popup"><![CDATA[In this activity, read the scenario and decide if you should report the situation to appropriate channels by clicking YES or NO. But be careful! If you choose incorrectly, the consequences for you and your organization could be severe!]]></instructions>
+
+	<instructions id="persistent"><![CDATA[Should you report to appropriate channels? Click Yes or No.<br>
+		Review the protected categories in your state if you are stuck.]]></instructions>
+
+	<issue id="0" src="email-bg.png" fb="01_circle.png" thumb="thumb-email1.jpg" answer="no" type="email">
+		<blurb><![CDATA[Desk Move Request]]></blurb>
+		<caption><![CDATA[You see this email waiting for you when you get to work on Monday morning...]]></caption>
+		<to><![CDATA[manager@xyz.net]]></to>
+		<subject><![CDATA[Desk move request?]]></subject>
+		<text><![CDATA[Hello,<br><br>I hope your week is off to a good start. I have a request:<br><br>I currently sit next to Emma.  She spends a lot of time on client calls and she can be pretty loud. I find it distracting. Is there any way I can move my desk?<br><br>Thanks!]]></text>
+
+		<feedback>
+			<incorrect>
+				<title><![CDATA[No need to report this.]]></title>
+				<copy><![CDATA[Your employee's request to move away from a loud co-worker does not seem to relate to a protected characteristic. You can most likely handle this internally, without escalating the situation. ]]></copy>
+			</incorrect>
+			<correct>
+				<title><![CDATA[Great Work!]]></title>
+				<copy><![CDATA[Your employee's request to move away from a loud co-worker does not seem to relate to a protected characteristic. You can most likely handle this internally, without escalating the situation. ]]></copy>
+			</correct>
+		</feedback>
+	</issue>
+
+
+	<issue id="1" src="conference-room.jpg" fb="02_circle.png" thumb="thumb-conference.jpg" answer="no" type="image">
+		<blurb><![CDATA[Complimenting Appearance]]></blurb>
+		<text align="left" x="193" y="128"><![CDATA[That dress looks great on you, Cheryl!]]></text>
+		<text align="right" x="115" y="280"><![CDATA[Thanks!]]></text>
+		<caption><![CDATA[You are walking into a conference room when you notice this exchange between a male and female employee...]]></caption>
+
+		<feedback>
+			<incorrect>
+				<title><![CDATA[No need to report this.]]></title>
+				<copy><![CDATA[<span style="font-size: 13px;line-height: 0px;">A male employee complimented the outfit of a female employee. At this point, without any more information, the conduct would not be considered unlawful harassment or discrimination. If you notice a pattern in which this person only compliments women, or if a person complains about the behavior, then the comments may be characterized as unlawful harassment or discrimination. But that does not seem to be the case here. Remember though, it may only take one inappropriate comment to be considered harassment if it interferes or undermines a person's sense of well-being in the workplace. </span>]]></copy>
+			</incorrect>
+			<correct>
+				<title><![CDATA[Great Work!]]></title>
+				<copy><![CDATA[<span style="font-size: 15px">A male employee complimented the outfit of a female employee. At this point, without any more information, the conduct would not be considered unlawful harassment or discrimination. If you notice a pattern in which this person only compliments women, or if a person complains about the behavior, then the comments may be characterized as unlawful harassment or discrimination. But that does not seem to be the case here. Remember though, it may only take one inappropriate comment to be considered harassment if it interferes or undermines a person's sense of well-being in the workplace. </span>]]></copy>
+			</correct>
+		</feedback>
+	</issue>
+
+	<issue id="2" src="party.jpg" fb="03_circle.png" thumb="thumb-party.jpg" answer="yes" type="image">
+		<blurb><![CDATA[Hugs at the Holiday Party]]></blurb>
+		<text align="left" x="90" y="38"><![CDATA[Hey, I wanted to let you know that Sean was acting really creepy towards the women again at the holiday party last week. He may have been drunk, but he had his arms all over the young, female associates and some of them told me that they were really uncomfortable.]]></text>
+		<caption><![CDATA[You are heading back to the office from a client site when your direct report, Jim, mentions something to you...]]></caption>
+
+		<feedback>
+			<incorrect>
+				<title><![CDATA[Believe it or not, you should have reported this.]]></title>
+				<copy><![CDATA[Your employee has raised a concern that he saw a colleague  making some other employees uncomfortable at a recent holiday party. He observed what he believed to be unwanted touching based on gender. It is irrelevant that he may have been intoxicated. Because gender is a protected characteristic, you were right to report this concern through the proper channels.]]></copy>
+			</incorrect>
+			<correct>
+				<title><![CDATA[Great Work!]]></title>
+				<copy><![CDATA[Your employee has raised a concern that he saw a colleague  making some other employees uncomfortable at a recent holiday party. He observed what he believed to be unwanted touching based on gender. It is irrelevant that he may have been intoxicated. Because gender is a protected characteristic, you were right to report this concern through the proper channels.]]></copy>
+			</correct>
+		</feedback>
+	</issue>
+
+	<issue id="3" src="phone-bg.png" fb="04_circle.png" thumb="thumb-sms.jpg" answer="yes" type="sms">
+		<blurb><![CDATA[Kitchen Smell Complaint]]></blurb>
+		<text><![CDATA[Raj is stinking up the kitchen again with that curry of his! Why can't he eat normal food like the rest of us do?]]></text>
+		<caption><![CDATA[You are in a meeting when you get a text from one of your employees...]]></caption>
+		<feedback>
+			<incorrect>
+				<title><![CDATA[You should have reported this.]]></title>
+				<copy><![CDATA[Of course, not every comment about food preparation would need to be reported. This text  seems like it may be a derogatory reference to this employee's national origin, which is a protected characteristic.  As a result, you were correct to report it. ]]></copy>
+			</incorrect>
+			<correct>
+				<title><![CDATA[Great Work!]]></title>
+				<copy><![CDATA[Of course, not every comment about food preparation would need to be reported. This text  seems like it may be a derogatory reference to this employee's national origin, which is a protected characteristic.  As a result, you were correct to report it. ]]></copy>
+			</correct>
+		</feedback>
+	</issue>
+
+	<issue id="4" src="05_preg.jpg" fb="05_circle.png" thumb="05_preg_thumb.jpg" answer="yes" type="image">
+		<blurb><![CDATA[Employee Denied Promotion]]></blurb>
+		<text align="right" x="4" y="69"><![CDATA[Can you tell me why I didn't get the promotion you recommended me for? It seems odd that there was a change in plans after I just took a medical leave.]]></text>
+		<caption><![CDATA[Tess, an employee who was out on medical leave to deal with her anxiety, comes to your office obviously upset...]]></caption>
+
+		<feedback>
+			<incorrect>
+				<title><![CDATA[You should have reported this.]]></title>
+				<copy><![CDATA[Because your employee was out on medical leave, she may perceive the leave or her medical condition to be the reason she was not promoted. Even if this is not the case, you were correct to report this, as this could relate to disability (a protected characteristic).]]></copy>
+			</incorrect>
+			<correct>
+				<title><![CDATA[Great Work!]]></title>
+				<copy><![CDATA[Because your employee was out on medical leave, she may perceive the leave or her medical condition to be the reason she was not promoted. Even if this is not the case, you were correct to report this, as this could relate to disability (a protected characteristic).]]></copy>
+			</correct>
+		</feedback>
+	</issue>
+
+	<issue id="5" src="email-bg.png" fb="06_circle.png" thumb="thumb-email2.jpg" answer="yes" type="email">
+		<caption><![CDATA[Ted, a quieter member of your team, sends you the following email...]]></caption>
+		<to><![CDATA[manager@xyz.net]]></to>
+		<subject><![CDATA[concern]]></subject>
+		<blurb><![CDATA[Teasing Employee with a Disability]]></blurb>
+		<text><![CDATA[Hello,<br><br>
+			Ever since I told my colleagues that I had ADHD and I need a quiet place to work, they've been saying things like "Shh! Ted's coming. Don't make any noise!" It's uncomfortable, and I don't know who to talk to about it.]]></text>
+
+		<feedback>
+			<incorrect>
+				<title><![CDATA[You should have reported this.]]></title>
+				<copy><![CDATA[Take another look at the list of Protected Characteristics. Because ADHD is considered a disability and disability is a protected characterisitic and the co-workers' comments were directed at the employee's disability, you were correct to report his concerns through the proper channels.]]></copy>
+			</incorrect>
+			<correct>
+				<title><![CDATA[Great Work!]]></title>
+				<copy><![CDATA[Because ADHD is considered a disability and disability is a protected characteristic and the co-workers' comments were directed at the employee's disability, you were correct to report his concerns through the proper channels.]]></copy>
+			</correct>
+		</feedback>
+	</issue>
+
+	<issue id="6" src="07_crudejokes.jpg" fb="07_circle.png" thumb="07_crudejokes_thumb.jpg" answer="yes" type="image">
+		<blurb><![CDATA[Age Bias]]></blurb>
+		<text align="right" x="-15" y="76"><![CDATA[I think I got passed up on another client project because everyone thinks I'm going to retire soon. ]]></text>
+		<caption><![CDATA[Tony comes to you to complain about something he noticed.]]></caption>
+
+		<feedback>
+			<incorrect>
+				<title><![CDATA[You should have reported this.]]></title>
+				<copy><![CDATA[Your employee has raised his concern that his age is the reason he is being passed up for client work. As always, when someone believes they are being treated unfairly related to a protected characteristic, it is best to report this concern through the proper channels to ensure the situation is handled appropriately.]]></copy>
+			</incorrect>
+			<correct>
+				<title><![CDATA[Great Work!]]></title>
+				<copy><![CDATA[Your employee has raised his concern that his age is the reason he is being passed up for client work. As always, when someone believes they are being treated unfairly related to a protected characteristic, it is best to report this concern through the proper channels to ensure the situation is handled appropriately.]]></copy>
+			</correct>
+		</feedback>
+	</issue>
+
+	<issue id="7" src="08_political.jpg" fb="08_circle.png" thumb="08_political_thumb.jpg" answer="yes" type="image">
+		<blurb><![CDATA[Offensive Conversations]]></blurb>
+		<text align="left" x="31" y="120"><![CDATA[Have you seen the new guy's hair? It looks so unprofessional!]]></text>
+		<text align="left" x="535" y="269"><![CDATA[I know! I wouldn't get away with growing my hair out!]]></text>
+		<caption><![CDATA[Khalid, a Black employee with dreadlocks, comes to you visibly upset about the conversation he just overheard.]]></caption>
+
+		<feedback>
+			<incorrect>
+				<title><![CDATA[You should have reported this.]]></title>
+				<copy><![CDATA[One of your employees felt offended by a conversation that he overheard. Since the conversation relates to the employee's hairstyle that may be closely associated with the employee's race, it is best to report this situation through the proper channels.]]></copy>
+			</incorrect>
+			<correct>
+				<title><![CDATA[Great Work!]]></title>
+				<copy><![CDATA[One of your employees felt offended by a conversation that he overheard. Since the conversation relates to the employee's hairstyle that may be closely associated with the employee's race, it is best to report this situation through the proper channels.]]></copy>
+			</correct>
+		</feedback>
+	</issue>
+
+	<timelapse><![CDATA[You have made your choices, and now it is time to see the consequences. Imagine that a few months have passed...]]></timelapse>
+
+	<consequence id="scenario2" src="scen03.png">
+		<blurb><![CDATA[Holiday Party]]></blurb>
+		<copy><![CDATA[<p class="header">Appropriate channels should have been involved.</p>You decided to handle this on your own by talking to Jan, but it turns out that Jim was not the only person uncomfortable with her affectionate behavior. After a lengthy (and costly) investigation, another employee sued your organization. Because you did not intervene enough when the issue was first raised, your organization was vulnerable and had to settle for a considerable amount of money...]]></copy>
+	</consequence>
+
+	<consequence id="scenario4" src="scen05.png">
+		<blurb><![CDATA[Disabled Employee Denied Promotion]]></blurb>
+		<copy><![CDATA[<p class="header">Appropriate channels should have been involved.</p>You decided to handle this on your own by trying to answer Tess' question the best you could, but your answer did not satisfy Tess. After a lengthy (and costly) investigation, she sued your organization. Because you did not intervene here, your organization was vulnerable and had to settle for a considerable amount of money...]]></copy>
+	</consequence>
+
+	<consequence id="scenario5" src="scen06.png">
+		<blurb><![CDATA[Teasing Employee with a Disability]]></blurb>
+		<copy><![CDATA[<p class="header">Appropriate channels should have been involved.</p>You decided to handle this on your own by sending out a team-wide email reminding everyone of your organization's zero-tolerance policy on discrimination and harassment. This actually made things worse for Jimmy, and he quit. He later sued your organization. Because you did not properly intervene here, your organization was vulnerable and had to settle for a considerable amount of money...]]></copy>
+	</consequence>
+
+	<consequence id="scenario6" src="scen07.png">
+		<blurb><![CDATA[Age Bias]]></blurb>
+		<copy><![CDATA[<p class="header">Appropriate channels should have been involved.</p>You decided to handle this on your own by sending out a team-wide email reminding everyone to avoid making crude jokes, especially in mixed company. The behavior continued, and the woman who complained to you became more and more uncomfortable. She quit because the workplace felt hostile. Because you did not intervene here, your organization lost the sexual harassment case when she sued a few months later. ]]></copy>
+	</consequence>
+
+
+	<conclusion>
+		<title><![CDATA[How did you do?]]></title>
+
+		<summary><![CDATA[Here are all the situations you saw. A green check mark means you handled the situation correctly. A red X means you made a mistake. <span class="bold">You must click each image and learn more about your choice to move on.</span> ]]></summary>
+
+		<escalated><![CDATA[You reported]]></escalated>
+		<nonescalated><![CDATA[You did not report]]></nonescalated>
+
+		<instructions><![CDATA[]]></instructions>
+	</conclusion>
+
+	<outro>
+		<page background="4.jpg" x="0" y="194" width="450">
+			<background scale="1" x="0" y="0" animate="true"/>
+			<header><![CDATA[Remember...]]></header>
+			<body><![CDATA[It is very important to do the right thing when employees bring concerns to you.  The consequences of engaging in harassment/discrimination or failing to act when you knew or should have known about harassment/discrimination taking place can be steep and include your organization being held liable.  You also risk being named individually in a lawsuit and responsible for paying your own legal fees and subject to large monetary judgments. 
+			]]></body>
+		</page>
+		<page background="SAME" x="0" y="200" width="450">
+			<background scale="1" x="0" y="0" animate="true"/>
+			<header><![CDATA[Also Remember...]]></header>
+			<body><![CDATA[If someone complains about you, you must: 
+				<ul>
+						<li>Stay calm and be professional</li>
+						<li>Cooperate with your organization's investigation</li>
+						<li>Follow your organization's instructions about interacting with the complaining employee, as well as maintaining confidentiality</li>
+						<li>Not retaliate</li>
+				</ul>]]></body>
+		</page>
+
+
+
+		
+		
+
+	</outro>
+</data>

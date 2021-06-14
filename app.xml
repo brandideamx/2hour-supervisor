@@ -1,0 +1,192 @@
+<config>
+    <unlocked>true</unlocked>
+	<layout appWidth="1000" appHeight="700">
+		<content />
+		<menu>
+			<code>core/script/menu.js</code>
+			<css></css>
+
+			<header><![CDATA[Preventing Workplace Harassment and Discrimination<br>A 2 Hour Course for Supervisors]]></header>
+			<sub_header><![CDATA[Menu]]></sub_header>
+
+			<instructions>
+				<initial><![CDATA[Click Goals of this Course to begin the training]]></initial>
+				<modified><![CDATA[Click the next unlocked section to continue. Click any previous unlocked section to review.]]></modified>
+			</instructions>
+
+			<popup>
+				<copy><![CDATA[This Preventing Workplace Harassment and Discrimination training program is a 2 hour timed course. Should you complete this course in less than 2 hours you will be redirected to the interactive course materials.]]></copy>
+			</popup>
+
+			<preconclusion>
+				<pop1><![CDATA[You've met the criteria for completion.<br><br>Please click continue for instructions to record your progress.]]></pop1>
+				<pop2><![CDATA[You have completed all of the sections but in under the required 2 hours. For the remainder of the time, you can either return to a topic or review the following white papers on <a href="content/whitepaper-bullying.pdf" target="_blank">Bullying</a>, <a href="content/whitepaper-unconscious-bias.pdf" target="_blank">Unconscious Bias</a> and/or <a href="content/whitepaper-retaliation.pdf" target="_blank">Retaliation</a>.]]></pop2>
+				<button><![CDATA[Continue]]></button>
+			</preconclusion>
+
+			<conclusion>
+				<title><![CDATA[Congratulations!]]></title>
+				<copy><![CDATA[You successfully have completed this training. Best of luck as you continue to practice these skills in your career.
+        <br><br>
+        Should you have further questions related to this Prevention of Workplace Harassment and Discrimination training program please direct them to <a href="mailto:questions@shiftelt.com">questions@shiftelt.com</a>.
+        <br><br>
+        <div style="font-size: 14px;">To ensure your completion is recorded, please exit this course by closing the course window.</div>]]></copy>
+				<button><![CDATA[Menu]]></button>
+			</conclusion>
+
+			<acknowledgement>
+				<page background="welcome_5.jpg" x="0" y="190" width="1000" height="320" nextX="810"
+					  html="../../../content/pagers/acknowledgement.html">
+					<background scale="1.2" x="0" y="0" animate="false"/>
+				</page>
+			</acknowledgement>
+		</menu>
+	</layout>
+
+	<courses>
+		<course id="101" menu="false" tracked="false" autoload="true" hideMenu="true">
+			<label><![CDATA[Intro Animation]]></label>
+			<scolabel>IntroAnimation</scolabel>
+			<template>models/animation/index.html</template>
+			<data>content/animation/animation.xml</data>
+		</course>		
+		<course id="100" menu="false" tracked="false" autoload="false" hideMenu="true">
+			<label><![CDATA[Choose Location]]></label>
+			<scolabel>ChooseLocation</scolabel>
+			<template>models/localize/index.html</template>
+			<data>content/localize/localize.xml</data>
+		</course>		
+		<course id="102" menu="false" tracked="false" autoload="false" hideMenu="false">
+			<label><![CDATA[Intro Video]]></label>
+			<scolabel>IntroVideo</scolabel>
+			<template>models/theater/index.html</template>
+			<data>content/theater/intro.xml</data>
+		</course>
+		<course id="0" menu="false" tracked="false" autoload="false" hideMenu="false">
+			<label><![CDATA[Main Menu]]></label>
+			<scolabel>MainMenu</scolabel>
+			<template>models/menu/index.html</template>
+			<data>app.xml</data>
+		</course>
+
+		<course id="1" menu="false" tracked="false" autoload="false" hideMenu="true">
+			<label><![CDATA[Goals of<br>This Course]]></label>
+			<scolabel>CourseGoals</scolabel>
+			<template>models/pager/index.html</template>
+			<data>content/pagers/goals.xml</data>
+		</course>
+
+		<course id="2" menu="true" tracked="true" autoload="false" hideMenu="false">
+			<label><![CDATA[Building Your Unconscious Bias Awareness]]></label>
+			<scolabel>SelfAwareness</scolabel>
+			<template>models/self-awareness/index.html</template>
+			<data>content/self-awareness/awareness.xml</data>
+		</course>
+
+    <course id="3" menu="true" tracked="true" autoload="false" hideMenu="false">
+      <label><![CDATA[What is<br>Unlawful Harassment/<br>Discrimination?]]></label>
+      <scolabel>UnlawfulHarassment</scolabel>
+      <template>models/unlawful/index.html</template>
+      <data>content/unlawful/unlawful.xml</data>
+    </course>
+
+    <course id="4" menu="true" tracked="true" autoload="false" hideMenu="false">
+      <label><![CDATA[What is<br>Sexual Harassment under the Law?]]></label>
+      <scolabel>SexualHarassment</scolabel>
+      <template>models/sexual/index.html</template>
+      <data>content/sexual/sexual.xml</data>
+    </course>
+
+    <course id="5" menu="true" tracked="true" autoload="false">
+      <label><![CDATA[Gender and the Workplace]]></label>
+      <scolabel>SexAndGender</scolabel>
+      <template>models/sex-and-gender/index.html</template>
+      <data>content/sex-and-gender/sex-and-gender.xml</data>
+    </course>
+
+    <!--<course id="6" menu="true" tracked="true" autoload="false" hideMenu="false">
+      <label><![CDATA[Reasonable Accommodations]]></label>
+      <scolabel>Accomodations</scolabel>
+      <template>models/pager/index.html</template>
+      <data>content/pagers/accomodations.xml</data>
+    </course>  do not delete-->
+
+		<course id="7" menu="true" tracked="true" autoload="false" hideMenu="false">
+			<label><![CDATA[Responding to Employee Concerns]]></label>
+			<scolabel>EmployeeConcerns</scolabel>
+			<template>models/employee-concerns/menu.html</template>
+			<data>content/employee-concerns/employee-concerns.xml</data>
+		</course>
+				<!-- CONVOS -->
+				<course id="C1" menu="false" tracked="true" autoload="false">
+					<label><![CDATA[Julie]]></label>
+					<template>models/employee-concerns/index.html</template>
+					<data>content/employee-concerns/person1/person1.xml</data>
+				</course>
+				<course id="C2" menu="false" tracked="true" autoload="false">
+					<label><![CDATA[Kira]]></label>
+					<template>models/employee-concerns/index.html</template>
+					<data>content/employee-concerns/person2/person2.xml</data>
+				</course>
+				<course id="C3" menu="false" tracked="true" autoload="false">
+					<label><![CDATA[Edward]]></label>
+					<template>models/employee-concerns/index.html</template>
+					<data>content/employee-concerns/person3/person3.xml</data>
+				</course>
+				<course id="C4" menu="false" tracked="true" autoload="false">
+					<label><![CDATA[Todd]]></label>
+					<template>models/employee-concerns/index.html</template>
+					<data>content/employee-concerns/person4/person4.xml</data>
+				</course>
+
+
+		<course id="8" menu="true" tracked="true" autoload="false" hideMenu="false">
+			<label><![CDATA[What is Retaliation?]]></label>
+			<scolabel>Retaliation</scolabel>
+			<template>models/retaliation/index.html</template>
+			<data>content/retaliation/retaliation.xml</data>
+		</course>
+
+		<course id="9" menu="true" tracked="true" autoload="false" hideMenu="false">
+			<label><![CDATA[What is Bullying?]]></label>
+			<scolabel>Bullying</scolabel>
+			<template>models/bullying/index.html</template>
+			<data>content/bullying/bullying.xml</data>
+		</course>
+
+		<course id="10" menu="true" tracked="true" autoload="false" hideMenu="false">
+			<label><![CDATA[Recognizing Bullying Behavior]]></label>
+			<scolabel>BullyingBehavior</scolabel>
+			<template>models/bullying-behavior/menu.html</template>
+			<data>content/bullying-behavior/bullying-behavior.xml</data>
+		</course>
+
+			<!-- AUDIO ONLY CONVOS -->
+
+			<course id="A1" menu="false" tracked="true" autoload="false">
+				<label><![CDATA[Julie]]></label>
+				<scolabel>BullyingBehavior</scolabel>
+				<template>models/bullying-behavior/index.html</template>
+				<data>content/bullying-behavior/person1/person1.xml</data>
+			</course>
+
+			<course id="A2" menu="false" tracked="true" autoload="false">
+				<label><![CDATA[Kira]]></label>
+				<scolabel>BullyingBehavior</scolabel>
+				<template>models/bullying-behavior/index.html</template>
+				<data>content/bullying-behavior/person2/person2.xml</data>
+			</course>
+
+		<course id="11" menu="true" tracked="true" autoload="false" hideMenu="false">
+			<label><![CDATA[When to Intervene]]></label>
+			<scolabel>Intervene</scolabel>
+			<template>models/intervene/index.html</template>
+			<data>content/intervene/intervene.xml</data>
+		</course>
+	</courses>
+
+	<tracking>
+<!--		<type>none</type>-->
+		<type>scorm12</type>
+	</tracking>
+</config>

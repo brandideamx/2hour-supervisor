@@ -1,0 +1,431 @@
+/* model css */
+#genderContainer {
+  background: url("img/page_bg.jpg");
+  height: 700px;
+  width: 1000px;
+}
+#genderContainer #menu {
+  z-index: 1;
+  display: block;
+  height: 700px;
+  background: url("img/page_bg.jpg");
+}
+#genderContainer #menu .next {
+  transition: opacity 0.5s;
+  opacity: 1;
+  bottom: 20px;
+  right: 50%;
+  margin-right: -60px;
+}
+#genderContainer #menu .next.hidden {
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+#genderContainer #menu .mainLabel {
+  /* text-align: center; */
+  font-size: 36px;
+  position: absolute;
+  width: inherit;
+  /* top: 30px; */
+  top: 160px;
+  left: 70px;
+}
+#genderContainer #menu .stripe {
+  position: absolute;
+  top: 217px;
+  left: 0px;
+  opacity: 1;
+  width: 1000px;
+  height: 388px;
+  background: rgba(19, 176, 200, 0.8);
+}
+#genderContainer #menu .stripe .textBlock {
+  position: absolute;
+  left: 75px;
+  top: 33px;
+  width: inherit;
+}
+#genderContainer #menu .stripe .textBlock .title {
+  /* padding: 50px 0px; */
+  /* text-align: center; */
+  width: inherit;
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+#genderContainer #menu .stripe .textBlock .copy {
+  line-height: 1.2rem;
+  font-size: 18px;
+  width: 50%;
+}
+#genderContainer #menu .people {
+  position: absolute;
+  width: inherit;
+  bottom: 250px;
+  top: 147px;
+  left: 680px;
+  /* right: 0px; */
+  /* display: flex; */
+  justify-content: center;
+  opacity: 1;
+}
+#genderContainer #menu .people .person {
+  position: relative;
+  width: 275px;
+  height: 154px;
+  margin: 7px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#genderContainer #menu .people .person .label {
+  position: absolute;
+  bottom: 0px;
+  width: inherit;
+  padding: 5px 0;
+  color: #fff;
+  background: #94d442;
+  text-align: center;
+}
+#genderContainer #menu .people .person .check {
+  display: none;
+  top: 10px;
+  right: 10px;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  background: url("img/menu_complete.png") no-repeat center;
+}
+#genderContainer #menu .people .person.complete .check {
+  display: block;
+}
+#genderContainer #menu .btn .next {
+  bottom: 20px;
+  right: 50%;
+  margin-right: -60px;
+}
+#genderContainer #menu .btn.hideMe {
+  display: none;
+}
+#genderContainer #menu.hideMe {
+  z-index: 0;
+}
+#genderContainer #menu.hideMe .mainLabel {
+  opacity: 0;
+  top: -300px;
+}
+#genderContainer #menu.hideMe .people {
+  opacity: 0;
+  right: -1000px;
+}
+#genderContainer #menu.hideMe .stripe {
+  opacity: 0;
+  left: -1000px;
+}
+#genderContainer #scenario {
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+  background: url("img/page_bg.jpg") top center no-repeat;
+  height: 700px;
+}
+#genderContainer #scenario.scenario0 {
+  background: url("img/Sheree_BG.jpg");
+}
+#genderContainer #scenario.scenario1 {
+  background: url("img/Brad_BG.jpg");
+}
+#genderContainer #scenario.scenario2 {
+  background: url("img/Javier_BG.jpg");
+}
+#genderContainer #scenario .phase .question {
+  font-size: 30px;
+  font-weight: 100;
+  margin-bottom: 8px;
+  text-align: center;
+}
+#genderContainer #scenario .phase .instructions {
+  z-index: 2;
+  position: absolute;
+  top: 34px;
+  left: 30px;
+  width: 500px;
+  justify-content: left;
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 8px;
+  text-align: center;
+}
+#genderContainer #scenario .phase .instructions.offScreen {
+  z-index: 0;
+  opacity: 0;
+}
+#genderContainer #scenario .phase .videoContainer {
+  z-index: 1;
+  position: absolute;
+  opacity: 1;
+  left: 150px;
+  top: 150px;
+  width: 700px;
+  height: 400px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+#genderContainer #scenario .phase .videoContainer.offScreen {
+  opacity: 0;
+  z-index: 0;
+}
+#genderContainer #scenario .phase .options {
+  position: absolute;
+  width: 408px;
+  height: 600px;
+  right: 35px;
+  top: 105px;
+  z-index: 1;
+}
+#genderContainer #scenario .phase .options .option {
+  width: 380px;
+  padding: 18px 13px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  background: rgba(32, 159, 180, 0.2);
+  margin: 0 0 8px 27px;
+  text-align: center;
+  font-family: "OpenSansCond";
+  font-size: 21px;
+  line-height: 24px;
+}
+#genderContainer #scenario .phase .options .option.disabled {
+  cursor: default;
+  opacity: 0.5;
+  pointer-events: none;
+}
+#genderContainer #scenario .phase .options .option.disabled.hover {
+  background: rgba(32, 159, 180, 0.2);
+  opacity: 0.5;
+}
+#genderContainer #scenario .phase .options .option.hover, #genderContainer #scenario .phase .options .option #convo, #genderContainer #scenario .phase .options .option.selected {
+  background: #209fb4;
+  opacity: 1;
+}
+#genderContainer #scenario .phase .options.offScreen {
+  opacity: 0;
+  z-index: 0;
+}
+#genderContainer #scenario .phase .coachContainer {
+  z-index: 1;
+  opacity: 1;
+  position: absolute;
+  height: 700px;
+  width: 500px;
+  /* left: 500px; */
+}
+#genderContainer #scenario .phase .coachContainer .video {
+  position: absolute;
+  left: 20px;
+  top: 350px;
+}
+#genderContainer #scenario .phase .coachContainer .coach {
+  position: absolute;
+  height: 400px;
+  width: auto;
+  bottom: 0px;
+  z-index: 3;
+}
+#genderContainer #scenario .phase .coachContainer#coach0 .coach {
+  left: -15px;
+}
+#genderContainer #scenario .phase .coachContainer#coach0 .speechBubble {
+  left: 30px;
+  bottom: 340px;
+}
+#genderContainer #scenario .phase .coachContainer#coach1 .coach {
+  left: -15px;
+}
+#genderContainer #scenario .phase .coachContainer#coach1 .speechBubble {
+  left: 30px;
+  bottom: 340px;
+}
+#genderContainer #scenario .phase .coachContainer#coach2 .coach {
+  left: -15px;
+}
+#genderContainer #scenario .phase .coachContainer#coach2 .speechBubble {
+  left: 30px;
+  bottom: 340px;
+}
+#genderContainer #scenario .phase .coachContainer .speechBubble {
+  z-index: 2;
+  position: absolute;
+  height: 250px;
+  width: 400px;
+}
+#genderContainer #scenario .phase .coachContainer .speechBubble .bubbleImg {
+  position: absolute;
+  height: 234px;
+  width: auto;
+  left: 30px;
+  bottom: 0px;
+}
+#genderContainer #scenario .phase .coachContainer .speechBubble .speechText {
+  z-index: 2;
+  position: absolute;
+  left: 74px;
+  top: 50px;
+  width: 314px;
+  font-family: "Gotham";
+  font-size: 19px;
+  line-height: 19px;
+  color: white;
+}
+#genderContainer #scenario .phase .coachContainer.offScreen {
+  z-index: 0;
+  opacity: 0;
+}
+#genderContainer #scenario .phase .coachContainer.intro-coach {
+  z-index: 3;
+  left: 500px;
+  opacity: 0;
+}
+#genderContainer #scenario .phase .coachContainer.intro-coach .coach {
+  z-index: 3;
+}
+#genderContainer #scenario .phase .coachContainer.intro-coach .speechBubble {
+  z-index: 2;
+}
+#genderContainer #scenario .phase .gender-overlay {
+  position: absolute;
+  height: 700px;
+  width: 1000px;
+  z-index: 0;
+  background-color: #052d36;
+  opacity: 0.4;
+}
+#genderContainer #scenario.hideMe {
+  z-index: 0;
+  opacity: 0;
+}
+#genderContainer #scenario.hideMe .videoContainer {
+  opacity: 0;
+}
+
+#genderContainer .infoTab.transcript {
+  position: absolute;
+  top: 600px;
+  left: -4px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+.feedback-container {
+  position: absolute;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  background-color: #94d442;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+
+.fc-content {
+  padding: 45px;
+  padding-bottom: 80px;
+  font-size: 18px;
+  font-family: 'OpenSans', sans-serif;
+  font-weight: 100;
+  line-height: 1.1;
+}
+
+.fc-content p {
+  margin-bottom: 12px;
+}
+
+.fc-btns {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 1000px;
+  height: 80px;
+  background-color: #1c9bb0;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.fc-btns .next {
+  margin: 0;
+  left: 0;
+  position: relative;
+  margin-right: 35px;
+  display: block;
+  height: 60px;
+}
+
+
+#popup {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+}
+
+#popup .overlay {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: #052d36;
+  opacity: 0.4;
+}
+
+#popup .textbox {
+  z-index: 2;
+  font-family: "Gotham";
+  font-weight: 300;
+  color: #000;
+  background: url("./img/dialog_bg.jpg") center top repeat-y;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 34px 45px 115px;
+  width: 300px;
+  position: absolute;
+  /* left: 83%; */
+  left: 33%;
+  top: 140px !important;
+  line-height: 1.15em;
+  margin-left: -270px;
+  font-size: 16px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+#popup .textbox .header {
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+
+#popup .textbox p {
+  margin: 12px 0;
+}
+
+#popup .textbox ul {
+  margin: 15px;
+  list-style: disc;
+}
+
+#popup .textbox ol {
+  margin: 15px;
+  list-style: decimal;
+}
+
+#popup .textbox li {
+  margin: 5px 0 5px 10px;
+}
+
+#popup .btn {
+  right: 45px;
+  bottom: 30px;
+}
+
+/*# sourceMappingURL=gender.css.map */

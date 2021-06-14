@@ -1,0 +1,80 @@
+<scenarios>
+  <scenario id="1" img="img/scenario2a.jpg" img-changed="img/scenario2b.jpg">
+        <caption><![CDATA[One of your employees consistently refers to her transgender colleague by the wrong pronouns.]]></caption>
+        <caption-changed><![CDATA[<span style="font-size:21px; line-height:1.2; display:block;">Upon learning about your employee's misuse of her colleague's preferred pronouns, you consult with appropriate channels about the situation. 
+        <br><br>    
+        After working with appropriate channels on the best way to approach both employees involved in the situation and helping them to understand the organization's policies, values and commitment to an inclusive culture, you notice your employee making a deliberate effort to address her colleague correctly and your transgender employee thanks you for addressing the matter in a proactive and professional manner.</span>]]></caption-changed>
+        <round id="1">
+            <header><![CDATA[Do you think this could be a problem?]]></header>
+            <option id="1">
+                <label><![CDATA[No, this doesn't seem like a big deal.]]></label>
+                <feedback><![CDATA[If the misuse of pronouns proves to be intentional, then it could be considered harassment.]]></feedback>
+            </option>
+            <option id="2">
+                <label><![CDATA[Yes, but only if it's intentional.]]></label>
+                <feedback><![CDATA[If the misuse of pronouns proves to be intentional then it could be considered harassment. However, whether intentional or not, such actions may be judged by how the recipient receives them.]]></feedback>
+            </option>
+            <option id="3">
+                <label><![CDATA[This is not for me to investigate or decide.]]></label>
+                <feedback><![CDATA[This situation needs to be discussed with appropriate channels.]]></feedback>
+            </option>
+        </round>
+
+        <round id="2">
+            <header class="small heavy"><![CDATA[The employee deliberately refers to her colleague by a pronoun that her colleague has asked her not to use.]]></header>
+            <option id="1">
+                <label><![CDATA[Is there anything I can do?]]></label>
+                <feedback><![CDATA[Yes! It's important that you contact appropriate channels about this.]]></feedback>
+            </option>
+            <option id="2">
+                <label><![CDATA[Could that be considered harassment?]]></label>
+                <feedback><![CDATA[Yes! Intentional mis-gendering violates the organization's policy and could require disciplinary action.]]></feedback>
+            </option>
+            <option id="3">
+                <label><![CDATA[This still doesn't seem like a big deal to me.]]></label>
+                <feedback><![CDATA[Actually, this is a big deal. Intentional mis-gendering violates the organization's anti-harassment and discrimination policy and could require disciplinary action.]]></feedback>
+            </option>
+        </round>
+
+        <round id="3">
+            <header class="small heavy"><![CDATA[Misuse of a transgender employee's preferred pronouns can have a significant negative impact.]]></header>
+            <option id="1">
+                <label><![CDATA[I could see that.]]></label>
+                <feedback><![CDATA[There are many ways these intentional slights can cause harm to a transgender employee. Click Next to learn more.]]></feedback>
+            </option>
+            <option id="2">
+                <label><![CDATA[Tell me how.]]></label>
+                <feedback><![CDATA[These intentional slights send a message of disrespect and can create a hostile work environment for the transgender employee. Click Next to learn more.]]></feedback>
+            </option>
+            <option id="3">
+                <label><![CDATA[I can't see how it makes that much of a difference.]]></label>
+                <feedback><![CDATA[These intentional slights send a message of disrespect and can create a hostile work environment for the transgender employee. Click Next to learn more.]]></feedback>
+            </option>
+        </round>
+
+        <round id="4">
+            <header class="small heavy"><![CDATA[By appropriately addressing behaviors that show a lack of respect and understanding of transgender employees, you help build an environment of trust and security that fosters creativity and increased productivity.]]></header>
+            <option id="1">
+                <label><![CDATA[How can I appropriately address this situation?]]></label>
+                <feedback><![CDATA[That's a great question. Click next for some tips on how to respond to this situation.]]></feedback>
+            </option>
+            <option id="2">
+                <label><![CDATA[Can't I just let the employees work it out among themselves?]]></label>
+                <feedback><![CDATA[No. As a supervisor, you are responsible for ensuring that your employees are following the organization's policies regarding harassment and discrimination. Click next for some tips on how to respond to this situation.]]></feedback>
+            </option>
+        </round>
+
+        <round id="5" end="true">
+            <header><![CDATA[<span style="font-size:23px; line-height:1; display:block;">Suggestions for managing a disrespectful employee:</span>]]></header>
+            <body><![CDATA[<ul style="list-style-type:square">
+                <li>Consult with appropriate channels.</li>                                            
+                <li>Follow the guidance provided by appropriate channels.</li>                                
+                <li>Ensure employees on your team are familiar with your organization's anti-harassment and discrimination policy.</li>                             
+                <li>Set an example and create a climate of inclusion and respect.</li>                                  
+                <li>Take the time to privately meet and inform the transgender employee that you are addressing the situation.</li>
+                </ul>
+                <br><br>
+                Click the TRANSFORM button to see how these practices could change the situation.]]></body>
+        </round>
+    </scenario> <!-- end sceneario #2 -->
+</scenarios>

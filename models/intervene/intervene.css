@@ -1,0 +1,597 @@
+/* model css */
+
+#intervene {
+    top: 0;
+    left: 0;
+    width: 1000px;
+    height: 700px;
+    font-size: 18px;
+    position: relative;
+    font-family: 'Gotham', sans-serif;
+    background: url('img/page_bg.jpg') top center no-repeat;
+}
+
+.alpha-off {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#intervene .mainColumn {
+    /* margin: 0; */
+}
+
+.intro {
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+}
+
+.intro .blueBox {
+    width: 624px;
+    height: 333px;
+    left: -624px;
+    top: 164px;
+    position: absolute;
+    background: #20a0b5;
+}
+
+.intro .landing .textBlock {
+    position: absolute;
+    left: 130px;
+    top: 50px;
+    width: 405px;
+    line-height: 22px;
+}
+
+.intro .landing .header {
+   font-size: 30px;
+   font-weight: 500;
+   line-height: 1;
+   margin-bottom: 20px;
+}
+
+.intro .landing img {
+    position: absolute;
+    left: 450px;
+    top: -164px;
+}
+
+.intro .news {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.intro .news img {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.intro .news .text {
+    position: absolute;
+    left: 611px;
+    top: 244px;
+    width: 325px;
+    line-height: 1.1;
+}
+
+.intro .next {
+    left: 396px;
+    top: 422px;
+    cursor: pointer;
+}
+
+.timeline {
+    padding-top: 21px;
+    height: 690px;
+    position: relative;
+}
+
+.timeline .lines {
+    position: absolute;
+    left: 80px;
+    top: 249px;
+    opacity: 0;
+}
+
+.timeline .defaultOutcome {
+    position: absolute;
+    z-index: 10;
+    left: 0px;
+    top: 0px;
+}
+
+.timeline .outcome {
+    position: absolute;
+    z-index: 10;
+    left: 856px;
+    top: 180px;
+    visibility: hidden;
+}
+
+.timeline .title {
+    font-size: 27px;
+    text-align: center;
+    left: 225px;
+    position: absolute;
+    color: #e1e0e0;
+    width: 550px;
+    padding-bottom:45px;
+}
+
+.timeline .inst {
+    font-family: 'OpenSansCond';
+    font-size: 20px;
+    line-height: 22px;
+    padding: 14px 150px;
+    text-align: center;
+    color: #e1e0e0;
+    position: absolute;
+    bottom: 98px;
+    background: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.timeline .line {
+    margin-top: 229px;
+    padding-left: 30px;
+}
+
+.timeline .bucket {
+    position: relative;
+    width: 75px;
+    height: 75px;
+    margin: 0 22px;
+    float: left;
+}
+
+.timeline .bucket1 {
+    margin-top: 59px;
+}
+
+.timeline .bucket2 {
+    margin-top: 45px;
+}
+
+.timeline .bucket3 {
+    margin-top: 63px;
+}
+
+.timeline .bucket4 {
+    margin-top: 16px;
+}
+
+.timeline .bucket5 {
+    margin-top: 12px;
+}
+
+.timeline .bucket6 {
+    margin-top: 46px;
+}
+
+.timeline .undo {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url('img/undo.png');
+    cursor: pointer;
+    background-size: cover;
+}
+
+.timeline .undo:hover {
+    background-image: url('img/undo_hover.png');
+}
+
+.timeline .event {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.timeline .event .rollover {
+    position: absolute;
+    visibility: hidden;
+}
+
+.timeline .event .rollover.action {
+    width: 91px;
+    height: 91px;
+    top: -5px;
+    left: -5px;
+    background: url('img/rollover.png') no-repeat left top;
+}
+
+.timeline .event .rollover.noaction {
+    color: white;
+    background: #99cc33 url('../../content/intervene/img/no-action-icon.png') no-repeat 10px center;
+    font-size: 16px;
+    width: 110px;
+    top: 15px;
+    left: -46px;
+    padding: 5px 6px 5px 38px;
+    border: 2px solid #444;
+    text-align: center;
+    z-index: 99;
+    line-height: 18px;
+    display: block;
+    position: absolute;
+}
+
+.timeline .event.hover .rollover,
+.timeline .event.selected .rollover {
+    visibility: visible;
+}
+
+.timeline .event .icon {
+    position: absolute;
+    /*bottom:210px;
+					left:29px;	*/
+}
+
+.timeline .event .text {
+    font-size: 13px;
+    color: #94d442;
+    position: absolute;
+    width: 140px;
+    left: -20px;
+    line-height: 1.2;
+}
+
+.timeline .bucket.top .text {
+    bottom: 90px;
+}
+
+.timeline .bucket.bottom .text {
+    top: 90px;
+}
+
+.changebox {
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 0px;
+    z-index: 10
+}
+
+.changebox .arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -16px;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-bottom: 22px solid #94d442;
+}
+
+.changebox .question {
+    padding: 40px 87px 35px;
+    font-size: 21px;
+    font-family: 'OpenSansCond';
+}
+
+.changebox .options {
+    margin-bottom: 34px;
+    text-align: center;
+}
+
+.changebox .option {
+    font-size: 20px;
+    font-family: 'OpenSans';
+    font-weight: 100;
+    display: inline-block;
+    padding: 6px;
+    background: #13b0c8;
+    cursor: pointer;
+    border: 1px solid #fff;
+    margin: 0 3px;
+    text-transform: uppercase;
+}
+
+.changebox .option:hover {
+    background: #94d442;
+}
+
+.timeline .done {
+    bottom: 25px;
+    right: 25px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.tooltip {
+    background: white;
+    color: #666;
+    font-size: 11px;
+    width: 63px;
+    position: absolute;
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: 1px solid #9ed150;
+    top: -59px;
+    left: -28px;
+    opacity: 0;
+    visibility: hidden
+}
+
+.tooltip .tail {
+    background: white;
+    border: 1px solid #9ed150;
+    border-top: none;
+    border-right: none;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    margin-left: -7px;
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    z-index: 1;
+}
+
+.tooltip .txt {
+    position: relative;
+    z-index: 2;
+}
+
+#stripe {
+    background: rgba(19, 176, 200, 0.8);
+    height: 477px;
+    left: 0;
+    position: absolute;
+    top: 119px;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#stripe .headline {
+    width: 389px;
+    height: 310px;
+    padding: 136px 35px 0 80px;
+    background: url('img/newspaper.png');
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    font-family: 'MyriadCond';
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    font-size: 48px;
+    -ms-transform: rotate(-15deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-15deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(-15deg);
+    text-transform: uppercase;
+}
+
+#stripe .textColumn {
+    position: absolute;
+    left: 583px;
+    top: 49px;
+    width: 390px;
+    height: 381px;
+}
+
+#stripe .title {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#stripe .bodycopy {
+    line-height: 1.2em;
+    margin: 20px 0;
+}
+
+#stripe .btn {
+    bottom: 0px;
+}
+
+#stripe .next {
+    right: 0px;
+}
+
+#stripe .tryagain {
+    left: 0px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10;
+}
+
+.modal {
+    background-color: #20a0b5;
+    padding: 30px 20px 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 280px;
+    height: 100px;
+    margin: -100px 0 0 -140px;
+    z-index: 11;
+    color: white;
+    border: 6px solid white;
+}
+
+.close-btn {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+.quiz-container {
+    height: 100%;
+    position: absolute;
+    width: 1000px;
+}
+    .quiz-container .contentBlock{
+        display: table;
+        height: 300px;
+        padding: 0px 5%;
+        position: absolute;
+        text-align: center;
+        top: 140px;
+        width: 90%;
+    }
+        .quiz-container .contentBlock .question{
+            display: table-cell;
+            vertical-align: middle;
+}
+        .quiz-container .contentBlock .feedback{
+            background: rgb(139, 196, 63);
+            display: table;
+            height: 100%;
+            left: 0;
+            padding: 70px 10%;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+            .quiz-container .contentBlock .feedback .cont{
+                display: table-cell;
+                font-size: 28px;
+                text-align: center;
+                vertical-align: middle;
+                width: 100%;
+            }
+            .quiz-container .contentBlock .feedback .btn{
+                bottom: 20px;
+                position: absolute;
+                right: 20px;
+            }
+    .quiz-container .question h1{
+        font-family: 'Gotham';
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        text-align: justify;
+    }
+    .quiz-container .answers{
+        position: absolute;
+        text-align: center;
+        top: 510px;
+        width: 100%;
+    }
+        .quiz-container .answers .btn{
+            display: inline-block;
+            font-size: 18px;
+            margin: 0 20px;
+            position: relative;
+            width: 200px;
+        }
+        .quiz-container .answers .btn.submit{
+            display: none;
+            }
+        .quiz-container .answers.multiple{
+            position: absolute;
+            text-align: center;
+            top: 460px;
+            width: 100%;
+        }       
+        .quiz-container .answers.multiple .btn{
+            width: 158px;
+            height: 148px;
+            margin: 0 26px;
+            padding: 0 10px;
+            cursor: pointer;
+            list-style: none;
+            display: inline-block;
+            border: 1px solid white;
+            background-color: #13b0c8;
+            text-align: center;
+            text-transform: uppercase;
+            transition: background-color 300ms, border 300ms;
+        }
+        .quiz-container .answers.multiple .btn:hover,
+        .quiz-container .answers.multiple .btn.selected{
+            background-color: rgb(139, 196, 63);
+        }
+        .quiz-container .answers.multiple .btn.submit{
+            display: block;
+            position: absolute;
+            bottom: -64px;
+            right: 50%;
+            margin-right: -130px;
+            width: 200px;
+            padding: 10px 30px;
+            height: auto;
+        } 
+        .quiz-container .answers.multiple .btn .valign{
+            width: 100%;
+            height: 100%;
+            display: table;
+            color: inherit;
+            font-size: inherit;
+            position: relative;
+        }
+        .quiz-container .answers.multiple .btn .middle{
+            width: 100%;
+            height: 100%;
+            color: inherit;
+            font-size: inherit;
+            display: table-cell;
+            vertical-align: middle;
+        }
+.conclusion {
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: white;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.conclusion .logo {
+    width: 591px;
+    height: 188px;
+    display: block;
+    position: relative;
+    margin: 117px auto 0;
+    background: url(../menu/img/mainLogo.png) no-repeat center;
+}
+
+.conclusion .title{
+    font-size:30px;
+    text-align: justify;
+    color:#7a7a7a;
+}
+.conclusion .copy {
+    color: #7a7a7a;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.conclusion .title {
+    margin: 50px 0 10px;
+}
+
+.conclusion .copy {
+    font-weight: 300;
+    padding: 0 100px;
+}
+
+.conclusion .return {
+    position: absolute;
+    right: 45px;
+    bottom: 45px;
+}        

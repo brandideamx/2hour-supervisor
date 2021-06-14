@@ -1,0 +1,274 @@
+.examples-container {
+    background-color: #1c9bb0;
+    height: 476px;
+    position: absolute;
+    top: 224px;
+    width: 1000px;
+}
+.examples-container .instructions {
+    background: black;
+    background: rgba(0, 0, 0, 0.4);
+    color: #13b0c8;
+    font-family: 'Gotham';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 15px 20px 30px;
+    position: relative;
+    text-align: center;
+    top: -127px;
+    width: 960px;
+}
+
+.theater {
+    z-index: 2;
+    width: 800px;
+    height: 550px;
+    position: relative;
+    padding: 150px 100px 0;
+}
+
+.theater .btn.next {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.transcript{
+  left:30px;
+  bottom:30px
+}
+
+.examples-container .header {
+    font-family: 'Gotham';
+    font-size: 36px;
+    font-weight: 300;
+    position: relative;
+    text-align: center;
+    top: -150px;
+    width: 100%;
+}
+.examples-container .btn.next {
+    bottom: 16px;
+    right: 16px;
+    z-index: 10;
+}
+.example {
+    background-image: url(../../content/bullying/img/example-bg.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 191px;
+    position: absolute;
+    width: 228px;
+    top: 15px;
+}
+.example.long {
+    background-image: url(../../content/bullying/img/example-bg-long.png);
+}
+.example img {
+    top: 21px;
+    left: 10px;
+    opacity: 0.7;
+    position: absolute;
+}
+.example.long img {
+    top: 26px;
+    left: 14px;
+}
+.example.selected { background-image: url(../../content/bullying/img/example-bg-selected.png) }
+.example.long.selected { background-image: url(../../content/bullying/img/example-bg-long-selected.png) }
+.example.seen img { opacity: 1 }
+.examples-feedback {
+    background-color: #8bc43f;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+    height: 290px;
+    left: 0px;
+    position: absolute;
+    top: 186px;
+    width: 1000px;
+}
+.examples-feedback .title {
+    font-size: 26px;
+    font-weight: 600;
+    padding: 30px 120px 10px;
+}
+.examples-feedback .copy {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0 120px;
+}
+.clickthrough-container {
+    height: 100%;
+    position: absolute;
+    width: 1000px;
+}
+.clickthrough-container .disabled .option {
+    cursor: disabled;
+}
+.media,
+.instructions,
+.content {
+    position: absolute;
+    top: 760px;
+    width: 100%;
+}
+.content .description {
+    line-height: 20px;
+    margin-top: 14px;
+    /*padding: 0 224px;*/
+    padding: 0 130px;
+    text-align: center;
+}
+.content .question {
+    font-size: 34px;
+    font-style: normal;
+    padding: 34px 0 0;
+    text-align: center;
+}
+.content .btn#send,
+.content .btn#yes {
+    display: block;
+    margin: 35px auto;
+    position: relative;
+    text-align: center;
+    width: 85px;
+}
+.btn.tryagain,
+.btn.show-changes,
+.content .btn.next {
+    display: block;
+    margin: 20px auto;
+    position: relative;
+    text-align: center;
+    width: 180px;
+}
+.content .close {
+    background-color: #7bb232;
+    border-radius: 28px;
+    cursor: pointer;
+    display: block;
+    font-family: 'OpenSans';
+    font-weight: 700;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    position: absolute;
+    right: 40px;
+    text-align: center;
+    top: 20px;
+    width: 28px;
+}
+.media {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 430px;
+}
+.instructions {
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.43);
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+}
+.content {
+    background-color: #13b0c8;
+    height: 224px;
+}
+.btn.show-changes { width: 230px }
+.one-third {
+    height: 40px;
+    text-align: center;
+    top: 140px;
+    width: 207px;
+}
+.one-third span {
+    display: block;
+    font-size: 18px;
+    line-height: 20px;
+}
+.opt1 { left: 92px }
+.opt2 { left: 368px }
+.opt3 { left: 645px }
+.table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.table-cell {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+    width: 100%;
+}
+.content.correct .close { display: none }
+.media.email .to,
+.media.email .cc,
+.media.email .subject,
+.media.email .body {
+    color: #454545;
+    font-family: 'OpenSans';
+    left: 280px;
+    position: absolute;
+}
+.media.email .body span,
+.media.email .to span { cursor: pointer }
+.media.email .body span:hover,
+.media.email .to span:hover { background-color: #eee }
+.media.email .to {
+    font-size: 12px;
+    top: 138px;
+}
+.media.email .cc {
+    font-size: 12px;
+    top: 161px;
+}
+.media.email .subject {
+    font-size: 12px;
+    top: 187px;
+}
+.media.email .body {
+    font-size: 14px;
+    line-height: 20px;
+    top: 235px;
+    width: 547px;
+}
+.media.image .option {
+    cursor: pointer;
+    position: absolute;
+    background-color: transparent !important;
+}
+.glorified {
+    opacity: 1;
+    visibility: visible;
+}
+
+.quote {
+    line-height: 25px;
+    margin-top: 14px;
+    padding-top: 70px;
+    font-style: italic;
+    background: url(../../content/bullying/img/quote.png) no-repeat center top;
+}
+.tcenter {
+    text-align: center;
+    display: block;
+}
+.side-padding {
+    display: block;
+    padding: 0 44px 20px;
+}
+.label-small {
+    font-size: 14px !important;
+    line-height: 15px !important;
+}
+.question .label-small {
+    font-size: 34px !important;
+    line-height: 40px !important;
+}
+ul {
+    font-family: 'Gotham', sans-serif;
+}
+ul.numbered li {
+    list-style: decimal;
+}

@@ -1,0 +1,58 @@
+<div id="contents">
+	<div class="header">Examples of Sexual Harassment</div>
+	<div class="bodycopy">
+		In a few minutes you will have an opportunity to practice identifying sexual harassment when you see it. Click on the green buttons below to see several examples. You'll be able to access this list during the activity if you need help.
+		<br><br>
+		<table>
+			<tr>
+				<td width="400">
+					<div class="accordion">
+						<div class="accordion-head">Examples</div>
+						<div class="accordion-body">
+							<ul class="small">
+								<li><span>Sexual comments, remarks or slurs</span></li>
+								<li><span>Sexual emails or text messages</span></li>
+								<li><span>Sexual teasing, jokes, remarks or questions</span></li>
+								<li><span>Showing another employee inappropriate websites with sexual content</span></li>
+								<li><span>Sexual remarks about a person's body, clothing or appearance</span></li>
+								<li><span>Patting, pinching, hugging, kissing or other unwanted touching</span></li>
+							</ul>
+						</div>
+					</div>
+				</td>
+				<td width="400">
+					<div class="accordion">
+						<div class="accordion-head">More Examples</div>
+						<div class="accordion-body">
+							<ul class="small">
+								<li><span>Leering or ogling</span></li>
+								<li><span>Posting sexually explicit comments on social media sites</span></li>
+								<li><span>Pressure for dates</span></li>
+								<li><span>Inappropriate sexual advances</span></li>
+								<li><span>Solicitation of sexual favors or other sexually related behavior by promise of rewards</span></li>
+								<li><span>Coercion of sexual activity by threat or punishment</span></li>
+								<li><span>Sexual assault</span></li>
+							</ul>
+						</div>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<br><br><br><br><br><br><br><br><br><br>
+	</div>
+</div>
+<div class="green">Click green arrows to proceed.</div>
+<script type="text/javascript">
+
+	$('.accordion-head').click(function(){
+			$('.accordion-head').removeClass('open');
+			$(this).addClass('open');
+			//Expand or collapse this panel
+			$(this).siblings('.accordion-body').slideToggle('fast');
+
+			//Hide the other panels
+			$(".accordion-body").not($(this).siblings('.accordion-body')).slideUp('fast');
+
+		});
+
+</script>

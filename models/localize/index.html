@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=0.9, maximum-scale=0.9">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title></title>
+
+	<link href="../../core/css/master.css" rel="stylesheet">
+	<link href="../../core/fonts/fonts.css" rel="stylesheet">
+	<link href="localize.css" rel="stylesheet">
+
+	<script src="../../core/script/gsap/TweenMax.min.js"></script>
+	<script src="../../core/script/jquery.js"></script>
+	<script src="../../core/script/jquery-ui.min.js"></script>
+	<script src="../../core/script/jquery.ui.touch-punch.min.js"></script>
+	<script src="../../core/script/util.js"></script>
+	<script src="../../core/script/touchable.js"></script>
+	<script src="localize.js"></script>
+</head>
+<body>
+	<div class="container">
+    <div class="localize-container">
+      <div class="column one-third full-height center-vertically black-bg">
+        <div class="column--content">
+          <h1 class="thin">How Do I Begin?</h1>
+          <p>You are required to review the information in this course related to the state in which you are located. You are also required to review information for all of the states in which you manage employees.</p>
+          <p>If you work a portion of your time in New York State or you regularly interact with employees in New York City, you are required to be trained on NY laws.</p>
+          <p>If you regularly travel to IL for business or work remotely and interact regularly with IL employees, you are required to be trained on IL laws. </p>
+        </div>
+      </div>
+      <div class="column two-thirds">
+        <div class="column--content">
+          <form id="local">
+            <div class="form-group">
+              <label for="state"><span class="number-lbl">1</span>Please check the state in which you work:</label>
+              <select name="state">
+                <option disabled="disabled" selected>-- Select One --</option>
+                <option value="CA">California</option>
+                <option value="CT">Connecticut</option>
+                <option value="DE">Delaware</option>
+                <option value="IL">Illinois</option>
+                <option value="ME">Maine</option>
+                <option value="NY">New York</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group vertical">
+              <label for="employees-managed"><span class="number-lbl">2</span> Please check all states where you have employees that you manage:</label>
+              <div class="form-control checkbox">
+                <input type="checkbox" class="managed" name="employees-managed-ca" value="CA"> <span>California</span>
+              </div>
+              <div class="form-control checkbox">
+                <input type="checkbox" class="managed" name="employees-managed-ct" value="CT"> <span>Connecticut</span>
+              </div>
+              <div class="form-control checkbox">
+                <input type="checkbox" class="managed" name="employees-managed-de" value="DE"> <span>Delaware</span>
+              </div>
+              <div class="form-control checkbox">
+                <input type="checkbox" class="managed" name="employees-managed-il" value="IL"> <span>Illinois</span>
+              </div>
+              <div class="form-control checkbox">
+                <input type="checkbox" class="managed" name="employees-managed-me" value="ME"> <span>Maine</span>
+              </div>
+              <div class="form-control checkbox">
+                <input type="checkbox" class="managed" name="employees-managed-ny" value="NY"> <span>New York</span>
+              </div>
+              <div class="form-control checkbox">
+                <input type="checkbox" class="managed" name="employees-managed-other" value="Other"> <span>Other</span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="newyork"><span class="number-lbl">3</span> Do you work a portion of your time in the state of New York or regularly interact with employees in New York City?</label>
+              <div class="form-control checkbox">
+                <input type="radio" name="newyork" value="1"> <span>Yes</span>
+              </div>
+              <div class="form-control checkbox">
+                <input type="radio" name="newyork" value="0"> <span>No</span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="illinois"><span class="number-lbl">4</span> Do you sometimes work or regularly interact with employees in Illinois?</label>
+              <div class="form-control checkbox">
+                <input type="radio" name="illinois" value="1"> <span>Yes</span>
+              </div>
+              <div class="form-control checkbox">
+                <input type="radio" name="illinois" value="0"> <span>No</span>
+              </div>
+            </div>
+
+            <div class="form-group anchor-bottom align-right">
+              <input class="btn disabled" type="submit" value="Submit">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

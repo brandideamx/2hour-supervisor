@@ -1,0 +1,314 @@
+		<scenario>
+		<intro>
+			<news>
+				<image>../../content/intervene/img/newspaper-retaliation.png</image>
+				<text><![CDATA[In the following activity, you'll see a timeline of events that leads to this unfortunate headline. It's up to you make as many adjustments to the timeline as you need to in order to come to the best possible outcome.]]></text>
+			</news>
+		</intro>
+		<popup><![CDATA[You haven't made a change yet! Remember, you'll need to make a change (or two) on this timeline in order to create a better outcome.]]></popup>
+		<timeline>
+			<title><![CDATA[Would you make any different decisions during Roald's employment?]]></title>
+			<inst><![CDATA[Click an event on the timeline to make changes. Once you think you've changed the timeline enough to get the best possible outcome and avoid the lawsuit, click "I'm Done" to see the new headline.]]></inst>
+			<noclickinst><![CDATA[There are no further changes possible to this timeline. If you think you've changed the timeline enough to get the best possible outcome, click "I'm Done" to see the new headline. If you think you've made a mistake, click the Undo button (circular arrow) to back up one step.]]></noclickinst>
+			<noaction><![CDATA[No Change Possible.]]></noaction>
+				<state scriptID="INITIAL" id="INITIAL" outcome="default">
+					<event>
+						<icon>icon_first_aid.png</icon>
+						<label><![CDATA[Roald, a receptionist in your organization, is injured in a car accident. His face is permanently scarred.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[There have been complaints about Roald's appearance. Your senior manager asks him to be a full-time phone assistant in a back office.]]></label>
+						<question><![CDATA[Would you do anything differently?]]></question>
+						<option target="INITIAL"><![CDATA[Nothing.]]></option>
+						<option target="B2"><![CDATA[Confront your senior manager.]]></option>
+						<option target="C2"><![CDATA[Report Incident To The Appropriate Personnel.]]></option>
+					</event>
+					<event>
+						<icon>icon_computer.png</icon>
+						<label><![CDATA[Roald misses working with the customers. Once a week, he sends the senior manager an email asking if he can work the desk again.]]></label>
+						<question><![CDATA[Would you do anything differently?]]></question>
+						<option target="INITIAL"><![CDATA[Nothing.]]></option>
+						<option target="B3"><![CDATA[Ask Roald to stop emailing.]]></option>
+					</event>
+					<event>
+						<icon>icon_hire.png</icon>
+						<label><![CDATA[After telling Roald his scars would scare customers, the senior manager thinks his emails are insubordinate, so he demotes Roald.]]></label>
+						<question><![CDATA[Would you do anything differently?]]></question>
+						<option target="INITIAL"><![CDATA[Nothing.]]></option>
+						<option target="B4"><![CDATA[Report Incident To The Appropriate Personnel.]]></option>
+						<option target="C4"><![CDATA[Confront your senior manager.]]></option>
+					</event>
+					<event>
+						<icon>icon_chart_down.png</icon>
+						<label><![CDATA[Roald shares his story throughout the department. People are not happy, and performance declines.]]></label>
+					</event>
+					<event>
+						<icon>icon_money.png</icon>
+						<label><![CDATA[With the support of his coworkers, Roald claims the Oranization treated his scar as a physical disability, and discriminated against him.]]></label>
+					</event>
+				</state>
+				<state scriptID="B2" id="B2" outcome="">
+					<event>
+						<icon>icon_first_aid.png</icon>
+						<label><![CDATA[Roald, a receptionist in your organization, is injured in a car accident. His face is permanently scarred.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[There have been complaints about Roald's appearance. Your senior manager asks him to be a full-time phone assistant in a back office.]]></label>
+					</event>
+					<event>
+						<icon>icon_band_aid.png</icon>
+						<label><![CDATA[You talk your senior manager out of relocating Roald to a back office. Instead, Roald is asked to cover his scars while working.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[Roald hates wearing bandages and makeup. He reports this requirement as discrimination to the appropriate personnel.]]></label>
+					</event>
+					<event>
+						<icon>icon_gavel.png</icon>
+						<label><![CDATA[After an investigation, the senior manager is given a warning and Roald no longer has to cover his scars.]]></label>
+					</event>
+					<event>
+						<icon>icon_hire.png</icon>
+						<label><![CDATA[Roald is still upset, and reports that he is constantly afraid he will be fired for the smallest mistakes.]]></label>
+					</event>
+				</state>
+				<state scriptID="B3" id="B3" outcome="">
+					<event>
+						<icon>icon_first_aid.png</icon>
+						<label><![CDATA[Roald, a receptionist in your organization, is injured in a car accident. His face is permanently scarred.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[There have been complaints about Roald's appearance. Your senior manager asks him to be a full-time phone assistant in a back office.]]></label>
+					</event>
+					<event>
+						<icon>icon_computer.png</icon>
+						<label><![CDATA[Roald misses working with the customers. Once a week, he sends the senior manager an email asking if he can work the desk again.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[You are able to convince Roald to stop sending weekly emails to your senior manager.]]></label>
+					</event>
+					<event>
+						<icon>icon_hire.png</icon>
+						<label><![CDATA[Roald feels he has no outlet for his frustration and quits.]]></label>
+					</event>
+					<event>
+						<icon>icon_money.png</icon>
+						<label><![CDATA[Roald claims the organization treated his scar as a physical disability, and discriminated against him.]]></label>
+					</event>
+				</state>
+				<state scriptID="B4" id="B4" outcome="">
+					<event>
+						<icon>icon_first_aid.png</icon>
+						<label><![CDATA[Roald, a receptionist in your organization, is injured in a car accident. His face is permanently scarred.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[There have been complaints about Roald's appearance. Your senior manager asks him to be a full-time phone assistant in a back office.]]></label>
+					</event>
+					<event>
+						<icon>icon_email.png</icon>
+						<label><![CDATA[Roald misses working with the customers. Once a week, he sends the senior manager an email asking if he can work the desk again.]]></label>
+					</event>
+					<event>
+						<icon>icon_hire.png</icon>
+						<label><![CDATA[After telling Roald his scars would scare customers, the senior manager thinks his emails are insubordinate, so he demotes Roald.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[You report about your senior manager demoting Roald.]]></label>
+					</event>
+					<event>
+						<icon>icon_gavel.png</icon>
+						<label><![CDATA[The senior manager is given a warning and must attend an anti-discrimination seminar.]]></label>
+					</event>
+					<event>
+						<icon>icon_money.png</icon>
+						<label><![CDATA[Roald is promoted back to his previous position. But, the prior negative treatment and demotion has damaged his engagement and performance.]]></label>
+					</event>
+				</state>
+				<state scriptID="C4" id="C4" outcome="">
+					<event>
+						<icon>icon_first_aid.png</icon>
+						<label><![CDATA[Roald, a receptionist in your organization, is injured in a car accident. His face is permanently scarred.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[There have been complaints about Roald's appearance. Your senior manager asks him to be a full-time phone assistant in a back office.]]></label>
+					</event>
+					<event>
+						<icon>icon_computer.png</icon>
+						<label><![CDATA[Roald misses working with the customers. Once a week, he sends the senior manager an email asking if he can work the desk again.]]></label>
+					</event>
+					<event>
+						<icon>icon_hire.png</icon>
+						<label><![CDATA[After telling Roald his scars would scare customers, the senior manager thinks his emails are insubordinate, so he demotes Roald.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[You confront your senior manager about demoting Roald, but your opinions are dismissed.]]></label>
+					</event>
+					<event>
+						<icon>icon_money.png</icon>
+						<label><![CDATA[Roald claims the organization treated his scar as a physical disability, and discriminated against him.]]></label>
+					</event>
+				</state>
+
+				<state scriptID="C2" id="C2" outcome="">
+					<event>
+						<icon>icon_first_aid.png</icon>
+						<label><![CDATA[Roald, a receptionist in your organization, is injured in a car accident. His face is permanently scarred.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[There have been complaints about Roald's appearance. Your senior manager asks him to be a full-time phone assistant in a back office.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[You report through appropriate channels about your senior manager relocating Roald due to his scars.]]></label>
+					</event>
+					<event>
+						<icon>icon_gavel.png</icon>
+						<label><![CDATA[After an investigation, the senior manager is given a warning, and Roald is allowed to work at the reception desk again.]]></label>
+					</event>
+					<event>
+						<icon>icon_computer.png</icon>
+						<label><![CDATA[A few weeks later, Roald reports that he did not receive an invitation to the organization's annual holiday party.
+]]></label>
+						<question><![CDATA[Would you do anything differently?]]></question>
+						<option target="C2"><![CDATA[Nothing.]]></option>
+						<option target="B5"><![CDATA[Confront your senior manager.]]></option>
+						<option target="C5"><![CDATA[Report Incident
+]]></option>
+					</event>
+					<event>
+						<icon>icon_money.png</icon>
+						<label><![CDATA[Roald feels this is retaliation against him for reporting discrimination. He decides to sue the organization.
+]]></label>
+					</event>
+				</state>
+				<state scriptID="B5" id="B5" outcome="">
+					<event>
+						<icon>icon_first_aid.png</icon>
+						<label><![CDATA[Roald, a receptionist in your organization, is injured in a car accident. His face is permanently scarred.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[There have been complaints about Roald's appearance. Your senior manager asks him to be a full-time phone assistant in a back office.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[You report through appropriate channels about your senior manager relocating Roald due to his scars.]]></label>
+					</event>
+					<event>
+						<icon>icon_gavel.png</icon>
+						<label><![CDATA[After an investigation, the senior manager is given a warning, and Roald is allowed to work at the reception desk again.]]></label>
+					</event>
+					<event>
+						<icon>icon_computer.png</icon>
+						<label><![CDATA[A few weeks later, Roald reports that he did not receive an invitation to the organization's annual holiday party.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[You ask your senior manager about the invitation. He says it was an honest mistake and sends an invitation to Roald.]]></label>
+					</event>
+					<event>
+						<icon>icon_chart_down.png</icon>
+						<label><![CDATA[Roald feels he will always be singled out for retaliation in subtle ways, and can do nothing about it. His job performance suffers.]]></label>
+					</event>
+				</state>
+				<state scriptID="C5" id="C5" outcome="">
+					<event>
+						<icon>icon_first_aid.png</icon>
+						<label><![CDATA[Roald, a receptionist in your organization, is injured in a car accident. His face is permanently scarred.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[There have been complaints about Roald's appearance. Your senior manager asks him to be a full-time phone assistant in a back office.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[You report through appropriate channels about your senior manager relocating Roald due to his scars.]]></label>
+					</event>
+					<event>
+						<icon>icon_gavel.png</icon>
+						<label><![CDATA[After an investigation, the senior manager is given a warning, and Roald is allowed to work at the reception desk again.]]></label>
+					</event>
+					<event>
+						<icon>icon_computer.png</icon>
+						<label><![CDATA[A few weeks later, Roald reports that he did not receive an invitation to the organization's annual holiday party.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[You report  the possibility that your senior manager is retaliating against Roald by not inviting him to the holiday party.]]></label>
+					</event>
+					<event>
+						<icon>icon_gavel.png</icon>
+						<label><![CDATA[The senior manager is given a second warning and put under close watch. Roald feels better knowing the organization is supporting him.]]></label>
+					</event>
+				</state>
+		</timeline>
+		<outcomes>
+			<title><![CDATA[Your Outcome]]></title>
+				<INITIAL advance="false">
+					<headline><![CDATA[Cannot Submit]]></headline>
+					<copy><![CDATA[]]></copy>
+				</INITIAL>
+				<B2 advance="false">
+					<headline><![CDATA[Organization Criticized for Poor Leadership]]></headline>
+					<copy>
+            <![CDATA[It's good that you intervened at an appropriate time, but in cases like this it's best to go directly to appropriate channels. This will ensure the situation is handled appropriately and in line with laws and organization policies.
+<br><br>
+You must click Try Again and give it another shot.
+]]></copy>
+				</B2>
+				<B3 advance="false">
+					<headline><![CDATA[Organization Sued for Disability Discrimination]]></headline>
+					<copy>
+            <![CDATA[Convincing Roald to stop sending the emails was not the appropriate way to address the issue. Instead, you should have reported the situation.
+<br><br>
+You must click Try Again and give it another shot.
+]]></copy>
+				</B3>
+				<B4 advance="false">
+					<headline><![CDATA[Organization Performance Slips]]></headline>
+					<copy>
+            <![CDATA[Your organization's policy requires you to promptly report any concern of discrimination or retaliation. Had you done so, appropriate channels would have been able to quickly investigate the situation and take prompt remedial action. This would have enabled Roald to maintain his high level of engagement and performance.
+<br><br>
+Go ahead and click Next if you're satisfied with the current outcome. Click Try Again if you'd like to explore additional opportunities for improvement.
+]]></copy>
+				</B4>
+				<C4 advance="false">
+					<headline><![CDATA[Organization Sued for Disability Discrimination]]></headline>
+					<copy>
+            <![CDATA[You should have followed your organization's policy and promptly reported the discrimination. Doing so would have enabled appropriate channels to take prompt remedial action.
+<br><br>
+You must click Try Again and give it another shot.
+]]></copy>
+				</C4>
+				<C2 advance="false">
+					<headline><![CDATA[Organization Sued for Retaliation]]></headline>
+					<copy>
+            <![CDATA[Whoa! Even though you reported discrimination, this doesn't mean your work is over. Retaliation is against the law and a violation of your organization policy. If you are aware of or receive any concern of retaliation, immediately report.
+						<br><br>
+You must click Try Again and give it another shot.]]></copy>
+				</C2>
+				<B5 advance="true">
+					<headline><![CDATA[Organization Criticized for Poor Leadership]]></headline>
+					<copy><![CDATA[You were right to promptly contact the appropriate personnel about the discrimination. And, if you become aware of any retaliation, you should also promptly report that as well.
+<br><br>
+Go ahead and click Next if you're satisfied with the current outcome. Click Try Again if you'd like to explore additional opportunities for improvement.]]></copy>
+				</B5>
+				<C5 advance="true">
+					<headline><![CDATA[Organization is Selected Best Employer for People with Disabilities]]></headline>
+					<copy><![CDATA[Great job! You followed your organization's anti-harassment and discrimination policy and promptly reported any concern of discrimination and retaliation. As a result, Roald was reassured of the organization's commitment to people with disabilities and becomes an exceptional contributor.
+<br><br>
+Choices like this create a safe environment where everyone can thrive.
+<br><br>
+You have passed this activity like a true professional! Click Next to move on.]]></copy>
+				</C5>
+		</outcomes>
+	</scenario>

@@ -1,0 +1,17 @@
+ <globals>
+	<buttons>
+		<start><![CDATA[START]]></start>
+		<next><![CDATA[NEXT]]></next>
+		<tryagain><![CDATA[TRY AGAIN]]></tryagain>
+	</buttons>
+	<transcript><![CDATA[Transcript]]></transcript>
+	<definitionPopup>content/employee-concerns/transcript.html</definitionPopup>
+	<question><![CDATA[How would you respond?]]></question>
+	<inst><![CDATA[Click the best option, then watch the video to see the employee reaction.]]></inst>
+	<feedbackInst><![CDATA[Here is a graph showing your performance in this conversation over time. Where did you do well? Where did you go off track? Click the points on the graph to see the transcript of the choices you made and the employee's response.]]></feedbackInst>
+	<graph>
+		<recap><![CDATA[RECAP]]></recap>
+		<top><![CDATA[EXCELLENT JOB]]></top>
+		<bottom><![CDATA[NEEDS IMPROVEMENT]]></bottom>
+	</graph>
+</globals>

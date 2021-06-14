@@ -1,0 +1,313 @@
+		<scenario>
+		<intro>
+			<news>
+				<image>../../content/intervene/img/newspaper2.png</image>
+				<text><![CDATA[In the following activity, you'll see a timeline of events that leads to this unfortunate headline. It's up to you make as many adjustments to the timeline as you need to in order to come to the best possible outcome.]]></text>
+			</news>
+		</intro>
+		<popup><![CDATA[You haven't made a change yet! Remember, you'll need to make a change (or two) on this timeline in order to create a better outcome.]]></popup>
+		<timeline>
+			<title><![CDATA[Would you make any different decisions during Emily's employment?]]></title>
+			<inst><![CDATA[Click an event on the timeline to make changes. Once you think you've changed the timeline enough to get the best possible outcome, click "I'm Done" to see the new headline.]]></inst>
+			<noclickinst><![CDATA[There are no further changes possible to this timeline. If you think you've changed the timeline enough to get the best possible outcome, click "I'm Done" to see the new headline. If you think you've made a mistake, click the Undo button (circular arrow) to back up one step.]]></noclickinst>
+			<noaction><![CDATA[No Change Possible.]]></noaction>
+				<state scriptID="INITIAL" id="INITIAL" outcome="default">
+					<event>
+						<icon>icon_hire.png</icon>
+						<label><![CDATA[Emily applies internally for a position in your department. You hire her despite concerns from your mostly male staff.]]></label>
+						<question><![CDATA[Would you do anything differently?]]></question>
+						<option target="INITIAL"><![CDATA[Nothing.]]></option>
+						<option target="B1"><![CDATA[Don't hire Emily.]]></option>
+					</event>
+					<event>
+						<icon>icon_handshake.png</icon>
+						<label><![CDATA[One of your employees, Robert, has stepped up to help Emily integrate into the department.]]></label>
+					</event>
+					<event>
+						<icon>icon_computer.png</icon>
+						<label><![CDATA[You are accidentally copied on an email from Robert to Emily. You see he has written what could be a sexual innuendo.]]></label>
+						<question><![CDATA[Would you do anything differently?]]></question>
+						<option target="INITIAL"><![CDATA[Nothing.]]></option>
+						<option target="B3"><![CDATA[Ask if Emily wants to report the incident.]]></option>
+						<option target="C3"><![CDATA[Document and report the incident.]]></option>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[Later that week, Emily reports that Robert grabbed her hips while they were out picking up a large lunch order for the office.]]></label>
+					</event>
+					<event>
+						<icon>icon_gavel.png</icon>
+						<label><![CDATA[It cannot be corroborated that Emily had been grabbed by Robert.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[Emily requests that Robert is transferred to a different department, and you decline the request.]]></label>
+						<question><![CDATA[Would you do anything differently?]]></question>
+						<option target="INITIAL"><![CDATA[Nothing.]]></option>
+						<option target="B6"><![CDATA[Transfer Robert.]]></option>
+					</event>
+					<event>
+						<icon>icon_money.png</icon>
+						<label><![CDATA[Emily sues, claiming the organization should have intervened to gaurantee a harassment free workplace.]]></label>
+					</event>
+				</state>
+				<state scriptID="B1" id="B1" outcome="">
+					<event>
+						<icon>icon_hire.png</icon>
+						<label><![CDATA[You decide not to hire Emily. Someone tells her she wouldn't have enjoyed working in a mostly male department anyway.]]></label>
+					</event>
+					<event>
+						<icon>icon_money.png</icon>
+						<label><![CDATA[Emily believes she has been unfairly turned down for the position and sues your organization for discriminatory hiring practices.]]></label>
+					</event>
+				</state>
+				<state scriptID="B3" id="B3" outcome="">
+					<event>
+						<icon>icon_hire.png</icon>
+						<label><![CDATA[Emily applies internally for a position in your department. You hire her despite concerns from your mostly male staff.]]></label>
+					</event>
+					<event>
+						<icon>icon_handshake.png</icon>
+						<label><![CDATA[One of your employees, Robert, has stepped up to help Emily integrate into the department.]]></label>
+					</event>
+					<event>
+						<icon>icon_computer.png</icon>
+						<label><![CDATA[You ask Emily if she wants to report a questionable email from Robert as sexual harassment. She declines.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[Later that week, Emily reports to appropriate channels that Robert grabbed her hips while they were out picking up a large lunch order for the office.]]></label>
+					</event>
+					<event>
+						<icon>icon_gavel.png</icon>
+						<label><![CDATA[Not enough evidence was found to support Emily's sexual harassment claim.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[Emily requests that Robert is transferred to a different department, and you decline the request.]]></label>
+						<question><![CDATA[Would you do anything differently?]]></question>
+						<option target="B3"><![CDATA[Nothing.]]></option>
+						<option target="B62"><![CDATA[Transfer Robert.]]></option>
+					</event>
+					<event>
+						<icon>icon_money.png</icon>
+						<label><![CDATA[Emily sues, claiming the organization should have intervened to guarantee a harassment free workplace.]]></label>
+					</event>
+				</state>
+				<state scriptID="B6" id="B6" outcome="">
+					<event>
+						<icon>icon_hire.png</icon>
+						<label><![CDATA[Emily applies internally for a position in your department. You hire her despite concerns from your mostly male staff.]]></label>
+					</event>
+					<event>
+						<icon>icon_handshake.png</icon>
+						<label><![CDATA[One of your employees, Robert, has stepped up to help Emily integrate into the department.]]></label>
+					</event>
+					<event>
+						<icon>icon_computer.png</icon>
+						<label><![CDATA[You are accidentally copied on an email from Robert to Emily. You see he has written what could be a sexual innuendo.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[Later that week, Emily reports to appropriate channels that Robert grabbed her hips while they were out picking up a large lunch order for the office.]]></label>
+					</event>
+					<event>
+						<icon>icon_gavel.png</icon>
+						<label><![CDATA[Not enough evidence was found to support Emily's sexual harassment claim.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[Emily requests that Robert is transferred to a different department and you agree to the request.]]></label>
+					</event>
+					<event>
+						<icon>icon_money.png</icon>
+						<label><![CDATA[<span style="font-size:11px">Robert challenges his transfer, arguing that no one found that he had sexually harassed Emily. He starts bad mouthing the team and trying to sabotage their work.</span>]]></label>
+					</event>
+				</state>
+				<state scriptID="C3" id="C3" outcome="">
+					<event>
+						<icon>icon_hire.png</icon>
+						<label><![CDATA[Emily applies internally for a position in your department. You hire her despite concerns from your mostly male staff.]]></label>
+					</event>
+					<event>
+						<icon>icon_handshake.png</icon>
+						<label><![CDATA[One of your employees, Robert, has stepped up to help Emily integrate into the department.]]></label>
+					</event>
+					<event>
+						<icon>icon_computer.png</icon>
+						<label><![CDATA[You decide to document and report to appropriate channels a questionable email from Robert to Emily as an incident of possible sexual harassment.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[Before the appropriate personnel is able to investigate, Emily reports that Robert grabbed her hips while they were picking up a large lunch order for the office.]]></label>
+					</event>
+					<event>
+						<icon>icon_gavel.png</icon>
+						<label><![CDATA[Enough evidence was found to support Emily's sexual harassment claim.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[Emily requests that Robert is transferred to a different department. You give Robert a warning instead.]]></label>
+						<question><![CDATA[Would you do anything differently?]]></question>
+						<option target="C3"><![CDATA[Nothing.]]></option>
+						<option target="B63"><![CDATA[Consult with appropriate personnel and Transfer Robert.]]></option>
+						<option target="C6"><![CDATA[Transfer Emily.]]></option>
+					</event>
+					<event>
+						<icon>icon_exclaim.png</icon>
+						<label><![CDATA[Robert retaliates against Emily by sexually harassing her again. Emily does not trust the organization to handle the situation.]]></label>
+					</event>
+				</state>
+
+				<state scriptID="B62" id="B62" outcome="">
+					<event>
+						<icon>icon_hire.png</icon>
+						<label><![CDATA[Emily applies internally for a position in your department. You hire her despite concerns from your mostly male staff.]]></label>
+					</event>
+					<event>
+						<icon>icon_handshake.png</icon>
+						<label><![CDATA[One of your employees, Robert, has stepped up to help Emily integrate into the department.]]></label>
+					</event>
+					<event>
+						<icon>icon_computer.png</icon>
+						<label><![CDATA[You ask Emily if she wants to report a questionable email from Robert as sexual harassment. She declines.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[Later that week, Emily reports to appropriate channels that Robert grabbed her hips while they were out picking up a large lunch order for the office.]]></label>
+					</event>
+					<event>
+						<icon>icon_gavel.png</icon>
+						<label><![CDATA[Not enough evidence was found to support Emily's sexual harassment claim.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[Emily requests that Robert is transferred to a different department and you agree to the request.]]></label>
+					</event>
+					<event>
+						<icon>icon_money.png</icon>
+						<label><![CDATA[Robert challenges his transfer, arguing that no one found that he had sexually harassed Emily. He starts bad mouthing the team and trying to sabotage their work.]]></label>
+					</event>
+				</state>
+				<state scriptID="B63" id="B63" outcome="">
+					<event>
+						<icon>icon_hire.png</icon>
+						<label><![CDATA[Emily applies internally for a position in your department. You hire her despite concerns from your mostly male staff.]]></label>
+					</event>
+					<event>
+						<icon>icon_handshake.png</icon>
+						<label><![CDATA[One of your employees, Robert, has stepped up to help Emily integrate into the department.]]></label>
+					</event>
+					<event>
+						<icon>icon_computer.png</icon>
+						<label><![CDATA[You decide to document and report to the appropriate personnel a questionable email from Robert to Emily as an incident of possilbe sexual harassment.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[Before the appropriate personnel is able to investigate, Emily reports that Robert grabbed her hips while they were picking up a large lunch order for the office.]]></label>
+					</event>
+					<event>
+						<icon>icon_gavel.png</icon>
+						<label><![CDATA[Enough evidence was found to support Emily's sexual harassment claim.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[Emily requests that Robert is transferred to a different department. You consult appropriate personnel and agree to the request.]]></label>
+					</event>
+					<event>
+						<icon>icon_dept.png</icon>
+						<label><![CDATA[Emily is thankful. She didn't want to get anyone fired, but she's glad she doesn't have to work around Robert anymore.]]></label>
+					</event>
+				</state>
+				<state scriptID="C6" id="C6" outcome="">
+					<event>
+						<icon>icon_hire.png</icon>
+						<label><![CDATA[Emily applies internally for a position in your department. You hire her despite concerns from your mostly male staff.]]></label>
+					</event>
+					<event>
+						<icon>icon_handshake.png</icon>
+						<label><![CDATA[One of your employees, Robert, has stepped up to help Emily integrate into the department.]]></label>
+					</event>
+					<event>
+						<icon>icon_computer.png</icon>
+						<label><![CDATA[You decide to document and report to the appropriate personnel a questionable email from Robert to Emily as an incident of possilbe sexual harassment.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[Before the appropriate personnel is able to investigate, Emily reports that Robert grabbed her hips while they were picking up a large lunch order for the office.]]></label>
+					</event>
+					<event>
+						<icon>icon_gavel.png</icon>
+						<label><![CDATA[Enough evidence was found to support Emily's sexual harassment claim.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[Emily requests that Robert is transferred to a different department. You decide it will be easier in the long run to transfer Emily instead.]]></label>
+					</event>
+					<event>
+						<icon>icon_dept.png</icon>
+						<label><![CDATA[In her new department, Emily feels isolated and further from achieving her career goals. She views the transfer as a punishment.]]></label>
+					</event>
+				</state>
+		</timeline>
+		<outcomes>
+			<title><![CDATA[Your Outcome]]></title>
+				<INITIAL advance="false">
+					<headline><![CDATA[Cannot Submit]]></headline>
+					<copy><![CDATA[]]></copy>
+				</INITIAL>
+				<B1 advance="false">
+					<headline><![CDATA[Organization Faces Inquiry for Discriminatory Hiring Practices]]></headline>
+					<copy>
+            <![CDATA[
+Oh no! Senior management questions your failure to hire top talent. Additionally, you have to explain why you didn't hire Emily to the Equal Employment Opportunity Commission, which is investigating her charge of hiring discrimination against you and the organization.
+
+You must click Try Again and give it another shot.
+]]></copy>
+				</B1>
+				<B3 advance="false">
+<headline><![CDATA[Organization Faces Discrimination Lawsuit]]></headline>
+<copy>
+            <![CDATA[
+If you had only reported the initial email with the sexual innuendo through proper channels, they may have had enough evidence against Robert to enforce disciplinary measures. As a supervisor, you must report  any sexually harassing behavior that you are aware of AND support any such investigation by the organization.]]></copy>
+				</B3>
+				<B6 advance="false">
+					<headline><![CDATA[Organization Faces Discrimination Lawsuit]]></headline>
+					<copy><![CDATA[You did not document Robert's sexual innuendoes to Emily and report it through the appropriate channels for a prompt investigation. As a result, the organization did not have enough evidence to terminate Robert's employment.
+
+<br><br>
+You must click Try Again and give it another shot. ]]></copy>
+				</B6>
+				<B62 advance="false">
+					<headline><![CDATA[Organization Faces Discrimination Lawsuit]]></headline>
+					<copy><![CDATA[You did not document Robert's sexual innuendoes to Emily and report it through the appropriate channels for a prompt investigation. As a result, the organization did not have enough evidence to terminate Robert's employment.
+
+<br><br>
+You must click Try Again and give it another shot. ]]></copy>
+				</B62>
+				<B63 advance="true">
+					<headline><![CDATA[Manager Recognized as Outstanding Leader]]></headline>
+					<copy><![CDATA[Well done! You intervened early enough to prevent the sexual harassment lawsuit. By properly documenting and imposing appropriate disciplinary actions, you were able to diffuse a difficult situation.
+<br><br>
+Choices like this create a safe environment where everyone can thrive.
+<br><br>
+You have passed this activity with high marks! Click Next to move on. ]]></copy>
+				</B63>
+				<C3 advance="false">
+					<headline><![CDATA[Organization Accused of Sexual Harassment and Retaliation]]></headline>
+					<copy>
+            <![CDATA[
+You must involve the appropriate channels with disciplinary decisions and employee concerns of on-going or future harassment. Had you consulted with the appropriate channels regarding disciplinary action for Robert, Emily would have felt protected by you and the organization. She would have returned to her high level of engagement and performance; and you and the organization would not be suffering reputational damage and legal charges.
+
+You must click Try Again and give it another shot.
+]]></copy>
+				</C3>
+				<C6 advance="false">
+					<headline><![CDATA[Organization Sued for Retaliation]]></headline>
+					<copy><![CDATA[
+You must involve the appropriate channels on employee requests related to a sexual harassment complaint. Because you did not consult with the appropriate channels, Emily believed you transferred her in retaliation for complaining.
+<br><br>
+You must click Try Again and give it another shot. ]]></copy>
+				</C6>
+		</outcomes>
+	</scenario>

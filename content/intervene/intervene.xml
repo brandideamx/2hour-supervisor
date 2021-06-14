@@ -1,0 +1,180 @@
+<intervene>
+	<contentRoot>../../content/intervene/</contentRoot>
+	<buttons>
+		<start><![CDATA[START]]></start>
+		<leave><![CDATA[LEAVE AS IS]]></leave>
+		<done><![CDATA[I'M DONE]]></done>
+		<next><![CDATA[NEXT]]></next>
+		<tryagain><![CDATA[TRY AGAIN]]></tryagain>
+		<undo><![CDATA[Undo]]></undo>
+    <submit><![CDATA[SUBMIT]]></submit>
+	</buttons>
+	<tooltip><![CDATA[Click if you'd like to undo your last move.]]></tooltip>
+
+	<landing>
+		<image>../../content/intervene/img/fpo.png</image>
+		<title><![CDATA[Better Decisions Can <br>Change Outcomes.]]></title>
+		<copy><![CDATA[Have you ever heard the expression "hindsight is 20/20"? In this activity, you'll have a chance to prove it! Use what you've learned to determine if and when to intervene to improve the outcome of this situation. ]]></copy>
+	</landing>
+
+	<scenario>scenario1.xml</scenario>
+	<scenario>scenario2.xml</scenario>
+	<scenario>scenario3.xml</scenario>
+	<scenario>scenario4.xml</scenario>
+
+	<outro>
+		<title><![CDATA[Congratulations!]]></title>
+		<copy><![CDATA[You successfully navigated a number of tricky situations that might have led to big problems for your organization and its employees. You may return at any time to play these scenarios out in different ways and find out just how much of an effect your decisions can have.]]></copy>
+	</outro>
+
+	<quizintropager>
+		<page background="img/intro-bg.jpg" x="0" y="158" width="576">
+      <header><![CDATA[Test Yourself!]]></header>
+      <body><![CDATA[<b>Now that you've completed the course material, take a moment to assess your knowledge by answering the following questions.]]></body>
+</page>
+	</quizintropager>
+	<quiz>
+		<buttons>
+			<submit><![CDATA[SUBMIT]]></submit>
+		</buttons>
+		<question multiple="true" correct="1">
+			<text><![CDATA[<span style="font-size:24px; font-style:italic;">Select the best answer to complete the statement below.</span><br><br>Race, religion, color, national origin, sexual orientation, gender identity, veteran status, and disability are examples of some of the ____________ characteristics for which the organization prohibits discrimination and harassment.]]></text>
+			<answers>
+				<answer><![CDATA[Prohibited]]></answer>
+				<answer><![CDATA[Protected]]></answer>
+				<answer><![CDATA[Americans with Disabilities Act]]></answer>
+				<answer><![CDATA[Member]]></answer>
+			</answers>
+			<feedback>
+				<correct><![CDATA[<span style="font-size:27px;">Correct. Race, religion, color, national origin, sexual orientation, gender identity, veteran status, and disability are examples of some of the protected characteristics. Discrimination or harassment based on protected characteristics is expressly prohibited. The organization strives to provide an inclusive work environment that encourages and respects diversity and ensures equal opportunity in the workplace.</span>]]></correct>
+				<incorrect><![CDATA[<span style="font-size:27px;">Incorrect. Race, religion, color, national origin, sexual orientation, gender identity, veteran status, and disability are examples of some of the protected characteristics. Discrimination or harassment based on protected characteristics is expressly prohibited. The organization strives to provide an inclusive work environment that encourages and respects diversity and ensures equal opportunity in the workplace.</span>]]></incorrect>
+			</feedback>
+
+    </question>
+		<question multiple="true" correct="1,3">
+			<text><![CDATA[<span style="font-size:24px; font-style:italic;">Complete the statement below; select all that apply.</span><br><br>When making hiring decisions, consider the essential functions of the job (i.e. the fundamental duties of the job; the things a person holding the job absolutely must be able to do) in relation to _________.]]></text>
+			<answers>
+				<answer><![CDATA[<span style="font-size:14px;display:block;line-height:1;">your ideas about the strengths or limitations posed by the candidate's racial or religious affiliations.</span>]]></answer>
+				<answer><![CDATA[the candidate's work experience ]]></answer>
+				<answer><![CDATA[any disabilities of the candidate]]></answer>
+				<answer><![CDATA[the candidate's certifications, and job-related skills]]></answer>
+			</answers>
+			<feedback>
+				<correct><![CDATA[Correct. When making hiring decisions, consider the essential functions of the job in relation to the candidate's work experience, certifications and job-related skills. Do not make any employment decision based on race, religion or disability, which are protected characteristics.]]></correct>
+				<incorrect><![CDATA[Incorrect. When making hiring decisions, consider the essential functions of the job in relation to the candidate's work experience, certifications and job-related skills. Do not make any employment decision based on race, religion or disability, which are protected characteristics.]]></incorrect>
+			</feedback>
+		</question>
+		<question multiple="true" correct="3">
+      <text><![CDATA[<span style="font-size:24px; font-style:italic;">Select the best answer to complete the statement below.</span><br><br>The organization's anti-harassment and discrimination policy_______________.]]></text>
+			<answers>
+				<answer><![CDATA[pertains to our employees only]]></answer>
+				<answer><![CDATA[pertains to our employees and independent contractors only]]></answer>
+				<answer><![CDATA[does not pertain to customers, clients or third parties]]></answer>
+				<answer><![CDATA[<span style="font-size:12px;display:block;line-height:1;">pertains to any and all employees and individuals who perform work on behalf of the organization, as well as to their interaction with our clients and customers</span>]]></answer>
+			</answers>
+			<feedback>
+				<correct><![CDATA[<span style="font-size:26px;">Correct. The organization's anti-harassment and discrimination policy applies to employees and individuals who perform work on our behalf or who interact with the organization's employees, including, but not limited to: independent contractors, contingent workers, volunteers, vendors, or third parties (such as clients and customers).</span>]]></correct>
+				<incorrect><![CDATA[<span style="font-size:26px;">Incorrect. The organization's anti-harassment and discrimination policy applies to employees and individuals who perform work on its behalf or who interact with the organization's employees, including, but not limited to: independent contractors, contingent workers, volunteers, vendors, or third parties (such as clients and customers).</span>]]></incorrect>
+			</feedback>
+		</question>
+		<question multiple="true" correct="0,1,2,3">
+      <text><![CDATA[<span style="font-size:24px; font-style:italic;">Select all answers that apply.</span><br><br>Which activity is a form of harassment?]]></text>
+			<answers>
+				<answer><![CDATA[A co-worker who gives unwanted back or neck massages]]></answer>
+				<answer><![CDATA[A manager who begins every team meeting with a joke about Muslims]]></answer>
+				<answer><![CDATA[An employee who displays a sexually suggestive or lewd screen saver]]></answer>
+				<answer><![CDATA[A third party vendor who makes a joke that is laced with racist language]]></answer>
+			</answers>
+			<feedback>
+				<correct><![CDATA[Correct. All of the choices are examples of harassment prohibited at the organization. Harassment is not just sexual. The organization strives to create a productive and inclusive workplace. Any verbal, physical or visual conduct based on a protected characteristic that creates an intimidating, offensive or hostile work environment is a form of harassment, and is prohibited conduct.]]></correct>
+				<incorrect><![CDATA[Incorrect. All of the choices are examples of harassment prohibited at the organization. Harassment is not just sexual. The organization strives to create a productive and inclusive workplace. Any verbal, physical or visual conduct based on a protected characteristic that creates an intimidating, offensive or hostile work environment is a form of harassment, and is prohibited conduct.]]></incorrect>
+			</feedback>
+		</question>
+		<question multiple="true" correct="1">
+      <text><![CDATA[<span style="font-size:24px; font-style:italic;">Review the scenario below and select the best answer.</span><br><br>An employee is planning a team building event. He asks your opinion about having it at a nearby strip club since the team is comprised of only men who are friends outside of work. How would you advise him?]]></text>
+			<answers>
+				<answer><![CDATA[It's fine, since the event is outside of the workplace and off-hours.]]></answer>
+				<answer><![CDATA[This would be inappropriate and a violation of the organization's policy]]></answer>
+				<answer><![CDATA[It would be OK; as long as you let the team know in advance.]]></answer>
+				<answer><![CDATA[It would be OK; just don't include the boring people on the team.]]></answer>
+			</answers>
+			<feedback>
+				<correct><![CDATA[<span style="font-size:27px">Correct. This would be inappropriate and a violation of the organization's policy, which applies to incidents that occur off-premises or off-hours, where an activity involves a supervisor, a co-worker or a third-party who is engaged in the organization's business.  A potential violation that takes place off premises and/or outside of working hours should be reported as soon as possible, but no later than the next business day.</span>]]></correct>
+				<incorrect><![CDATA[<span style="font-size:27px">Incorrect. This would be inappropriate and a violation of the organization's policy, which applies to incidents that occur off-premises or off-hours, where an activity involves a supervisor, a co-worker or a third-party who is engaged in the organization's business.  A potential violation that takes place off premises and/or outside of working hours should be reported as soon as possible, but no later than the next business day.</span>]]></incorrect>
+			</feedback>
+		</question>
+		<question multiple="true" correct="2">
+      <text><![CDATA[<span style="font-size:24px; font-style:italic;">Select the best response to complete the statement below.</span><br><br>If an employee experiences harassment or discrimination in the workplace, he or she ________.]]></text>
+			<answers>
+				<answer><![CDATA[Must first report their concerns to their immediate supervisor]]></answer>
+				<answer><![CDATA[Must follow a formal chain of command to report their concerns]]></answer>
+				<answer><![CDATA[Have multiple alternative reporting options]]></answer>
+			</answers>
+			<feedback>
+				<correct><![CDATA[<span style="font-size:27px">Correct. If an employee believes that they have experienced harassment or discrimination in the workplace, they have multiple alternative reporting options, including their immediate supervisor, any member of the management team and/or the appropriate personnel.</span>]]></correct>
+				<incorrect><![CDATA[<span style="font-size:27px">Incorrect. If an employee believes that they have experienced harassment or discrimination in the workplace, they have multiple alternative reporting options, including their immediate supervisor, any member of the management team and/or the appropriate personnel.</span>]]></incorrect>
+			</feedback>
+		</question>
+		<question multiple="true" correct="0,1">
+      <text><![CDATA[<span style="font-size:24px; font-style:italic;">Complete the statement below. Select all that apply.</span><br><br>As a manager or supervisor, if you witness discrimination or harassment in the workplace you must _________.]]></text>
+			<answers>
+				<answer><![CDATA[Report It To The Appropriate Personnel]]></answer>
+				<answer><![CDATA[Take immediate action to stop it]]></answer>
+				<answer><![CDATA[Act only if it involves team members who report into you]]></answer>
+			</answers>
+			<feedback>
+				<correct><![CDATA[Correct. As a manager or supervisor, if you witness discrimination or harassment in the workplace, you must immediately take action to stop it, and you must report it to the appropriate personnel, even if the affected employee is not a member of your team.]]></correct>
+				<incorrect><![CDATA[Incorrect. As a manager or supervisor, if you witness discrimination or harassment in the workplace, you must immediately take action to stop it, and you must report it to the appropriate personnel, even if the affected employee is not a member of your team.]]></incorrect>
+			</feedback>
+		</question>
+		<question multiple="true" correct="0">
+      <text><![CDATA[<span style="font-size:24px; font-style:italic;">Select the best response to complete the statement below.</span><br><br>As a manager or supervisor, if you receive a complaint of discrimination or harassment in the workplace you must:]]></text>
+			<answers>
+				<answer><![CDATA[Immediately report it to the appropriate personnel]]></answer>
+				<answer><![CDATA[Do a thorough investigation, then report it the appropriate personnel]]></answer>
+				<answer><![CDATA[Only report it if it involves a team member who reports into you.]]></answer>
+			</answers>
+			<feedback>
+				<correct><![CDATA[Correct. If you receive a complaint of discrimination or harassment in the workplace you must immediately report it to the appropriate personnel, even if the complainant is not a member of your team. You should not investigate the matter yourself. The organization takes all complaints seriously.]]></correct>
+				<incorrect><![CDATA[Incorrect. If you receive a complaint of discrimination or harassment in the workplace you must immediately report it to the appropriate personnel, even if the complainant is not a member of your team. You should not investigate the matter yourself. The organization takes all complaints seriously.]]></incorrect>
+			</feedback>
+		</question>
+		<question multiple="true" correct="1">
+      <text><![CDATA[<span style="font-size:24px; font-style:italic;">Select the best answer to complete the statement below.</span><br><br>If you are asked to cooperate in the internal investigation of a discrimination or harassment claim, _________.]]></text>
+			<answers>
+				<answer><![CDATA[you may use your judgment to decide whether you wish to cooperate]]></answer>
+				<answer><![CDATA[you are required to fully cooperate]]></answer>
+				<answer><![CDATA[<span style="font-size:15px;display:block;line-height:1;">you should be careful about providing information that might be damaging to your manager or team members</span>]]></answer>
+				<answer><![CDATA[you may choose to provide only the information that you wish to share]]></answer>
+			</answers>
+			<feedback>
+				<correct><![CDATA[<span style="font-size:27px">Correct. If you are asked to cooperate in an internal investigation, you are required to fully cooperate, and you can do so without fear of retaliation.  The organization will protect your confidentiality to the extent possible, and prohibits any form of retaliation against any employee for making a bona fide complaint or for assisting in the investigation of such a complaint.</span>]]></correct>
+				<incorrect><![CDATA[<span style="font-size:27px">Incorrect. If you are asked to cooperate in an internal investigation, you are required to fully cooperate; and you can do so without fear of retaliation.  The organization will protect your confidentiality to the extent possible, and prohibits any form of retaliation against any employee for making a bona fide complaint or for assisting in the investigation of such a complaint.</span>]]></incorrect>
+			</feedback>
+		</question>
+     <question multiple="true" correct="1">
+      <text><![CDATA[<span style="font-size:24px; font-style:italic;">Review the scenario below and select the best answer.</span><br><br>Another supervisor confides in you that she is being sexually harassed by a member of the senior leadership team. You advise her to report her concerns, but she is too afraid to do so. You should _________.]]></text>
+      <answers>
+        <answer><![CDATA[Do nothing. As a fellow supervisor, she can take care of herself.]]></answer>
+        <answer><![CDATA[Report the concern if she refuses to do so.]]></answer>
+        <answer><![CDATA[Do nothing, because the alleged offender is senior to you and your colleague.]]></answer>
+      </answers>
+      <feedback>
+        <correct><![CDATA[Correct. If your colleague refuses to report her concerns, then you are obligated to do so.  Do not allow an inappropriate situation to continue by not reporting it, regardless of who is creating that situation.]]></correct>
+        <incorrect><![CDATA[Incorrect. If your colleague refuses to report her concerns, then you are obligated to do so. Do not allow an inappropriate situation to continue by not reporting it, regardless of who is creating that situation.]]></incorrect>
+      </feedback>
+    </question>
+	</quiz>
+
+	<failfeedback>
+		<page background="img/intro-bg.jpg" x="0" y="220" width="576">
+			<header><![CDATA[Feedback]]></header>
+			<body><![CDATA[You have not received the required 80% correct to pass this quiz. Please try again.]]></body>
+			<next><![CDATA[Retry]]></next>
+		</page>
+  </failfeedback>
+    <conclusion>
+      <title><![CDATA[]]></title>
+      <copy><![CDATA[You have completed the quiz! To ensure your course completion progress is saved, please click the menu button in the top right corner of your screen to return to the main menu. You can then close out of your training course.]]></copy>
+    </conclusion>
+</intervene>

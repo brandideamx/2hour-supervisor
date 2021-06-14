@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=0.9, maximum-scale=0.9">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title></title>
+
+	<link href="../../core/css/master.css" rel="stylesheet">
+	<link href="../../core/fonts/fonts.css" rel="stylesheet">
+	<link href="unlawful.css" rel="stylesheet">
+
+	<script src="../../core/script/gsap/TweenMax.min.js"></script>
+	<script src="../../core/script/jquery.js"></script>
+	<script src="../../core/script/jquery-ui.min.js"></script>
+	<script src="../../core/script/jquery.ui.touch-punch.min.js"></script>
+	<script src="../../core/script/util.js"></script>
+	<script src="../../core/script/widgets.js"></script>
+	<script src="../../core/script/touchable.js"></script>
+	<script src="unlawful.js"></script>
+
+	<script src="click-reveal.js"></script>
+
+	<!-- <link href="global2.css" rel="stylesheet" /> -->
+	<link href="bullying.css" rel="stylesheet">
+</head>
+<body>
+	<div class="theater">
+            <div class="videoContainer"></div>
+            <div class="btn next" id="thenextbutton"></div>
+			<!-- <div class="btn transcript"></div> -->
+        </div>
+	<div class="container-fluid">
+	    <div class="fixed-width-1000">
+	        <div class="js-sorting">
+	            <div class="image-container"></div>
+	            <div class="image-caption-container">
+	                <p class="caption"></p>
+	            </div>
+	            <div class="ui-choice-container">
+	                <p class="question"></p>
+	                <div class="center-buttons">
+	                    <a href="javascript:void(0)" class="btn lg choice" id="yes">YES</a>
+	                    <a href="javascript:void(0)" class="btn lg choice" id="no">NO</a>
+	                </div>
+	            </div>
+	        </div>
+
+	        <div id="bullying" hidden="true">
+				<div class="examples-container alpha-off">
+					<div class="header"></div>
+					<div class="instructions"></div>
+
+					<div class="examples-feedback alpha-off">
+						<div class="title"></div>
+						<div class="copy"></div>
+					</div>
+
+					<div class="btn next alpha-off"></div>
+				</div>
+			</div>
+
+	        <div class="time-lapse">
+	            <div class="copy">
+	                <p></p>
+	            </div>
+	            <div class="calendar">
+	                <div class="calendar-page-new" id="p1"></div>
+	                <div class="calendar-page-new" id="p2"></div>
+	                <div class="calendar-page-new last" id="p3"></div>
+	            </div>
+	        </div>
+	        <div class="pre-conclusion">
+	            <div class="stripe">
+	                <div class="conclusion-image-container"></div>
+	                <div class="blurb"></div>
+	                <div class="conclusion-text"></div>
+	                <a href="javascript:void(0)" class="btn lg choice" id="continue">NEXT</a>
+	            </div>
+	        </div>
+	        <div class="conclusion">
+	            <div class="title"></div>
+	            <div class="summary">
+	                <p></p>
+	            </div>
+	            <div class="results-container">
+	                <div class="escalated">
+	                    <div class="header"></div>
+	                    <div class="thumbnails">
+	                        <div class="thumbnail empty" id="esc1"></div>
+	                        <div class="thumbnail empty" id="esc2"></div>
+	                        <div class="thumbnail empty" id="esc3"></div>
+	                        <div class="thumbnail empty" id="esc4"></div>
+	                        <div class="thumbnail empty" id="esc5"></div>
+	                        <div class="thumbnail empty" id="esc6"></div>
+	                    </div>
+	                </div>
+	                <div class="not-escalated">
+	                    <div class="header"></div>
+	                    <div class="thumbnails">
+	                        <div class="thumbnail empty" id="noesc1"></div>
+	                        <div class="thumbnail empty" id="noesc2"></div>
+	                        <div class="thumbnail empty" id="noesc3"></div>
+	                        <div class="thumbnail empty" id="noesc4"></div>
+	                        <div class="thumbnail empty" id="noesc5"></div>
+	                        <div class="thumbnail empty" id="noesc6"></div>
+	                    </div>
+	                </div>
+	                <div class="instructions"></div>
+	                <div class="feedback">
+	                    <div class="text">
+	                        <div class="blurb"></div>
+	                        <div class="title"></div>
+	                        <div class="body"></div>
+	                    </div>
+	                    <img class="close" src="img/fb_close.png" />
+	                </div>
+	            </div>
+	            <div id="definitionbtn" class="infoTab" style="display: none;"></div>
+	            <a href="javascript:void(0)" class="btn lg choice" id="conclusion-next"></a>
+	        </div>
+	    </div>
+	</div>
+	<div id="stripe" class="conclusion-2">
+	    <div class="mainColumn" id="column-one">
+	        <div class="title"></div>
+	        <div class="bodycopy"></div>
+	        <div id="nextbtn" class="btn"></div>
+	    </div>
+	</div>
+
+	<script src="../../core/script/debug.js"></script>
+</body>
+</html>

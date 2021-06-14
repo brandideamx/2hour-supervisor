@@ -1,0 +1,124 @@
+<template>
+	<contentRoot>../../content/retaliation/</contentRoot>
+	<global>
+		<scenarioLabel><![CDATA[Scenario ]]></scenarioLabel>
+		<correctheadline><![CDATA[That's correct!]]></correctheadline>
+		<maybeheadline><![CDATA[Likely Not.]]></maybeheadline>
+		<incorrectheadline><![CDATA[That's incorrect!]]></incorrectheadline>
+	</global>
+
+	<buttons>
+		<yes>Yes</yes>
+		<no>No</no>
+		<next>Next</next>
+		<definition>Definition</definition>
+		<close>Close</close>
+	</buttons>
+
+	<introvideo>
+        <vidnext><![CDATA[NEXT]]></vidnext>
+        <video>../../content/retaliation/video/M4-introvideo-GOLD.mp4</video>
+    </introvideo>
+
+	<intro>
+		<page background="img/25.jpg" x="0" y="23" width="300">
+			<background scale="1" x="0" y="0" animate="false"/>
+			<header><![CDATA[]]></header>
+			<body><![CDATA[It's time to take a closer look at what constitutes retaliation and what happens to those who retaliate.]]></body>
+		</page>
+		<page background="img/slide_1.jpg" x="0" y="133" width="510">
+			<background scale="1" x="0" y="0" animate="false"/>
+			<header><![CDATA[What Is Retaliation? FOR ALLEN DEVELOPMENT]]></header>
+			<body><![CDATA[Retaliation is generally considered any adverse employment action taken against an employee in direct response to an employee's opposition to, complaint about, or testimony or assistance in the investigation of harassment or discrimination.
+				<br><br>
+Your organization prohibits any form of retaliation against individuals who in good faith report allegations of unlawful harassment or discrimination or who cooperate in the investigation of such complaints in accordance with organization policy.]]></body>
+		</page>
+		<page background="SAME" x="0" y="133" width="510">
+			<background scale="1.05" x="-20" y="-20" animate="true"/>
+
+			<header><![CDATA[What are the Risks in Not Following the Policy? FOR ALLEN DEVELOPMENT]]></header>
+			<body><![CDATA[If any employee or supervisor engages in any form of retaliation, he or she will be subject to disciplinary action, up to and including termination of employment.<br><br>A supervisor who does not properly escalate retaliatory conduct may be subject to disciplinary action, up to and including termination of employment.]]></body>
+		</page>
+		<page background="img/26.jpg" x="0" y="200" width="450">
+			<background scale="1" x="0" y="0" animate="true"/>
+
+			<header><![CDATA[Identifying Retaliation]]></header>
+			<body><![CDATA[While retaliation may be obvious in some cases, often it is more subtle.<br><br>Look at the scenarios presented here and decide if the actions described are retaliatory. If you believe retaliation is present, then decide what to do next. ]]></body>
+		</page>
+	</intro>
+	<instructions><![CDATA[Review the definition of retaliation if you are unsure.]]>
+	</instructions>
+
+	<scenario id="1">
+		<img>scenario1.jpg</img>
+		<background><![CDATA[<span style="font-size:20px;">Sam, the oldest member of your team, tells you (his manager) that his co-workers have not been greeting him as warmly as usual ever since he reported Sue (also on your team) for some inappropriate jokes she told at the organization picnic.</span>]]></background>
+		<question key="yesbtn"><![CDATA[ Is this a situation that needs to be addressed?]]></question>
+		<correctfeedback><![CDATA[<span style="font-size:14px">This could be construed as retaliation for Sam's reporting of Sue's conduct if Sue's jokes related to a protected characteristic. If so, "not greeting Sam as warmly" could be an example of retaliation.</span>]]></correctfeedback>
+		<incorrectfeedback><![CDATA[<span style="font-size:13px">This could be construed as retaliation for Sam's reporting of Sue's conduct if Sue's jokes related to a protected characteristic. If so, "not greeting Sam as warmly" could be an example of retaliation.</span>]]></incorrectfeedback>
+		<whyquestion><![CDATA[Take a look at the actions below. What do you think is the best course of action to address this behavior?]]></whyquestion>
+		<why id="1"><![CDATA[Advise Sam to report this through the appropriate channels.]]></why>
+		<why id="2"><![CDATA[Send a team-wide email letting everyone know that this behavior will not be tolerated.]]></why>
+		<why id="3" correct="t"><![CDATA[Report the situation through the appropriate channels using as much detail as possible.]]></why>
+		<whyfeedback id="1"><![CDATA[This is not the best course of action. It would be better to take your concern to the appropriate personnel and let them help you decide the action that needs to be taken.]]></whyfeedback>
+		<whyfeedback id="2"><![CDATA[This is not the best course of action. In situations like this, it is typically better to err on the side of caution and involve appropriate channels. Additionally, this specific response could embarrass Sam and make the situation worse.]]></whyfeedback>
+		<whyfeedback id="3"><![CDATA[Yes! In situations like this, it is always best to err on the side of caution and report through appropriate channels.]]></whyfeedback>
+	</scenario>
+
+
+	<scenario id="2">
+		<img>scenario2.jpg</img>
+		<background><![CDATA[<span style="font-size:17px;">You supervise Lucy's manager, Marcia. Lucy was not performing well. Monday, Marcia told her, "One more mistake and you're off the account." Wednesday, Lucy raised a sexual harassment claim. Thursday, Lucy made a critical mistake on a key account. Friday, Marcia took her off of the account.]]></background>
+		<question key="bothbtn"><![CDATA[Could this be considered retaliation against Lucy?]]></question>
+		<correctfeedback><![CDATA[<span style="font-size:14px">You can continue to take disciplinary actions against a poorly performing employee who happens to complain. Carefully prepare detailed documentation on the performance issues as they occur so that the organization can justify its actions. Nonetheless, Lucy can still try to claim retaliation, but solid documentation may help to support the employer's actions.</span>]]></correctfeedback>
+		<!--
+		<incorrectfeedback><![CDATA[<span style="font-size:14px">You can continue to take disciplinary actions against a poorly performing employee who happens to complain to appropriate channels. Carefully prepare detailed documentation on the performance issues as they occur so that the Organization can justify its actions. Certainly, Lucy can try to claim retaliation, but solid documentation will support the employer's actions.</span>]]></incorrectfeedback>
+	-->
+	</scenario>
+
+	<scenario id="3">
+		<img>scenario3.jpg</img>
+		<background><![CDATA[You notice that Mark has not been invited to team happy hours since he won an age discrimination lawsuit a few months ago.]]></background>
+		<question key="yesbtn"><![CDATA[Could this be considered retaliation against Mark?]]></question>
+		<correctfeedback><![CDATA[Excluding someone from team activities, even those that occur after hours, could be considered retaliation if tied to an employee's internal complaint or lawsuit.]]></correctfeedback>
+		<incorrectfeedback><![CDATA[Excluding someone from team activities, even those that occur after hours, could be considered retaliation if tied to an employee's internal complaint or lawsuit.<br><br>
+Click Next to see another situation.]]></incorrectfeedback>
+		<whyquestion><![CDATA[Take a look at the actions below. What do you think is the best course of action to address this behavior?]]></whyquestion>
+		<why id="1"><![CDATA[Speak to Mark about whether he perceives this as retaliation or not.]]></why>
+		<why id="2" correct="t"><![CDATA[Bring your concerns to those responsible for dealing with these types of issues to discuss the best course of action.]]></why>
+		<why id="3"><![CDATA[Report the rest of the team for their retaliatory behavior.]]></why>
+		<whyfeedback id="1"><![CDATA[This is not the best course of action. It would be better to take your concern to the appropriate personnel and let them help you decide the action that needs to be taken.]]></whyfeedback>
+		<whyfeedback id="2"><![CDATA[Yes! In situations like this, it is better to err on the side of caution and involve those responsible for dealing with these type of issues.]]></whyfeedback>
+		<whyfeedback id="3"><![CDATA[This is not the best course of action. It might not be necessary to document the entire team (an action which could increase hostilities). It would be better to bring your concern to those responsible for dealing with these types of issues to discuss the best course of action.]]></whyfeedback>
+	</scenario>
+
+	<scenario id="4">
+		<img>scenario4.jpg</img>
+		<background><![CDATA[Maria complained that her boss was sexually harassing her. While the situation was being investigated, the Department Head decided to transfer Maria to another department to avoid any awkwardness.]]></background>
+		<question key="yesbtn"><![CDATA[Could this be considered retaliation against Maria?]]></question>
+		<correctfeedback><![CDATA[Even though the Department Head may have been well-intentioned (i.e.,to avoid any awkwardness for Maria), the transfer may be regarded as retaliation.]]></correctfeedback>
+		<incorrectfeedback><![CDATA[Although you were trying to avoid awkwardness, moving the employee could be considered retaliation.<br><br>Click Next to see another situation.]]></incorrectfeedback>
+		<whyquestion><![CDATA[Take a look at the actions below. What do you think is the best course of action to address this behavior?]]></whyquestion>
+		<why id="1" correct="t"><![CDATA[Immediately report the situation through the proper channels.]]></why>
+		<why id="2"><![CDATA[Tell Maria that you believe she is better off in a different department.]]></why>
+		<why id="3"><![CDATA[Talk to Maria yourself.]]></why>
+		<whyfeedback id="1"><![CDATA[Yes, do not try to investigate or address the issue yourself. Always report situations like these through proper channels.]]></whyfeedback>
+    <whyfeedback id="2"><![CDATA[This is not the best course of action. Even if you believe the transfer would benefit Maria, it could be viewed as retaliatory.]]></whyfeedback>
+		<whyfeedback id="3"><![CDATA[This is not a good idea. While well-intentioned, you are not trained to appropriately address such a sensitive issue.  You should always involve those with the responsibilty for dealing with these types of issues.<br><br>Click Next to see another situation.]]></whyfeedback>
+	</scenario>
+
+	<scenario id="5">
+		<img>scenario5.jpg</img>
+		<background><![CDATA[<span style="font-size:20px;">Philip lodged a discrimination complaint last year. This year, because of a large-scale reorganization, an entire team is being moved to another office which some have called a "less desirable" location. Philip is on that team.</span>]]></background>
+		<question key="nobtn"><![CDATA[Could this be considered retaliation against Philip?]]></question>
+		<correctfeedback><![CDATA[Since this is a large-scale reorganization and the complaining employee is not singled out, the "less desirable" move would not be considered retaliatory.]]></correctfeedback>
+		<incorrectfeedback><![CDATA[Since this is a large-scale reorganization and the complaining employee is not singled out, the "less desirable" move would not be considered retaliatory.]]></incorrectfeedback>
+	</scenario>
+
+	<outro>
+		<page background="img/25.jpg" x="0" y="110" width="370">
+			<background scale="1" x="0" y="0" animate="false"/>
+			<header><![CDATA[Remember...]]></header>
+			<body><![CDATA[Your organization's policy requires that your employees be protected from retaliation. If you have an employee who is a struggling performer, it is important that you deliver ongoing formal and informal performance feedback to avoid any potential retaliation claim.]]></body>
+		</page>
+	</outro>
+</template>

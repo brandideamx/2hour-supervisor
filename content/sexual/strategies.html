@@ -1,0 +1,84 @@
+<div id="contents" style="height: 290px; font-size: 20px;">
+	<div class="header">Strategies for Creating an Upstander Culture FOR ALLEN DEVELOPEMENT</div>
+	<div class="bodycopy">
+		You can act as an upstander in large and small ways everyday. Click the green arrows to reveal examples of upstander behaviors.  <br><br>
+		
+
+		<table style="width:100%">
+			<tr>
+				<td width="850">
+					<div class="accordion">
+						<div class="accordion-head">Recognize offensive conduct and interrupt it</div>
+						<div class="accordion-body">
+							<ul class="small">
+								<li style="list-style: none"><span>Tell a colleague the term he/she used to describe someone is offensive</span></li>
+							</ul>
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="850">
+					<div class="accordion">
+						<div class="accordion-head">Publicly support someone who has been offended or neglected</div>
+						<div class="accordion-body">
+							<ul class="small">
+								<li style="list-style: none"><span>Call attention to the efforts of a colleague who has been overlooked in a meeting or group email</span></li>
+							</ul>
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="850">
+					<div class="accordion">
+						<div class="accordion-head">Use body language to show disapproval</div>
+						<div class="accordion-body">
+							<ul class="small">
+								<li style="list-style: none"><span>Turn away from someone telling an offensive joke</span></li>
+							</ul>
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="850">
+					<div class="accordion">
+						<div class="accordion-head">Help comfort hurt feelings</div>
+						<div class="accordion-body">
+							<ul class="small">
+								<li style="list-style: none"><span>Approach someone you know has been offended and offer support</span></li>
+							</ul>
+						</div>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<br><br><br><br><br><br><br><br><br><br>
+	</div>
+</div>
+<div class="green">Click green arrows to proceed.</div>
+<style>
+	.green{
+		top: 544px;
+	}
+	.contentBlock .btn.next {
+		bottom: 40px;
+	}
+</style>
+
+<script type="text/javascript">
+
+	$('.accordion').find('.accordion-head').unbind().click(function () {
+
+		$('.accordion-head').removeClass('open');
+		$(this).addClass('open');
+		//Expand or collapse this panel
+		$(this).siblings('.accordion-body').slideToggle('fast');
+
+		//Hide the other panels
+		$(".accordion-body").not($(this).siblings('.accordion-body')).slideUp('fast');
+
+	});
+
+</script>

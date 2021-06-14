@@ -1,0 +1,234 @@
+<convo>
+	<contentRoot>../../content/employee-concerns/person4/</contentRoot>
+	<name><![CDATA[Todd]]></name>
+	<intro>FPO.mp4</intro>
+	<initScore>0</initScore>
+	<phase id="A1">
+		<customer_says>
+			<video>P4_A1.mp4</video>
+			<transcript><![CDATA[You know, a bunch of us on the team have been talking.  We don't think it's fair that Lisa gets to leave every day at 4PM just because she has to go home to take medicine. Meanwhile, we're stuck here doing extra work!]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[You guys are right. I'll tell Lisa right away that she can no longer leave work at 4pm each day.]]></you_say>
+			<coach><![CDATA[There is a better way to respond in this situation. Disability status is a protected characteristic. Taking any sort of action without involving the appropriate channels could lead to a discrimination lawsuit.]]></coach>
+			<response>
+				<video>P4_A32.mp4</video>
+				<transcript><![CDATA[Great! That should do the trick. Hopefully she won't be manic about the change…]]></transcript>
+			</response>
+			<link>A32</link>
+			<score>-1</score>
+		</option>
+		<option>
+			<you_say><![CDATA[You know that Lisa was diagnosed with a heart condition, right? If she stays past 4pm without taking her medicine, she could collapse.]]></you_say>
+			<coach><![CDATA[There is a better way to respond in this situation. You should not share confidential medical information under any circumstances. This could lead to further discriminatory behavior from Lisa's team members, and other violations of the law.]]></coach>
+			<response>
+				<video>P4_A7.mp4</video>
+				<transcript><![CDATA[I see. Well, can you at least talk to the appropriate personnel? It just seems like she's getting away with something.]]></transcript>
+			</response>
+			<link>A7</link>
+			<score>-2</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I can't give you any information about Lisa's schedule, but if your workload is your concern, I'd be happy to discuss that with you.]]></you_say>
+			<coach><![CDATA[You made a great choice! You empathized with the employee's concern. And, you also indicated that the issue of workload can and should be handled separately from issues around Lisa's medical accommodation.]]></coach>
+			<response>
+				<video>P4_A7.mp4</video>
+				<transcript><![CDATA[I see. Well, can you at least talk to the appropriate personnel? It just seems like she's getting away with something.]]></transcript>
+			</response>
+			<link>A7</link>
+			<score>5</score>
+		</option>
+	</phase>
+
+	<phase id="A7">
+		<customer_says>
+			<video>P4_A7.mp4</video>
+			<transcript><![CDATA[I see. Well, can you at least talk to the appropriate personnel? It just seems like she's getting away with something.]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[Yes, I can speak to the appropriate personnel about this. ]]></you_say>
+			<coach><![CDATA[You chose the best response. Since disability is a protected characteristic and it is likely that Lisa has been granted an accommodation for her disability from your organization, it's best to involve the appropriate personnel at this point.]]></coach>
+			<response>
+				<video>P4_A12.mp4</video>
+				<transcript><![CDATA[That's fine. How soon can you do that?]]></transcript>
+			</response>
+			<link>A12</link>
+			<score>5</score>
+		</option>
+		<option>
+			<you_say><![CDATA[This is not an issue to report. I'm the manager of this group, and I will handle it.]]></you_say>
+			<coach><![CDATA[There is a better way to respond in this situation. Since disability is a protected characteristic, it's best to involve the appropriate personnel at this point.]]></coach>
+			<response>
+				<video>P4_A37.mp4</video>
+				<transcript><![CDATA[Perfect! I was hoping you'd say that. I hate when things get messed up by going through appropriate channels.]]></transcript>
+			</response>
+			<link>A37</link>
+			<score>-2</score>
+		</option>
+		<option>
+			<you_say><![CDATA[You really want to embarrass Lisa by having this reported? If so, I can speak to them.]]></you_say>
+			<coach><![CDATA[The phrasing you chose could use some work. Involving appropriate channels should not be a threat. It is simply the best thing to do when a protected characteristic is involved.]]></coach>
+			<response>
+				<video>P4_A12.mp4</video>
+				<transcript><![CDATA[That's fine. How soon can you do that?]]></transcript>
+			</response>
+			<link>A12</link>
+			<score>-2</score>
+		</option>
+	</phase>
+
+	<phase id="A12">
+		<customer_says>
+			<video>P4_A12.mp4</video>
+			<transcript><![CDATA[That's fine. How soon can you do that?]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[I'm sorry, but I can't commit to a timeline.]]></you_say>
+			<coach><![CDATA[This response was acceptable, but you could have made it clearer that you take the employee's concern seriously.]]></coach>
+			<response>
+				<video>P4_A17.mp4</video>
+				<transcript><![CDATA[Okay. Thanks for listening.]]></transcript>
+			</response>
+			<link>A17</link>
+			<score>3</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I can't speak to timeline, but I assure you this is a high priority issue.]]></you_say>
+			<coach><![CDATA[You chose the best response. You made it clear that you take the employee's concern seriously.]]></coach>
+			<response>
+				<video>P4_A17.mp4</video>
+				<transcript><![CDATA[Okay. Thanks for listening.]]></transcript>
+			</response>
+			<link>A17</link>
+			<score>5</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I'll take care of it today.]]></you_say>
+			<coach><![CDATA[Your response was problematic. You should only make this statement if you can commit to accomplishing this today. Otherwise, such a statement could lead to more frustration to the employees in the group.]]></coach>
+			<response>
+				<video>P4_A17.mp4</video>
+				<transcript><![CDATA[Okay. Thanks for listening.]]></transcript>
+			</response>
+			<link>A17</link>
+			<score>-1</score>
+		</option>
+	</phase>
+
+	<phase id="A17">
+		<customer_says>
+			<video>P4_A17.mp4</video>
+			<transcript><![CDATA[Okay. Thanks for listening.]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[Certainly. However, in the future, you should consider speaking to the person you have a problem with directly.]]></you_say>
+			<coach><![CDATA[There is a better way to respond in this situation. It is not advisable for employees to handle these types of issues on their own. Doing so will likely lead to the issue being mishandled.]]></coach>
+			<link>END</link>
+			<score>-3</score>
+		</option>
+		<option>
+			<you_say><![CDATA[No problem. However, I think you should cut Lisa some slack.]]></you_say>
+			<coach><![CDATA[Your response wasn't great. In the future, try to keep your personal opinions out of the matter.]]></coach>
+			<link>END</link>
+			<score>-2</score>
+		</option>
+		<option>
+			<you_say><![CDATA[Thank you for bringing this to my attention. Feel free to come to me with team concerns at any time.]]></you_say>
+			<coach><![CDATA[You made a great choice! This response set you up for an open flow of communication.]]></coach>
+			<link>END</link>
+			<score>5</score>
+		</option>
+	</phase>
+
+	<phase id="A32">
+		<customer_says>
+			<video>P4_A32.mp4</video>
+			<transcript><![CDATA[Great! That should do the trick. Hopefully she won't be manic about the change…]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[I'm sure she won't be. You know that Lisa was diagnosed with a heart condition, right? If she stays past 4pm without taking her medicine, she could collapse.]]></you_say>
+			<coach><![CDATA[There is a better way to respond in this situation. You should not share confidential medical information under any circumstances. This could lead to further discriminatory behavior from Lisa's team members, and other violations of the law.]]></coach>
+			<response>
+				<video>P4_A7.mp4</video>
+				<transcript><![CDATA[I see. Well, can you at least talk to the appropriate personnel? It just seems like she's getting away with something.]]></transcript>
+			</response>
+			<link>A7</link>
+			<score>-2</score>
+		</option>
+		<option>
+			<you_say><![CDATA[You know, I should probably look into this situation a bit more. I can't give you the details of her schedule, of course. But I do understand your frustration.]]></you_say>
+			<coach><![CDATA[You made an excellent choice. You listened to the employee's concern without committing to a course of action.]]></coach>
+			<response>
+				<video>P4_A7.mp4</video>
+				<transcript><![CDATA[I see. Well, can you at least talk to the appropriate personnel? It just seems like she's getting away with something.]]></transcript>
+			</response>
+			<link>A7</link>
+			<score>4</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I'm sure she won't be. Is that all? Or did you have something else you wanted to talk about?]]></you_say>
+			<coach><![CDATA[Your response was pretty dismissive. Even if you have no problem with Lisa's schedule, you need to make the concerns of your team a priority.]]></coach>
+			<link>END</link>
+			<score>-3</score>
+		</option>
+	</phase>
+
+	<phase id="A37">
+		<customer_says>
+			<video>P4_A37.mp4</video>
+			<transcript><![CDATA[Perfect! I was hoping you'd say that. I hate when things get messed up by going through appropriate channels.]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[On second thought, it might be better to go through appropriate channels…but do you really want to embarrass Lisa by making such a big issue about all of this? You really want me to speak to appropriate channels?]]></you_say>
+			<coach><![CDATA[Your response was problematic. Involving appropriate channels should not be a threat. It's simply the best thing to do when a protected characteristic is involved.]]></coach>
+			<response>
+				<video>P4_A12.mp4</video>
+				<transcript><![CDATA[That's fine. How soon can you do that?]]></transcript>
+			</response>
+			<link>A12</link>
+			<score>-2</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I totally agree. I have to run to a meeting. I'll take care of all of this as soon as I can, probably some time this week or next.]]></you_say>
+			<coach><![CDATA[Your response was pretty dismissive. Even if you have no problem with Lisa's schedule, you need to make the concerns of your team a priority.]]></coach>
+			<link>END</link>
+			<score>-3</score>
+		</option>
+		<option>
+			<you_say><![CDATA[On second thought, perhaps I should speak with someone from appropriate channels about this. It's important this is handled properly. Would you like me to speak with someone from appropriate channels?]]></you_say>
+			<coach><![CDATA[You chose the best response. Since disability is a protected characteristic and it is likely that Lisa has been granted an accommodation for her disability from your organization, it's best to involve the appropriate personnel at this point.]]></coach>
+			<response>
+				<video>P4_A12.mp4</video>
+				<transcript><![CDATA[That's fine. How soon can you do that?]]></transcript>
+			</response>
+			<link>A12</link>
+			<score>4</score>
+		</option>
+	</phase>
+
+	<ending>
+		<best>
+			<video>P4_best.mp4</video>
+			<transcript><![CDATA[I will. Thanks again!]]></transcript>
+			<title><![CDATA[Great Job!]]></title>
+			<feedback><![CDATA[Because you did an excellent job with your responses, you can move on to the next interaction.]]></feedback>
+		</best>
+		<average>
+			<video>P4_average.mp4</video>
+			<transcript><![CDATA[I will.]]></transcript>
+			<title><![CDATA[Good!]]></title>
+			<feedback><![CDATA[While your responses could have been even better, you adequately handled this situation and can move on to the next interaction.]]></feedback>
+		</average>
+		<below>
+			<video>P4_A17_2.mp4</video>
+			<transcript><![CDATA[Okay, thanks for listening]]></transcript>
+			<title><![CDATA[Okay, thanks for listening...]]></title>
+			<feedback><![CDATA[Since the way you handled this conversation could have been better, please give this conversation another try.]]></feedback>
+		</below>
+		<fail>
+			<video>P4_A17_2.mp4</video>
+			<transcript><![CDATA[Okay, thanks for listening]]></transcript>
+			<title><![CDATA[Okay, thanks for listening...]]]></title>
+			<feedback><![CDATA[Since the way you handled this conversation could have been better, please give this conversation another try.]]></feedback>
+		</fail>
+	</ending>
+</convo>

@@ -1,0 +1,83 @@
+<div id="contents" style="height:480px">
+	<div class="header"><span style="font-size: 27px;"></span></div>
+	<div class="bodycopy">
+
+			Click the arrows to discover if your understanding of sex and gender are accurate.
+		<div class="col">
+			
+			<div class="block">
+				<div class="accordion">
+					<div class="accordion-head"><b>Sex</b></div>
+					<div class="accordion-body">
+						<ul class="small no-bullet">
+							<li><span>Being male, female, intersex - is determined by a person's biological sex: what physical body parts, chromosomes, and hormones they have.   </span></li>
+						</ul>
+					</div>
+				</div>
+				<div class="accordion">
+					<div class="accordion-head"><b>Gender</b></div>
+					<div class="accordion-body">
+						<ul class="small no-bullet">
+							<li><span> Being a boy or a girl, a man or a woman - refers to a person's feeling of being a man, a woman, both, neither, or somewhere else along the gender spectrum.    </span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			    While laws and policies often refer to "sex discrimination", many courts and organizations interpret sex discrimination to include discrimination based on gender such as gender identity and gender stereotypes. 
+		</div>
+
+		<!-- <div class="col">
+			<div class="block">
+				<p><span class="bold">2)</span> An employee tells you that she had been Facebook friends with a co-worker, but blocked him from her account because some of his comments were "creepy". He then started texting, calling and emailing her personal accounts, asking to be invited back as a Facebook friend.</p>
+			</div>
+			<div class="block">
+				<div class="accordion">
+					<div class="accordion-head"><b>What should you do?</b></div>
+					<div class="accordion-body">
+						<ul class="small no-bullet">
+							<li><span>It is unclear what "creepy" means, but the employee clearly felt uncomfortable being connected on Facebook with the co-worker. The persistent nature of his requests to re-connect with her on Facebook (even on her personal cell or email) require you to report this through appropriate channels.</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<br>
+		<br>
+		<br>
+		<br>
+	</div>
+</div>
+<div class="green">Click green arrows to proceed.</div>
+<style>
+.bodycopy{
+	font-family: 'Gotham', sans-serif;
+	margin-bottom: 20px;
+}
+.col {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+}
+.col .block {
+	padding: 15px;
+	margin: 8px;
+}
+b, .bold {
+	font-weight: bold;
+}
+ul.no-bullet, ul.no-bullet li {
+	list-style: none;
+}
+</style>
+<script type="text/javascript">
+	$('.accordion-head').click(function() {
+		$('.accordion-head').removeClass('open');
+		$(this).addClass('open');
+		//Expand or collapse this panel
+		$(this).siblings('.accordion-body').slideToggle('fast');
+
+		//Hide the other panels
+		$(".accordion-body").not($(this).siblings('.accordion-body')).slideUp('fast');
+
+	});
+</script>

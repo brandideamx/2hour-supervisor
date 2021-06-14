@@ -1,0 +1,354 @@
+		<scenario>
+		<intro>
+			<news>
+				<image>../../content/intervene/img/newspaper-bullying.png</image>
+				<text><![CDATA[In the following activity, you'll see a timeline of events that leads to this unfortunate headline. It's up to you to make as many adjustments to the timeline as you need to in order to come to the best possible outcome.]]></text>
+			</news>
+		</intro>
+		<popup><![CDATA[You haven't made a change yet! Remember, you'll need to make a change (or two) on this timeline in order to create a better outcome.]]></popup>
+		<timeline>
+			<title><![CDATA[Would you make any different decisions during Thomas's employment?]]></title>
+			<inst><![CDATA[Click an event on the timeline to make changes. Once you think you've changed the timeline enough to get the best possible outcome and avoid a bad organization reputation, click "I'm Done" to see the new headline.]]></inst>
+			<noclickinst><![CDATA[There are no further changes possible to this timeline. If you think you've changed the timeline enough to get the best possible outcome, click "I'm Done" to see the new headline. If you think you've made a mistake, click the Undo button (circular arrow) to back up one step.]]></noclickinst>
+			<noaction><![CDATA[No Change Possible.]]></noaction>
+				<state scriptID="INITIAL" id="INITIAL" outcome="default">
+					<event>
+						<icon>icon_chair.png</icon>
+						<label><![CDATA[Thomas demands an ergonomic chair and keyboard for his desk, and you grant his request.]]></label>
+						<question><![CDATA[<span style="text-align:center;">Would you do anything differently?</span>]]></question>
+						<option target="INITIAL"><![CDATA[Nothing.]]></option>
+						<option target="B1"><![CDATA[Deny Thomas' request.]]></option>
+					</event>
+					<event>
+						<icon>icon_chart_up.png</icon>
+						<label><![CDATA[Thomas says his wrist and back are starting to feel better. You notice a rise in his productivity.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[Your assistant manager and several employees think Thomas is pampered, and start calling him "chair boy." He doesn't seem to mind.]]></label>
+						<question><![CDATA[<span style="text-align:center;">Would you do anything differently?</span>]]></question>
+						<option target="INITIAL"><![CDATA[Nothing.]]></option>
+						<option target="B3"><![CDATA[Confront the offenders.]]></option>
+						<option target="C3"><![CDATA[Report The Incident to the appropriate personnel.]]></option>
+					</event>
+					<event>
+						<icon>icon_dept.png</icon>
+						<label><![CDATA[<span style="font-size:13px; line-height:1.2; display:block; width: 148px; margin-left: -13px;">Unnecessary expenses are discussed in a meeting. Your assistant manager, Joe, remarks, "Don't be a Thomas." You tell Joe that his remark is inappropriate and that you will discuss it later. You report the incident to the appropriate personnel asking for guidance.</span>]]></label>
+						<question><![CDATA[<span style="text-align:center;">Would you do anything differently?</span>]]></question>
+						<option target="INITIAL"><![CDATA[Nothing.]]></option>
+						<option target="B4"><![CDATA[Report Incident to appropriate channels.]]></option>
+						<option target="C4"><![CDATA[Confront your assistant manager.]]></option>
+					</event>
+					<event>
+						<icon>icon_exclaim.png</icon>
+						<label><![CDATA[Thomas confronts your assistant manager in his office. The manager says some harsh words, tells him to leave, and slams the door.]]></label>
+					</event>
+					<event>
+						<icon>icon_hire.png</icon>
+						<label><![CDATA[Thomas feels bullied and unsupported. He tells his network that the organization is a bad place to work and goes to a competitor.]]></label>
+					</event>
+				</state>
+				<state scriptID="B1" id="B1" outcome="">
+					<event>
+						<icon>icon_chair.png</icon>
+						<label><![CDATA[You turn down Thomas' request for an ergonomic chair and keyboard.]]></label>
+					</event>
+					<event>
+						<icon>icon_money.png</icon>
+						<label><![CDATA[Thomas files for workers' compensation for his wrist and back pain.]]></label>
+					</event>
+				</state>
+				<state scriptID="B4" id="B4" outcome="">
+					<event>
+						<icon>icon_chair.png</icon>
+						<label><![CDATA[Thomas requests an ergonomic chair and keyboard for his desk, and you grant his request.]]></label>
+					</event>
+					<event>
+						<icon>icon_chart_up.png</icon>
+						<label><![CDATA[Thomas says his wrist and back are starting to feel better. You notice a rise in his productivity.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[Your assistant manager and several employees think Thomas is pampered, and start calling him "chair boy." He doesn't seem to mind.]]></label>
+					</event>
+					<event>
+						<icon>icon_dept.png</icon>
+						<label><![CDATA[In a budget meeting, unnecessary expenses are brought up, and your assistant manager remarks, "Don't be a Thomas."]]></label>
+					</event>
+					<event>
+						<icon>icon_gavel.png</icon>
+						<label><![CDATA[You consult appropriate channels and they investigate the remark. Without evidence of a history of the behavior, it's deemed an isolated incident. No action is taken.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[Thomas doesn't feel he has been adequately supported, but he reports the bullying is not as bad as before.]]></label>
+					</event>
+				</state>
+				<state scriptID="C4" id="C4" outcome="">
+					<event>
+						<icon>icon_chair.png</icon>
+						<label><![CDATA[Thomas requests an ergonomic chair and keyboard for his desk, and you  grant  his request.]]></label>
+					</event>
+					<event>
+						<icon>icon_chart_up.png</icon>
+						<label><![CDATA[Thomas says his wrist and back are starting to feel better. You notice a rise in his productivity.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[Your assistant manager and several employees think Thomas is pampered, and start calling him "chair boy." He doesn't seem to mind.]]></label>
+					</event>
+					<event>
+						<icon>icon_dept.png</icon>
+						<label><![CDATA[In a budget meeting, unnecessary expenses are brought up, and your assistant manager remarks, "Don't be a Thomas."]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[You confront your assistant manager, but he claims Thomas misheard him.]]></label>
+					</event>
+					<event>
+						<icon>icon_hire.png</icon>
+						<label><![CDATA[Thomas continues to be bullied in subtle ways until he loses his patience and quits.]]></label>
+					</event>
+				</state>
+				<state scriptID="B3" id="B3" outcome="">
+					<event>
+						<icon>icon_chair.png</icon>
+						<label><![CDATA[Thomas requests an ergonomic chair and keyboard for his desk, and you grant his request.]]></label>
+					</event>
+					<event>
+						<icon>icon_chart_up.png</icon>
+						<label><![CDATA[Thomas says his wrist and back are starting to feel better. You notice a rise in his productivity.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[Your assistant manager and several employees think Thomas is pampered, and start calling him "chair boy." He doesn't seem to mind.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[You confront the offenders. Some people apologize to Thomas, but others start calling him worse names when no one else is around.]]></label>
+						<option target="B3"><![CDATA[Nothing.]]></option>
+						<option target="B42"><![CDATA[Report Incident to appropriate channels.]]></option>
+						<option target="C42"><![CDATA[Deny time-off requests until employees behave.]]></option>
+					</event>
+					<event>
+						<icon>icon_hire.png</icon>
+						<label><![CDATA[Thomas feels bullied and unsupported. He tells his network that the organization is a bad place to work and goes to a competitor.]]></label>
+					</event>
+				</state>
+				<state scriptID="B42" id="B42" outcome="">
+					<event>
+						<icon>icon_chair.png</icon>
+						<label><![CDATA[Thomas requests an ergonomic chair and keyboard for his desk, and you  grant  his request.]]></label>
+					</event>
+					<event>
+						<icon>icon_chart_up.png</icon>
+						<label><![CDATA[Thomas says his wrist and back are starting to feel better. You notice a rise in his productivity.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[Your assistant manager and several employees think Thomas is pampered, and start calling him "chair boy." He doesn't seem to mind.]]></label>
+					</event>
+					<event>
+						<icon>icon_dept.png</icon>
+						<label><![CDATA[You confront the offenders. Some people apologize to Thomas, but others start calling him worse names when no one else is around.]]></label>
+					</event>
+					<event>
+						<icon>icon_gavel.png</icon>
+						<label><![CDATA[You consult with the appropriate personnel and they provide a departmental refresher on the organization's anti-harassment and discrimination policy.]]></label>
+					</event>
+					<event>
+						<icon>icon_dept.png</icon>
+						<label><![CDATA[Bullying is reduced, but there are still some employees who don't take the policy seriously.]]></label>
+					</event>
+				</state>
+				<state scriptID="C42" id="C42" outcome="">
+					<event>
+						<icon>icon_chair.png</icon>
+						<label><![CDATA[Thomas requests an ergonomic chair and keyboard for his desk, and you  grant  his request.]]></label>
+					</event>
+					<event>
+						<icon>icon_chart_up.png</icon>
+						<label><![CDATA[Thomas says his wrist and back are starting to feel better. You notice a rise in his productivity.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[Your assistant manager and several employees think Thomas is pampered, and start calling him "chair boy." He doesn't seem to mind.]]></label>
+					</event>
+					<event>
+						<icon>icon_dept.png</icon>
+						<label><![CDATA[You confront the offenders. Some people apologize to Thomas, but others start calling him worse names when no one else is around.]]></label>
+					</event>
+					<event>
+						<icon>icon_clock.png</icon>
+						<label><![CDATA[You start denying all time-off requests until your employees prove they can behave.]]></label>
+					</event>
+					<event>
+						<icon>icon_chart_down.png</icon>
+						<label><![CDATA[Everyone is angry at Thomas. Bullying gets worse, and performance drops substantially.]]></label>
+					</event>
+				</state>
+				<state scriptID="C3" id="C3" outcome="">
+					<event>
+						<icon>icon_chair.png</icon>
+						<label><![CDATA[Thomas requests an ergonomic chair and keyboard for his desk, and you  grant  his request.]]></label>
+					</event>
+					<event>
+						<icon>icon_chart_up.png</icon>
+						<label><![CDATA[Thomas says his wrist and back are starting to feel better. You notice a rise in his productivity.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[Your assistant manager and several employees think Thomas is pampered, and start calling him "chair boy." He doesn't seem to mind.]]></label>
+					</event>
+					<event>
+						<icon>icon_gavel.png</icon>
+						<label><![CDATA[You consult with the appropriate personnel and they provide a departmental refresher on the organization's anti-harassment and discrimination policy.]]></label>
+					</event>
+					<event>
+						<icon>icon_dept.png</icon>
+						<label><![CDATA[In a budget meeting, unnecessary expenses are brought up, and your assistant manager remarks, "Don't be a Thomas."]]></label>
+						<question><![CDATA[<span style="text-align:center;">Would you do anything differently?</span>]]></question>
+						<option target="C3"><![CDATA[Nothing.]]></option>
+						<option target="B5"><![CDATA[Report Incident to appropriate channels.]]></option>
+						<option target="C5"><![CDATA[Fire your assistant manager.]]></option>
+					</event>
+					<event>
+						<icon>icon_exclaim.png</icon>
+						<label><![CDATA[Thomas confronts your assistant manager in his office. The manager says some harsh words, tells him to leave, and slams the door.]]></label>
+					</event>
+					<event>
+						<icon>icon_chart_down.png</icon>
+						<label><![CDATA[Thomas is glad his coworkers are leaving him alone, but he loses respect for management and stops performing as well.]]></label>
+					</event>
+				</state>
+				<state scriptID="B5" id="B5" outcome="">
+					<event>
+						<icon>icon_chair.png</icon>
+						<label><![CDATA[Thomas requests an ergonomic chair and keyboard for his desk, and you  grant  his request.]]></label>
+					</event>
+					<event>
+						<icon>icon_chart_up.png</icon>
+						<label><![CDATA[Thomas says his wrist and back are starting to feel better. You notice a rise in his productivity.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[Your assistant manager and several employees think Thomas is pampered, and start calling him "chair boy." He doesn't seem to mind.]]></label>
+					</event>
+					<event>
+						<icon>icon_gavel.png</icon>
+						<label><![CDATA[You consult with the appropriate personnel and they provide a departmental refresher on the organization's anti-harassment and discrimination policy.]]></label>
+					</event>
+					<event>
+						<icon>icon_dept.png</icon>
+						<label><![CDATA[In a budget meeting, unnecessary expenses are brought up, and your assistant manager remarks, "Don't be a Thomas."]]></label>
+					</event>
+					<event>
+						<icon>icon_hire.png</icon>
+						<label><![CDATA[You contact the appropriate personnel about the remark. With their support, you demote the assistant manager.]]></label>
+					</event>
+					<event>
+						<icon>icon_dept.png</icon>
+						<label><![CDATA[The assistant manager realizes the seriousness of the consequences and no longer bullies Thomas.]]></label>
+					</event>
+				</state>
+				<state scriptID="C5" id="C5" outcome="">
+					<event>
+						<icon>icon_chair.png</icon>
+						<label><![CDATA[Thomas requests an ergonomic chair and keyboard for his desk, and you  grant  his request.]]></label>
+					</event>
+					<event>
+						<icon>icon_chart_up.png</icon>
+						<label><![CDATA[Thomas says his wrist and back are starting to feel better. You notice a rise in his productivity.]]></label>
+					</event>
+					<event>
+						<icon>icon_speech.png</icon>
+						<label><![CDATA[Your assistant manager and several employees think Thomas is pampered, and start calling him "chair boy." He doesn't seem to mind.]]></label>
+					</event>
+					<event>
+						<icon>icon_gavel.png</icon>
+						<label><![CDATA[You consult with the appropriate personnel and they provide a departmental refresher on the organization's anti-harassment and discrimination policy.]]></label>
+					</event>
+					<event>
+						<icon>icon_dept.png</icon>
+						<label><![CDATA[In a budget meeting, unnecessary expenses are brought up, and your assistant manager remarks, "Don't be a Thomas."]]></label>
+					</event>
+					<event>
+						<icon>icon_hire.png</icon>
+						<label><![CDATA[Without consulting the appropriate personnel, you fire your assistant manager for bullying.]]></label>
+					</event>
+					<event>
+						<icon>icon_money.png</icon>
+						<label><![CDATA[The assistant manager was nearing retirement, and claims wrongful termination due to age discrimination. ]]></label>
+					</event>
+				</state>
+		</timeline>
+		<outcomes>
+			<title><![CDATA[Your Outcome]]></title>
+				<INITIAL advance="false">
+					<headline><![CDATA[Cannot Submit]]></headline>
+					<copy><![CDATA[]]></copy>
+				</INITIAL>
+				<B1 advance="false">
+					<headline><![CDATA[Organization Takes a Hit for Not Protecting its Workers]]></headline>
+					<copy><![CDATA[You refused to update Thomas' equipment, and his wrist and back pain grew worse over time. Spending a few bucks earlier could have saved you a lot more in the long run.
+<br><br>
+You must click Try Again and give it another shot.
+]]></copy>
+				</B1>
+				<B4 advance="true">
+					<headline><![CDATA[Organization Works on Retaining Workforce]]></headline>
+					<copy><![CDATA[It's good that you eventually brought the issue to appropriate channels. You were able to show some support for Thomas and curb much of the bullying. However, letting these hostile behaviors go on for so long beforehand has given some employees the impression that it's really not that big of a deal. Now you're likely going to have to deal with more incidents in the future.
+<br><br>
+Go ahead and click Next if you're satisfied with the current outcome. Click Try Again if you'd like to explore additional opportunities for improvement.
+]]></copy>
+				</B4>
+				<C4 advance="false">
+					<headline><![CDATA[Organization Stocks Take a Dive]]></headline>
+					<copy><![CDATA[
+It was a good instinct to finally intervene about the bullying in your workplace. However, you should have consulted with appropriate channels to make sure it was documented and dealt with appropriately. Now you lost one of your best employees, and it's starting to show.
+<br><br>
+You must click Try Again and give it another shot.
+]]></copy>
+				</C4>
+				<B42 advance="true">
+					<headline><![CDATA[Organization Works on Retaining Workforce]]></headline>
+					<copy><![CDATA[It's good that you eventually brought the issue to appropriate channels. You were able to show some support for Thomas and curb much of the bullying. However, letting these hostile behaviors go on for so long beforehand has given some employees the impression that it's really not that big of a deal. Now you're likely going to have to deal with more incidents in the future.
+<br><br>
+Go ahead and click Next if you're satisfied with the current outcome. Click Try Again if you'd like to explore additional opportunities for improvement.]]></copy>
+				</B42>
+				<C42 advance="false">
+					<headline><![CDATA[Organization Stocks Take a Dive]]></headline>
+					<copy><![CDATA[By taking matters into your own hands and punishing everyone in the department, you've created an atmosphere of bitterness and discontent. Your actions may also run afoul of other organization policies and applicable laws.<br><br>You must click Try Again and give it another shot.]]></copy>
+				</C42>
+				<B3 advance="false">
+					<headline><![CDATA[Organization Known Industry-Wide for Its Bullying Work Environment]]></headline>
+					<copy><![CDATA[Confronting the offenders directly made things worse, and ignoring the results just made it more obvious to Thomas that you aren't looking out for him. Now you lost one of your best employees, and you've begun building a bad reputation along the way.
+<br><br>
+You must click Try Again and give it another shot.
+]]></copy>
+				</B3>
+				<C3 advance="false">
+					<headline><![CDATA[Organization Works on Retaining Workforce]]></headline>
+					<copy><![CDATA[Intervening on the bullying issue early on was an excellent choice. However, you failed to stick up for Thomas when a manager was involved. This is unfair to Thomas and can degrade the working relationship between management and employees throughout the department.
+<br><br>
+Go ahead and click Next if you're satisfied with the current outcome. Click Try Again if you'd like to explore additional opportunities for improvement.
+]]></copy>
+				</C3>
+
+				<B5 advance="true">
+					<headline><![CDATA[Organization Tops List of Best Employers]]></headline>
+					<copy><![CDATA[Great job! You intervened early enough to portray the seriousness of bullying, and you worked with the proper personnel to determine appropriate disciplinary measures.
+<br><br>
+Choices like this create a safe environment where everyone can thrive.
+<br><br>
+You have passed this activity to the best possible degree! Click Next to move on. ]]></copy>
+				</B5>
+				<C5 advance="true">
+					<headline><![CDATA[Wrongful Termination? Organization Faces Discrimination Suit]]></headline>
+					<copy><![CDATA[It's crucial to involve appropriate channels in major disciplinary decisions. Because you decided to fire your assistant manager on a whim, there is no documented evidence about the circumstances. This leaves the organization open to significant risk and lawsuits.
+<br><br>
+You must click Try Again and give it another shot.
+]]></copy>
+				</C5>
+		</outcomes>
+	</scenario>

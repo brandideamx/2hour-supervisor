@@ -1,0 +1,409 @@
+<awareness>
+	<contentRoot>../../content/self-awareness/</contentRoot>
+	<buttons>
+		<start><![CDATA[START]]></start>
+		<showLabels><![CDATA[SHOW LABELS]]></showLabels>
+		<next><![CDATA[NEXT]]></next>
+		<tryagain><![CDATA[Try Again]]></tryagain>
+		<transcript><![CDATA[TRANSCRIPT]]></transcript>
+	</buttons>
+	<caption>
+    <![CDATA[Look at the two yellow lines. Are they the same length? Or is the top line longer than the bottom line?
+			<br><br>
+			The yellow lines are actually the same length.
+			<br><br>
+			What is going on here? Why does the top line appear longer?
+			<br><br>
+			The human mind judges the size of objects in the world based on its surroundings. In this case, our brain is tricked into interpreting the objects in this two-dimensional image as if it were a three-dimensional scene out in the world.
+			<br><br>
+			Because the yellow lines are drawn over converging lines, our brains process the top one as being further away, which tells us - incorrectly -- that the top line is longer.
+			<br><br>
+			This error reflects not a weakness but a strength of our amazing brains. Automatic mechanisms like this enable us to see and understand our three-dimensional world efficiently and accurately.
+			<br><br>
+			The human brain is hard-wired to make decisions rapidly, drawing upon our assumptions and experiences.  In primitive times, humans needed to make instantaneous judgments - about who and what was safe - as a matter of survival.  A quick determination of whether a person was a threat or harmless could be lifesaving.
+			<br><br>
+			This unconscious, hidden processing remains incredibly useful today.  We are constantly bombarded by massive amounts of information through all of our senses.
+			<br><br>
+			Our brains process 11 million bits of information per second, but we can only CONSCIOUSLY process 40 bits per second.  That means 99.999996% of the information our brain is processing is unconscious.
+			<br><br>
+			Our unconscious mind uses past experiences and exposure to constantly make lightning-fast generalizations about all that we encounter, automatically sorting people, places, and things into categories. These categories are incredibly useful most of the time, but they may cause us to overlook other equally important characteristics about the person.
+			<br><br>
+			This rapid sorting is what leads to people being stereotyped into convenient categories based on easily identifiable traits.
+			<br><br>
+			What buckets do you think others have placed you in?  Do you think you share all of the same characteristics of everyone else placed in your bucket? Your answer is probably, no.  Most people see themselves as unique and not the same as everyone who shares one obvious characteristic.
+			<br><br>
+			In addition to the more obvious "buckets" we put people into, we may also have stereotypes about much more subtle characteristics. For example, we hold stereotypes based upon someone's height, weight, foreign or regional accents or whether or not they are married or have children.
+			<br><br>
+			We all have positive and negative biases about different stereotypes and we may unintentionally treat individuals differently because of those biases.
+			<br><br>
+			These biases can affect:<br>
+			<ul>
+				<li>Recruitment, hiring, and salaries</li>
+				<li>Mentoring programs </li>
+				<li>Employee interactions </li>
+				<li>Team and project assignments</li>
+				<li>Performance evaluations</li>
+				<li>customer service, and</li>
+				<li>Openness to new ideas </li>
+			</ul>
+			<br>
+			The good news is that by becoming aware of stereotypes and interrupting those biases, we can keep them from negatively impacting our workplace interactions and decisions. We can consciously choose to question the stereotypes that we hold and draw conclusions based on what we know, rather than what we assume. These conscious efforts will make us better managers, employees, co-workers and friends.
+			]]></caption>
+
+	<introvideo>
+        <vidnext><![CDATA[NEXT]]></vidnext>
+        <video>../../content/self-awareness/video/nukk_bias.mp4</video>
+    </introvideo>
+
+	<intropager>
+       <!--  <page background="img/bias_intro_1.jpg" x="0" y="208" width="650">
+            <header><![CDATA[How do you make decisions?]]></header>
+            <body><![CDATA[As business people, we make many decisions each day. To get through our day as efficiently as possible, we don't always spend substantial time thinking about each individual decision. Often, well-meaning but busy employees make snap judgments about other employees that may not be accurate.]]></body>
+        </page> -->
+         <page background="img/2.jpg" x="0" y="189" width="390">
+            <header><![CDATA[Bias and Stereotypes]]></header>
+            <body><![CDATA[You've just heard a bit about how our brain's automatic processes can lead us to stereotype others. The unconscious biases that result from such stereotyping can be consequential. These biases, without our awareness or intention, shape our judgments about people's abilities, potential, and character.
+                    ]]></body>
+        </page>
+       <page background="img/3.jpg" x="0" y="26" width="410">
+            <background scale="1" x="0" y="0" animate="true" />
+            <header><![CDATA[Workplace Decisions]]></header>
+            <body><![CDATA[As well-meaning but busy people, we often fail to realize just how often we make assumptions about our co-workers.
+            	<br><br>
+            	It's important to recognize and understand how common stereotypes form the basis of our unconscious biases, and the significant impact they have in the workplace.
+            	<br><br>
+            	Our stereotype-driven assumptions are often based on little or no real knowledge of our co-workers, and they can lead to biased (and erroneous) judgments and decisions.]]></body>
+        </page>
+		<!-- <page background="SAME" x="0" y="258" width="1000">
+            <background scale="1.3" x="-75" y="85" animate="true" />
+            <header><![CDATA[Recognizing Stereotypes ]]></header>
+            <body><![CDATA[In this activity, you will be asked a series of questions about images that represent some of the most common workplace stereotypes. You will only have three seconds to respond. You will not be given any background data to inform your responses. You must base your responses solely on the images provided and your knowledge of stereotypes.
+                <br><br>
+            Your responses will not be saved. ]]></body>
+        </page>
+        <page background="SAME" x="0" y="258" width="1000">
+            <background scale="1.3" x="-75" y="85" animate="true" />
+            <header><![CDATA[Be Prepared to Be a Little Uncomfortable]]></header>
+            <body><![CDATA[The next activity has you consider some common stereotypes which can feel awkward for anyone. However, it's important to be reminded how often these stereotypes can impact our everyday lives.]]></body>
+        </page> -->
+        <!-- <page background="SAME" x="0" y="258" width="1000">
+            <background scale="1.5" x="-70" y="80" animate="true" />
+            <header><![CDATA[How do you make decisions?]]></header>
+            <body><![CDATA[In this activity, you will see a series of questions. To answer, you will choose between two employees' images before the clock runs out. You will not be given any background information to influence your choice, so you will just need to make a quick decision based upon your immediate reaction.
+            <br><br>
+            There are no right or wrong answers, and your answers will not be saved.]]></body>
+        </page> -->
+
+    </intropager>
+	<whoops>
+		<head><![CDATA[Give it another try.]]></head>
+		<body><![CDATA[It looks like you are having a hard time with this activity. Remember, your answers will not be saved. Just make the first selection that occurs to you.]]></body>
+	</whoops>
+
+	<chooser>
+		<timer>3</timer>
+		<preinst><![CDATA[Click START when you are ready.]]></preinst>
+		<inst><![CDATA[Choose an image before the clock runs out.]]></inst>
+		<choice>
+			<question><![CDATA[<div style="margin:auto;width:619px;">Who would most people assume is the airline pilot?</div>]]></question>
+			<label><![CDATA[Airline Pilot]]></label>
+			<mapping>model</mapping>
+            <matches>b</matches>
+			<person>question1a.jpg</person>
+			<person>question1b.jpg</person>
+		</choice>
+		<choice>
+			<question><![CDATA[<div style="margin:auto;width:619px;">Who would most people assume is an administrative assistant?</div>]]></question>
+			<label><![CDATA[Administrative assistant]]></label>
+			<mapping>struggling</mapping>
+            <matches>a</matches>
+			<person>question3a.jpg</person>
+			<person>question3b.jpg</person>
+		</choice>
+		<!-- <choice>
+			<question><![CDATA[<div style="margin:auto;width:682px;">Who would people assume is an avid athlete?<br><span style="opacity:0">Blank</span></div>]]></question>
+			<label><![CDATA[Avid athlete]]></label>
+			<mapping>model</mapping>
+            <matches>b</matches>
+			<person>question4a.jpg</person>
+			<person>question4b.jpg</person>
+		</choice> -->
+		<choice>
+			<question><![CDATA[<div style="margin:auto;width:682px;">Who would most people assume is the elementary school teacher?</div>]]></question>
+			<label><![CDATA[Elementary School Teacher]]></label>
+			<mapping>struggling</mapping>
+            <matches>a</matches>
+			<person>question5a.jpg</person>
+			<person>question5b.jpg</person>
+		</choice>
+		<choice>
+			<question><![CDATA[<div style="margin:auto;width:619px;"> Who would most people assume is a nurse?<br><span style="opacity:0">Blank</span></div>]]></question>
+			<label><![CDATA[Nurse]]></label>
+			<mapping>struggling</mapping>
+            <matches>b</matches>
+			<person>question6a.jpg</person>
+			<person>question6b.jpg</person>
+		</choice>
+		<choice>
+			<question><![CDATA[<div style="margin:auto;width:700px;">Who would most people assume is the CEO?<br><span style="opacity:0">Blank</span></div>]]></question>
+			<label><![CDATA[CEO]]></label>
+			<mapping>model</mapping>
+            <matches>a</matches>
+			<person>question7a.jpg</person>
+			<person>question7b.jpg</person>
+		</choice>
+		<!-- <choice>
+			<question><![CDATA[<div style="margin:auto;width:619px;">Who would people assume is more likely to file a harassment complaint?</div>]]></question>
+			<label><![CDATA[Filed a harassment complaint]]></label>
+			<mapping>struggling</mapping>
+            <matches>a</matches>
+			<person>question8a.jpg</person>
+			<person>question8b.jpg</person>
+		</choice>
+		<choice>
+			<question><![CDATA[<div style="margin:auto;width:619px;">Who would people assume is more likely to have new, fresh ideas?</div>]]></question>
+			<label><![CDATA[Fresh new ideas]]></label>
+			<mapping>model</mapping>
+            <matches>b</matches>
+			<person>question9a.jpg</person>
+			<person>question9b.jpg</person>
+		</choice> -->
+		<choice>
+			<question><![CDATA[<div style="margin:auto;width:619px;">Who would most people assume is the neuro-surgeon?<br><span style="opacity:0">Blank</span></div>]]></question>
+			<label><![CDATA[Neuro-Surgeon]]></label>
+			<mapping>model</mapping>
+            <matches>b</matches>
+			<person>question10a.jpg</person>
+			<person>question10b.jpg</person>
+		</choice>
+		<choice>
+			<question><![CDATA[<div style="margin:auto;width:560px;">Who would most people assume is the Head Chef?</div>]]></question>
+			<label><![CDATA[Head Chef]]></label>
+			<mapping>model</mapping>
+            <matches>a</matches>
+			<person>question11a.jpg</person>
+			<person>question11b.jpg</person>
+		</choice>
+		<choice>
+			<question><![CDATA[<div style="margin:auto;width:619px;">Who would most people assume works in IT?<br><span style="opacity:0">Blank</span></div>]]></question>
+			<label><![CDATA[Works in IT]]></label>
+			<mapping>model</mapping>
+            <matches>a</matches>
+			<person>question12a.jpg</person>
+			<person>question12b.jpg</person>
+		</choice>
+		<choice>
+			<question><![CDATA[<div style="margin:auto;width:660px;">Who would most people assume is the electrical engineer?<br><span style="opacity:0">Blank</span></div>]]></question>
+			<label><![CDATA[Electrical Engineer]]></label>
+			<mapping>model</mapping>
+            <matches>b</matches>
+			<person>question13a.jpg</person>
+			<person>question13b.jpg</person>
+		</choice>
+		<choice>
+			<question><![CDATA[<div style="margin:auto;width:700px;">Who would most people assume is the top sales person?<br><span style="opacity:0">Blank</span></div> ]]></question>
+			<label><![CDATA[Top sales person]]></label>
+			<mapping>struggling</mapping>
+            <matches>a</matches>
+			<person>question15a.jpg</person>
+			<person>question15b.jpg</person>
+		</choice>
+       <!--  <choice>
+            <question><![CDATA[<div style="margin:auto;width:619px;">Who would people assume is more available to travel for business?</div>]]></question>
+            <label><![CDATA[Willing to travel for business ]]></label>
+            <mapping>model</mapping>
+            <matches>a</matches>
+            <person>question2a.jpg</person>
+            <person>question2b.jpg</person>
+        </choice> -->
+       <!--  <choice>
+            <question><![CDATA[<div style="margin:auto;width:619px;">Who would people assume is less likely to dominate conversations?</div>]]></question>
+            <label><![CDATA[Less likely to dominate conversations]]></label>
+            <mapping>struggling</mapping>
+            <matches>a</matches>
+            <person>question14a.jpg</person>
+            <person>question14b.jpg</person>
+        </choice> -->
+	</chooser>
+
+	<feedback>
+		
+		<!-- <page background="img/bias_transition_2.jpg" x="0" y="210" width="500">
+			<header><![CDATA[]]></header>
+			<body><![CDATA[On the next slide, take a look at your responses to the questions in the previous exercise. Notice if you recognize any of the stereotypes presented in this exercise from your own workplace experiences.]]></body>
+		</page> -->
+	</feedback>
+	<grid>
+		<title><![CDATA[<span style="font-size:15px;">You may notice how common stereotypes can drive assumptions about what roles people might perform and how they might perform in those roles. Do you think it's possible that your decision making has ever been influenced by these stereotypes?</span>]]></title>
+		<model><![CDATA[Matches common stereotype]]></model>
+		<struggling><![CDATA[Defies common stereotype]]></struggling>
+		<prompt><![CDATA[Click SHOW LABELS for a reminder of how you categorized each person.]]></prompt>
+	</grid>
+
+	<examples>
+		<next><![CDATA[NEXT]]></next>
+		<header><![CDATA[Recognizing Common Workplace Stereotypes]]></header>
+		<body>
+			<![CDATA[Most people strive to make business decisions based on relevant facts rather than on stereotypes. However, despite our good intentions, sometimes we are influenced by the stereotypes that we have been exposed to again and again.
+			<br><br>
+			Here are some examples of common stereotypes.]]>
+		</body>
+		<instructions>
+			<![CDATA[Select each box to learn more.]]>
+		</instructions>
+	
+		<example>
+			<label><![CDATA[Physically-based stereotypes]]></label>
+			<feedback>
+				<feedback-title>
+					<![CDATA[Examples of Physically-based Stereotypes]]>
+				</feedback-title>
+				<feedback-body>
+					<![CDATA[
+						<ul>
+							<li>Obese people are lazy</li>
+							<li>Tall men are stronger, more decisive leaders</li>
+							<li>People with disabilities require special attention</li>
+							<li>Performance expectations are lower for employees with physical and mental challenges</li>
+						</ul>
+					]]>
+				</feedback-body>
+			</feedback>
+		</example>
+		<example>
+			<label><![CDATA[Gender-based stereotypes]]></label>
+			<feedback>
+				<feedback-title>
+					<![CDATA[Examples of Gender-based Stereotypes]]>
+				</feedback-title>
+				<feedback-body>
+					<![CDATA[
+						<ul>
+							<li>Women are inferior in math and science</li>
+							<li>Women with children are less willing to travel for assignents</li>
+						</ul>
+					]]>
+				</feedback-body>
+			</feedback>
+		</example>
+		<example>
+			<label><![CDATA[Race-based stereotypes]]></label>
+			<feedback>
+				<feedback-title>
+					<![CDATA[Examples of Race-based Stereotypes]]>
+				</feedback-title>
+				<feedback-body>
+					<![CDATA[
+						<ul>
+							<li>White people are effective leaders</li>
+							<li>Black people are superior athletes</li>
+							<li>Asian people are better at math and science</li>
+							<li>Latinx people are emotional</li>
+						</ul>
+					]]>
+				</feedback-body>
+			</feedback>
+		</example>
+		<example>
+			<label><![CDATA[Age-based stereotypes]]></label>
+			<feedback>
+				<feedback-title>
+					<![CDATA[Examples of Age-based Stereotypes]]>
+				</feedback-title>
+				<feedback-body>
+					<![CDATA[
+						<ul>
+							<li>Older people are not as technologically savvy</li>
+							<li>Young employees have entitlement issues</li>
+						</ul>
+					]]>
+				</feedback-body>
+			</feedback>
+		</example>
+		
+	</examples>
+
+  <reflections>
+
+  		<page background="img/bias_transition_1.jpg" x="0" y="105" width="1000" html="bias_types.html">
+		</page>
+
+        <page background="img/37.jpg" x="588" y="184" width="479" html="reflections.html">
+        </page>
+
+        <page background="img/38.jpg" x="525" y="77" width="479" html="cycle.html">
+		</page>
+
+        <page background="img/1.jpg" x="0" y="414" width="1000">
+            <header><![CDATA[Microaggressions]]></header>
+            <body><![CDATA[Now that you are more familiar with how stereotypes and unconscious biases can affect our assumptions and workplace decisions, we are going to explore how these concepts may also reveal themselves in well-meaning statements that can negatively affect our colleagues. 
+                    ]]></body>
+        </page>
+
+        <page background="img/1.jpg" x="0" y="208" width="650">
+            <header><![CDATA[Consider the Following Statements:]]></header>
+            <body><![CDATA[
+            <ul>
+				<li>"I am so impressed by how articulate you are!"</li>
+				<li>"It's amazing that you've managed to excel in math." </li>
+				<li>"You speak English so well." </li>
+				<li>"I guess I shouldn't be surprised by your fabulous sense of style!"</li>
+			</ul> ]]></body>
+        </page>
+
+        <page background="img/1.jpg" x="0" y="185" width="1000">
+            <header><![CDATA[What Do These Statements Have in Common?  ]]></header>
+            <body><![CDATA[At first glance, they might appear to be compliments. But let's consider, for a moment, the person to whom they are being directed. 
+		<br><br>
+		<span style="padding: 0 0 0 53px;">"I am so impressed by how articulate you are." [Said to a Black man] </span>
+		<br><br>
+		<span style="padding: 0 0 0 53px;">"It's amazing that you've managed to excel in math." [Said to a woman] </span>
+		<br><br>
+		<span style="padding: 0 0 0 53px;">"You speak English so well." [Said to an Asian American who was born in the US] </span>
+		<br><br>
+		<span style="padding: 0 0 0 53px;">"I guess I shouldn't be surprised by your fabulous sense of style!" [Said to a gay man] </span>
+		<br><br>
+		Such statements, when spoken to or about a person in a particular group, can be demeaning and hurtful, leaving the target wondering, "Did he or she say that to me because I'm [insert identity here]?" Statements like these have been termed "microaggressions." 
+             ]]></body>
+        </page>
+
+        <page background="img/39.jpg" x="588" y="184" width="479">
+            <header><![CDATA[What are Microaggressions?]]></header>
+            <body><![CDATA[A microaggression is a subtle, often unintentional, form of prejudice and often takes the shape of an offhanded comment, an inadvertently painful joke, or a pointed insult towards someone in a marginalized group. 
+            <br><br>
+While microaggressions may occur intentionally, they often occur unknowingly by well-intentioned people. 
+             ]]></body>
+        </page>
+
+        <page background="img/41.jpg" x="588" y="122" width="479">
+            <header><![CDATA[How Can Microaggressions Cause Problems in the Workplace? ]]></header>
+            <body><![CDATA[The power of microaggressions often lies in their invisibility, both to those who make the statements and to those who are targets of the statements. If these seemingly small slights accumulate slowly, they can become harmful to the recipients, negatively affecting their psychological health, self-esteem and/or job performance. As a result, microaggressions may create disparities in recruitment, retention and promotions. <br><br><br>
+             ]]></body>
+        </page>
+
+        <page background="img/29.jpg" x="0" y="208" width="410">
+            <header><![CDATA[ ]]></header>
+            <body><![CDATA[In the next exercise, you will read some statements. You will be asked to determine whether each statement constitutes a microaggression. This exercise will give you some insight as to how recipients of microaggressions might hear such statements. 
+             ]]></body>
+        </page>
+
+         <page background="img/29.jpg" x="0" y="208" width="410">
+            <header><![CDATA[ALLEN to add microaggressions scenarios ]]></header>
+            <body><![CDATA[
+             ]]></body>
+        </page>
+
+        <page background="img/29.jpg" x="0" y="208" width="410">
+            <header><![CDATA[What do you think?]]></header>
+            <body><![CDATA[How did you find this activity?  Did any of these examples of microaggressions surprise you? Did you recognize any of your own thoughts or behaviors in anything you saw?  
+             ]]></body>
+        </page>
+
+        <page background="img/29.jpg" x="0" y="208" width="410">
+            <header><![CDATA[Remember... ]]></header>
+            <body><![CDATA[Regardless of our intentions, microaggressions can be demeaning and harmful, causing our co-workers to feel uncomfortable and excluded. Awareness of microaggressions, combined with our good intentions, can help each of us to act and speak more deliberately to create safe and inclusive environments for everyone.  
+             ]]></body>
+        </page>
+
+  </reflections>
+</awareness>

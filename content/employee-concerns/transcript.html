@@ -1,0 +1,31 @@
+
+<div class="body"></div>
+<script language="javascript">
+	function dumpScript(label, url){
+		$.get(url, function(data){
+			var lines = [];
+			$('.body').append('<h1>' + label + '</h1>');
+			var xml = $(data);
+			xml.find('transcript').each(function(){
+				if(!lineExists(lines, $(this).text())){
+					$('.body').append('<p>' + $(this).text() + '</p>');
+					lines.push($(this).text());
+				}
+			})
+		})
+	}
+	function lineExists(arr, line){
+		for(var i = 0; i<arr.length; i++){
+			if(arr[i] == line){
+				return true;
+			}
+		}
+		return false;
+	}
+	$(document).ready(function(){
+		dumpScript('Person 1', 'content/employee-concerns/person1/person1.xml');
+		dumpScript('Person 2', 'content/employee-concerns/person2/person2.xml');
+		dumpScript('Person 3', 'content/employee-concerns/person3/person3.xml');
+		dumpScript('Person 4', 'content/employee-concerns/person4/person4.xml');
+	});
+</script>

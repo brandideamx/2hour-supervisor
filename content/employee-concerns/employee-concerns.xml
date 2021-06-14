@@ -1,0 +1,35 @@
+<convo>
+	<contentRoot>../../content/employee-concerns/</contentRoot>
+	<buttons>
+		<next><![CDATA[NEXT]]></next>
+	</buttons>
+	<mainLabel><![CDATA[Conversation Menu]]></mainLabel>
+	<title><![CDATA[Responding to Employee Concerns]]></title>
+	<copy><![CDATA[Role playing is a great way to practice your responses to employees' concerns about harassment or discrimination. In this next activity, employees will approach you with concerns or complaints that may relate to a protected characteristic. What you say can make a difference. It is important to understand how to be empathetic while still following your organization's anti-harassment and discrimination policy.<br><br>
+Your goal in this activity is to select the most appropriate responses. Good luck! Click a person to begin.]]></copy>
+		<person>
+			<label>Julie</label>
+			<thumb>person1/fpo.jpg</thumb>
+			<sectionID>C1</sectionID>
+		</person>
+		<person>
+			<label>Kira</label>
+			<thumb>person2/fpo.jpg</thumb>
+			<sectionID>C2</sectionID>
+		</person>
+		<person>
+			<label>Edward</label>
+			<thumb>person3/fpo.jpg</thumb>
+			<sectionID>C3</sectionID>
+		</person>
+		<person>
+			<label>Todd</label>
+			<thumb>person4/fpo.jpg</thumb>
+			<sectionID>C4</sectionID>
+		</person>
+	<outro>
+		<main><![CDATA[]]></main>
+		<header><![CDATA[Congratulations!]]></header>
+		<body><![CDATA[You have successfully completed all four conversations. Remember, you are required to speak to the appropriate personnel if you suspect harassment or discrimination is occurring.]]></body>
+	</outro>
+</convo>

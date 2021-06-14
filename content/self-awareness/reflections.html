@@ -1,0 +1,97 @@
+<div id="contents">
+    <div class="header">What Now?</div>
+    <div class="bodycopy">
+       Stereotypes can have an impact on how we view other employees in our workplace. If we are not careful, our biased assumptions about our co-workers may affect workplace decisions such as:
+       <br><br>
+       <div class="accordion">
+            <div class="accordion-head">Hiring:</div>
+            <div class="accordion-body">
+                <ul>
+                    <li><span>Resume screening</span></li>
+                    <li><span>Interviewing</span></li>
+                    <li><span>Onboarding</span></li>
+                    <li><span>Compensation</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="accordion">
+            <div class="accordion-head">Day-to-day activities:</div>
+            <div class="accordion-body">
+                <ul>
+                    <li><span>Assignment process</span></li>
+                    <li><span>Performance evaluations</span></li>
+                    <li><span>Promotion decisions</span></li>
+                    <li><span>Termination decisions</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+</div>
+<div class="green" style="bottom:auto; top: 454px !important">Click green arrows to proceed.</div>
+<style>
+    .btn .next{
+    bottom: 78px !important;
+}
+
+</style>
+
+<script type="text/javascript">
+    $(document).ready(function($) {
+        $('.accordion').find('.accordion-head').click(function(){
+            $('.accordion-head').removeClass('open');
+            $(this).addClass('open');
+            //Expand or collapse this panel
+            $(this).siblings('.accordion-body').slideToggle('fast');
+
+            //Hide the other panels
+            $(".accordion-body").not($(this).siblings('.accordion-body')).slideUp('fast');
+
+        });
+    });
+</script>
+<!-- 
+<div id="contents">
+    <div class="header">What Now?</div>
+    <div class="bodycopy">
+        As this exercise has shown, unconscious biases may impact how people form opinions about employees. If we are not careful, these opinions may affect the following business decisions:<br><br>
+        <div class="accordion">
+            <div class="accordion-head">Hiring:</div>
+            <div class="accordion-body">
+                <ul>
+                    <li><span>Resume screening</span></li>
+                    <li><span>Interviewing</span></li>
+                    <li><span>Onboarding</span></li>
+                    <li><span>Compensation</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="accordion">
+            <div class="accordion-head">Day-to-day activities:</div>
+            <div class="accordion-body">
+                <ul>
+                    <li><span>Assignment process</span></li>
+                    <li><span>Performance evaluations</span></li>
+                    <li><span>Promotion decisions</span></li>
+                    <li><span>Termination decisions</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+</div>
+<div class="green" style="bottom:auto; top: 424px !important">Click green arrows to proceed.</div>
+<script type="text/javascript">
+    $(document).ready(function($) {
+        $('.accordion').find('.accordion-head').click(function(){
+            $('.accordion-head').removeClass('open');
+            $(this).addClass('open');
+            //Expand or collapse this panel
+            $(this).siblings('.accordion-body').slideToggle('fast');
+
+            //Hide the other panels
+            $(".accordion-body").not($(this).siblings('.accordion-body')).slideUp('fast');
+
+        });
+    });
+</script> -->

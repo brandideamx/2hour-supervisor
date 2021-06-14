@@ -1,0 +1,82 @@
+<scenarios>
+    <scenario id="1" img="../../content/sexual/img/scenario-img-1_lg.jpg" img-changed="../../content/sexual/img/scenario-img-1_lg-end.jpg">
+        <!-- Initial final caption -->
+        <caption class="small"><![CDATA[Roseanne and Frank are friendly colleagues and often go to lunch together at local restaurants.  Frank asks Roseanne to go on an after hours date and she agrees to dinner and a movie.  While she has a nice time, she decides that a relationship is not a good idea. She lets Frank know, but he persists in pressuring Roseanne for another date.]]></caption>
+        <!-- Transformed final caption -->
+        <caption-changed><![CDATA[After Frank and Roseanne go on a date, Roseanne politely tells Frank that she does not want to be in a dating relationship with him. Although Frank is very disappointed, he understands that "no" means "no" and that he cannot continue to ask Roseanne out. Periodically, the two still have lunch together just as friends. Roseanne feels safe and at ease in her workplace.]]></caption-changed>
+
+        <!-- Rounds -->
+        <round id="1">
+            <header><![CDATA[When Frank first asked Roseanne for a date, did this constitute sexual harassment?]]></header>
+            <option id="1">
+                <label><![CDATA[Yes, this did constitute sexual harassment.]]></label>
+                <feedback><![CDATA[This is incorrect.  Frank's initial request for a date is not sexual harassment.  Assuming the organization doesn't have a policy prohibiting consensual relationships between co-workers, Frank did not violate the organization's policy by asking Roseanne to go on a date.  Click next to find out more.]]></feedback>
+            </option>
+            <option id="2">
+                <label><![CDATA[No, this did not constitute sexual harassment.]]></label>
+                <feedback><![CDATA[This is the best response.  Frank's initial request for a date is not sexual harassment.  Click next to find out more.]]></feedback>
+            </option>
+            <option id="3">
+                <label><![CDATA[I'm not sure, but I think that asking a coworker for a date could be considered harassment.]]></label>
+                <feedback><![CDATA[This is not accurate.  Assuming the organization doesn't have a policy governing consensual relationships, two employees who do not have a reporting relationship can feel comfortable going on a date as long as they conduct themselves appropriately at work.  Click next to find out more.]]></feedback>
+            </option>
+        </round>
+
+         <round id="2">
+            <header><![CDATA[Though the initial request for a date was not an issue, Frank's repeated request for dates and his refusal to take "no" for an answer is problematic.]]></header>
+            <option id="1">
+                <label><![CDATA[I agree. Frank's behavior is problematic.]]></label>
+                <feedback><![CDATA[Frank's behavior has created an uncomfortable, potentially hostile work environment for Roseanne.  It is in violation of your organization's anti-harassment and discrimination policy and Roseanne should bring her concerns to the attention of her supervisor.]]></feedback>
+            </option>
+            <option id="2">
+                <label><![CDATA[I disagree. Roseanne lost her right to complain because she went on a date with Frank.]]></label>
+                <feedback><![CDATA[No.  Being friendly, going on a date, or even having a prior relationship with a co-worker does not mean that a co-worker has a right to behave as Frank did toward Roseanne, making her feel uncomfortable by pressuring her for more dates.]]></feedback>
+            </option>
+            <option id="3">
+                <label><![CDATA[I'm not sure. Frank had good intentions so this may not be a problem.]]></label>
+                <feedback><![CDATA[While it might be true that Frank acted out of genuinely good feelings towards Roseanne, his intent does not matter here.  What matters is the impact his behavior had on Roseanne.  Roseanne was made to feel uncomfortable coming to work due to Frank's persistence.]]></feedback>
+            </option>
+        </round>
+
+        <round id="3">
+            <header><![CDATA[<span style="font-size:20px;line-height:22px">Roseanne's complaints to her supervisors are reported through the proper channels and Frank apologizes and is instructed to stop his behavior.  He complies for a while but then starts leaving Roseanne gifts and love notes, which makes Roseanne feel nervous that Frank may start stalking her.]]></header>
+            <option id="1">
+                <label><![CDATA[So what? Frank is just being nice because he likes Roseanne?]]></label>
+                <feedback><![CDATA[Frank may like Roseanne and believe his gestures are harmless, however, she feels nervous and is afraid she is being stalked.  Because Frank continues his behavior after being told to stop, he could be subject to serious disciplinary action for his behavior.]]></feedback>
+            </option>
+            <option id="2">
+                <label><![CDATA[I could see that this constitutes sexual harassment.]]></label>
+                <feedback><![CDATA[Correct.  Just because Frank has stopped asking Roseanne for dates as instructed, his subsequent behavior with gifts and love notes is inappropriate in the workplace.]]></feedback>
+            </option>
+        </round>
+
+        <round id="4">
+            <header><![CDATA[Further disciplinary action is warranted here.]]></header>
+            <option id="1">
+                <label><![CDATA[Wouldn't another discussion with Frank suffice?]]></label>
+                <feedback><![CDATA[No. Frank has already been instructed to stop his behavior, and though he discontinued asking Roseanne for dates, his stalking behavior with gifts and notes created a hostile work environment for Roseanne.]]></feedback>
+            </option>
+            <option id="2">
+                <label><![CDATA[What types of action might be taken?]]></label>
+                <feedback><![CDATA[Frank's behavior is very serious.  The organization needs to do whatever it takes to ensure that his behavior is stopped.  He could be disciplined, up to and including termination, if this behavior continues.]]></feedback>
+            </option>
+        </round>
+
+        <round id="5" end="true">
+            <header><![CDATA[Where Frank Went Wrong]]></header>
+            <body>
+                <![CDATA[<span style="font-size: 18px">There are many lessons you can learn from Frank to help ensure a workplace that is free from potentially harassing behavior:
+               <ul>
+                    <li style="padding:0 0 10px 0">"No" means "no" with co-workers</li>
+                    <li style="padding:0 0 10px 0">Refusing to take "no" for an answer, and persisting, can lead to disciplinary action</li>
+                    <li style="padding:0 0 10px 0">There is a fine line between being overly nice and being inappropriate, and all employees need to be aware that it is the impact on the target of the behavior that matters</li>
+                    <li style="padding:0 0 10px 0">Continuing harassing behavior after being warned to stop can lead to serious disciplinary action</li>
+                </ul>
+                Click Next to see how this situation may have played out differently and led to a better outcome.</span>]]>
+            </body>
+        </round>
+
+    </scenario>
+
+
+</scenarios>

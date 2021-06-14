@@ -1,0 +1,485 @@
+/* model css */
+html, body, div {
+    font-family: 'Gotham', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+
+.activity {
+    width: 100%;
+    height: 700px;
+    background: url('img/page_bg.jpg') top center no-repeat;
+    position: relative;
+}
+
+.theater {
+    z-index: 2;
+    width: 800px;
+    height: 550px;
+    position: relative;
+    padding: 150px 100px 0;
+}
+
+.theater .btn.next {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.transcript{
+  left:30px;
+  bottom:30px
+}
+
+.mainColumn {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#intro {
+    top: 0px;
+}
+
+#intro li {
+    margin-left: 40px;
+}
+
+#intro #one .image {
+    position: absolute;
+    right: -200px;
+}
+
+#intro #one .title {
+    position: absolute;
+    width: 470px;
+    left: 100px;
+    font-size: 32px;
+    top: 200px;
+}
+
+#intro #one .copy {
+    position: absolute;
+    width: 400px;
+    left: 100px;
+    font-size: 16px;
+    top: 250px;
+    line-height: 19px;
+}
+
+.scenario {
+    width: 1000px;
+    padding-top: 93px;
+    font-family: 'Gotham';
+}
+
+.scenario .label {
+   /* width: 619px;*/
+    margin: 0px auto auto;
+    margin-top: -16px !important;
+    padding-bottom: 18px;
+    text-align: center;
+    font-size: 28px;
+    line-height: 1;
+}
+
+.scenario .pre-inst,
+.scenario .inst {
+    text-align: center;
+    color: #8cc63f;
+    font-size: 18px;
+    font-weight: 500;
+    left: 250px;
+    position: absolute;
+    text-align: center;
+    top: 260px;
+    width: 500px;
+}
+
+.scenario .people {
+    text-align: center;
+}
+
+.scenario .person {
+    cursor: pointer;
+    border-radius: 200px;
+    border: 11px solid #8cc63f;
+    margin: 50px 10px 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.scenario .start {
+    position: absolute;
+    left: 400px;
+    top: 300px;
+    font-size: 34px;
+    padding: 16px 50px;
+}
+
+.scenario .timer {
+    position: absolute;
+    top: 508px;
+    left: 300px;
+    font-weight: 300;
+    font-size: 215px;
+    text-align: right;
+}
+
+#transition {
+    top: 0px;
+}
+
+#transition li {
+    margin-left: 40px;
+}
+
+#transition #one .image {
+    position: absolute;
+    right: -200px;
+}
+
+#transition #one .title {
+    position: absolute;
+    width: 420px;
+    left: 100px;
+    font-size: 32px;
+    top: 100px;
+}
+
+#transition #one .copy {
+    position: absolute;
+    width: 425px;
+    left: 100px;
+    font-size: 16px;
+    top: 150px;
+    line-height: 20px;
+}
+
+.grid {
+    position: absolute;
+    top: 150px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.grid .title {
+    position: absolute;
+    top: -72px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    width: 659px;
+    left: 50%;
+    margin-left: -310px;
+}
+
+.grid .prompt {
+    position: absolute;
+    top: 534px;
+    font-size: 11px;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    width: 1000px;
+}
+
+.grid .column {
+    position: relative;
+    width: 495px;
+    margin: 0;
+    float: left;
+    height: 452px;
+    top: 21px;
+}
+
+.grid .column.model {
+    border-right: 5px solid #fff;
+}
+
+.grid .column.struggline {
+    border-left: 5px solid #fff;
+}
+
+.grid .column .people {
+    height: 452px;
+}
+
+.grid .column.model .people {
+    background: rgba(19, 176, 200, 0.47);
+}
+
+.grid .column.struggling .people {
+    background: rgba(140, 198, 63, 0.7);
+}
+
+.grid .column .label {
+    position: absolute;
+    top: -30px;
+    right: -5px;
+    text-align: center;
+    color: #000;
+    padding: 8px 0;
+    font-weight: 500;
+    color: #8cc63f;
+    text-transform: uppercase;
+    text-align: center;
+    width: 500px;
+    background: url('img/grid_header.png') right top no-repeat;
+}
+
+.grid .column.struggling .label {
+    right: auto;
+    left: -5px;
+    background-position: left top;
+}
+
+.grid .column .slot {
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 165px;
+    height: 110px;
+    overflow: hidden;
+}
+
+.grid .column .slot1 {
+    top: 7px;
+    left: -18px;
+}
+
+.grid .column .slot2 {
+    top: 118px;
+    left: 226px;
+}
+
+.grid .column .slot3 {
+    top: 229px;
+    left: 104px;
+}
+
+.grid .column .slot4 {
+    top: 7px;
+    left: 226px;
+}
+
+.grid .column .slot5 {
+    top: 229px;
+    left: 348px;
+}
+
+.grid .column .slot6 {
+    top: 340px;
+    left: 167px;
+}
+
+.grid .column .slot7 {
+    top: 7px;
+    left: 348px;
+}
+
+.grid .column .slot8 {
+    top: 118px;
+    left: -18px;
+}
+
+.grid .column .slot9 {
+    top: 7px;
+    left: 104px;
+}
+
+.grid .column .slot10 {
+    top: 340px;
+    left: 288px;
+}
+
+.grid .column .slot11 {
+    top: 118px;
+    left: 348px;
+}
+
+.grid .column .slot12 {
+    top: 340px;
+    left: 45px;
+}
+
+.grid .column .slot13 {
+    top: 118px;
+    left: 104px;
+}
+
+.grid .column .slot14 {
+    top: 229px;
+    left: 226px;
+}
+
+.grid .column .slot15 {
+    top: 229px;
+    left: -18px;
+}
+
+.grid .slot .personLabel {
+    position: absolute;
+    bottom: -60px;
+    width: 69.5%;
+    font-family: 'OpenSansCond';
+    font-size: 13px;
+    padding: 2px 0;
+    background: rgba(58, 67, 68, 0.8);
+    text-align: center;
+    text-transform: uppercase;
+    left: 25px !important;
+    bottom: 6px !important;
+}
+
+.grid .btn.labels {
+    left: 357px;
+    top: 480px;
+}
+
+.grid .btn.next {
+    top: 476px;
+    left: 424px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#outro {
+    top: 0px;
+}
+
+#outro li {
+    margin-left: 40px;
+}
+
+#outro #one .image {
+    position: absolute;
+    right: -200px;
+}
+
+#outro #one .title {
+    position: absolute;
+    width: 420px;
+    left: 100px;
+    font-size: 32px;
+    top: 140px;
+}
+
+#outro #one .copy {
+    position: absolute;
+    width: 420px;
+    left: 100px;
+    font-size: 16px;
+    top: 190px;
+    line-height: 20px;
+}
+
+
+/* line 6, ../../scss/models/pager.scss */
+.pagerWidget {
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 1000px;
+  height: 700px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.pagerWidget em {
+    font-style: italic;
+}
+
+.pagerWidget strong {
+    font-weight: 700;
+}
+
+.pagerWidget li {
+    font-family: 'Gotham', sans-serif;
+}
+/* line 15, ../../scss/models/pager.scss */
+.pagerWidget .bg {
+  z-index: 1;
+  top: 0;
+  right: auto;
+  bottom: auto;
+  left: 0;
+  position: absolute;
+}
+/* line 21, ../../scss/models/pager.scss */
+.pagerWidget .contentBlock {
+  z-index: 10;
+  padding: 30px 72px 124px;
+  opacity: 0;
+  visibility: hidden;
+  top: -500px;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  position: absolute;
+  background-color: #26b5cb;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 28, ../../scss/models/pager.scss */
+.pagerWidget .contentBlock .header {
+  /* margin-bottom: 17px;
+  text-align: left;
+  text-transform: none;
+  font-family: "Gotham";
+  font-weight: 400;
+  font-size: 36px;
+  font-size: 2.25rem;
+  color: white;
+  line-height: 36px; */
+}
+/* line 40, ../../scss/models/pager.scss */
+.pagerWidget .contentBlock .header.no-margin {
+  margin-bottom: 0;
+}
+/* line 43, ../../scss/models/pager.scss */
+.pagerWidget .contentBlock .text {
+  /* position: absolute;
+  font-family: "Gotham";
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 22px;
+  color: white; */
+}
+/* line 49, ../../scss/models/pager.scss */
+.pagerWidget .contentBlock ul, .pagerWidget .contentBlock ol {
+  padding: 0 0 0 10px;
+  margin: 10px 0 10px 30px;
+}
+/* line 52, ../../scss/models/pager.scss */
+.pagerWidget .contentBlock ul li, .pagerWidget .contentBlock ol li {
+  margin: 5px 0;
+}
+/* line 55, ../../scss/models/pager.scss */
+.pagerWidget .contentBlock ul.small li, .pagerWidget .contentBlock ol.small li {
+  margin: 3px 0;
+  font-size: 16px;
+  font-size: 1rem;
+}
+/* line 62, ../../scss/models/pager.scss */
+.pagerWidget .contentBlock ul {
+  list-style: square;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* line 63, ../../scss/models/pager.scss */
+.pagerWidget .contentBlock ol {
+  list-style: decimal;
+}
+/* line 65, ../../scss/models/pager.scss */
+.pagerWidget .contentBlock .next {
+  bottom: 45px;
+}
+/* line 67, ../../scss/models/pager.scss */
+.pagerWidget .contentBlock .next.disabled {
+  opacity: 0.5;
+}

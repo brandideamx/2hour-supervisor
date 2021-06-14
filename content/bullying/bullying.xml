@@ -1,0 +1,419 @@
+<bullying>
+	<contentRoot>../../content/bullying/</contentRoot>
+	<buttons>
+		<next><![CDATA[NEXT]]></next>
+		<tryagain><![CDATA[TRY AGAIN]]></tryagain>
+	</buttons>
+
+	<introvideo>
+        <vidnext><![CDATA[NEXT]]></vidnext>
+        <video>../../content/bullying/video/M5-introvideo-GOLD.mp4</video>
+    </introvideo>
+
+	<intropager>
+		<page background="img/19.jpg" x="0" y="158" width="441">
+			<header><![CDATA[]]></header>
+			<body><![CDATA[Employees hope and expect to work in an environment that is safe and comfortable. This module will help you understand your organization's role in eliminating workplace bullying. ]]></body>
+		</page>
+		<page background="img/37a.jpg" x="0" y="108" width="1000">
+			<header><![CDATA[<span class="tcenter">What is Workplace Bullying?</span>]]></header>
+			<body><![CDATA[<span class="side-padding">For the purposes of this training, consider "bullying" to be <strong>abusive conduct</strong>. Abusive conduct can be defined as:
+			<div class="quote">...conduct of an employer or employee in the workplace, with malice, that a reasonable person would find hostile, offensive, and unrelated to an employer's legitimate business interests. [It] may include repeated infliction of verbal abuse, such as the use of derogatory remarks, insults, and epithets, verbal or physical conduct that a reasonable person would find threatening, intimidating, or humiliating, or the gratuitous sabotage or undermining of a person's work performance.</div><br><br>
+            <p>Keep in mind that a single incident or encounter typically does not rise to the level of abusive conduct; however, if the actions are severe or egregious enough, the conduct may be viewed as bullying.</p></span>]]></body>
+		</page>
+	</intropager>
+
+	<examples>
+		<next><![CDATA[NEXT]]></next>
+		<header><![CDATA[Examples of Abusive Conduct]]></header>
+		<instructions><![CDATA[Below are several examples of work behavior which may constitute abusive conduct. It is important that you avoid engaging in this kind of conduct as well as recognize when others are engaging in such conduct. The more severe or repeated the problematic conduct is, the more likely that it will expose the organization to a bullying complaint.<br>Click all of the images to learn more.]]></instructions>
+
+		<example>
+			<img src="3_1.jpg" />
+			<label><![CDATA[Reply All]]></label>
+			<feedback><![CDATA[Think twice before hitting "Reply All" as a means of embarrassing a colleague in front of others.  While expressing disagreement or providing constructive criticism may be necessary, lashing out at a colleague through hostile words and tones in an email, especially when others are copied on it, is not appropriate.
+			<br><br>
+			Make sure that both you and your team members are using email and the Reply All function appropriately.  Err on the side of having one-on-one conversations to avoid unnecessary humiliation.]]></feedback>
+		</example>
+		<example>
+			<img src="3_2.jpg" />
+			<label><![CDATA[Yelling at a Colleague]]></label>
+			<feedback><![CDATA[Avoid yelling at supervisors, subordinates and/or any other employees. There are more effective ways to convey your point.
+			<br><br>
+			We all have moments where we feel angry or frustrated at work.   However, if you make yelling part of your workplace personality, you increase your chances of being a workplace bully. At the end of this module, you'll have a chance to explore some more productive strategies for handling your emotions at work.]]></feedback>
+		</example>
+		<example>
+			<img src="3_3.jpg" />
+			<label><![CDATA[Yelling During a Meeting]]></label>
+			<feedback><![CDATA[Yelling during a meeting, on a conference call or at a work function is especially problematic even if the yelling is not directed at someone in particular. Not only can yelling be perceived as an intimidation tactic, but doing so in front of other people can easily humiliate others.
+			<br><br>
+			If you have criticism for a co-worker, subordinate or supervisor, it's best to convey that feedback privately (and with a measured tone).]]></feedback>
+		</example>
+		<example>
+			<img src="3_4.jpg" />
+			<label><![CDATA[Using Foul Language]]></label>
+			<feedback><![CDATA[People have different ideas about what language is appropriate in the workplace. You never know who might be offended or intimidated by profanity. Because of this, it's best to err on the side of caution and refrain from using foul language (or foul gestures) altogether.]]></feedback>
+		</example>
+		<example>
+			<img src="3_5.jpg" />
+			<label><![CDATA[Intimidating Posture]]></label>
+			<feedback><![CDATA[Harsh language or intimidating tone is not the only way bullying can be found in the workplace. Posture, body language or invading someone's personal space could also contribute to a bullying environment.]]></feedback>
+		</example>
+		<example>
+			<img src="3_6.jpg" />
+			<label><![CDATA[Throwing Office Supplies]]></label>
+			<feedback><![CDATA[Pushing documents across a desk at someone in a gruff manner, breaking pencils in anger, pounding a desk with a fist and throwing rubber bands or other desk supplies are examples of non-verbal behavior that could constitute abusive conduct.  Certainly, an employee who is in a room with someone engaging in this conduct may feel intimidated and threatened.]]></feedback>
+		</example>
+		<example>
+			<img src="3_7.jpg" />
+			<label><![CDATA[Derogatory Employee Reviews]]></label>
+			<feedback><![CDATA[Employee reviews that use disparaging comments about someone's personality or character, where not tied to business interests, are not acceptable.  While it is certainly acceptable and encouraged to provide honest feedback in the review process, criticism should always be tied to specific performance goals and legitimate business interests.]]></feedback>
+		</example>
+	</examples>
+
+	<midpager>
+		<page background="img/20.jpg" x="0" y="20" width="353">
+			<header><![CDATA[Avoid Bullying Behavior]]></header>
+			<body><![CDATA[In the following activity, you'll see several examples of office communication.
+			<br><br>
+			It's up to you to decide if you would change anything about the communication in order to avoid abusive conduct.]]></body>
+		</page>
+	</midpager>
+
+	<clickthrough>
+		<next><![CDATA[Next]]></next>
+		<changes><![CDATA[See Changes]]></changes>
+		<tryagain><![CDATA[Try Again]]></tryagain>
+
+		<scenario>
+			<mainbtn><![CDATA[SEND]]></mainbtn>
+			<img src="email-1-initial.png" />
+			<instructions><![CDATA[Click on any part of the email you would change. If you think the email is fine as is, click Send.]]></instructions>
+			<content type="email">
+				<to><![CDATA[richard@xyz.org]]></to>
+				<subject><![CDATA[Tardiness Issue]]></subject>
+				<body>
+					<![CDATA[Richard,
+					<br><br>
+					<span class="option" id="c4">I'm sick and tired of your lateness. You're totally irresponsible and disrespectful</span>, and <span class="option" id="c2">I'm not going to tolerate it anymore</span>. <span class="option" id="c3">Either get here on time, or don't bother coming at all.</span>
+					<br><br>
+					-Gloria
+					<br>
+					Manager @ XYZ]]>
+				</body>
+				<glorified>
+					<![CDATA[Richard,
+					<br><br>
+					You have been late three times this past week. Your tardiness has made it difficult for the team to meet client expectations. I have documented this behavior. If it continues, you will face disciplinary action.
+					<br><br>
+					-Gloria
+					<br>
+					Manager @ XYZ]]>
+				</glorified>
+				<question><![CDATA[Is this acceptable?]]></question>
+				<feedback id="send" correct="false">
+					<label><![CDATA[This email isn't ready to send yet.]]></label>
+					<description><![CDATA[Remember that communications that attack a person's character in a threatening, intimidating, or humiliating manner, could be considered abusive conduct.]]></description>
+					<option><![CDATA[Try Again]]></option>
+				</feedback>
+				<feedback id="c2" correct="false">
+					<label><![CDATA[This is not the problem.]]></label>
+					<description><![CDATA[It's fine for managers or other employees to make expectations clear. Letting this employee know that lateness will no longer be tolerated is not the main problem in this email.]]></description>
+					<option><![CDATA[Try again]]></option>
+				</feedback>
+				<feedback id="c3" correct="false">
+					<label><![CDATA[This is not the main problem.]]></label>
+					<description><![CDATA[Could this have been phrased more delicately? Certainly. However, there is a more pressing issue in this email that needs to be addressed.]]></description>
+					<option><![CDATA[Try again]]></option>
+				</feedback>
+				<feedback id="c4" correct="true">
+					<label><![CDATA[You found the issue!]]></label>
+					<description><![CDATA[Now, how would you like to change it?]]></description>
+					<option correct="false">
+						<btn><![CDATA[<span>Don't use negative adjectives</span>]]></btn>
+						<final><![CDATA[No. While toning down an email to not use negative adjectives is certainly something to be considered, the issue here is that the generalized attack about being lazy, irresponsible, and disrespectful is more focused on the manager's feelings as opposed to the reason why being on time is important.]]></final>
+					</option>
+					<option correct="true">
+						<btn><![CDATA[<span>Use business-related specifics</span>]]></btn>
+						<final><![CDATA[That's right! When giving feedback, it should be tied to specific performance issues or concerns and tangible consequences for not performing.]]></final>
+					</option>
+					<option correct="false">
+						<btn><![CDATA[<span>Phrase it as a group complaint</span>]]></btn>
+						<final><![CDATA[No. Implying that multiple people have the same issue with this employee's lateness would not make this email more appropriate. In fact, it could only humiliate the employee more if the attack is from multiple supervisors.]]></final>
+					</option>
+				</feedback>
+			</content>
+		</scenario>
+
+		<scenario>
+			<mainbtn><![CDATA[SEND]]></mainbtn>
+			<img src="email-1-initial.png" />
+			<instructions><![CDATA[Click any part of the email screen you would change. If you think the email is fine as is, click Send.]]></instructions>
+			<content type="email">
+				<to><![CDATA[<span class="option" id="c4">Wendy@xyz.net; <span class="glorified">Norman@xyz.net; LaShawn@xyz.net; Dierdre@xyz.net</span></span>]]></to>
+				<cc><![CDATA[<span class="glorified">Shannon@xyz.net; Pat@xyz.net</span>]]></cc>
+				<subject><![CDATA[RE: Meeting materials]]></subject>
+				<body>
+					<![CDATA[<div style="font-size:12px;line-height:15px">Hi,
+					<br><br>
+					Thanks for participating in the sales presentation run-through.
+					<br><br>
+					<span class="option" id="c2">Wendy, I was really disappointed with your contribution.</span> <span class="option" id="c3">I thought that of everyone, you were the least prepared.</span> Please come and see me in my office at your earliest convenience so we can discuss what you'll need to do before the formal presentation next week.
+					<br><br>
+					Thanks,<br><br>
+					Gloria</div>]]>
+				</body>
+				<glorified>
+					<![CDATA[<div style="font-size:12px;line-height:15px">Hi, Wendy.
+					<br><br>
+					Thanks for participating in the sales presentation run-through.
+					<br><br>
+					Unfortunately, I was really disappointed with your contribution. I thought that of everyone, you were the least prepared. Please come and see me in my office at your earliest convenience so we can discuss what you'll need to do before the formal presentation next week.
+					<br><br>
+					Thanks,<br><br>
+					Gloria</div>]]>
+				</glorified>
+				<question><![CDATA[Is this acceptable?]]></question>
+				<feedback id="send" correct="false">
+					<label><![CDATA[This email isn't ready to send yet.]]></label>
+					<description><![CDATA[Remember, sometimes feedback that is perfectly acceptable to give in a one-on-one situation becomes humiliating (and could be perceived as bullying) when it is said in front of a group.]]></description>
+					<option><![CDATA[Try Again]]></option>
+				</feedback>
+				<feedback id="c2" correct="false">
+					<label><![CDATA[This is not the main problem.]]></label>
+					<description><![CDATA[While this comment should have been conveyed to Wendy privately, it is certainly fine to express disappointment when expectations aren't met.]]></description>
+					<option><![CDATA[Try again]]></option>
+				</feedback>
+				<feedback id="c3" correct="false">
+					<label><![CDATA[This is not the problem.]]></label>
+					<description><![CDATA[This is definitely criticism, but the criticism seems tied to a specific incident and is focused on business needs. ]]></description>
+					<option><![CDATA[Try again]]></option>
+				</feedback>
+				<feedback id="c4" correct="true">
+					<label><![CDATA[You found the issue!]]></label>
+					<description><![CDATA[Now, how would you like to change it?]]></description>
+					<option correct="false">
+						<btn><![CDATA[<span>Don't use the Cc function</span>]]></btn>
+						<final><![CDATA[This is part of the problem, but that will only eliminate two employees from the email and will not solve the issue completely. There is a better option.]]></final>
+					</option>
+					<option correct="false">
+						<btn><![CDATA[<span style="font-size:14px">Also Include The Appropriate Personnel</span>]]></btn>
+						<final><![CDATA[No, there is no need to include other personnel with this specific feedback.]]></final>
+					</option>
+					<option correct="true">
+						<btn><![CDATA[<span>Reply to Wendy individually</span>]]></btn>
+						<final><![CDATA[Yes. While this feedback is perfectly acceptable, when given in a public forum, it has the potential to be very embarrassing and could be perceived as undermining Wendy's work performance.]]></final>
+					</option>
+				</feedback>
+			</content>
+		</scenario>
+
+		<scenario>
+			<mainbtn><![CDATA[Yes]]></mainbtn>
+			<img src="meeting.jpg" />
+			<instructions><![CDATA[Click on any part of this picture you would change. If you think the situation is fine as is, click Yes.]]></instructions>
+			<content type="image">
+				<question><![CDATA[Is this acceptable?]]></question>
+				<feedback id="yes" correct="true">
+					<label><![CDATA[You are correct!]]></label>
+					<description><![CDATA[Acceptable body language can change depending on the context. While standing over a person might be seen as intimidating when they're sitting at their desk, standing in front of a group to present at work is generally not viewed as intimidating.]]></description>
+					<option><![CDATA[Next]]></option>
+				</feedback>
+				<feedback id="c2" correct="false" x="441" y="43" w="118" h="175">
+					<label><![CDATA[This is not the problem.]]></label>
+					<description><![CDATA[Standing over a person isn't always problematic. In some contexts, it's acceptable or even necessary.]]></description>
+					<option><![CDATA[Try again]]></option>
+				</feedback>
+				<feedback id="c3" correct="false" x="219" y="65" w="156" h="301">
+					<label><![CDATA[This is not the main problem.]]></label>
+					<description><![CDATA[Being on different levels isn't always problematic. In some contexts, it's acceptable or even necessary.]]></description>
+					<option><![CDATA[Try again]]></option>
+				</feedback
+>			</content>
+		</scenario>
+
+		<scenario>
+			<mainbtn><![CDATA[Yes]]></mainbtn>
+			<img src="hovering.jpg" />
+			<glorified src="hovering-fixed.jpg" />
+			<instructions><![CDATA[Click on any part of this picture you would change. If you think the situation is fine as is, click Yes.]]></instructions>
+			<content type="image">
+				<question><![CDATA[Is this acceptable?]]></question>
+				<feedback id="yes" correct="false">
+					<label><![CDATA[There is a problem with this picture.]]></label>
+					<description><![CDATA[Body language communicates a lot.  When someone stands over another person in close proximity and in an intimidating, threatening or harassing way, this could make someone feel bullied.]]></description>
+					<option><![CDATA[Try Again]]></option>
+				</feedback>
+				<feedback id="c2" correct="false" x="130" y="0" w="342" h="431">
+					<label><![CDATA[The seated employee is not the problem.]]></label>
+					<description><![CDATA[Remember, body language communicates a lot.  When someone stands over another person in close proximity and in an intimidating, threatening or harassing  way, this could make someone feel bullied.]]></description>
+					<option><![CDATA[Try Again]]></option>
+				</feedback>
+				<feedback id="c3" correct="true" x="472" y="0" w="446" h="245">
+					<label><![CDATA[You found the issue!]]></label>
+					<description><![CDATA[Now, how would you like to change it?]]></description>
+					<option correct="true">
+						<btn><![CDATA[<span>Avoid towering over employees</span>]]></btn>
+						<final><![CDATA[Be aware of postures and positioning that could be seen as intimidating, threatening or harassing.]]></final>
+					</option>
+					<option correct="false">
+						<btn><![CDATA[<span class="label-small">Always call people into a private area to give feedback</span>]]></btn>
+						<final><![CDATA[Calling people into a private area isn't necessarily a good idea. In fact, standing over them in private can be even more intimidating.]]></final>
+					</option>
+					<option correct="false">
+						<btn><![CDATA[<span>Don't touch the chair</span>]]></btn>
+						<final><![CDATA[Touching another employee's chair may make an employee feel uncomfortable.  But there is an even better option to change in this picture.]]></final>
+					</option>
+				</feedback>
+			</content>
+		</scenario>
+
+		<scenario>
+			<mainbtn><![CDATA[SEND]]></mainbtn>
+			<img src="email-1-initial.png" />
+			<instructions><![CDATA[Click on any part of the email you would change. If you think the email is fine as is, click Send.]]></instructions>
+			<content type="email">
+				<to><![CDATA[<span class="option" id="c2">Wendy@xyz.net; Norman@xyz.net; LaShawn@xyz.net; Dierdre@xyz.net</span>]]></to>
+				<cc><![CDATA[Shannon@xyz.net; Pat@xyz.net]]></cc>
+				<subject><![CDATA[Breakroom Etiquette]]></subject>
+				<body>
+					<![CDATA[Hello everyone,
+					<br><br>
+					We've been having issues with the fridge and the microwave. Please clean up after yourself when you're done with the microwave, and be sure to have any food removed from the fridge by Fridays at 5pm. <span class="option" id="c3">Whatever you don't take home with you on Friday will be thrown away.</span>
+					<br><br>
+					Thank you!]]>
+				</body>
+				<glorified>NONE</glorified>
+				<question><![CDATA[Is this acceptable?]]></question>
+				<feedback id="send" correct="true">
+					<label><![CDATA[You are correct!]]></label>
+					<description><![CDATA[Group emails are appropriate when you are speaking to an entire group about a legitimate work issue that needs to be addressed.  Even though this email involves kitchen clean up, it is certainly acceptable as long as is does not single anyone out in an embarrassing or intimidating fashion.   There are certainly times, like this one, where a group email is an efficient way to communicate to a larger number of people.]]></description>
+					<option><![CDATA[Next]]></option>
+				</feedback>
+				<feedback id="c2" correct="false">
+					<label><![CDATA[This is not the problem.]]></label>
+					<description><![CDATA[Group emails are not automatically a problem. In some cases, it is an effective way to communicate information that applies to everyone.]]></description>
+					<option><![CDATA[Try again]]></option>
+				</feedback>
+				<feedback id="c3" correct="false">
+					<label><![CDATA[This is not the problem.]]></label>
+					<description><![CDATA[There's nothing wrong with making expectations clear.]]></description>
+					<option><![CDATA[Try again]]></option>
+				</feedback>
+			</content>
+		</scenario>
+	</clickthrough>
+
+	<endpager>
+		<page background="img/21.jpg" x="616" y="74" width="393">
+			<header><![CDATA[Nice Work!]]></header>
+			<body><![CDATA[You have successfully completed this activity. Click Next to learn some strategies to reduce the likelihood of workplace bullying in your environment.]]></body>
+		</page>
+		<!-- <page background="SAME" x="424" y="136" width="576">
+			<header><![CDATA[Your Responsibility]]></header>
+			<body><![CDATA[When it comes to preventing bullying, you should:<br><br>
+				<ul>
+					<li>Avoid engaging in abusive conduct</li>
+					<li>Take steps to address abusive conduct when you witness it in others</li>
+				</ul>
+				<br>
+				If you have any inkling that any behavior may constitute workplace bullying, it's best to err on the side of caution and address it.]]></body>
+		</page> -->
+		<page background="SAME" x="0" y="117" width="576">
+			<header><![CDATA[Why Bullying is Not Appropriate in the Workplace FOR ALLEN DEVELOPMENT]]></header>
+			<body><![CDATA[<ul>
+				<li>Creates an atmosphere of fear and mistrust</li>
+				<li>Takes away from a productive and successful environment</li>
+				<li>Shuts down discourse and opinions</li>
+				<li>Results in employees talking about the workplace bully rather than focusing on their jobs</li>
+				<li>Makes employees angry which could result in them seeking recourse internally or external to the organization</li>
+			</ul>]]></body>
+		</page>
+		<page background="SAME" x="424" y="100" width="576">
+			<header><![CDATA[The Benefits of a Bullying-Free Workplace  FOR ALLEN DEVELOPMENT]]></header>
+			<body><![CDATA[<ul>
+				<li>Less tension and fear in the workplace</li>
+				<li>Increases organization morale, including more enthusiasm and positive energy</li>
+				<li>Employees are more productive and successful</li>
+				<li>Employees are more likely to give their opinions and express important business ideas</li>
+				<li>Improves the organization's reputation such that the best talent can be recruited and retained</li>
+				<li>Your reputation is tied to that of your organization - it is beneficial for your career to work at a bullying-free organization</li>
+			</ul>]]></body>
+		</page>
+		<page background="img/27.jpg" x="0" y="40" width="484">
+			<header><![CDATA[Pause to Think]]></header>
+			<body><![CDATA[While a single instance of abusive behavior may not rise to the level of bullying, the more repetitive the conduct is, the more likely it will constitute bullying and the more likely it will be for employees to complain about it. Even a single incident, however, can constitute bullying if it is especially severe or egregious.
+			<br><br>
+			Problems tend to occur when people act on an impulse fueled by anger or frustration. If this is an issue for you or someone on your team, there are strategies that can help.]]></body>
+		</page>
+	</endpager>
+
+	<think>
+		<next><![CDATA[NEXT]]></next>
+		<header><![CDATA[Pause to Think
+    <br><br>
+    <span style="background: black;
+    background: rgba(0, 0, 0, 0.4);
+    color: #13b0c8;
+    font-family: 'Gotham';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 15px 354px 15px;
+    position: relative;
+    text-align: center;
+    top: 30px;
+    width: 960px;">Click all of the images to learn more.</span>]]></header>
+		<instructions><![CDATA[Click all of the images to learn more.]]></instructions>
+
+		<example class="long">
+			<img src="10_1.jpg" />
+			<label><![CDATA[Count to 10]]></label>
+			<feedback><![CDATA[Sometimes words come out faster than we can think about them. This tends to happen more frequently when emotions run high.
+			<br><br>
+			To avoid a pattern of emotional outbursts (which could be considered bullying behavior), count to ten before making a statement. Say what you need to say only after taking that pause.]]></feedback>
+		</example>
+		<example class="long">
+			<img src="10_2.jpg" />
+			<label><![CDATA[Hit Save]]></label>
+			<feedback>
+        <![CDATA[Before hitting Send on a controversial email, hit Save and walk away. Come back to the email in 10-15 minutes. Re-read the email and make sure any criticism is constructive, tied to business objectives and has an appropriate tone.
+			<br><br>
+			Also, check the To: line and make sure that only those who "need to know" are included.]]></feedback>
+		</example>
+		<example class="long">
+			<img src="10_3.jpg" />
+			<label><![CDATA[Mindfulness]]></label>
+			<feedback><![CDATA[Mindfulness is a valuable stress management tool from which everyone can benefit. Mindfulness has been shown to not only improve focus, memory, creativity, but has also been shown to reduce stress and anxiety and improve overall workplace relations.]]></feedback>
+		</example>
+		<example class="long">
+			<img src="10_4.jpg" />
+			<label><![CDATA[Consider the Consequences]]></label>
+			<feedback><![CDATA[Do you want to be discussed negatively at work?  Do you want your anger to be a focus point of your performance reviews?  Before acting, think about how you will benefit from handling a situation in a less intimidating, non-harassing way.]]></feedback>
+		</example>
+	</think>
+
+	<outropager>
+		<page background="img/19.jpg" x="0" y="60" width="400">
+			<header><![CDATA[Remember...]]></header>
+			<body><![CDATA[It is your responsibility to prevent bullying behavior. If you notice bullying on your team, your first step should be to talk immediately with the bullying employee. Model the behavior you want to see: 
+			<ul>
+				<li>Pass along criticism privately </li>
+				<li>Link the concern to a business issue </li>
+				<li>Provide alternative ways to resolve the situation </li>
+				<li>Remain calm even when the situation is difficult </li>
+			</ul>
+
+			    If you feel that this approach is unsuccessful, discuss the situation with your supervisor or through appropriate reporting channels. 
+
+				]]></body>
+		</page>
+
+		<!-- <page background="img/19.jpg" x="0" y="60" width="400">
+			<header><![CDATA[Consider This:]]></header>
+			<body><![CDATA[TBD Location
+
+				]]></body>
+		</page> -->
+	</outropager>
+</bullying>

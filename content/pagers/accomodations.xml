@@ -1,0 +1,35 @@
+<pager>
+	<contentRoot>../../content/pagers/</contentRoot>
+	<buttons>
+		<next><![CDATA[NEXT]]></next>
+	</buttons>
+	<page background="img/disability_1.jpg" x="442" y="137" width="558">
+		<background scale="1.23" x="-92" y="-31" animate="true"/>
+		<header><![CDATA[Disability Discrimination]]></header>
+		<body><![CDATA[Under applicable laws and the organization's policy, it is unlawful to discriminate against an employee with a disability.<br><br>Employers must make reasonable accommodations for employees with a disability who are otherwise qualified to safely perform the duties and assignments connected with the job - provided that any accommodations made do not pose an undue hardship.]]></body>
+	</page>
+
+	<page background="SAME" x="442" y="137" width="558">
+		<background scale="1.23" x="-92" y="-31" animate="true"/>
+		<header><![CDATA[Disability Discrimination]]></header>
+		<body><![CDATA[It is essential that supervisors understand their employer's responsibilities as they relate to providing reasonable accommodations. As a supervisor, you may occasionally interface with appropriate channels to determine whether one of your employees needs an accommodation and so it is important to have an understanding of the types of accommodations which might be considered reasonable.]]></body>
+	</page>
+
+	<page background="img/disability_2.jpg" x="442" y="137" width="558">
+		<background scale="1.13" x="-112" y="-41" animate="true"/>
+		<header><![CDATA[Hearing Impairment Example]]></header>
+		<body><![CDATA[An employee with a hearing disability must be able to contact the public by telephone. The employee proposes that he use a TTY to call a relay service operator.<br><br>This may be a reasonable accommodation because TTY is a common device, easy to provide, and would not cause an undue hardship on the employer.]]></body>
+	</page>
+
+	<page background="img/disability_3.jpg" x="442" y="137" width="558">
+		<background scale="1.43" x="-192" y="-131" animate="true"/>
+		<header><![CDATA[Physical Impairment Example]]></header>
+		<body><![CDATA[A cashier easily becomes fatigued because of lupus and, as a result, has difficulty making it through her shift. The employee requests a stool because sitting greatly reduces the fatigue.<br><br>This may be a reasonable accommodation because the job can be performed equally well either standing or sitting, and does not appear to create an undue hardship on the organization.]]></body>
+	</page>
+
+	<page background="SAME" x="442" y="137" width="558">
+		<background scale="1.13" x="-72" y="-11" animate="true"/>
+		<header><![CDATA[Mental Impairment Example]]></header>
+		<body><![CDATA[A cleaning company rotates its staff to different floors on a monthly basis. One crew member has a psychiatric condition that makes it difficult for him to adjust to change, so he requests to be assigned to the same floor permanently.<br><br>This may be a reasonable accommodation because it feasibly allows this employee to continue with his duties, and does not impose an undue hardship on the Company.]]></body>
+	</page>
+</pager>

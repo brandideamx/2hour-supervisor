@@ -1,0 +1,273 @@
+<convo>
+	<contentRoot>../../content/employee-concerns/person2/</contentRoot>
+	<name><![CDATA[Kira]]></name>
+	<intro>FPO.mp4</intro>
+	<initScore>0</initScore>
+	<phase id="A1">
+		<customer_says>
+			<video>P2_A1.mp4</video>
+			<transcript><![CDATA[Hey, thanks for making time to meet with me. You know how I'm Mr. Danielson's administrative assistant? Well, he makes me really uncomfortable. He's always calling me "doll" or "sweetie." I know he means well and he is always nice about it but I find it to be really disrespectful. Is there anything you can do?]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[Oh! Mr. Danielson is a very senior executive. I'm not sure there's much I can do for you. If he was nice about it, are you sure you don't want to just let it go?]]></you_say>
+			<coach><![CDATA[You made a mistake here. It is still your responsibility to escalate this to the appropriate channels, no matter the position of the person she's complaining about.]]></coach>
+			<response>
+				<video>P2_A33.mp4</video>
+				<transcript><![CDATA[Oh. I was hoping you could do something. I really like working here. I just don't like working with him very much.]]></transcript>
+			</response>
+			<link>A33</link>
+			<score>-2</score>
+		</option>
+		<option>
+			<you_say><![CDATA[Thank you so much for sharing this with me.  As your supervisor, I should report this to the appropriate personnel to make sure everything is sorted out.]]></you_say>
+			<coach><![CDATA[Your response showed empathy, yet you remained solution focused.]]></coach>
+			<response>
+				<video>P2_A8.mp4</video>
+				<transcript><![CDATA[Oh, I was thinking you could just move me! Do we really want to report this? I mean, he's a senior executive. Aren't there any openings in a different department?]]></transcript>
+			</response>
+			<link>A8</link>
+			<score>5</score>
+		</option>
+
+		<option>
+			<you_say><![CDATA[Okay. I'll let the appropriate channels know as soon as possible.]]></you_say>
+			<coach><![CDATA[Your intention in reporting to the appropriate channels is correct, but your response was not very empathetic. Your employee seems to think you are not taking her seriously.]]></coach>
+			<response>
+				<video>P2_A8.mp4</video>
+				<transcript><![CDATA[Oh, I was thinking you could just move me! Do we really want to report  this? I mean, he's a senior executive. Aren't there any openings in a different department?]]></transcript>
+			</response>
+			<link>A8</link>
+			<score>1</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I know he's a senior executive, but have you tried letting him know that you're uncomfortable with the way that he talks to you?]]></you_say>
+			<coach><![CDATA[Your response was not great. Most employees would not feel comfortable raising this to their boss, especially someone this senior. Since the employee has complained to you, it's now up to you to escalate the situation.]]></coach>
+			<response>
+				<video>P2_A33.mp4</video>
+				<transcript><![CDATA[Oh. I was hoping you could do something. I really like working here. I just don't like working with him very much.]]></transcript>
+			</response>
+			<link>A33</link>
+			<score>-1</score>
+		</option>
+	</phase>
+
+	<phase id="A8">
+		<customer_says>
+			<video>P2_A8.mp4</video>
+			<transcript><![CDATA[Oh, I was thinking you could just move me! Do we really want to report  this? I mean, he's a senior executive. Aren't there any openings in a different department?]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[If you're open to moving, we could look into that. That might be the best way to go. We should still talk to the appropriate personnel.]]></you_say>
+			<coach><![CDATA[This response was okay, but be careful about committing to a course of action (or seeming to commit to one) before speaking with appropriate channels.]]></coach>
+			<response>
+				<video>P2_A38.mp4</video>
+				<transcript><![CDATA[Yes. I definitely want to be moved.]]></transcript>
+			</response>
+			<link>A38</link>
+			<score>1</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I appreciate that you may feel like you want to move. It is important to bring this to the attention of the appropriate personnel so that if something is going on, it stops and no longer happens to you or anyone else.]]></you_say>
+			<coach><![CDATA[Great work! Your response was empathetic. This made it clear why you need to report to the appropriate channels without committing to a course of action.]]></coach>
+			<response>
+				<video>P2_A13.mp4</video>
+				<transcript><![CDATA[Okay, I get that. But I still don't want to keep working with him. Especially if he finds out that I complained.]]></transcript>
+			</response>
+			<link>A13</link>
+			<score>5</score>
+		</option>
+		<option>
+			<you_say><![CDATA[Sure. If you'd rather go that route, I can just reassign you.]]></you_say>
+			<coach><![CDATA[Even though the employee seems happy with this result, you should have involved the appropriate channels before agreeing to move her. Reassigning the complaining employee may not be the best course of action. Additionally, the employee may later claim that the move was involuntary and your decision could be viewed as retaliatory.]]></coach>
+			<response>
+				<video>P2_A38.mp4</video>
+				<transcript><![CDATA[Yes. I definitely want to be moved.]]></transcript>
+			</response>
+			<link>A38</link>
+			<score>-1</score>
+		</option>
+	</phase>
+
+	<phase id="A13">
+		<customer_says>
+			<video>P2_A13.mp4</video>
+			<transcript><![CDATA[Okay, I get that. But I still don't want to keep working with him. Especially if he finds out that I complained.]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[OK. It is up to you.]]></you_say>
+			<coach><![CDATA[Be careful! Your tone was a bit dismissive here. While the employee may suggest that her preference is to switch departments, saying "it is up to you" may not be accurate.]]></coach>
+			<response>
+				<video>P2_A18.mp4</video>
+				<transcript><![CDATA[So you're not going to go talk to Mr. Danielson, right? He won't know that I came in here to talk to you today? ]]></transcript>
+			</response>
+			<link>A18</link>
+			<score>3</score>
+		</option>
+		<option>
+			<you_say><![CDATA[He won't find out that you talked to me. We have a strict confidentiality policy here.]]></you_say>
+			<coach><![CDATA[Your response was not true. Confidentiality is not something you can guarantee.  In fact, in this situation, if the appropriate channels investigate, they will undoubtedly have to speak with the boss about the comments.]]></coach>
+			<response>
+				<video>P2_A43.mp4</video>
+				<transcript><![CDATA[That's great to hear. That was my main worry about telling anyone this. I didn't want to make things more awkward.]]></transcript>
+			</response>
+			<link>A43</link>
+			<score>-1</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I totally understand, and we have a policy against any retaliation.]]></you_say>
+			<coach><![CDATA[Your response was excellent. You empathized with her while making it perfectly clear that the appropriate personnel will handle the situation.]]></coach>
+			<response>
+				<video>P2_A18.mp4</video>
+				<transcript><![CDATA[So you're not going to go talk to Mr. Danielson, right? He won't know that I came in here to talk to you today? ]]></transcript>
+			</response>
+			<link>A18</link>
+			<score>5</score>
+		</option>
+	</phase>
+
+	<phase id="A18">
+		<customer_says>
+			<video>P2_A18.mp4</video>
+			<transcript><![CDATA[So you're not going to go talk to Mr. Danielson, right? He won't know that I came in here to talk to you today?]]></transcript>
+		</customer_says>
+
+		<option>
+			<you_say><![CDATA[I can't guarantee that nobody will talk to him, but I won't.]]></you_say>
+			<coach><![CDATA[Your response was too vague.  You should have been very clear in your response. Your employee needs to understand the next steps that need to be taken.]]></coach>
+			<link>END</link>
+			<score>-3</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I won't talk to him, no. The appropriate personnel will talk to him. He may be upset but he will get over it.]]></you_say>
+			<coach><![CDATA[You could have phrased this a little more delicately. However, the sentiment was correct.]]></coach>
+			<link>END</link>
+			<score>1</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I won't talk to him, but the appropriate personnel will probably need to talk to him. We will keep you updated so you're not caught off-guard. The organization also has a strict non-retaliation policy. If you have any concerns in the meantime, let me or the appropriate channels know immediately.]]></you_say>
+			<coach><![CDATA[You gave a clear and concise explanation of what the employee can expect. Well done.]]></coach>
+			<link>END</link>
+			<score>5</score>
+		</option>
+	</phase>
+
+	<phase id="A33">
+		<customer_says>
+			<video>P2_A33.mp4</video>
+			<transcript><![CDATA[Oh. I was hoping you could do something. I really like working here. I just don't like working with him very much.]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[Unfortunately, my hands are pretty tied given his position. I suggest you talk to him yourself. Please let me know how it goes.]]></you_say>
+			<coach><![CDATA[Your response was not true; your hands are not tied.  Informing the employee that she should take care of it herself is not appropriate. You have a responsibility to report this to appropriate channels, no matter what Mr. Danielson's position is.]]></coach>
+			<link>END</link>
+			<score>-2</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I guess I could report him to appropriate channels.]]></you_say>
+			<coach><![CDATA[Your response was a little hesitant. Reporting the complaint to appropriate channels is the right thing to do. You should not sound hesitant about it.]]></coach>
+			<response>
+				<video>P2_A8.mp4</video>
+				<transcript><![CDATA[Oh, I was thinking you could just move me! Do we really want to report  this? I mean, he's a senior executive. Aren't there any openings in a different department?]]></transcript>
+			</response>
+			<link>A8</link>
+			<score>1</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I see. Well, as your supervisor, I should report him to appropriate channels. I don't want you to be uncomfortable.]]></you_say>
+			<coach><![CDATA[You made the best choice possible here. As her supervisor, it is your responsibility to report the situation to appropriate channels.]]></coach>
+			<response>
+				<video>P2_A8.mp4</video>
+				<transcript><![CDATA[Oh, I was thinking you could just move me! Do we really want to report  this? I mean, he's a senior executive. Aren't there any openings in a different department?]]></transcript>
+			</response>
+			<link>A8</link>
+			<score>4</score>
+		</option>
+	</phase>
+
+	<phase id="A38">
+		<customer_says>
+			<video>P2_A38.mp4</video>
+			<transcript><![CDATA[Yes. I definitely want to be moved.]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[I understand. However, it's most important to bring this to the attention of the appropriate channels immediately so that if something is going on, it stops.]]></you_say>
+			<coach><![CDATA[Your response was excellent. You empathized with her while making it perfectly clear that the appropriate personnel will handle the situation. ]]></coach>
+			<response>
+				<video>P2_A13.mp4</video>
+				<transcript><![CDATA[Okay, I get that. But I still don't want to keep working with him. Especially if he finds out that I complained.]]></transcript>
+			</response>
+			<link>A13</link>
+			<score>4</score>
+		</option>
+		<option>
+			<you_say><![CDATA[Okay. I'll take care of that. I just have to let Mr. Danielson know.]]></you_say>
+			<coach><![CDATA[There is a better way to respond in this situation. You should not take the action of moving her or speaking to her boss without involving appropriate channels first.]]></coach>
+			<link>END</link>
+			<score>-3</score>
+		</option>
+		<option>
+			<you_say><![CDATA[Well, We should still talk to the appropriate personnel.]]></you_say>
+			<coach><![CDATA[You made the correct choice, but you did not explain your reasoning to the employee. She still has questions.]]></coach>
+			<response>
+				<video>P2_A13.mp4</video>
+				<transcript><![CDATA[Okay, I get that. But I still don't want to keep working with him. Especially if he finds out that I complained.]]></transcript>
+			</response>
+			<link>A13</link>
+			<score>1</score>
+		</option>
+	</phase>
+
+	<phase id="A43">
+		<customer_says>
+			<video>P2_A43.mp4</video>
+			<transcript><![CDATA[That's great to hear. That was my main worry about telling anyone this. I didn't want to make things more awkward.]]></transcript>
+		</customer_says>
+		<option>
+			<you_say><![CDATA[Of course. Thanks for letting me know what is going on.]]></you_say>
+			<coach><![CDATA[Your response made it sound like you're not going to escalate in order to maintain confidentiality.]]></coach>
+			<link>END</link>
+			<score>-1</score>
+		</option>
+		<option>
+			<you_say><![CDATA[I understand. I'll make sure the appropriate channels knows about your concern.]]></you_say>
+			<coach><![CDATA[Your response likely confused the employee. You seemed to both guarantee confidentiality AND tell her you'll talk to the appropriate channels.]]></coach>
+			<link>END</link>
+			<score>1</score>
+		</option>
+		<option>
+			<you_say><![CDATA[It's too bad he's a senior executive. That does make things awkward.]]></you_say>
+			<coach><![CDATA[You did not make a great choice here. While it appears that you were trying to be empathetic, your employee saw it as flippant and not helpful.]]></coach>
+			<link>END</link>
+			<score>-3</score>
+		</option>
+
+	</phase>
+
+
+	<ending>
+		<best>
+			<video>P2_best.mp4</video>
+			<transcript><![CDATA[Okay. Thank you so much. I'm glad I talked to you.]]></transcript>
+			<title><![CDATA[Great Job!]]></title>
+			<feedback><![CDATA[Because you did an excellent job with your responses, you can move on to the next interaction.]]></feedback>
+		</best>
+		<average>
+			<video>P2_average.mp4</video>
+			<transcript><![CDATA[Okay. Thank you.]]></transcript>
+			<title><![CDATA[Good!]]></title>
+			<feedback><![CDATA[While your responses could have been even better, you adequately handled this situation and can move on to the next interaction.]]></feedback>
+		</average>
+		<below>
+			<video>P2_below.mp4</video>
+			<transcript><![CDATA[I'm starting to wish I hadn't said anything.]]></transcript>
+			<title><![CDATA[Okay...]]></title>
+			<feedback><![CDATA[Since the way you handled this conversation could have been better, please give this conversation another try.]]></feedback>
+		</below>
+		<fail>
+			<video>P2_fail.mp4</video>
+			<transcript><![CDATA[Look, this isn't at all how I wanted to handle this. I'll just get back to work I guess.]]></transcript>
+			<title><![CDATA[Uh Oh!]]></title>
+			<feedback><![CDATA[Since the way you handled this conversation could have been better, please give this conversation another try.]]></feedback>
+		</fail>
+	</ending>
+</convo>

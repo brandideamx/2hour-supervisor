@@ -1,0 +1,49 @@
+<div id="contents">
+	<div class="header">Unconcious bias</div>
+	<div class="bodycopy">
+		Thanks for taking the time to do this exercise. It might have been a little uncomfortable, which is okay. Part of building self-awareness is understanding that all of us have what is called "unconscious bias" working behind the scenes.<br><br>
+		We all have biases of one form or another due to our socialization, personal experiences, and values. Unconscious bias creeps into our everyday lives. Some common biases include:<br><br>
+		<div class="accordion">
+			<div class="accordion-head">Physically-based biases:</div>
+			<div class="accordion-body">
+				<ul>
+					<li><span>Obese people are lazy</span></li>
+					<li><span>Tall men are stronger, more decisive leaders</span></li>
+					<li><span>Disabled people require special attention</span></li>
+				</ul>
+			</div>
+		</div>
+		<div class="accordion">
+			<div class="accordion-head">Gender-based biases:</div>
+			<div class="accordion-body">
+				<ul>
+					<li><span>Females are inferior in math and science</span></li>
+					<li><span>Women with children are less willing to travel for assignments</span></li>
+					<li><span>Men like to dominate a discussion</span></li>
+				</ul>
+			</div>
+		</div>
+		<div class="accordion">
+			<div class="accordion-head">Age-based biases:</div>
+			<div class="accordion-body">
+				<ul>
+					<li><span>Older people are not as technologically savvy</span></li>
+					<li><span>Young employees have entitlement attitudes</span></li>
+				</ul>
+			</div>
+		</div>
+		<br><br><br>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$('.accordion').find('.accordion-head').click(function(){
+		$('.accordion-head').removeClass('open');
+		$(this).addClass('open');
+		//Expand or collapse this panel
+		$(this).siblings('.accordion-body').slideToggle('fast');
+
+		//Hide the other panels
+		$(".accordion-body").not($(this).siblings('.accordion-body')).slideUp('fast');
+	});
+</script>

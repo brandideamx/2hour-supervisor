@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=0.9, maximum-scale=0.9">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<title></title>
+	
+	<link href="../../core/css/master.css" rel="stylesheet">
+	<link href="../../core/fonts/fonts.css" rel="stylesheet">
+	<link href="convo.css" rel="stylesheet">
+
+	<script src="../../core/script/gsap/TweenMax.min.js"></script>
+	<script src="../../core/script/jquery.js"></script>
+	<script src="../../core/script/jquery-ui.min.js"></script>
+	<script src="../../core/script/jquery.ui.touch-punch.min.js"></script>
+	<script src="../../core/script/util.js"></script>
+	<script src="../../core/script/widgets.js"></script>
+	<script src="../../core/script/touchable.js"></script>
+	<script src="graph.js"></script>
+	<script src="convo.js"></script>
+</head>
+<body>
+	<div id="convo">
+		<div class="mainColumn">
+			<div class="phase">
+				<div class="leftCol">
+					<div class="question"></div>
+					<div class="inst"></div>
+					<div class="options">
+
+					</div>
+				</div>
+				<div class="rightCol">
+					<div class="videoContainer"></div>
+					<div class="coachBox">
+						<div class="coach">
+							<div class="header">Feedback:</div>
+							<div class="content"></div>
+						</div>
+						<div class="btn next" id="thenextbutton"></div>
+					</div>
+				</div>
+
+				<div id="definitionbtn" class="infoTab transcript"></div>
+			</div>
+			<div class="outro">
+				<div class="textCol">
+					<div class="title">
+						<div class="header">
+							<div class="id"></div>
+							<div class="headertext"></div>
+						</div>
+						<div class="body"></div>
+					</div>
+				</div>
+				<div class="stripe">
+					<div class="text"></div>
+					<div class="label top"></div>
+					<div class="label bottom"></div>
+					<div class="graph"></div>
+				</div>
+				<!--
+				<div class="textCol">
+					<div class="header"></div>
+					<div class="body"></div>
+				</div>
+				<div class="graph"></div>				-->
+				<div class="btn tryagain"></div>
+				<div class="btn next" id="thenextbutton"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

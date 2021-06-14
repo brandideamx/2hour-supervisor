@@ -1,0 +1,64 @@
+﻿<!doctype html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<!-- Version V1.0.112019 -->
+	<title>SHIFT: Preventing Workplace Harassment and Discrimination, 2 Hour Supervisor</title>
+	<link href="core/css/master.css" rel="stylesheet">
+	<link href="core/css/qa.css" rel="stylesheet">
+	<link href="core/fonts/fonts.css" rel="stylesheet">
+
+	<script src="core/script/gsap/TweenMax.min.js"></script>
+	<script src="core/script/jquery.js"></script>
+	<script src="core/script/jquery-ui.min.js"></script>
+	<script src="core/script/jquery.ui.touch-punch.min.js"></script>
+	<script src="core/script/jquery.cookie.js"></script>
+	<script src="core/script/moment.js"></script>
+
+	<script src="core/script/util.js"></script>
+	<script src="core/script/lms.js"></script>
+	<script src="core/script/jira.js"></script>
+	<script src="core/script/tracking.js"></script>
+	<script src="core/script/menu.js"></script>
+	<script src="core/script/audio_player.js"></script>
+	<script src="core/script/qa.js"></script>
+	<script src="core/script/shell.js"></script>
+</head>
+
+<body class="dark">
+
+	<div class="main" id="container">
+		<!--<iframe id="content" src="about:blank"></iframe>-->
+	</div>
+	<div class="qa-status-box">
+		<div class="content"></div>
+		<button class="toggle"> Expand (+) </button>
+	</div>
+	<div class="cssload-container">
+		<div class="cssload-speeding-wheel"></div>
+		<div class="loading-text">Loading...</div>
+	</div>
+
+	<script src="core/script/debug.js">
+		// console.log('User Agent:', navigator.userAgent);
+		// console.log('Available screen width: ', window.screen.availWidth);
+		// console.log('Available screen height: ', window.screen.availHeight);
+		if (
+			(navigator.userAgent.match(/iPhone/i) && navigator.userAgent.match(/iPhone/i) != null)
+			||
+			(navigator.userAgent.match(/Android/i) && navigator.userAgent.match(/Android/i) != null)
+		) {
+			// console.log('Is iPhone.');
+			if (window.screen.availWidth < 375) {
+				document.head.insertAdjacentHTML('beforeEnd', '<meta name="viewport" content="initial-scale=0.35,maximum-scale=0.35">');
+			} else {
+				document.head.insertAdjacentHTML('beforeEnd', '<meta name="viewport" content="initial-scale=0.465,maximum-scale=0.465">');
+			}
+			document.head.insertAdjacentHTML('beforeEnd', '<meta name="apple-mobile-web-app-capable" content="yes">');
+			document.getElementById('head').innerText = document.head.innerHTML;
+		}
+	</script>
+</body>
+</html>
