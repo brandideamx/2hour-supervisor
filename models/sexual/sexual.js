@@ -69,9 +69,9 @@ Sexual.prototype.config = function(data) {
 }
 
 Sexual.prototype.introVideo = function() {
-        var theater = new Theater(this.data.find('introvideo'), function() {
-            _sexual.showIntro();
-        });
+    var theater = new Theater(this.data.find('introvideo'), function() {
+        _sexual.showIntro();
+    });
 }
 
 
@@ -90,7 +90,7 @@ Sexual.prototype.showIntro = function() {
         _sexual.buildExamples();
     })
 }
-Sexual.prototype.buildExamples = function () {
+Sexual.prototype.buildExamples = function() {
     document.getElementById("bullying").hidden = false;
     document.getElementById("activity").hidden = true;
     // console.log("building examples");
@@ -108,20 +108,59 @@ Sexual.prototype.buildExamples = function () {
     });
 };
 
-Sexual.prototype.showIntro2 = function () {
+Sexual.prototype.buildExamples2 = function() {
+    document.getElementById("strategies").hidden = false;
+    document.getElementById("activity").hidden = true;
+    document.getElementById("bullying").hidden = true;
+    $('.pagerWidget').remove();
+    // console.log("building examples");
+    var examples = new ClickReveal(this.data.find('examples2'));
+    examples.attach($('.examples2-container'));
+    examples.init();
+    // console.log("building examples initialized");
+    examples.addEventListener('Complete', function() {
+        TweenMax.to('.examples2-container, .examples2-feedback', 0.3, {
+            autoAlpha: 0,
+            onComplete: function() {
+                _sexual.showIntro3();
+            }
+        });
+    });
+};
+
+
+Sexual.prototype.showIntro2 = function() {
+
     this.intro2Pager = new Pager(this.data.find('intro2'), this.data.find('contentRoot').text());
     this.intro2Pager.attach($('body'));
     this.intro2Pager.setButtonText(this.data.find('buttons next').text());
-    this.intro2Pager.addEventListener('Complete', function () {
+    this.intro2Pager.addEventListener('Complete', function() {
+        //debugger;
         $('#nextbtn').html(_sexual.data.find('buttons next').text());
         TweenMax.to('#stripe', 0.3, {
             autoAlpha: 1
         });
+
         _sexual.intro2Pager.remove();
-        _sexual.tutorial();
-                document.getElementById("activity").hidden = false;
+        _sexual.buildExamples2();
     });
 };
+
+Sexual.prototype.showIntro3 = function() {
+    this.intro3Pager = new Pager(this.data.find('intro3'), this.data.find('contentRoot').text());
+    this.intro3Pager.attach($('body'));
+    this.intro3Pager.setButtonText(this.data.find('buttons next').text());
+    this.intro3Pager.addEventListener('Complete', function() {
+        $('#nextbtn').html(_sexual.data.find('buttons next').text());
+        TweenMax.to('#stripe', 0.3, {
+            autoAlpha: 1
+        });
+        _sexual.intro3Pager.remove();
+        _sexual.tutorial();
+        document.getElementById("activity").hidden = false;
+    });
+};
+
 Sexual.prototype.showPolicy = function() {
     _shell.popupURL('content/sexual/definition_popup.html')
 }
@@ -234,10 +273,10 @@ Sexual.prototype.setQuestion = function() {
         delay: 3.5
     });
     var potScore = this.score + 2;
-   
+
     _sexual.bindAdvisors();
     TweenMax.to('.bars .potential', 0.5, {
-        'height': potScore * 100/14 + '%',
+        'height': potScore * 100 / 14 + '%',
         delay: 0
     });
 }
@@ -444,7 +483,7 @@ Sexual.prototype.wrapup = function() {
 
             fbBody = tmp[0] + '<ul>' + _sexual.feedback + '</ul>' + tmp[1];
 
-             if (count >= 3) {
+            if (count >= 3) {
                 fbBody = '<span style="font-size:14px;line-height:17px">' + fbBody + '</span>';
             }
         }
@@ -473,8 +512,8 @@ Sexual.prototype.wrapup = function() {
                 if (node.nodeName == 'page') {
                     if ($(node).find('header').text() == '') {
                         pageData[0].removeChild(node);
-                            var clone = _sexual.data.find('outro page')[0].cloneNode(true);
-                            pageData.append(clone);
+                        var clone = _sexual.data.find('outro page')[0].cloneNode(true);
+                        pageData.append(clone);
                     }
                 }
             });
@@ -505,7 +544,7 @@ Sexual.prototype.meterUpdate = function(snap) {
     if (_sexual.score < 0) {
         _sexual.score = 0;
     }
-    var percent = _sexual.score * 100/14; // start at 4, can earn 10 more
+    var percent = _sexual.score * 100 / 14; // start at 4, can earn 10 more
     //if (percent > 100) percent = 100;
     if (snap) {
         $('.bars .bar').css('height', percent + '%');
@@ -538,36 +577,36 @@ Sexual.prototype.meterUpdate = function(snap) {
     }
 }
 Sexual.prototype.tryagain = function() {
-        _sexual.scenarios = [];
-        _sexual.score = 4;
-        _sexual.feedback = '';
-        for (i = 0; i < _sexual.data.find('scenario').length; i++) {
-            _sexual.scenarios.push(_sexual.data.find('scenario')[i]);
-        }
-        TweenMax.to('#feedback', 0.4, {
-            x: 500,
-            autoAlpha: 0,
-            onComplete: function() {
-                _sexual.meterUpdate();
-                _sexual.setQuestion();
-                $('#feedback-body').empty();
-                TweenMax.to('#stripe, #question, #advisor-choices', 0.4, {
-                    x: 0,
-                    autoAlpha: 1
-                });
-            }
-        });
+    _sexual.scenarios = [];
+    _sexual.score = 4;
+    _sexual.feedback = '';
+    for (i = 0; i < _sexual.data.find('scenario').length; i++) {
+        _sexual.scenarios.push(_sexual.data.find('scenario')[i]);
     }
+    TweenMax.to('#feedback', 0.4, {
+        x: 500,
+        autoAlpha: 0,
+        onComplete: function() {
+            _sexual.meterUpdate();
+            _sexual.setQuestion();
+            $('#feedback-body').empty();
+            TweenMax.to('#stripe, #question, #advisor-choices', 0.4, {
+                x: 0,
+                autoAlpha: 1
+            });
+        }
+    });
+}
 
 
 /**
  * SCENARIOS ------------------------------------- /
  */
-Sexual.prototype.startScenarios = function () {
+Sexual.prototype.startScenarios = function() {
     // console.log('Scenarios...');
 
     var scenarios = new Scenarios();
-    scenarios.addEventListener('Complete', function () {
+    scenarios.addEventListener('Complete', function() {
         // _unconscious.showConclusion();
         _sexual.showOutro2();
         // console.log("Showing outro2");
@@ -576,26 +615,29 @@ Sexual.prototype.startScenarios = function () {
     });
 };
 /** --------------------------------------------- */
-Sexual.prototype.showOutro2 = function () {
+Sexual.prototype.showOutro2 = function() {
     this.outro2Pager = new Pager(this.data.find('outro2'), this.data.find('contentRoot').text());
     this.outro2Pager.attach($('body'));
     this.outro2Pager.setButtonText(this.data.find('buttons next').text());
-    this.outro2Pager.addEventListener('Complete', function () {
+    this.outro2Pager.addEventListener('Complete', function() {
         _shell.activityComplete();
         _shell.gotoSection(0);
     });
 };
 
-Sexual.prototype.showOutro1 = function () {
+Sexual.prototype.showOutro1 = function() {
     this.outro1Pager = new Pager(this.data.find('outro1'), this.data.find('contentRoot').text());
     this.outro1Pager.attach($('body'));
     this.outro1Pager.setButtonText(this.data.find('buttons next').text());
-    this.outro1Pager.addEventListener('Complete', function () {
-        TweenMax.to('.activity', 0.5, { autoAlpha: 0, onComplete: function() {
+    this.outro1Pager.addEventListener('Complete', function() {
+        TweenMax.to('.activity', 0.5, {
+            autoAlpha: 0,
+            onComplete: function() {
                 // _sexual.startScenarios();
                 _sexual.showOutro2();
                 _sexual.outro1Pager.remove();
-            }})
+            }
+        })
     });
 };
 
@@ -604,7 +646,7 @@ Sexual.prototype.showOutro1 = function () {
  * Scenarios
  * v.0.2
  */
-var Scenarios = (function () {
+var Scenarios = (function() {
     _self = this;
 
     this.xml;
@@ -616,7 +658,7 @@ var Scenarios = (function () {
     $(".activity").find('.mainColumn').hide();
 });
 Scenarios.prototype = {
-    config: function (xml) {
+    config: function(xml) {
         // console.log('Scenario XML', xml);
         _self.xml = $(xml);
         _self.scenarios = _self.xml.find('scenario').length;
@@ -624,30 +666,30 @@ Scenarios.prototype = {
         _self.beginScenario(1);
     },
 
-    beginScenario: function (id) {
+    beginScenario: function(id) {
         $('.unconscious .container').removeClass('autoAlphaOff');
         $('.scenario-lbl').html(_shell.valign('Scenario ' + id));
         this.currentScenario = this.xml.find('scenario#' + id);
         this.board = new Scene(this.currentScenario, this);
     },
 
-    nextScenario: function () {
+    nextScenario: function() {
         var id = Number(this.currentScenario.attr('id'));
         var nextId = id + 1;
         if (nextId <= this.scenarios) this.destroyScenario(nextId);
         else this.dispatchEvent('Complete');
     },
 
-    destroyScenario: function (id) {
+    destroyScenario: function(id) {
         $('.container').empty();
         this.beginScenario(id);
     },
 
-    addEventListener: function (evt, fn) {
+    addEventListener: function(evt, fn) {
         this.events[evt] = fn;
     },
 
-    dispatchEvent: function (evt) {
+    dispatchEvent: function(evt) {
         if (this.events[evt] != undefined) {
             this.events[evt]();
         }
@@ -657,7 +699,7 @@ Scenarios.prototype = {
 /**
  * Scene
  */
-var Scene = (function (xml, parent) {
+var Scene = (function(xml, parent) {
     _scene = this;
 
     this.parent = parent;
@@ -675,7 +717,7 @@ var Scene = (function (xml, parent) {
 
 
 Scene.prototype = {
-    config: function () {
+    config: function() {
         this.div.find('.img-bg').css({
             'background-image': 'url(' + this.root + this.xml.attr('img') + ')'
         });
@@ -685,9 +727,9 @@ Scene.prototype = {
         this.step(0);
     },
 
-    buildBoards: function () {
+    buildBoards: function() {
         var rounds = this.xml.find('round');
-        $.each(rounds, function (i, e) {
+        $.each(rounds, function(i, e) {
             var board = new Board(i, e, _scene);
             board.attach(_scene.div.find('.board-container'), i, rounds.length);
         });
@@ -695,7 +737,7 @@ Scene.prototype = {
         $(_scene.div.find('.board-container')).append('<div class="green-line" style="width:' + w + 'px"></div>');
     },
 
-    step: function (idx) {
+    step: function(idx) {
         TweenMax.to('.board-container', 0.35, {
             top: 55
         });
@@ -712,13 +754,13 @@ Scene.prototype = {
                 top: 100,
                 autoAlpha: 1,
                 ease: Quad.easeOut,
-                onComplete: function () {
-                    $('.btn.next').off('click').on('click', function (e) {
+                onComplete: function() {
+                    $('.btn.next').off('click').on('click', function(e) {
                         $('.img-bg').addClass('blur');
                         TweenMax.set('.board-container', {
                             autoAlpha: 1
                         });
-                        setTimeout(function () {
+                        setTimeout(function() {
                             _scene.step(1)
                         }, 200);
                     });
@@ -732,24 +774,24 @@ Scene.prototype = {
             TweenMax.to('.board-container', 0.65, {
                 left: -(1000 * (idx - 1)),
                 ease: Quad.easeOut,
-                onComplete: function () {
+                onComplete: function() {
                     $('.btn.next').off('click');
                     $('.btn.prev').off('click');
-                    $('.btn.conclusion-back').on('click', function (e) {
+                    $('.btn.conclusion-back').on('click', function(e) {
                         TweenMax.to('.btn.next, .btn.prev', 0.001, {
                             autoAlpha: 1
                         });
                         _scene.step(idx - 1)
                     });
-                    $('.btn.transform').on('click', function (e) {
+                    $('.btn.transform').on('click', function(e) {
                         TweenMax.to('.scenario-desc', 0.35, {
                             // delay: 0.3,
                             top: 60,
                             autoAlpha: 0,
                             ease: Quad.easeIn,
-                            onComplete: function () {
+                            onComplete: function() {
                                 _scene.div.find('.scenario-desc').html(_scene.xml.find('caption').text());
-                                 $(".scenario-template").find('.scenario-desc').show();
+                                $(".scenario-template").find('.scenario-desc').show();
                                 _scene.showFinal();
                             }
                         });
@@ -782,9 +824,9 @@ Scene.prototype = {
         }
     },
 
-    checkCapSize: function () {
+    checkCapSize: function() {
         if (!this.xml.find('caption').attr('class')) this.div.find('.scenario-desc').removeClass('small');
-        else{
+        else {
             this.div.find('.scenario-desc').addClass(this.xml.find('caption').attr('class'));
             this.div.find('.scenario-desc').hide();
             $(".board-container").find('#board-1').css({ top: '75px' });
@@ -824,49 +866,49 @@ Scene.prototype = {
             // $(".board-container").find('#c4').hide();
             // $(".board-container").find('#c5').hide();
 
-$("#country.save")
+            $("#country.save")
 
         }
     },
 
-    moveBoard: function (idx) {
+    moveBoard: function(idx) {
         TweenMax.to('.board-container', 0.65, {
             left: -(1000 * (idx - 1)),
             ease: Quad.easeOut,
-            onComplete: function () {
+            onComplete: function() {
                 _scene.setNextPrev(idx);
             }
         });
     },
 
-    enableNext: function () {
+    enableNext: function() {
         this.div.find('.next').removeClass('disabled');
     },
 
-    parallaxImage: function (idx) {
+    parallaxImage: function(idx) {
         var img = $('.img-bg'),
             indices = [1, 2, 3, 4];
         img.addClass('pos' + indices[idx - 1]);
 
         var idxOfIndices = indices.indexOf(idx);
         indices.splice(idxOfIndices, 1);
-        $.each(indices, function (i, e) {
+        $.each(indices, function(i, e) {
             img.removeClass('pos' + e);
         });
     },
 
-    setNextPrev: function (idx) {
-        $('.btn.next').off('click').on('click', function (e) {
+    setNextPrev: function(idx) {
+        $('.btn.next').off('click').on('click', function(e) {
             if (!$(this).hasClass('disabled')) {
                 _scene.step(idx + 1);
             }
         });
-        $('.btn.prev').off('click').on('click', function (e) {
+        $('.btn.prev').off('click').on('click', function(e) {
             _scene.step(idx - 1)
         });
     },
 
-    showFinal: function () {
+    showFinal: function() {
         var caption = this.xml.find('caption-changed');
         var img = this.xml.attr('img-changed');
         this.div.find('.scenario-desc').removeClass('small').removeClass('medium');
@@ -879,7 +921,7 @@ $("#country.save")
         TweenMax.to('.board-container', 0.65, {
             left: -5000,
             ease: Quad.easeOut,
-            onComplete: function () {
+            onComplete: function() {
                 TweenMax.set('.board-container', {
                     autoAlpha: 0
                 });
@@ -904,13 +946,13 @@ $("#country.save")
                     // delay: 0.75,
                     left: 0,
                     ease: Quad.easeOut,
-                    onComplete: function () {
+                    onComplete: function() {
                         _scene.div.find('.scenario-desc').html(caption.text());
                         TweenMax.to('.scenario-desc', 0.85, {
                             top: 100,
                             autoAlpha: 1,
                             ease: Quad.easeOut,
-                            onComplete: function () {
+                            onComplete: function() {
                                 if (_scene.xml.attr('id') == 1) // NEEDS TO BE EQUAL TO LAST SCENE ID
                                     _scene.div.find('.final-next-popup p').html('Click NEXT to move ahead with the training.');
 
@@ -920,7 +962,7 @@ $("#country.save")
                                     autoAlpha: 1,
                                     ease: Quad.easeOut
                                 });
-                                _scene.div.find('.final-next').off('click').on('click', function (e) {
+                                _scene.div.find('.final-next').off('click').on('click', function(e) {
                                     TweenMax.set('.final-next-popup', {
                                         autoAlpha: 0,
                                         marginTop: 0
@@ -936,7 +978,7 @@ $("#country.save")
                 });
 
                 //$('.btn.next').removeClass('disabled').off('click').on('click', function(e) { _scene.parent.nextScenario(); });
-                $('.btn.prev').off('click').on('click', function (e) {
+                $('.btn.prev').off('click').on('click', function(e) {
                     TweenMax.to('.final-next-popup', 0.75, {
                         marginTop: 0,
                         autoAlpha: 0
@@ -952,19 +994,19 @@ $("#country.save")
         });
     },
 
-    getTemplate: function () {
+    getTemplate: function() {
         return $('.scenario-template').clone();
     },
 
-    attach: function (target) {
+    attach: function(target) {
         $(target).append(this.div);
     },
 
-    addEventListener: function (evt, fn) {
+    addEventListener: function(evt, fn) {
         this.events[evt] = fn;
     },
 
-    dispatchEvent: function (evt) {
+    dispatchEvent: function(evt) {
         if (this.events[evt] != undefined) {
             this.events[evt]();
         }
@@ -974,7 +1016,7 @@ $("#country.save")
 /**
  * Board
  */
-var Board = (function (i, e, parent) {
+var Board = (function(i, e, parent) {
     this.xml = $(e);
     this.parent = parent;
     this.div = $('<div class="board" id="board-' + this.xml.attr('id') + '" />');
@@ -988,7 +1030,7 @@ var Board = (function (i, e, parent) {
     this.config();
 });
 Board.prototype = {
-    config: function () {
+    config: function() {
         if (!this.xml.attr('end')) {
             this.div.html(this.getTemplate());
             this.createOptions();
@@ -998,9 +1040,9 @@ Board.prototype = {
         }
     },
 
-    createOptions: function () {
+    createOptions: function() {
         var _board = this;
-        $.each(this.xml.find('option'), function (i, e) {
+        $.each(this.xml.find('option'), function(i, e) {
             var opt = $(e);
             var li = $('<li class="opt" id="opt-' + opt.attr('id') + '">');
             var inner = [
@@ -1011,7 +1053,7 @@ Board.prototype = {
                 '</div>'
             ];
 
-            li.html(inner.join('')).on('click', function (e) {
+            li.html(inner.join('')).on('click', function(e) {
                 _board.optClick(e);
             });
 
@@ -1021,7 +1063,7 @@ Board.prototype = {
         if (this.xml.find('option').length == 2) _board.div.find('ul').addClass('just-two');
     },
 
-    optClick: function (e) {
+    optClick: function(e) {
         var clicked = $(e.currentTarget),
             others = this.div.find('li');
 
@@ -1029,7 +1071,7 @@ Board.prototype = {
         clicked.addClass('no-fade selected');
 
         // Loop through others and fade them out/remove click event
-        $.each(others, function (i, e) {
+        $.each(others, function(i, e) {
             var li = $(e);
             li.off('click');
             if (!li.hasClass('no-fade')) TweenMax.to(li, 0.15, {
@@ -1039,7 +1081,7 @@ Board.prototype = {
 
         // Animate the clicked box
         var _this = this;
-        setTimeout(function () {
+        setTimeout(function() {
             _this.boxReveal(clicked)
         }, 100);
 
@@ -1048,7 +1090,7 @@ Board.prototype = {
         // console.log(this);
     },
 
-    boxReveal: function (clicked) {
+    boxReveal: function(clicked) {
         // Get current position
         var offset = {
             top: clicked.offset().top - clicked.parent().offset().top,
@@ -1065,7 +1107,7 @@ Board.prototype = {
         // Fade out inner text
         TweenMax.to(clicked.find('.middle'), 0.15, {
             autoAlpha: 0,
-            onComplete: function () {
+            onComplete: function() {
                 TweenMax.set(clicked.find('.feedback'), {
                     autoAlpha: 1
                 });
@@ -1082,7 +1124,7 @@ Board.prototype = {
             backgroundColor: 'white',
             transformOrigin: 'center center center',
             ease: Quad.easeInOut,
-            onComplete: function () {
+            onComplete: function() {
                 TweenMax.to(clicked.find('.middle'), 0.3, {
                     autoAlpha: 1
                 });
@@ -1091,7 +1133,7 @@ Board.prototype = {
         TweenMax.to(clicked, 0.25, animParams);
     },
 
-    getTemplate: function () {
+    getTemplate: function() {
         var head = this.xml.find('header').text();
         var length = head.split(' ').length;
         var size = (length < 30) ?
@@ -1113,7 +1155,7 @@ Board.prototype = {
         return html.join('');
     },
 
-    getEndTemplate: function () {
+    getEndTemplate: function() {
         var head = this.xml.find('header').text();
         var html = [
             '<div class="inner">',
@@ -1129,7 +1171,7 @@ Board.prototype = {
         return html.join('');
     },
 
-    attach: function (target, idx, length) {
+    attach: function(target, idx, length) {
         $(target).append(this.div);
         if (idx == 0) {
             $(target).append('<div class="circle cright" id="c' + idx + '" style="left:' + (800 + (1000 * idx)) + 'px"></div>');
@@ -1142,17 +1184,17 @@ Board.prototype = {
         }
     }
 };
-    /*
-    Sexual.prototype.outro = function(){
-        this.outroPager = new Pager(this.data.find('outro'), this.data.find('contentRoot').text());
-        this.outroPager.attach($('body'));
-        this.outroPager.setButtonText(this.data.find('buttons next').text());
-        this.outroPager.addEventListener('Complete', function(){
-            _shell.activityComplete();
-            _shell.nextSection();
-        })
-    }
-    */
+/*
+Sexual.prototype.outro = function(){
+    this.outroPager = new Pager(this.data.find('outro'), this.data.find('contentRoot').text());
+    this.outroPager.attach($('body'));
+    this.outroPager.setButtonText(this.data.find('buttons next').text());
+    this.outroPager.addEventListener('Complete', function(){
+        _shell.activityComplete();
+        _shell.nextSection();
+    })
+}
+*/
 _sexual = new Sexual();
 
 
@@ -1177,7 +1219,7 @@ Theater.prototype = {
             .html(this.data.find('vidnext').text())
             .click(function() {
                 if (!$(this).hasClass('disabled')) {
-                    TweenMax.to('.theater', 0.3, { autoAlpha: 0, onComplete: function() { $('.theater').remove(); }});
+                    TweenMax.to('.theater', 0.3, { autoAlpha: 0, onComplete: function() { $('.theater').remove(); } });
                     _theater.callback();
                     //_shell.activityComplete();
                     //_shell.nextSection();

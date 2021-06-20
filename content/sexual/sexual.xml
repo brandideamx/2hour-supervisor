@@ -29,9 +29,9 @@
 	</meter>
 
 	<introvideo>
-        <vidnext><![CDATA[NEXT]]></vidnext>
-        <video>../../content/sexual/video/M2-introvideo-GOLD.mp4</video>
-    </introvideo>
+		<vidnext><![CDATA[NEXT]]></vidnext>
+		<video>../../content/sexual/video/M2-introvideo-GOLD.mp4</video>
+	</introvideo>
 
 	<intro>
 
@@ -39,14 +39,14 @@
 			<background scale="1" x="0" y="0" animate="true"/>
 			<header><![CDATA[]]></header>
 			<body>
-          <![CDATA[The next few screens will help you better understand and identify what sexual harassment looks like in the workplace and what role you can play when you witness it. ]]></body>
+				<![CDATA[The next few screens will help you better understand and identify what sexual harassment looks like in the workplace and what role you can play when you witness it. ]]></body>
 		</page>
 
 		<page background="img/sexual_har_outro.jpg" x="0" y="100" width="700">
 			<background scale="1" x="-25" y="-25" animate="true"/>
 			<header><![CDATA[What is Sexual Harassment? FOR ALLEN DEVELOPMENT]]></header>
 			<body>
-          <![CDATA[Sexual harassment is a form of sex discrimination and includes any unwelcome conduct which is of a sexual nature, or which is directed at someone because of their sex.
+				<![CDATA[Sexual harassment is a form of sex discrimination and includes any unwelcome conduct which is of a sexual nature, or which is directed at someone because of their sex.
 				It is considered sexual harassment when:
 				<br><ul>
 				<li>Such conduct unreasonably interferes with an individual's work performance, or creates an intimidating, hostile or offensive work environment, even if the reporting individual is not the target of the sexual harassment;</li>
@@ -59,7 +59,7 @@
 			<background scale="1" x="0" y="0" animate="true"/>
 			<header><![CDATA[Unwelcome Behavior]]></header>
 			<body>
-          <![CDATA[Welcome behavior can become unwelcome behavior at any point.   What starts off as welcome behavior (consensual joking) can cross a line and become unwelcome behavior.  
+				<![CDATA[Welcome behavior can become unwelcome behavior at any point.   What starts off as welcome behavior (consensual joking) can cross a line and become unwelcome behavior.  
 Consent can be revoked at any time and the perpetrator must immediately stop the unwanted behavior. ]]></body>
 		</page>
 
@@ -71,7 +71,7 @@ Consent can be revoked at any time and the perpetrator must immediately stop the
 			<background scale="1" x="0" y="0" animate="true"/>
 		</page>
 
-    <page background="img/11.jpg" x="540" y="26" width="474" height="400">
+		<page background="img/11.jpg" x="540" y="26" width="474" height="400">
 			<background scale="1" x="0" y="0" animate="true"/>
 			<header><![CDATA[Two Types of Sexual Harassment]]></header>
 			<body><![CDATA[
@@ -85,14 +85,14 @@ Consent can be revoked at any time and the perpetrator must immediately stop the
 			<span class="bold" style="font-weight: bold;">Quid Pro Quo (Latin for "this for that")</span>
 			<br>
 			Sexual harassment is when someone conditions a job, promotion, or other work benefit on submission to sexual advances or other conduct based on sex.</div></div>
-			]]></body>
+			]]>			</body>
 		</page>
 
 		<page background="img/11.jpg" x="534" y="50" width="474" height="400">
 			<background scale="1" x="0" y="0" animate="true"/>
 			<header><![CDATA[Is Sexual Harassment Limited to Men Harassing Women?]]></header>
 			<body>
-          <![CDATA[No! It may be considered unlawful sexual harassment when:<br><ul>
+				<![CDATA[No! It may be considered unlawful sexual harassment when:<br><ul>
 				<li>Men sexually harass women</li>
 				<li>Women sexually harass men</li>
 				<li>Men sexually harass men </li>
@@ -101,9 +101,9 @@ Consent can be revoked at any time and the perpetrator must immediately stop the
 			</ul>]]></body>
 		</page>
 
-		</intro>
+	</intro>
 
- 		<examples>
+	<examples>
 		<next><![CDATA[NEXT]]></next>
 		<header><![CDATA[Examples of Sexual Harassment]]></header>
 		<instructions><![CDATA[You are about to practice identifying sexual harassment when you see it. Click each image to see several examples. You'll  be able to access these examples during the activity if you need help. ]]></instructions>
@@ -173,27 +173,24 @@ Consent can be revoked at any time and the perpetrator must immediately stop the
 		</example>
 	</examples>
 
-
-
-
 	<intro2>
 
 		<!-- <page background="SAME" x="0" y="100" width="900">
 			<background scale="0.68" x="-755" y="-765" animate="true"/>
 			<header><![CDATA[Gender-based terms]]></header>
-			<body><![CDATA["Gender Expression" means a person's gender-related appearance or behavior, or the perception of such appearance or behavior, whether or not stereotypically associated with the person's sex assigned at birth.<br><br>
+<body><![CDATA["Gender Expression" means a person's gender-related appearance or behavior, or the perception of such appearance or behavior, whether or not stereotypically associated with the person's sex assigned at birth.<br><br>
 			"Gender Identity" means each person's internal understanding of their gender, or the perception of a person's gender identity, which may include male, female, a combination of male and female, neither male nor female, and/or a gender different from the person's sex assigned at birth, or transgender.<br><br>
 			"Sex Stereotype" includes, but is not limited to, an assumption about a person's appearance or behavior, gender roles, gender expression, or gender identity, or about an individual's ability or inability to perform certain kinds of work based on a myth, social expectation, or generalization about the individual's sex.<br><br>
 			"Transgender" is a general term that refers to a person whose gender identity differs from the person's sex assigned at birth. A transgender person may or may not have a gender expression that is different from the social expectations of the sex assigned at birth. A transgender person may or may not identify as "transsexual."]]></body>
-		</page> -->
+</page> -->
 
 		<!-- <page background="SAME" x="0" y="100" width="700">
 			<background scale="0.68" x="-755" y="-765" animate="true"/>
 			<header><![CDATA[What does transitioning mean?]]></header>
-			<body><![CDATA["Transitioning" is a process some transgender people go through to begin living as the gender with which they identify, rather than the sex assigned to them at birth. This process may include, but is not limited to, changes in name and pronoun usage, facility usage, participation in employer-sponsored activities (e.g. sports teams, team-building projects, or volunteering), or undergoing hormone therapy, surgeries, or other medical procedures.<br><br>
+<body><![CDATA["Transitioning" is a process some transgender people go through to begin living as the gender with which they identify, rather than the sex assigned to them at birth. This process may include, but is not limited to, changes in name and pronoun usage, facility usage, participation in employer-sponsored activities (e.g. sports teams, team-building projects, or volunteering), or undergoing hormone therapy, surgeries, or other medical procedures.<br><br>
 			"Social Transitioning" involves a process of socially aligning one's gender with the internal sense of self (e.g. changes in name and pronoun, bathroom facility usage, participation in activities like sports teams).<br><br>
 			"Physical Transitioning" refers to medical treatments an individual may undergo to physically align their body with internal sense of self (e.g. hormone therapies or surgical procedures).]]></body>
-		</page> -->
+</page> -->
 
 
 
@@ -223,11 +220,11 @@ Consent can be revoked at any time and the perpetrator must immediately stop the
 			<br><br>
 			<span class="bold" style="font-size:24px">Bystanders</span> take no action.]]></body>
 		</page>
-<!--
+		<!--
 		<page background="SAME" x="0" y="100" width="615">
 			<background scale="0.75" x="-755" y="-765" animate="true"/>
 			<header><![CDATA[Why Some Bystanders Fail to Act]]></header>
-			<body><![CDATA[<div style="width: 507px;">It may be a natural inclination to avoid getting involved.  Some of the most common reasons bystanders often fail to act are:
+<body><![CDATA[<div style="width: 507px;">It may be a natural inclination to avoid getting involved.  Some of the most common reasons bystanders often fail to act are:
 				<ul>
 					<li>A belief that someone else will act</li>
 					<li>Uncertainty about what to do</li>
@@ -236,16 +233,121 @@ Consent can be revoked at any time and the perpetrator must immediately stop the
 					<li>The assumption that it's not their place</li>
 				</ul></div>
 				]]></body>
-		</page>
+</page>
  -->
 		<page background="SAME" x="0" y="105" width="1000" height="200" html="failtoact.html">
 			<background scale="0.41" x="-845" y="-595" animate="false"/>
 		</page>
 
-		<page background="SAME" x="0" y="105" width="1000" height="200" html="strategies.html">
+		<!-- page background="SAME" x="0" y="105" width="1000" height="200" html="strategies.html">
 			<background scale="0.41" x="-845" y="-595" animate="false"/>
-		</page>
+		</page -->
+	</intro2>
 
+	<examples2>
+		<next><![CDATA[NEXT]]></next>
+		<header><![CDATA[Strategies for Creating an Upstander Culture]]></header>
+		<instructions><![CDATA[You can act as an upstander in large and small ways every day. Click all of the images to reveal examples of upstander behaviors.]]></instructions>
+
+		<example class="long">
+			<img src="3_1.jpg" />
+			<label><![CDATA[<p style="font-weight:bold">Recognize and Interrupt.</p>]]></label>
+			<feedback1><![CDATA[<ul style="list-style: square;line-height: 27px;font-size: 23px;">
+				<li>You can recognize offensive conduct and interrupt it</li>
+				<br>
+				<li>For example, tell a colleague the term they used to describe someone is offensive. </li>
+			</ul>]]></feedback1>
+		</example>
+		<example class="long">
+			<img src="3_1.jpg" />
+			<label><![CDATA[<p style="font-weight:bold">Publicly Support.</p>]]></label>
+			<feedback1><![CDATA[<ul style="list-style: square;line-height: 27px;font-size: 23px;">
+				<li>You can publicly support someone who has been offended or neglected. </li>
+				<br>
+				<li>For example, call attention to the efforts of a colleague who has been overlooked in a meeting or group email. </li>
+			</ul>]]></feedback1>
+		</example>
+		<example class="long">
+			<img src="3_1.jpg" />
+			<label><![CDATA[<p style="font-weight:bold">Use Body Language.</p>]]></label>
+			<feedback1><![CDATA[<ul style="list-style: square;line-height: 27px;font-size: 23px;">
+				<li>You can use body language to show disapproval.</li>
+				<br>
+				<li>For example, turn away from someone telling an offensive joke. </li>
+			</ul>]]></feedback1>
+		</example>
+		<example class="long">
+			<img src="3_1.jpg" />
+			<label><![CDATA[<p style="font-weight:bold">Comfort.</p>]]></label>
+			<feedback1><![CDATA[<ul style="list-style: square;line-height: 27px;font-size: 23px;">
+				<li>You can help comfort hurt feelings.</li>
+				<br>
+				<li>For example, approach someone you know has been offended and offer support</li>
+			</ul>]]></feedback1>
+		</example>
+
+		<!--
+		<example>
+			<img src="3_2.jpg" />
+			<label><![CDATA[]]></label>
+<feedback1><![CDATA[<ul style="list-style: square;line-height: 27px;font-size: 23px;">
+				<li>Showing another employee inappropriate websites or videos with sexual content </li>
+				<br>
+				<li>Sexually demeaning or pornographic publications or displays, including on workplace computers or cell phones </li>
+			</ul>]]></feedback1>
+</example>
+<example>
+<img src="3_3.jpg" />
+<label><![CDATA[]]></label>
+<feedback1><![CDATA[<ul style="list-style: square;line-height: 27px;font-size: 23px;">
+				<li>Sexual remarks about a person's body, clothing or appearance </li>
+				<br>
+				<li>Sexual teasing, jokes, remarks or questions  </li>
+			</ul>]]></feedback1>
+</example>
+<example>
+<img src="3_4.jpg" />
+<label><![CDATA[]]></label>
+<feedback1><![CDATA[<ul style="list-style: square;line-height: 27px;font-size: 23px;">
+				<li>Patting, pinching, hugging, kissing or other unwanted touching</li>
+				<br>
+				<li>Leering or ogling </li>
+				<br>
+				<li>Inappropriate sexual advances </li>
+			</ul>]]></feedback1>
+</example>
+<example>
+<img src="3_5.jpg" />
+<label><![CDATA[]]></label>
+<feedback1><![CDATA[<ul style="list-style: square;line-height: 27px;font-size: 23px;">
+				<li>Damaging a person's workstation or otherwise sabotaging job performance because of their sex </li>
+				<br>
+				<li>Sexually oriented gestures, noises, remarks, jokes or comments about a person's sexuality or sexual experience</li>
+			</ul>]]></feedback1>
+</example>
+<example>
+<img src="3_6.jpg" />
+<label><![CDATA[]]></label>
+<feedback1><![CDATA[<ul style="list-style: square;line-height: 27px;font-size: 23px;">
+				<li>Pressure for dates</li>
+				<br>
+				<li>Posting sexually explicit comments on social media sites </li>
+			</ul>]]></feedback1>
+</example>
+<example>
+<img src="3_7.jpg" />
+<label><![CDATA[]]></label>
+<feedback1><![CDATA[<ul style="list-style: square;line-height: 27px;font-size: 23px;">
+				<li>Solicitation of sexual favors or other sexually related behavior by promise of rewards</li>
+				<br>
+				<li>Retaliating for refusing to engage in a sexual relationship</li>
+			</ul>]]></feedback1>
+</example>
+-->
+	</examples2>
+
+
+	<intro3>
 		<page background="img/16.jpg" x="489" y="100" width="528">
 			<background scale="1" x="0" y="0" animate="false"/>
 			<header><![CDATA[Strategies an Upstander Can Take in Response to Harassment]]></header>
@@ -255,9 +357,9 @@ Consent can be revoked at any time and the perpetrator must immediately stop the
 					<li>Talk privately with the inappropriate actor whose words or actions were offensive</li>
 					<li>Report the incident to a person of authority if there is any doubt</li>
 				</ul>
-				]]></body>
+				]]>			</body>
 		</page>
-	</intro2>
+	</intro3>
 
 	<instructions>
 		<slide><![CDATA[In the following activity, you will encounter four situations. You'll meet advisors who will give you advice on what to do. It's up to you to decide who to listen to and why.]]></slide>
@@ -302,30 +404,30 @@ Consent can be revoked at any time and the perpetrator must immediately stop the
 			<hint><![CDATA[The advice you accepted is accurate, but it would be more helpful to give Ari some guidance on how to handle the situation.]]></hint>
 		</advisor>
 		<advisor id="4" points="-1">
-			<advice><![CDATA[Tell Ari not to worry about it. Margaux probably wouldn’t even want a job that required that much travel. She’s got young kids. And if Ari offers her the position that requires travel, it will likely put her in a difficult position.]]></advice>
-			<hint><![CDATA[It is not appropriate to make assumptions about someone’s career goals and abilities based on their gender or family status.]]></hint>
+			<advice><![CDATA[Since relationship status is a protected characteristic, you should report the employee who expressed concern about the behavior to designated representatives.]]></advice>
+			<hint><![CDATA[Relationship status is not a protected characteristic.   Relationships in the workplace may impact others and managers should address any legitimate issues caused by such relationships immediately.]]></hint>
 		</advisor>
 	</scenario>
 
 	<!-- <scenario id="3">
 		<background><![CDATA[An important client calls and asks for his account to be managed by a male account representative instead of a female. He does not give any reason, but makes his preference for a "male" very clear. What should you do?]]></background>
-		<advisor id="1" points="2">
-			<advice><![CDATA[The client's request to work with an employee based on gender may be unlawful discrimination. Since unlawful harassment and discrimination are prohibited not only by employees and supervisors, but also by clients, visitors, vendors, etc., you should involve appropriate channels.]]></advice>
-			<hint><![CDATA[The client's request to work with an employee based on gender may be unlawful discrimination, which is prohibited not only by supervisors and employees, but also by clients, visitors, vendors, colleagues and supervisors.]]></hint>
-		</advisor>
-		<advisor id="2" points="-1">
-			<advice><![CDATA[Since the client is not your employee, there is really nothing you can do to remedy this situation. You should honor his request in the best interest of the business. You do not need to take further action.]]></advice>
-			<hint><![CDATA[Unlawful harassment is prohibited not only by supervisors and employees, but also by clients, visitors, vendors in addition to colleagues and supervisors.]]></hint>
-		</advisor>
-		<advisor id="3" points="-1">
-			<advice><![CDATA[The client did not explicitly say that he does not like working with women, so you cannot be sure that he is discriminating based on a protected characteristic. You do not need to involve appropriate channels at this time.]]></advice>
-			<hint><![CDATA[The client's request to work with an employee based on gender would be unlawful discrimination, which is prohibited not only by supervisors and employees, but also by clients, visitors, vendors, colleagues and supervisors.]]></hint>
-		</advisor>
-		<advisor id="4" points="-1">
-			<advice><![CDATA[Any time a client expresses a preference for one team member over another, this is a problem. You should involve appropriate channels in this situation.]]></advice>
-			<hint><![CDATA[When a client's preference to work with one employee over another seems related to a protected characteristic, you need to involve appropriate channels.]]></hint>
-		</advisor>
-	</scenario> -->
+<advisor id="1" points="2">
+<advice><![CDATA[The client's request to work with an employee based on gender may be unlawful discrimination. Since unlawful harassment and discrimination are prohibited not only by employees and supervisors, but also by clients, visitors, vendors, etc., you should involve appropriate channels.]]></advice>
+<hint><![CDATA[The client's request to work with an employee based on gender may be unlawful discrimination, which is prohibited not only by supervisors and employees, but also by clients, visitors, vendors, colleagues and supervisors.]]></hint>
+</advisor>
+<advisor id="2" points="-1">
+<advice><![CDATA[Since the client is not your employee, there is really nothing you can do to remedy this situation. You should honor his request in the best interest of the business. You do not need to take further action.]]></advice>
+<hint><![CDATA[Unlawful harassment is prohibited not only by supervisors and employees, but also by clients, visitors, vendors in addition to colleagues and supervisors.]]></hint>
+</advisor>
+<advisor id="3" points="-1">
+<advice><![CDATA[The client did not explicitly say that he does not like working with women, so you cannot be sure that he is discriminating based on a protected characteristic. You do not need to involve appropriate channels at this time.]]></advice>
+<hint><![CDATA[The client's request to work with an employee based on gender would be unlawful discrimination, which is prohibited not only by supervisors and employees, but also by clients, visitors, vendors, colleagues and supervisors.]]></hint>
+</advisor>
+<advisor id="4" points="-1">
+<advice><![CDATA[Any time a client expresses a preference for one team member over another, this is a problem. You should involve appropriate channels in this situation.]]></advice>
+<hint><![CDATA[When a client's preference to work with one employee over another seems related to a protected characteristic, you need to involve appropriate channels.]]></hint>
+</advisor>
+</scenario> -->
 
 	<scenario id="3">
 		<background><![CDATA[Sally complains about Mark's repeated compliments about her clothing and appearance. Sally mentions that Mark frequently comments on specific parts of her body and how her outfits display them. Because of your personal interactions with Mark, you know that he is a happily married man, and you do not think he means to offend Sally or make her feel uncomfortable in any way when he compliments her. What should you do?]]></background>
@@ -364,27 +466,31 @@ Consent can be revoked at any time and the perpetrator must immediately stop the
 			<advice><![CDATA[Let Jennifer know you’re sorry she’s been uncomfortable but you’re glad she came to talk with you. Marcus’s frequent comments about her appearance may have crossed a line. Tell her you’ll bring this up with the right people here and make sure the situation is addressed.]]></advice>
 			<!-- <hint><![CDATA[David appears to be using his power to gain romantic or sexual favors, which is a form of sexual harassment.  If David wants to get to know Jessie better, he can offer a lunch during work hours and not at a romantic location.]]></hint> -->
 		</advisor>
+		<advisor id="4" points="1">
+			<advice><![CDATA[David appears to be leveraging his position over Jessie but it is a bit too early to tell. Jessie should probably go to the dinner but the situation should be watched.]]></advice>
+			<hint><![CDATA[David appears to be using his power to gain romantic or sexual favors, which is a form of sexual harassment.  If David wants to get to know Jessie better, he can offer a lunch during work hours and not at a romantic location.]]></hint>
+		</advisor>
 	</scenario>
 
 
-  <!-- <scenario id="5">
-    <background><![CDATA[<span style="display:block;font-size:23px;line-height:1.1">Charlotte has recently been promoted to work on Jeff's team.  Jeff has found that he has increasingly needed to work one on one with Charlotte. Charlotte is very attractive and everyone knows that Jeff is recently divorced. With all the talk about #METOO and men being accused of inappropriate behavior, Jeff is worried about how this new working relationship with Charlotte will look to the rest of the team and especially about being behind closed doors with Charlotte.  What should he do?</span>]]></background>
-    <advisor id="1" points="1">
-      <advice><![CDATA[Jeff should keep his office door open whenever he has one on one meetings with anyone.]]></advice>
-      <hint><![CDATA[While this may make Jeff more comfortable and he will not be singling Charlotte out as a woman, open door discussions may not always be practical and should not be necessary if Jeff conducts himself in a professional manner with all of his colleagues. ]]></hint>
-    </advisor>
-    <advisor id="2" points="-1">
-      <advice><![CDATA[Jeff should ask to have Charlotte transferred to another team to avoid any awkwardness.]]></advice>
-      <hint><![CDATA[This could be seen as discrimination based on Charlotte's gender.]]></hint>
-    </advisor>
-    <advisor id="3" points="2">
-      <advice><![CDATA[Jeff should treat Charlotte the same as all other team members including with respect to his meeting protocol.  He cannot let his worry about workplace gossip impact his business relationships. However, if he hears untrue rumors about his relationship with Charlotte, he can have these rumors investigated by reporting them internally.]]></advice>
-    </advisor>
-    <advisor id="4" points="-1">
-      <advice><![CDATA[Jeff should call a team meeting and let everyone know that there is nothing romantic going on between him and Charlotte.]]></advice>
+	<scenario id="5">
+		<background><![CDATA[<span style="display:block;font-size:23px;line-height:1.1">Charlotte has recently been promoted to work on Jeff's team.  Jeff has found that he has increasingly needed to work one on one with Charlotte. Charlotte is very attractive and everyone knows that Jeff is recently divorced. With all the talk about #METOO and men being accused of inappropriate behavior, Jeff is worried about how this new working relationship with Charlotte will look to the rest of the team and especially about being behind closed doors with Charlotte.  What should he do?</span>]]></background>
+		<advisor id="1" points="1">
+			<advice><![CDATA[Jeff should keep his office door open whenever he has one on one meetings with anyone.]]></advice>
+			<hint><![CDATA[While this may make Jeff more comfortable and he will not be singling Charlotte out as a woman, open door discussions may not always be practical and should not be necessary if Jeff conducts himself in a professional manner with all of his colleagues. ]]></hint>
+		</advisor>
+		<advisor id="2" points="-1">
+			<advice><![CDATA[Jeff should ask to have Charlotte transferred to another team to avoid any awkwardness.]]></advice>
+			<hint><![CDATA[This could be seen as discrimination based on Charlotte's gender.]]></hint>
+		</advisor>
+		<advisor id="3" points="2">
+			<advice><![CDATA[Jeff should treat Charlotte the same as all other team members including with respect to his meeting protocol.  He cannot let his worry about workplace gossip impact his business relationships. However, if he hears untrue rumors about his relationship with Charlotte, he can have these rumors investigated by reporting them internally.]]></advice>
+		</advisor>
+		<advisor id="4" points="-1">
+			<advice><![CDATA[Jeff should call a team meeting and let everyone know that there is nothing romantic going on between him and Charlotte.]]></advice>
 			<hint><![CDATA[This could be awkward for everyone, especially for Charlotte. ]]></hint>
-    </advisor>
-  </scenario> -->
+		</advisor>
+	</scenario>
 
 	<feedback>
 		<feedbacktitle><![CDATA[How did you do?]]></feedbacktitle>
@@ -421,7 +527,7 @@ When you are ready, click Try Again and take another look at these scenarios.]]>
 
 
 
-    <page background="SAME" x="0" y="100" width="615">
+		<page background="SAME" x="0" y="100" width="615">
 			<background scale="0.7" x="-335" y="-220" animate="false"/>
 			<header><![CDATA[Remember...]]></header>
 			<body><![CDATA[As a supervisor, you are held to a heightened standard of behavior.
@@ -433,10 +539,10 @@ When you are ready, click Try Again and take another look at these scenarios.]]>
 		</page>
 
 		<page background="img/sexual_har_outro.jpg" x="0" y="93" width="850">
-	      <background scale="0.7" x="-335" y="-220" animate="false"/>
-	      <header><![CDATA[So What's at Stake if You Don't Make the Right Decisions?]]></header>
-	      <body>
-	        <![CDATA[If you engage in sexual harassment or fail to follow your Organziation's anti-harassment and discrimination policy, your conduct could result in...<br><ul>
+			<background scale="0.7" x="-335" y="-220" animate="false"/>
+			<header><![CDATA[So What's at Stake if You Don't Make the Right Decisions?]]></header>
+			<body>
+				<![CDATA[If you engage in sexual harassment or fail to follow your Organziation's anti-harassment and discrimination policy, your conduct could result in...<br><ul>
 					<li>Discipline, up to and including termination</li>
 	        <li>Damage to culture of inclusion and equal opportunities</li>
 					<li>Loss of Organziation reputation</li>
@@ -447,43 +553,43 @@ When you are ready, click Try Again and take another look at these scenarios.]]>
 	        <li>Criminal penalties</li>
 					<li>Business interruptions and distractions leading to decreased employee engagement</li>
 				</ul>]]>
-	      </body>
-	   </page>
-	   <!--
+			</body>
+		</page>
+		<!--
 	    <page background="img/sexual_har_outro.jpg" x="0" y="120" width="570" height="300">
 			<background scale="0.63" x="-335" y="-220" animate="true"/>
 			<header><![CDATA[]]></header>
-			<body><![CDATA[Let's take a look at one more scenario that will give you a chance to put your knowledge into action.
+<body><![CDATA[Let's take a look at one more scenario that will give you a chance to put your knowledge into action.
 				<br><br>
 			To progress through the scenario choose the box with the statment or question that best reflects your initial reaction to the situation described.]]></body>
-		</page> -->
+</page> -->
 		<page background="img/sexual_har_outro.jpg" x="362" y="200" width="638" heightOffset="220">
+			<background scale="0.7" x="-335" y="-220" animate="false"/>
+			<header><![CDATA[]]></header>
+			<body><![CDATA[Now that you have a better understanding of terminology and the types of protections afforded to transgender employees, let's take a look at one more scenario that will give you a chance to put your knowledge into practice.]]></body>
+		</page>
+		<!-- <page background="img/sexual_har_outro.jpg" x="362" y="200" width="638" heightOffset="220">
             <background scale="0.7" x="-335" y="-220" animate="false"/>
             <header><![CDATA[]]></header>
-            <body><![CDATA[Now that you have a better understanding of terminology and the types of protections afforded to transgender employees, let's take a look at one more scenario that will give you a chance to put your knowledge into practice.]]></body>
-        </page>
-        <!-- <page background="img/sexual_har_outro.jpg" x="362" y="200" width="638" heightOffset="220">
-            <background scale="0.7" x="-335" y="-220" animate="false"/>
-            <header><![CDATA[]]></header>
-            <body><![CDATA[Now that you have a good sense for what types of behaviours consititute sexual harassment, let's examine one more situation.]]></body>
-        </page> -->
-        
+<body><![CDATA[Now that you have a good sense for what types of behaviours consititute sexual harassment, let's examine one more situation.]]></body>
+</page> -->
+
 	</outro>
 
 	<outro1>
 		<!-- <page background="img/12.jpg" x="500" y="82" width="530" heightOffset="220">
             <background scale="1" x="0" y="0" animate="false"/>
             <header><![CDATA[]]></header>
-            <body><![CDATA[Now that you have a good sense for what types of behaviors consititute sexual harassment, let's examine one more situation.]]></body>
-        </page> -->
+<body><![CDATA[Now that you have a good sense for what types of behaviors consititute sexual harassment, let's examine one more situation.]]></body>
+</page> -->
 	</outro1>
 	<outro2>
 
 		<page background="img/sexual_har_outro.jpg" x="0" y="93" width="850">
-	      <background scale="0.7" x="-335" y="-220" animate="false"/>
-	      <header><![CDATA[So What's at Stake if You Don't Make the Right Decisions? FOR ALLEN DEVELOPMENT]]></header>
-	      <body>
-	        <![CDATA[If you engage in sexual harassment or fail to follow your organization's anti-harassment and discrimination policy, your conduct could result in...<br><ul>
+			<background scale="0.7" x="-335" y="-220" animate="false"/>
+			<header><![CDATA[So What's at Stake if You Don't Make the Right Decisions? FOR ALLEN DEVELOPMENT]]></header>
+			<body>
+				<![CDATA[If you engage in sexual harassment or fail to follow your organization's anti-harassment and discrimination policy, your conduct could result in...<br><ul>
 					<li>Discipline, up to and including termination</li>
 	        <li>Damage to culture of inclusion and equal opportunities</li>
 					<li>Loss of organization reputation</li>
@@ -494,10 +600,10 @@ When you are ready, click Try Again and take another look at these scenarios.]]>
 	        <li>Criminal penalties</li>
 					<li>Business interruptions and distractions leading to decreased employee engagement</li>
 				</ul>]]>
-	      </body>
-	   </page>
+			</body>
+		</page>
 
-	    <page background="img/17.jpg" x="0" y="45" width="464">
+		<page background="img/17.jpg" x="0" y="45" width="464">
 			<background scale="1" x="0" y="0" animate="false"/>
 			<header><![CDATA[Remember...]]></header>
 			<body><![CDATA[As a supervisor, you are held to a heightened standard of behavior.
@@ -507,6 +613,6 @@ When you are ready, click Try Again and take another look at these scenarios.]]>
 					<li>If you receive a report of, or are otherwise aware of, harassment you must promptly report it, even if you think the conduct is trivial or if the harassed individual asks you not to report it</li>
 			</ul>]]></body>
 		</page>
-		
+
 	</outro2>
 </harassment>
