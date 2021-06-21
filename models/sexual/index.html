@@ -1,121 +1,138 @@
 <!doctype html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="initial-scale=0.9, maximum-scale=0.9">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	
-	<title></title>
-	
-	<link href="../../core/css/master.css" rel="stylesheet">
-	<link href="../../core/fonts/fonts.css" rel="stylesheet">
-	<link href="sexual.css" rel="stylesheet">
 
-	<script src="../../core/script/gsap/TweenMax.min.js"></script>
-	<script src="../../core/script/jquery.js"></script>
-	<script src="../../core/script/jquery-ui.min.js"></script>
-	<script src="../../core/script/jquery.ui.touch-punch.min.js"></script>
-	<script src="../../core/script/util.js"></script>
-	<script src="../../core/script/widgets.js"></script>
-	<script src="../../core/script/touchable.js"></script>
-	<script src="sexual.js"></script>
-	
-<!--	<script src="pager2.js"></script>-->
-	<script src="click-reveal.js"></script>
-	
-	<!-- <link href="global2.css" rel="stylesheet" /> -->
-	<link href="bullying.css" rel="stylesheet">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=0.9, maximum-scale=0.9">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title></title>
+
+    <link href="../../core/css/master.css" rel="stylesheet">
+    <link href="../../core/fonts/fonts.css" rel="stylesheet">
+    <link href="sexual.css" rel="stylesheet">
+
+    <script src="../../core/script/gsap/TweenMax.min.js"></script>
+    <script src="../../core/script/jquery.js"></script>
+    <script src="../../core/script/jquery-ui.min.js"></script>
+    <script src="../../core/script/jquery.ui.touch-punch.min.js"></script>
+    <script src="../../core/script/util.js"></script>
+    <script src="../../core/script/widgets.js"></script>
+    <script src="../../core/script/touchable.js"></script>
+    <script src="sexual.js"></script>
+
+    <!--	<script src="pager2.js"></script>-->
+    <script src="click-reveal.js"></script>
+
+    <!-- <link href="global2.css" rel="stylesheet" /> -->
+    <link href="bullying.css" rel="stylesheet">
 </head>
 
 <body>
-	<div class="theater">
-            <div class="videoContainer"></div>
-            <div class="btn next" id="thenextbutton"></div>
-			<!-- <div class="btn transcript"></div> -->
+    <div class="theater">
+        <div class="videoContainer"></div>
+        <div class="btn next" id="thenextbutton"></div>
+        <!-- <div class="btn transcript"></div> -->
+    </div>
+    <div id="bullying" hidden="true">
+        <div class="examples-container alpha-off">
+            <div class="header"></div>
+            <div class="instructions"></div>
+
+            <div class="examples-feedback alpha-off">
+                <div class="title"></div>
+                <div class="copy"></div>
+            </div>
+
+            <div class="btn next alpha-off"></div>
         </div>
-	<div id="bullying" hidden="true">
-		<div class="examples-container alpha-off">
-			<div class="header"></div>
-			<div class="instructions"></div>
+    </div>
+    <div class="activity" id="activity">
+        <div id="stripe">
+            <div class="mainColumn" id="column-one">
+                <div id="question-counter"></div>
+                <div class="title"></div>
+                <div class="bodycopy"></div>
+                <div id="persistent-instructions"></div>
+                <div id="nextbtn" class="btn"></div>
+            </div>
+        </div>
+        <div class="mainColumn">
+            <div id="question">
+                <div class="header"></div>
+                <div class="text"></div>
+            </div>
+            <div id="performance-meter">
+                <div class="title"></div>
+                <div class="label exceeds"></div>
+                <div class="label meets"></div>
+                <div class="label needs"></div>
+                <div class="bars">
+                    <div class="potential bar"></div>
+                    <div class="actual bar">
+                        <img class="line" src="img/arrow.png" />
+                    </div>
+                </div>
+            </div>
+            <div id="advisor-choices">
+                <div class="header"></div>
+                <div id="speech-bubble"></div>
+            </div>
+            <div id="feedback">
+                <div id="feedback-title"></div>
+                <div id="feedback-body"></div>
+                <div id="nextbtn2" class="btn"></div>
+                <div id="tryagain" class="btn"></div>
+            </div>
+            <div id="policybtn" class="infoTab" style="display: none;"></div>
+        </div>
+    </div>
+    <!-- new -->
+    <div id="strategies" hidden="true">
+        <div class="examples2-container alpha-off">
+            <div class="header"></div>
+            <div class="instructions"></div>
 
-			<div class="examples-feedback alpha-off">
-				<div class="title"></div>
-				<div class="copy"></div>
-			</div>
+            <div class="examples2-feedback alpha-off">
+                <div class="title"></div>
+                <div class="copy"></div>
+            </div>
 
-			<div class="btn next alpha-off"></div>
-		</div>
-	</div>
-	<div class="activity" id="activity">
-		<div id="stripe">
-			<div class="mainColumn" id="column-one">
-				<div id="question-counter"></div>
-				<div class="title"></div>
-				<div class="bodycopy"></div>
-				<div id="persistent-instructions"></div>
-				<div id="nextbtn" class="btn"></div>
-			</div>
-		</div>
-		<div class="mainColumn">
-			<div id="question">
-				<div class="header"></div>
-				<div class="text"></div>
-			</div>
-			<div id="performance-meter">
-				<div class="title"></div>
-				<div class="label exceeds"></div>
-				<div class="label meets"></div>
-				<div class="label needs"></div>
-				<div class="bars">
-					<div class="potential bar"></div>
-					<div class="actual bar">
-						<img class="line" src="img/arrow.png" />
-					</div>
-				</div>
-			</div>
-			<div id="advisor-choices">
-				<div class="header"></div>
-				<div id="speech-bubble"></div>
-			</div>
-			<div id="feedback">
-				<div id="feedback-title"></div>
-				<div id="feedback-body"></div>
-				<div id="nextbtn2" class="btn"></div>
-				<div id="tryagain" class="btn"></div>
-			</div>
-			<div id="policybtn" class="infoTab" style="display: none;"></div>
-		</div>	
-	</div>
-	<div class="unconscious" id="unconscious">
-		<div class="container autoAlphaOff"></div>
-		<div class="scenario-template keep-quiet">
-			<div class="scenario-lbl"></div>
-			<div class="scenario-desc"></div>
-			<div id="board-container" class="board-container"></div>
+            <div class="btn next alpha-off"></div>
+        </div>
+    </div>
 
-			<div class="btn next">
-				<div class="valign">
-					<div class="middle">NEXT</div>
-				</div>
-			</div>
+    <div class="unconscious" id="unconscious">
+        <div class="container autoAlphaOff"></div>
+        <div class="scenario-template keep-quiet">
+            <div class="scenario-lbl"></div>
+            <div class="scenario-desc"></div>
+            <div id="board-container" class="board-container"></div>
 
-			<div class="final-next-popup">
-				<div class="valign">
-					<div class="middle">
-						<p>Click NEXT to begin a new scenario.</p>
-						<div class="btn final-next">
-							<div class="valign">
-								<div class="middle">NEXT</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+            <div class="btn next">
+                <div class="valign">
+                    <div class="middle">NEXT</div>
+                </div>
+            </div>
 
-			<div class="img-bg"></div>
-		</div>
-	</div>
+            <div class="final-next-popup">
+                <div class="valign">
+                    <div class="middle">
+                        <p>Click NEXT to begin a new scenario.</p>
+                        <div class="btn final-next">
+                            <div class="valign">
+                                <div class="middle">NEXT</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-	<script src="../../core/script/debug.js"></script>
+            <div class="img-bg"></div>
+        </div>
+    </div>
+
+    <script src="../../core/script/debug.js"></script>
 </body>
+
 </html>
