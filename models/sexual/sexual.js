@@ -8,6 +8,8 @@ function Sexual() {
     this.tutIndex = -1;
     this.scenarioCounter = 0;
     this.hasFeedbackAppended = false;
+    this.showScript = false;
+    this.watchedVideo = false;
 }
 Sexual.prototype.pollForContent = function() {
     return setInterval(this.pollCheck, 500);
@@ -109,6 +111,10 @@ Sexual.prototype.buildExamples = function () {
 };
 
 Sexual.prototype.showIntro2 = function () {
+    if($('body .pagerWidget').length > 0) {
+        $('body .pagerWidget').remove();
+    }
+
     this.intro2Pager = new Pager(this.data.find('intro2'), this.data.find('contentRoot').text());
     this.intro2Pager.attach($('body'));
     this.intro2Pager.setButtonText(this.data.find('buttons next').text());
@@ -129,7 +135,7 @@ Sexual.prototype.tutorial = function() {
     this.tutIndex++;
     if (this.tutIndex == this.data.find('instructions slide').length) {
         TweenMax.to('#stripe', 0.4, {
-            top: 343,
+            bottom: 0,
             'height': 277,
             width: 1000
         });
@@ -165,13 +171,13 @@ Sexual.prototype.tutorial = function() {
         });
         if (this.tutIndex == 0) {
             TweenMax.to('#stripe', 0.3, {
-                top: 210,
+                bottom: 210,
                 height: 256,
                 delay: 0.2
             });
         } else if (this.tutIndex == 1) {
             TweenMax.to('#stripe', 0.3, {
-                top: 146,
+                bottom: 210,
                 delay: 0.2,
                 onComplete: function() {
                     var advisors = _sexual.data.find('advisors advisor');
@@ -191,7 +197,7 @@ Sexual.prototype.tutorial = function() {
             TweenMax.to('#stripe', 0.3, {
                 width: 664,
                 height: 249,
-                top: 94,
+                bottom: 210,
                 delay: 0.2
             });
             $('.mainColumn .bodycopy').css({
@@ -207,7 +213,21 @@ Sexual.prototype.tutorial = function() {
         });
     }
 }
+
+
+Sexual.prototype.hideVideo = function() {
+    // document.querySelector("#question .text").style.display = "none";
+    this.watchedVideo = true;
+}
+Sexual.prototype.showVideo = function() {
+    this.watchedVideo = false;
+    document.querySelector("#question .text").style.display = "block";
+}
+
 Sexual.prototype.setQuestion = function() {
+    $('#question .script p').hide();    
+    $('#question .script #transcript').show();
+
     TweenMax.to('#advisor-choices .advisor', 0.2, {
         autoAlpha: 1
     });
@@ -218,7 +238,19 @@ Sexual.prototype.setQuestion = function() {
     }, {
         autoAlpha: 1
     });
-    $('#question .text').html($(_sexual.scenarios[0]).find('background').text());
+
+    $('#question .text').html(`
+        <video id="myvideo" controls autoplay onEnded="_sexual.hideVideo()">
+            <source src="${$(_sexual.scenarios[0]).find('video').text()}" type="video/mp4" />
+        </video>
+    `);
+    _sexual.showVideo();
+    $('#question .script p').html($(_sexual.scenarios[0]).find('background').text());
+    $('#question .script #transcript').on('click', function() {
+        console.log('show transcript');
+        $('#question .script p').show();    
+        $('#question .script #transcript').hide();
+    });
     TweenMax.from('#question .header', 0.3, {
         x: 40,
         alpha: 0,
@@ -242,6 +274,11 @@ Sexual.prototype.setQuestion = function() {
     });
 }
 Sexual.prototype.advisorPopup = function(advisor) {
+    console.log(_sexual.watchedVideo);
+    if(!_sexual.watchedVideo){
+        _sexual.bindAdvisors();
+        return false;
+    } 
     var selectednum = $(advisor).attr('advisor');
     var advicetext = $(_sexual.scenarios[0]).find('advisor[id="' + selectednum + '"] advice').text() + '<br><br>' + this.data.find('advisorPrompt').text();
     var agreebtn = $('<div class="btn" id="agreebtn">' + _sexual.data.find('buttons agree').text() + '</div>');
@@ -299,6 +336,7 @@ Sexual.prototype.bindAdvisors = function() {
             'pointer-events': 'none'
         });
         _sexual.advisorPopup(this)
+        
     })
 
 }
@@ -417,10 +455,10 @@ Sexual.prototype.wrapup = function() {
     var pageData = this.data.find('feedback');
     var passed = false;
     var almostPassed = false;
-    if (this.score < 7) {
+    if (this.score < 4) {
         // var feedbacktitle = _sexual.data.find('feedback lowtitle');
         var feedbackbody = _sexual.data.find('feedback low');
-    } else if (this.score >= 7 && this.score <= 9) {
+    } else if (this.score >= 4 && this.score <= 7) {
         almostPassed = true;
         // var feedbacktitle = _sexual.data.find('feedback mediumtitle');
         var feedbackbody = _sexual.data.find('feedback medium');
@@ -514,14 +552,14 @@ Sexual.prototype.meterUpdate = function(snap) {
             height: percent + '%'
         });
     }
-    if (_sexual.score < 7) {
+    if (_sexual.score < 4) {
         TweenMax.to('.label.needs', 0.3, {
             alpha: 1
         });
         TweenMax.to('.label.meets, .label.exceeds', 0.3, {
             alpha: 0.3
         });
-    } else if (_sexual.score < 10) {
+    } else if (_sexual.score < 8) {
         TweenMax.to('.label.meets', 0.3, {
             alpha: 1
         });
@@ -539,7 +577,7 @@ Sexual.prototype.meterUpdate = function(snap) {
 }
 Sexual.prototype.tryagain = function() {
         _sexual.scenarios = [];
-        _sexual.score = 4;
+        _sexual.score = 3;
         _sexual.feedback = '';
         for (i = 0; i < _sexual.data.find('scenario').length; i++) {
             _sexual.scenarios.push(_sexual.data.find('scenario')[i]);
